@@ -26,9 +26,9 @@ export default function App() {
       {/* Header Banner */}
       <header className="header-banner">
         <div className="header-top">
-          <span className="badge-tag">🚀 Abeka Grade 5 Smart Learning Hub</span>
+          <span className="badge-tag">🚀 Abeka Grade 5 Smart Learning Hub (v2.5)</span>
           <span style={{ fontSize: '0.85rem', color: '#c7d2fe', fontWeight: '600' }}>
-            NotebookLM RAG Integrated: <a href="https://notebook.google.com/notebook/a6e74d47-7b28-4adc-b2c4-fc9c9feca0d7" target="_blank" rel="noreferrer" style={{ color: '#fbbf24', textDecoration: 'underline' }}>Notebook Hub</a>
+            NotebookLM RAG Hub: <a href="https://notebook.google.com/notebook/a6e74d47-7b28-4adc-b2c4-fc9c9feca0d7" target="_blank" rel="noreferrer" style={{ color: '#fbbf24', textDecoration: 'underline' }}>Notebook Link</a>
           </span>
         </div>
 

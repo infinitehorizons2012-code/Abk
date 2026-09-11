@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import { FileText, Target, BookOpen, AlertTriangle, Key, Award, Code, CheckCircle, Lightbulb, Layout, Eye } from 'lucide-react';
 
 export default function UbDReportViewer({ lesson }) {
-  const [viewMode, setViewMode] = useState('formatted-markdown'); // 'formatted-markdown', 'interactive-cards', 'json-payload'
+  const [viewMode, setViewMode] = useState('interactive-cards'); // Default to rich interactive cards
 
   const ubdData = lesson.ubdFullData || {
     stage1: {
@@ -63,6 +63,11 @@ export default function UbDReportViewer({ lesson }) {
     }
   };
 
+  // Clean raw markdown string for HTML rendering mode
+  const cleanMarkdownText = (lesson.ubdReportMd || '')
+    .replace(/^#\s+/gm, '# ')
+    .replace(/^##\s+/gm, '## ');
+
   return (
     <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
       {/* Header Banner */}
@@ -81,28 +86,9 @@ export default function UbDReportViewer({ lesson }) {
           {/* View Mode Selector Tabs */}
           <div style={{ display: 'flex', gap: '6px', background: '#ffffff', padding: '4px', borderRadius: '12px', border: '1px solid #a7f3d0' }}>
             <button
-              onClick={() => setViewMode('formatted-markdown')}
-              style={{
-                padding: '6px 12px',
-                borderRadius: '8px',
-                fontSize: '0.82rem',
-                fontWeight: '800',
-                border: 'none',
-                background: viewMode === 'formatted-markdown' ? '#059669' : 'transparent',
-                color: viewMode === 'formatted-markdown' ? '#ffffff' : '#334155',
-                cursor: 'pointer',
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '6px'
-              }}
-            >
-              <Eye size={14} /> Văn Bản Chuẩn HTML
-            </button>
-
-            <button
               onClick={() => setViewMode('interactive-cards')}
               style={{
-                padding: '6px 12px',
+                padding: '6px 14px',
                 borderRadius: '8px',
                 fontSize: '0.82rem',
                 fontWeight: '800',
@@ -115,13 +101,32 @@ export default function UbDReportViewer({ lesson }) {
                 gap: '6px'
               }}
             >
-              <Layout size={14} /> Thẻ Trực Quan (Cards)
+              <Layout size={14} /> Thẻ Trực Quan UbD (Cards)
+            </button>
+
+            <button
+              onClick={() => setViewMode('formatted-markdown')}
+              style={{
+                padding: '6px 14px',
+                borderRadius: '8px',
+                fontSize: '0.82rem',
+                fontWeight: '800',
+                border: 'none',
+                background: viewMode === 'formatted-markdown' ? '#059669' : 'transparent',
+                color: viewMode === 'formatted-markdown' ? '#ffffff' : '#334155',
+                cursor: 'pointer',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '6px'
+              }}
+            >
+              <Eye size={14} /> Báo Cáo HTML Đầy Đủ
             </button>
 
             <button
               onClick={() => setViewMode('json-payload')}
               style={{
-                padding: '6px 12px',
+                padding: '6px 14px',
                 borderRadius: '8px',
                 fontSize: '0.82rem',
                 fontWeight: '800',
@@ -148,26 +153,7 @@ export default function UbDReportViewer({ lesson }) {
         </div>
       </div>
 
-      {/* MODE 1: Formatted Markdown View using ReactMarkdown */}
-      {viewMode === 'formatted-markdown' && (
-        <div className="card ubd-doc-container" style={{ background: '#ffffff', padding: '32px', borderRadius: '16px', lineHeight: '1.8' }}>
-          <ReactMarkdown
-            components={{
-              h1: ({ children }) => <h1 style={{ fontSize: '1.6rem', color: '#1e1b4b', borderBottom: '3px solid #6366f1', paddingBottom: '8px', margin: '20px 0 16px' }}>{children}</h1>,
-              h2: ({ children }) => <h2 style={{ fontSize: '1.3rem', color: '#4338ca', borderBottom: '2px dashed #c7d2fe', paddingBottom: '6px', margin: '24px 0 12px' }}>{children}</h2>,
-              h3: ({ children }) => <h3 style={{ fontSize: '1.1rem', color: '#0369a1', margin: '18px 0 8px' }}>{children}</h3>,
-              ul: ({ children }) => <ul style={{ paddingLeft: '20px', margin: '10px 0', display: 'flex', flexDirection: 'column', gap: '6px' }}>{children}</ul>,
-              li: ({ children }) => <li style={{ color: '#334155', fontSize: '0.98rem' }}>{children}</li>,
-              blockquote: ({ children }) => <blockquote style={{ background: '#f0fdf4', borderLeft: '4px solid #16a34a', padding: '12px 16px', borderRadius: '8px', margin: '12px 0', color: '#15803d', fontStyle: 'normal', fontWeight: '600' }}>{children}</blockquote>,
-              strong: ({ children }) => <strong style={{ color: '#1e293b', fontWeight: '800' }}>{children}</strong>
-            }}
-          >
-            {lesson.ubdReportMd}
-          </ReactMarkdown>
-        </div>
-      )}
-
-      {/* MODE 2: Interactive Visual Cards View */}
+      {/* MODE 1: Interactive Visual Cards View */}
       {viewMode === 'interactive-cards' && (
         <div>
           {/* 1. GIAI ĐOẠN 1: DESIRED RESULTS & CLOS */}
@@ -247,6 +233,25 @@ export default function UbDReportViewer({ lesson }) {
               ))}
             </div>
           </div>
+        </div>
+      )}
+
+      {/* MODE 2: Formatted Markdown View using ReactMarkdown */}
+      {viewMode === 'formatted-markdown' && (
+        <div className="card ubd-doc-container" style={{ background: '#ffffff', padding: '32px', borderRadius: '16px', lineHeight: '1.8' }}>
+          <ReactMarkdown
+            components={{
+              h1: ({ children }) => <h1 style={{ fontSize: '1.5rem', color: '#1e1b4b', borderBottom: '3px solid #6366f1', paddingBottom: '8px', margin: '20px 0 16px' }}>{children}</h1>,
+              h2: ({ children }) => <h2 style={{ fontSize: '1.25rem', color: '#4338ca', borderBottom: '2px dashed #c7d2fe', paddingBottom: '6px', margin: '24px 0 12px' }}>{children}</h2>,
+              h3: ({ children }) => <h3 style={{ fontSize: '1.1rem', color: '#0369a1', margin: '18px 0 8px' }}>{children}</h3>,
+              ul: ({ children }) => <ul style={{ paddingLeft: '20px', margin: '10px 0', display: 'flex', flexDirection: 'column', gap: '6px' }}>{children}</ul>,
+              li: ({ children }) => <li style={{ color: '#334155', fontSize: '0.98rem' }}>{children}</li>,
+              blockquote: ({ children }) => <blockquote style={{ background: '#f0fdf4', borderLeft: '4px solid #16a34a', padding: '12px 16px', borderRadius: '8px', margin: '12px 0', color: '#15803d', fontStyle: 'normal', fontWeight: '600' }}>{children}</blockquote>,
+              strong: ({ children }) => <strong style={{ color: '#1e293b', fontWeight: '800' }}>{children}</strong>
+            }}
+          >
+            {cleanMarkdownText}
+          </ReactMarkdown>
         </div>
       )}
 
