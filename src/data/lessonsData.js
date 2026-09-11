@@ -5,7 +5,8 @@ export const LESSONS_DATA = {
     day: "Ngày 001",
     subject: "Arithmetic 5 (Toán Học)",
     teacher: "Miss Emma Spaugh (Abeka Academy)",
-    videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4", // Demo video stream URL / fallback
+    videoUrl: "https://lh3.googleusercontent.com/d/16JlibrmSh3BZFmM3bVVm6DiGabaHgv_o",
+    driveEmbedUrl: "https://drive.google.com/file/d/16JlibrmSh3BZFmM3bVVm6DiGabaHgv_o/preview",
     driveVideoPath: "G:\\My Drive\\80-Shared\\Team-Shared\\Abeka_Videos\\Abeka Video\\Grade 5\\Ngày 001\\Arithmetic 5\\Grade 5 - 001 - Arithmetic 5.mp4",
     bookTitle: "Arithmetic 5 (Work-text) (Ấn bản 4/5, Abeka - AR)",
     bookPages: "Lesson 1, Trang 1–2 (Place Value through Hundred Billions, Roman Numerals)",
