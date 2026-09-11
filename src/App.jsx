@@ -26,7 +26,6 @@ export default function App() {
       {/* Header Banner */}
       <header className="header-banner">
         <div className="header-top">
-          <span className="badge-tag">🚀 Abeka Grade 5 Smart Learning Hub (v6.0)</span>
           <span style={{ fontSize: '0.85rem', color: '#c7d2fe', fontWeight: '600' }}>
             NotebookLM RAG Hub: <a href="https://notebook.google.com/notebook/a6e74d47-7b28-4adc-b2c4-fc9c9feca0d7" target="_blank" rel="noreferrer" style={{ color: '#fbbf24', textDecoration: 'underline' }}>Notebook Link</a>
           </span>
@@ -36,9 +35,6 @@ export default function App() {
           <GraduationCap size={36} color="#fbbf24" />
           Abeka Grade 5 - Nền Tảng Học Tập UbD Thông Minh
         </h1>
-        <p className="header-subtitle">
-          Video Bài Giảng • Nhận Diện Sách • Timestamp Map • Phân Tích UbD • Flashcards • Slide Deck • Academic Quiz
-        </p>
       </header>
 
       {/* Selector & Controls Bar */}
@@ -59,10 +55,6 @@ export default function App() {
               </option>
             ))}
           </select>
-        </div>
-
-        <div style={{ fontSize: '0.88rem', color: '#475569', fontWeight: '600' }}>
-          📖 {currentLesson.bookTitle} | {currentLesson.bookPages}
         </div>
       </div>
 
@@ -97,7 +89,7 @@ export default function App() {
           className={`tab-button ${activeTab === 'ubd-report' ? 'active' : ''}`}
           onClick={() => setActiveTab('ubd-report')}
         >
-          <FileText size={18} /> 4. Phân Tích UbD (7 Giai Đoạn)
+          <FileText size={18} /> 4. Phân Tích UbD
         </button>
 
         {/* 5. Tab Flashcard */}

@@ -205,7 +205,7 @@ export default function UbDReportViewer({ lesson }) {
           marginBottom: '14px',
           border: '1px solid rgba(255,255,255,0.2)'
         }}>
-          <Sparkles size={16} color="#38bdf8" /> BÁO CÁO PHÂN TÍCH CHUYÊN SÂU NGUYÊN VĂN 100% (UBD 7 GIAI ĐOẠN)
+          <Sparkles size={16} color="#38bdf8" /> BÁO CÁO PHÂN TÍCH THIẾT KẾ SƯ PHẠM NGƯỢC (UBD)
         </div>
 
         <h1 style={{ fontSize: '1.8rem', fontWeight: '900', color: '#ffffff', marginBottom: '10px', lineHeight: '1.3' }}>
