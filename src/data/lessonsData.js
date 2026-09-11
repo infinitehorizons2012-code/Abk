@@ -1,3 +1,5 @@
+import arithmeticSubtitles from './arithmeticSubtitles.json';
+
 export const LESSONS_DATA = {
   "arithmetic-5": {
     id: "arithmetic-5",
@@ -63,14 +65,7 @@ export const LESSONS_DATA = {
       }
     ],
 
-    subtitles: [
-      { start: 4.82, end: 7.06, en: "Students watching, welcome to arithmetic!", vi: "Chào các em học sinh đang theo dõi, chào mừng đến với môn Toán!" },
-      { start: 7.40, end: 10.14, en: "I am Miss Emma's bot, and I'm so excited to be your teacher.", vi: "Cô rất vui được đồng hành cùng các em trong năm học này." },
-      { start: 10.50, end: 15.20, en: "Please make sure you have your pencil and scratch paper ready.", vi: "Hãy đảm bảo các em đã chuẩn bị sẵn bút chì và giấy nháp." },
-      { start: 15.50, end: 20.10, en: "Turn to page 1 of your Arithmetic 5 work-text.", vi: "Hãy mở trang 1 trong sách bài tập Arithmetic 5 của các em." },
-      { start: 420.00, end: 425.30, en: "Let's study the Place Value Chart. Notice the four periods.", vi: "Hãy cùng nghiên cứu Bảng Giá Trị Vị Trí. Hãy chú ý 4 lớp số." },
-      { start: 900.00, end: 906.00, en: "Roman numerals use seven main letters: I, V, X, L, C, D, and M.", vi: "Chữ số La Mã sử dụng 7 chữ cái chính: I, V, X, L, C, D và M." }
-    ],
+    subtitles: arithmeticSubtitles,
 
     quizData: [
       {
