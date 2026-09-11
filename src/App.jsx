@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { LESSONS_DATA } from './data/lessonsData';
 import VideoPlayer from './components/VideoPlayer';
-import TimestampBookMap from './components/TimestampBookMap';
 import QuizEngine from './components/QuizEngine';
 import FlashcardEngine from './components/FlashcardEngine';
 import SlideDeckViewer from './components/SlideDeckViewer';
@@ -12,15 +11,14 @@ import { PlayCircle, HelpCircle, Sparkles, Presentation, FileText, BookOpen, Gra
 
 export default function App() {
   const [selectedSubjectKey, setSelectedSubjectKey] = useState('arithmetic-5');
-  const [activeTab, setActiveTab] = useState('video-map');
+  const [activeTab, setActiveTab] = useState('video-player');
   const [activeTimestamp, setActiveTimestamp] = useState(null);
-  const [currentVideoTime, setCurrentVideoTime] = useState(0);
 
   const currentLesson = LESSONS_DATA[selectedSubjectKey] || LESSONS_DATA['arithmetic-5'];
 
   const handleSelectTimestamp = (seconds) => {
     setActiveTimestamp(seconds);
-    setActiveTab('video-map');
+    setActiveTab('video-player');
   };
 
   return (
@@ -28,7 +26,7 @@ export default function App() {
       {/* Header Banner */}
       <header className="header-banner">
         <div className="header-top">
-          <span className="badge-tag">🚀 Abeka Grade 5 Smart Learning Hub (v3.0)</span>
+          <span className="badge-tag">🚀 Abeka Grade 5 Smart Learning Hub (v5.5)</span>
           <span style={{ fontSize: '0.85rem', color: '#c7d2fe', fontWeight: '600' }}>
             NotebookLM RAG Hub: <a href="https://notebook.google.com/notebook/a6e74d47-7b28-4adc-b2c4-fc9c9feca0d7" target="_blank" rel="noreferrer" style={{ color: '#fbbf24', textDecoration: 'underline' }}>Notebook Link</a>
           </span>
@@ -39,7 +37,7 @@ export default function App() {
           Abeka Grade 5 - Nền Tảng Học Tập UbD Thông Minh
         </h1>
         <p className="header-subtitle">
-          Tích hợp Phụ đề Video • Timestamp Map Sách Giáo Khoa • Academic English Quiz • Concept Flashcards • NotebookLM Slide Deck
+          Tích hợp Video Bài Giảng Google Drive • Timestamp Map Sách Giáo Khoa • Academic English Quiz • Concept Flashcards • NotebookLM Slide Deck
         </p>
       </header>
 
@@ -71,10 +69,10 @@ export default function App() {
       {/* Tab Navigation */}
       <div className="tab-navigation">
         <button
-          className={`tab-button ${activeTab === 'video-map' ? 'active' : ''}`}
-          onClick={() => setActiveTab('video-map')}
+          className={`tab-button ${activeTab === 'video-player' ? 'active' : ''}`}
+          onClick={() => setActiveTab('video-player')}
         >
-          <PlayCircle size={18} /> Video & Interactive Player
+          <PlayCircle size={18} /> Video Bài Giảng (Google Drive)
         </button>
 
         <button
@@ -121,19 +119,8 @@ export default function App() {
       </div>
 
       {/* Main Content Areas */}
-      {activeTab === 'video-map' && (
-        <div className="main-grid">
-          <VideoPlayer
-            lesson={currentLesson}
-            activeTimestamp={activeTimestamp}
-            onTimeUpdate={setCurrentVideoTime}
-          />
-          <TimestampBookMap
-            lesson={currentLesson}
-            currentTime={currentVideoTime}
-            onSelectTimestamp={handleSelectTimestamp}
-          />
-        </div>
+      {activeTab === 'video-player' && (
+        <VideoPlayer lesson={currentLesson} />
       )}
 
       {activeTab === 'timestamp-map-tab' && (
