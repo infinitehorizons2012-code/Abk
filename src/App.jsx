@@ -26,7 +26,7 @@ export default function App() {
       {/* Header Banner */}
       <header className="header-banner">
         <div className="header-top">
-          <span className="badge-tag">🚀 Abeka Grade 5 Smart Learning Hub (v5.5)</span>
+          <span className="badge-tag">🚀 Abeka Grade 5 Smart Learning Hub (v6.0)</span>
           <span style={{ fontSize: '0.85rem', color: '#c7d2fe', fontWeight: '600' }}>
             NotebookLM RAG Hub: <a href="https://notebook.google.com/notebook/a6e74d47-7b28-4adc-b2c4-fc9c9feca0d7" target="_blank" rel="noreferrer" style={{ color: '#fbbf24', textDecoration: 'underline' }}>Notebook Link</a>
           </span>
@@ -37,7 +37,7 @@ export default function App() {
           Abeka Grade 5 - Nền Tảng Học Tập UbD Thông Minh
         </h1>
         <p className="header-subtitle">
-          Tích hợp Video Bài Giảng Google Drive • Timestamp Map Sách Giáo Khoa • Academic English Quiz • Concept Flashcards • NotebookLM Slide Deck
+          Video Bài Giảng • Nhận Diện Sách • Timestamp Map • Phân Tích UbD • Flashcards • Slide Deck • Academic Quiz
         </p>
       </header>
 
@@ -66,61 +66,74 @@ export default function App() {
         </div>
       </div>
 
-      {/* Tab Navigation */}
+      {/* Tab Navigation Reordered per user request */}
       <div className="tab-navigation">
+        {/* 1. Tab Video */}
         <button
           className={`tab-button ${activeTab === 'video-player' ? 'active' : ''}`}
           onClick={() => setActiveTab('video-player')}
         >
-          <PlayCircle size={18} /> Video Bài Giảng (Google Drive)
+          <PlayCircle size={18} /> 1. Video Bài Giảng
         </button>
 
-        <button
-          className={`tab-button ${activeTab === 'timestamp-map-tab' ? 'active' : ''}`}
-          onClick={() => setActiveTab('timestamp-map-tab')}
-        >
-          <Map size={18} /> Bảng Timestamp Map
-        </button>
-
+        {/* 2. Tab Nhận Diện Sách */}
         <button
           className={`tab-button ${activeTab === 'book-id-tab' ? 'active' : ''}`}
           onClick={() => setActiveTab('book-id-tab')}
         >
-          <BookmarkCheck size={18} /> Nhận Diện Sách
+          <BookmarkCheck size={18} /> 2. Nhận Diện Sách
         </button>
 
+        {/* 3. Tab Timestamp */}
         <button
-          className={`tab-button ${activeTab === 'quiz' ? 'active' : ''}`}
-          onClick={() => setActiveTab('quiz')}
+          className={`tab-button ${activeTab === 'timestamp-map-tab' ? 'active' : ''}`}
+          onClick={() => setActiveTab('timestamp-map-tab')}
         >
-          <HelpCircle size={18} /> Academic English Quiz ({currentLesson.quizData.length})
+          <Map size={18} /> 3. Bảng Timestamp Map
         </button>
 
-        <button
-          className={`tab-button ${activeTab === 'flashcards' ? 'active' : ''}`}
-          onClick={() => setActiveTab('flashcards')}
-        >
-          <Sparkles size={18} /> Concept Flashcards ({currentLesson.flashcards.length})
-        </button>
-
-        <button
-          className={`tab-button ${activeTab === 'slides' ? 'active' : ''}`}
-          onClick={() => setActiveTab('slides')}
-        >
-          <Presentation size={18} /> NotebookLM Slides ({currentLesson.slides.length})
-        </button>
-
+        {/* 4. Tab Phân Tích UbD */}
         <button
           className={`tab-button ${activeTab === 'ubd-report' ? 'active' : ''}`}
           onClick={() => setActiveTab('ubd-report')}
         >
-          <FileText size={18} /> UbD Report (7 Giai Đoạn)
+          <FileText size={18} /> 4. Phân Tích UbD (7 Giai Đoạn)
+        </button>
+
+        {/* 5. Tab Flashcard */}
+        <button
+          className={`tab-button ${activeTab === 'flashcards' ? 'active' : ''}`}
+          onClick={() => setActiveTab('flashcards')}
+        >
+          <Sparkles size={18} /> 5. Concept Flashcards ({currentLesson.flashcards.length})
+        </button>
+
+        {/* 6. Tab Slide Deck */}
+        <button
+          className={`tab-button ${activeTab === 'slides' ? 'active' : ''}`}
+          onClick={() => setActiveTab('slides')}
+        >
+          <Presentation size={18} /> 6. NotebookLM Slide Deck ({currentLesson.slides.length})
+        </button>
+
+        {/* 7. Tab Quiz */}
+        <button
+          className={`tab-button ${activeTab === 'quiz' ? 'active' : ''}`}
+          onClick={() => setActiveTab('quiz')}
+        >
+          <HelpCircle size={18} /> 7. Academic English Quiz ({currentLesson.quizData.length})
         </button>
       </div>
 
       {/* Main Content Areas */}
       {activeTab === 'video-player' && (
         <VideoPlayer lesson={currentLesson} />
+      )}
+
+      {activeTab === 'book-id-tab' && (
+        <BookIdentificationViewer
+          lesson={currentLesson}
+        />
       )}
 
       {activeTab === 'timestamp-map-tab' && (
@@ -130,19 +143,13 @@ export default function App() {
         />
       )}
 
-      {activeTab === 'book-id-tab' && (
-        <BookIdentificationViewer
-          lesson={currentLesson}
-        />
-      )}
-
-      {activeTab === 'quiz' && <QuizEngine lesson={currentLesson} />}
+      {activeTab === 'ubd-report' && <UbDReportViewer lesson={currentLesson} />}
 
       {activeTab === 'flashcards' && <FlashcardEngine lesson={currentLesson} />}
 
       {activeTab === 'slides' && <SlideDeckViewer lesson={currentLesson} />}
 
-      {activeTab === 'ubd-report' && <UbDReportViewer lesson={currentLesson} />}
+      {activeTab === 'quiz' && <QuizEngine lesson={currentLesson} />}
     </div>
   );
 }
