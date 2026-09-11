@@ -6,7 +6,9 @@ import QuizEngine from './components/QuizEngine';
 import FlashcardEngine from './components/FlashcardEngine';
 import SlideDeckViewer from './components/SlideDeckViewer';
 import UbDReportViewer from './components/UbDReportViewer';
-import { PlayCircle, HelpCircle, Sparkles, Presentation, FileText, BookOpen, GraduationCap } from 'lucide-react';
+import BookIdentificationViewer from './components/BookIdentificationViewer';
+import FullTimestampMapViewer from './components/FullTimestampMapViewer';
+import { PlayCircle, HelpCircle, Sparkles, Presentation, FileText, BookOpen, GraduationCap, Map, BookmarkCheck } from 'lucide-react';
 
 export default function App() {
   const [selectedSubjectKey, setSelectedSubjectKey] = useState('arithmetic-5');
@@ -26,7 +28,7 @@ export default function App() {
       {/* Header Banner */}
       <header className="header-banner">
         <div className="header-top">
-          <span className="badge-tag">🚀 Abeka Grade 5 Smart Learning Hub (v2.5)</span>
+          <span className="badge-tag">🚀 Abeka Grade 5 Smart Learning Hub (v3.0)</span>
           <span style={{ fontSize: '0.85rem', color: '#c7d2fe', fontWeight: '600' }}>
             NotebookLM RAG Hub: <a href="https://notebook.google.com/notebook/a6e74d47-7b28-4adc-b2c4-fc9c9feca0d7" target="_blank" rel="noreferrer" style={{ color: '#fbbf24', textDecoration: 'underline' }}>Notebook Link</a>
           </span>
@@ -72,7 +74,21 @@ export default function App() {
           className={`tab-button ${activeTab === 'video-map' ? 'active' : ''}`}
           onClick={() => setActiveTab('video-map')}
         >
-          <PlayCircle size={18} /> Video & Timestamp Map
+          <PlayCircle size={18} /> Video & Interactive Player
+        </button>
+
+        <button
+          className={`tab-button ${activeTab === 'timestamp-map-tab' ? 'active' : ''}`}
+          onClick={() => setActiveTab('timestamp-map-tab')}
+        >
+          <Map size={18} /> Bảng Timestamp Map
+        </button>
+
+        <button
+          className={`tab-button ${activeTab === 'book-id-tab' ? 'active' : ''}`}
+          onClick={() => setActiveTab('book-id-tab')}
+        >
+          <BookmarkCheck size={18} /> Nhận Diện Sách
         </button>
 
         <button
@@ -118,6 +134,19 @@ export default function App() {
             onSelectTimestamp={handleSelectTimestamp}
           />
         </div>
+      )}
+
+      {activeTab === 'timestamp-map-tab' && (
+        <FullTimestampMapViewer
+          lesson={currentLesson}
+          onSelectTimestamp={handleSelectTimestamp}
+        />
+      )}
+
+      {activeTab === 'book-id-tab' && (
+        <BookIdentificationViewer
+          lesson={currentLesson}
+        />
       )}
 
       {activeTab === 'quiz' && <QuizEngine lesson={currentLesson} />}
