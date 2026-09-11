@@ -1,10 +1,7 @@
-import React, { useState } from 'react';
-import ReactMarkdown from 'react-markdown';
-import { FileText, Target, BookOpen, AlertTriangle, Key, Award, Code, CheckCircle, Lightbulb, Layout, Eye } from 'lucide-react';
+import React from 'react';
+import { FileText, Target, BookOpen, AlertTriangle, Key, Award, CheckCircle, Lightbulb } from 'lucide-react';
 
 export default function UbDReportViewer({ lesson }) {
-  const [viewMode, setViewMode] = useState('interactive-cards'); // Default to rich interactive cards
-
   const ubdData = lesson.ubdFullData || {
     stage1: {
       taxonomy: [
@@ -63,86 +60,17 @@ export default function UbDReportViewer({ lesson }) {
     }
   };
 
-  // Clean raw markdown string for HTML rendering mode
-  const cleanMarkdownText = (lesson.ubdReportMd || '')
-    .replace(/^#\s+/gm, '# ')
-    .replace(/^##\s+/gm, '## ');
-
   return (
     <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
       {/* Header Banner */}
       <div className="card" style={{ marginBottom: '20px', background: 'linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%)', border: '1px solid #10b981' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '12px' }}>
-          <div>
-            <h2 style={{ fontSize: '1.4rem', color: '#065f46', display: 'flex', alignItems: 'center', gap: '8px' }}>
-              <FileText color="#059669" size={24} />
-              Báo Cáo Phân Tích Thiết Kế Sư Phạm Ngược (UbD 7 Giai Đoạn)
-            </h2>
-            <p style={{ fontSize: '0.88rem', color: '#047857', marginTop: '4px' }}>
-              Trình bày báo cáo UbD chuyên sâu bám sát tiến trình video bài giảng và sách giáo khoa Abeka.
-            </p>
-          </div>
-
-          {/* View Mode Selector Tabs */}
-          <div style={{ display: 'flex', gap: '6px', background: '#ffffff', padding: '4px', borderRadius: '12px', border: '1px solid #a7f3d0' }}>
-            <button
-              onClick={() => setViewMode('interactive-cards')}
-              style={{
-                padding: '6px 14px',
-                borderRadius: '8px',
-                fontSize: '0.82rem',
-                fontWeight: '800',
-                border: 'none',
-                background: viewMode === 'interactive-cards' ? '#059669' : 'transparent',
-                color: viewMode === 'interactive-cards' ? '#ffffff' : '#334155',
-                cursor: 'pointer',
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '6px'
-              }}
-            >
-              <Layout size={14} /> Thẻ Trực Quan UbD (Cards)
-            </button>
-
-            <button
-              onClick={() => setViewMode('formatted-markdown')}
-              style={{
-                padding: '6px 14px',
-                borderRadius: '8px',
-                fontSize: '0.82rem',
-                fontWeight: '800',
-                border: 'none',
-                background: viewMode === 'formatted-markdown' ? '#059669' : 'transparent',
-                color: viewMode === 'formatted-markdown' ? '#ffffff' : '#334155',
-                cursor: 'pointer',
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '6px'
-              }}
-            >
-              <Eye size={14} /> Báo Cáo HTML Đầy Đủ
-            </button>
-
-            <button
-              onClick={() => setViewMode('json-payload')}
-              style={{
-                padding: '6px 14px',
-                borderRadius: '8px',
-                fontSize: '0.82rem',
-                fontWeight: '800',
-                border: 'none',
-                background: viewMode === 'json-payload' ? '#059669' : 'transparent',
-                color: viewMode === 'json-payload' ? '#ffffff' : '#334155',
-                cursor: 'pointer',
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '6px'
-              }}
-            >
-              <Code size={14} /> Web JSON Payload
-            </button>
-          </div>
-        </div>
+        <h2 style={{ fontSize: '1.4rem', color: '#065f46', display: 'flex', alignItems: 'center', gap: '8px' }}>
+          <FileText color="#059669" size={24} />
+          Báo Cáo Phân Tích Thiết Kế Sư Phạm Ngược (UbD 7 Giai Đoạn)
+        </h2>
+        <p style={{ fontSize: '0.88rem', color: '#047857', marginTop: '4px' }}>
+          Báo cáo phân tích chuyên sâu bám sát tiến trình video bài giảng và sách giáo khoa Abeka.
+        </p>
 
         {/* Lesson Metadata Bar */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '10px', marginTop: '16px', background: '#ffffff', padding: '14px', borderRadius: '12px', border: '1px solid #a7f3d0', fontSize: '0.88rem' }}>
@@ -153,123 +81,100 @@ export default function UbDReportViewer({ lesson }) {
         </div>
       </div>
 
-      {/* MODE 1: Interactive Visual Cards View */}
-      {viewMode === 'interactive-cards' && (
-        <div>
-          {/* 1. GIAI ĐOẠN 1: DESIRED RESULTS & CLOS */}
-          <div className="card" style={{ marginBottom: '20px' }}>
-            <h3 style={{ fontSize: '1.2rem', color: '#4f46e5', display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '14px' }}>
-              <Target color="#4f46e5" /> 1. GIAI ĐOẠN 1: Xác Định Kết Quả Mong Muốn (Desired Results & CLOs)
-            </h3>
-            <h4 style={{ fontSize: '1rem', color: '#1e293b', marginBottom: '10px' }}>🌳 Cây Kỹ Năng (Skill Taxonomy):</h4>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '10px', marginBottom: '16px' }}>
-              {ubdData.stage1.taxonomy.map((tax, idx) => (
-                <div key={idx} style={{ background: '#f8fafc', padding: '12px', borderRadius: '10px', border: '1.5px solid #e2e8f0' }}>
-                  <div style={{ fontWeight: '800', color: '#4338ca', fontSize: '0.88rem', marginBottom: '4px' }}>{tax.level}</div>
-                  <div style={{ fontSize: '0.85rem', color: '#475569' }}>{tax.items}</div>
-                </div>
-              ))}
-            </div>
-            <h4 style={{ fontSize: '1rem', color: '#1e293b', marginBottom: '8px' }}>🎯 Chuẩn Đầu Ra (CLOs):</h4>
-            <ul style={{ listStyle: 'none', paddingLeft: 0, display: 'flex', flexDirection: 'column', gap: '6px' }}>
-              {ubdData.stage1.clos.map((clo, idx) => (
-                <li key={idx} style={{ background: '#eef2ff', padding: '10px 14px', borderRadius: '8px', color: '#312e81', fontSize: '0.9rem', fontWeight: '600', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                  <CheckCircle size={16} color="#4f46e5" /> {clo}
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* 2. GIAI ĐOẠN 3: JUST-IN-TIME LEARNING CONTENT */}
-          <div className="card" style={{ marginBottom: '20px' }}>
-            <h3 style={{ fontSize: '1.2rem', color: '#0891b2', display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '14px' }}>
-              <BookOpen color="#0891b2" /> 2. GIAI ĐOẠN 3: Nội Dung Học Tập Just-In-Time (Video-to-Book Mapping)
-            </h3>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-              {ubdData.stage3.map((item, idx) => (
-                <div key={idx} style={{ background: '#f0fdf4', padding: '14px', borderRadius: '12px', border: '1.5px solid #bbf7d0' }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '6px' }}>
-                    <span style={{ fontWeight: '800', color: '#166534', fontSize: '0.95rem' }}>{item.concept}</span>
-                    <span style={{ background: '#dcfce7', color: '#15803d', padding: '2px 8px', borderRadius: '14px', fontSize: '0.78rem', fontWeight: '800' }}>⏱️ {item.timestamp}</span>
-                  </div>
-                  <div style={{ fontSize: '0.85rem', color: '#15803d', fontWeight: '700', marginBottom: '4px' }}>📖 Trích dẫn: {item.bookRef}</div>
-                  <div style={{ fontSize: '0.88rem', color: '#334155', background: '#ffffff', padding: '8px 10px', borderRadius: '8px', borderLeft: '3px solid #22c55e' }}>{item.jitUsage}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* 3. CÁC BẪY CÓ THỂ GẶP PHẢI */}
-          <div className="card" style={{ marginBottom: '20px' }}>
-            <h3 style={{ fontSize: '1.2rem', color: '#dc2626', display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '14px' }}>
-              <AlertTriangle color="#dc2626" /> 3. CÁC BẪY CÓ THỂ GẶP PHẢI (Pitfalls / Common Traps)
-            </h3>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '12px' }}>
-              {ubdData.pitfalls.map((pit, idx) => (
-                <div key={idx} style={{ background: '#fff1f2', padding: '14px', borderRadius: '12px', border: '1.5px solid #fecdd3' }}>
-                  <div style={{ fontWeight: '800', color: '#9f1239', marginBottom: '6px', fontSize: '0.9rem' }}>📌 Tình huống #{idx + 1}: {pit.situation}</div>
-                  <div style={{ fontSize: '0.85rem', color: '#be123c', background: '#ffe4e6', padding: '6px 10px', borderRadius: '6px', marginBottom: '6px', fontWeight: '700' }}>❌ Lỗi thường gặp: {pit.commonError}</div>
-                  <div style={{ fontSize: '0.85rem', color: '#065f46', background: '#d1fae5', padding: '6px 10px', borderRadius: '6px', fontWeight: '700' }}>✅ Giải pháp: {pit.solution}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* 4. BLOOM'S TAXONOMY ASSESSMENT */}
-          <div className="card" style={{ marginBottom: '20px' }}>
-            <h3 style={{ fontSize: '1.2rem', color: '#7c3aed', display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '14px' }}>
-              <Award color="#7c3aed" /> 4. GIAI ĐOẠN 2: Đánh Giá Theo Thang Nhận Thức Bloom (6 Levels)
-            </h3>
-            <div style={{ background: '#f5f3ff', padding: '12px', borderRadius: '10px', border: '1px solid #ddd6fe', marginBottom: '12px', color: '#5b21b6', fontWeight: '700', fontSize: '0.88rem' }}>
-              🎭 Task Context: {ubdData.bloomAssessment.taskContext}
-            </div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-              {ubdData.bloomAssessment.levels.map((lvl, idx) => (
-                <div key={idx} style={{ background: '#ffffff', padding: '12px', borderRadius: '10px', border: '1.5px solid #e2e8f0' }}>
-                  <div style={{ fontWeight: '800', color: '#6d28d9', fontSize: '0.92rem', marginBottom: '4px' }}>{lvl.level}</div>
-                  <div style={{ fontSize: '0.88rem', color: '#1e293b', marginBottom: '6px', fontWeight: '600' }}>📝 Bài tập: {lvl.task}</div>
-                  <div style={{ fontSize: '0.85rem', color: '#047857', background: '#ecfdf5', padding: '6px 10px', borderRadius: '6px', fontWeight: '700' }}>💡 Hướng dẫn / Đáp án: {lvl.solution}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* MODE 2: Formatted Markdown View using ReactMarkdown */}
-      {viewMode === 'formatted-markdown' && (
-        <div className="card ubd-doc-container" style={{ background: '#ffffff', padding: '32px', borderRadius: '16px', lineHeight: '1.8' }}>
-          <ReactMarkdown
-            components={{
-              h1: ({ children }) => <h1 style={{ fontSize: '1.5rem', color: '#1e1b4b', borderBottom: '3px solid #6366f1', paddingBottom: '8px', margin: '20px 0 16px' }}>{children}</h1>,
-              h2: ({ children }) => <h2 style={{ fontSize: '1.25rem', color: '#4338ca', borderBottom: '2px dashed #c7d2fe', paddingBottom: '6px', margin: '24px 0 12px' }}>{children}</h2>,
-              h3: ({ children }) => <h3 style={{ fontSize: '1.1rem', color: '#0369a1', margin: '18px 0 8px' }}>{children}</h3>,
-              ul: ({ children }) => <ul style={{ paddingLeft: '20px', margin: '10px 0', display: 'flex', flexDirection: 'column', gap: '6px' }}>{children}</ul>,
-              li: ({ children }) => <li style={{ color: '#334155', fontSize: '0.98rem' }}>{children}</li>,
-              blockquote: ({ children }) => <blockquote style={{ background: '#f0fdf4', borderLeft: '4px solid #16a34a', padding: '12px 16px', borderRadius: '8px', margin: '12px 0', color: '#15803d', fontStyle: 'normal', fontWeight: '600' }}>{children}</blockquote>,
-              strong: ({ children }) => <strong style={{ color: '#1e293b', fontWeight: '800' }}>{children}</strong>
-            }}
-          >
-            {cleanMarkdownText}
-          </ReactMarkdown>
-        </div>
-      )}
-
-      {/* MODE 3: Single-line Web JSON Payload */}
-      {viewMode === 'json-payload' && (
-        <div className="card" style={{ background: '#ffffff', padding: '24px', borderRadius: '16px' }}>
-          <h3 style={{ fontSize: '1.2rem', color: '#059669', display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px' }}>
-            <Code color="#059669" /> Chuỗi Web JSON Payload (Single-Line Web Data)
+      {/* Interactive Visual Cards View */}
+      <div>
+        {/* 1. GIAI ĐOẠN 1: DESIRED RESULTS & CLOS */}
+        <div className="card" style={{ marginBottom: '20px' }}>
+          <h3 style={{ fontSize: '1.2rem', color: '#4f46e5', display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '14px' }}>
+            <Target color="#4f46e5" /> 1. GIAI ĐOẠN 1: Xác Định Kết Quả Mong Muốn (Desired Results & CLOs)
           </h3>
-          <p style={{ fontSize: '0.85rem', color: '#64748b', marginBottom: '12px' }}>
-            Chuỗi JSON nạp Quiz chuẩn xác được xuất liền 1 dòng duy nhất để load trực tiếp lên giao diện học tập:
-          </p>
+          <h4 style={{ fontSize: '1rem', color: '#1e293b', marginBottom: '10px' }}>🌳 Cây Kỹ Năng (Skill Taxonomy):</h4>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '10px', marginBottom: '16px' }}>
+            {ubdData.stage1.taxonomy.map((tax, idx) => (
+              <div key={idx} style={{ background: '#f8fafc', padding: '12px', borderRadius: '10px', border: '1.5px solid #e2e8f0' }}>
+                <div style={{ fontWeight: '800', color: '#4338ca', fontSize: '0.88rem', marginBottom: '4px' }}>{tax.level}</div>
+                <div style={{ fontSize: '0.85rem', color: '#475569' }}>{tax.items}</div>
+              </div>
+            ))}
+          </div>
+          <h4 style={{ fontSize: '1rem', color: '#1e293b', marginBottom: '8px' }}>🎯 Chuẩn Đầu Ra (CLOs):</h4>
+          <ul style={{ listStyle: 'none', paddingLeft: 0, display: 'flex', flexDirection: 'column', gap: '6px' }}>
+            {ubdData.stage1.clos.map((clo, idx) => (
+              <li key={idx} style={{ background: '#eef2ff', padding: '10px 14px', borderRadius: '8px', color: '#312e81', fontSize: '0.9rem', fontWeight: '600', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <CheckCircle size={16} color="#4f46e5" /> {clo}
+              </li>
+            ))}
+          </ul>
+        </div>
 
-          <div style={{ background: '#0f172a', color: '#38bdf8', padding: '16px', borderRadius: '12px', fontFamily: 'monospace', fontSize: '0.8rem', wordBreak: 'break-all', lineHeight: '1.6' }}>
-            {JSON.stringify({ quiz: lesson.quizData })}
+        {/* 2. GIAI ĐOẠN 3: JUST-IN-TIME LEARNING CONTENT */}
+        <div className="card" style={{ marginBottom: '20px' }}>
+          <h3 style={{ fontSize: '1.2rem', color: '#0891b2', display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '14px' }}>
+            <BookOpen color="#0891b2" /> 2. GIAI ĐOẠN 3: Nội Dung Học Tập Just-In-Time (Video-to-Book Mapping)
+          </h3>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+            {ubdData.stage3.map((item, idx) => (
+              <div key={idx} style={{ background: '#f0fdf4', padding: '14px', borderRadius: '12px', border: '1.5px solid #bbf7d0' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '6px' }}>
+                  <span style={{ fontWeight: '800', color: '#166534', fontSize: '0.95rem' }}>{item.concept}</span>
+                  <span style={{ background: '#dcfce7', color: '#15803d', padding: '2px 8px', borderRadius: '14px', fontSize: '0.78rem', fontWeight: '800' }}>⏱️ {item.timestamp}</span>
+                </div>
+                <div style={{ fontSize: '0.85rem', color: '#15803d', fontWeight: '700', marginBottom: '4px' }}>📖 Trích dẫn: {item.bookRef}</div>
+                <div style={{ fontSize: '0.88rem', color: '#334155', background: '#ffffff', padding: '8px 10px', borderRadius: '8px', borderLeft: '3px solid #22c55e' }}>{item.jitUsage}</div>
+              </div>
+            ))}
           </div>
         </div>
-      )}
+
+        {/* 3. CÁC BẪY CÓ THỂ GẶP PHẢI */}
+        <div className="card" style={{ marginBottom: '20px' }}>
+          <h3 style={{ fontSize: '1.2rem', color: '#dc2626', display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '14px' }}>
+            <AlertTriangle color="#dc2626" /> 3. CÁC BẪY CÓ THỂ GẶP PHẢI (Pitfalls / Common Traps)
+          </h3>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '12px' }}>
+            {ubdData.pitfalls.map((pit, idx) => (
+              <div key={idx} style={{ background: '#fff1f2', padding: '14px', borderRadius: '12px', border: '1.5px solid #fecdd3' }}>
+                <div style={{ fontWeight: '800', color: '#9f1239', marginBottom: '6px', fontSize: '0.9rem' }}>📌 Tình huống #{idx + 1}: {pit.situation}</div>
+                <div style={{ fontSize: '0.85rem', color: '#be123c', background: '#ffe4e6', padding: '6px 10px', borderRadius: '6px', marginBottom: '6px', fontWeight: '700' }}>❌ Lỗi thường gặp: {pit.commonError}</div>
+                <div style={{ fontSize: '0.85rem', color: '#065f46', background: '#d1fae5', padding: '6px 10px', borderRadius: '6px', fontWeight: '700' }}>✅ Giải pháp: {pit.solution}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* 4. NỘI DUNG CỐT LÕI CẦN NẮM */}
+        <div className="card" style={{ marginBottom: '20px' }}>
+          <h3 style={{ fontSize: '1.2rem', color: '#d97706', display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '14px' }}>
+            <Key color="#d97706" /> 4. NỘI DUNG CỐT LÕI CẦN NẮM (Key Takeaways)
+          </h3>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+            {ubdData.keyTakeaways.map((take, idx) => (
+              <div key={idx} style={{ background: '#fffbeb', padding: '10px 14px', borderRadius: '10px', border: '1.5px solid #fef3c7', color: '#92400e', fontWeight: '700', fontSize: '0.92rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <Lightbulb size={16} color="#d97706" /> {take}
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* 5. BLOOM'S TAXONOMY ASSESSMENT */}
+        <div className="card" style={{ marginBottom: '20px' }}>
+          <h3 style={{ fontSize: '1.2rem', color: '#7c3aed', display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '14px' }}>
+            <Award color="#7c3aed" /> 5. GIAI ĐOẠN 2: Đánh Giá Theo Thang Nhận Thức Bloom (6 Levels)
+          </h3>
+          <div style={{ background: '#f5f3ff', padding: '12px', borderRadius: '10px', border: '1px solid #ddd6fe', marginBottom: '12px', color: '#5b21b6', fontWeight: '700', fontSize: '0.88rem' }}>
+            🎭 Task Context: {ubdData.bloomAssessment.taskContext}
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+            {ubdData.bloomAssessment.levels.map((lvl, idx) => (
+              <div key={idx} style={{ background: '#ffffff', padding: '12px', borderRadius: '10px', border: '1.5px solid #e2e8f0' }}>
+                <div style={{ fontWeight: '800', color: '#6d28d9', fontSize: '0.92rem', marginBottom: '4px' }}>{lvl.level}</div>
+                <div style={{ fontSize: '0.88rem', color: '#1e293b', marginBottom: '6px', fontWeight: '600' }}>📝 Bài tập: {lvl.task}</div>
+                <div style={{ fontSize: '0.85rem', color: '#047857', background: '#ecfdf5', padding: '6px 10px', borderRadius: '6px', fontWeight: '700' }}>💡 Hướng dẫn / Đáp án: {lvl.solution}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
