@@ -7,5 +7,12 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     sourcemap: true,
+    rollupOptions: {
+      output: {
+        entryFileNames: `assets/[name]-[hash]-v7ubd.js`,
+        chunkFileNames: `assets/[name]-[hash]-v7ubd.js`,
+        assetFileNames: `assets/[name]-[hash]-v7ubd.[ext]`
+      }
+    }
   }
 });
