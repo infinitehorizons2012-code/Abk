@@ -8,7 +8,7 @@
           for(let registration of registrations) { registration.unregister(); }
         });
       }
-      const REQUIRED_VER = 'v11.0';
+      const REQUIRED_VER = 'v11.1';
       const currentVer = new URLSearchParams(window.location.search).get('v');
       if (currentVer !== REQUIRED_VER) {
         const newUrl = new URL(window.location.href);
