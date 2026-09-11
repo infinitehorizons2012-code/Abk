@@ -22,60 +22,7 @@ export default function SlideDeckViewer({ lesson }) {
 
   return (
     <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
-      <div className="card" style={{ marginBottom: '24px', background: 'linear-gradient(135deg, #fae8ff 0%, #f0abfc 100%)', border: '1px solid #d946ef' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '12px' }}>
-          <div>
-            <h2 style={{ fontSize: '1.4rem', color: '#701a75', display: 'flex', alignItems: 'center', gap: '8px' }}>
-              <Presentation color="#a21caf" />
-              NotebookLM Style Slide Deck (Trình Chiếu Tóm Tắt)
-            </h2>
-            <p style={{ fontSize: '0.9rem', color: '#86198f', marginTop: '4px' }}>
-              Xem các thẻ slide tóm tắt được trích xuất trực tiếp từ kho tri thức NotebookLM RAG.
-            </p>
-          </div>
 
-          {lesson.slidesHtmlUrl && (
-            <div style={{ display: 'flex', gap: '8px', background: '#ffffff', padding: '4px', borderRadius: '12px', border: '1px solid #f0abfc' }}>
-              <button
-                onClick={() => setViewMode('iframe')}
-                style={{
-                  padding: '8px 14px',
-                  borderRadius: '8px',
-                  border: 'none',
-                  background: viewMode === 'iframe' ? '#a21caf' : 'transparent',
-                  color: viewMode === 'iframe' ? '#ffffff' : '#701a75',
-                  fontWeight: '800',
-                  cursor: 'pointer',
-                  fontSize: '0.85rem',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '6px'
-                }}
-              >
-                <Globe size={16} /> Trang HTML Gốc
-              </button>
-              <button
-                onClick={() => setViewMode('react')}
-                style={{
-                  padding: '8px 14px',
-                  borderRadius: '8px',
-                  border: 'none',
-                  background: viewMode === 'react' ? '#a21caf' : 'transparent',
-                  color: viewMode === 'react' ? '#ffffff' : '#701a75',
-                  fontWeight: '800',
-                  cursor: 'pointer',
-                  fontSize: '0.85rem',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '6px'
-                }}
-              >
-                <Layout size={16} /> Dạng Slide React
-              </button>
-            </div>
-          )}
-        </div>
-      </div>
 
       {viewMode === 'iframe' && lesson.slidesHtmlUrl ? (
         <div style={{ width: '100%', height: '850px', borderRadius: '24px', overflow: 'hidden', border: '2px solid #d946ef', boxShadow: '0 10px 30px rgba(0,0,0,0.08)', background: '#ffffff' }}>

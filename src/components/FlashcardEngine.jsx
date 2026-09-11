@@ -14,60 +14,7 @@ export default function FlashcardEngine({ lesson }) {
 
   return (
     <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
-      <div className="card" style={{ marginBottom: '24px', background: 'linear-gradient(135deg, #fef3c7 0%, #fde68a 100%)', border: '1px solid #f59e0b' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '12px' }}>
-          <div>
-            <h2 style={{ fontSize: '1.4rem', color: '#92400e', display: 'flex', alignItems: 'center', gap: '8px' }}>
-              <Sparkles color="#d97706" />
-              Thẻ Ghi Nhớ Khái Niệm (Concept Flashcards)
-            </h2>
-            <p style={{ fontSize: '0.9rem', color: '#b45309', marginTop: '4px' }}>
-              Bấm vào thẻ để lật xem định nghĩa, trang sách trích dẫn và mẹo ghi nhớ thông minh!
-            </p>
-          </div>
 
-          {lesson.flashcardsHtmlUrl && (
-            <div style={{ display: 'flex', gap: '8px', background: '#ffffff', padding: '4px', borderRadius: '12px', border: '1px solid #fcd34d' }}>
-              <button
-                onClick={() => setViewMode('iframe')}
-                style={{
-                  padding: '8px 14px',
-                  borderRadius: '8px',
-                  border: 'none',
-                  background: viewMode === 'iframe' ? '#d97706' : 'transparent',
-                  color: viewMode === 'iframe' ? '#ffffff' : '#92400e',
-                  fontWeight: '800',
-                  cursor: 'pointer',
-                  fontSize: '0.85rem',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '6px'
-                }}
-              >
-                <Globe size={16} /> Trang HTML Gốc
-              </button>
-              <button
-                onClick={() => setViewMode('react')}
-                style={{
-                  padding: '8px 14px',
-                  borderRadius: '8px',
-                  border: 'none',
-                  background: viewMode === 'react' ? '#d97706' : 'transparent',
-                  color: viewMode === 'react' ? '#ffffff' : '#92400e',
-                  fontWeight: '800',
-                  cursor: 'pointer',
-                  fontSize: '0.85rem',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '6px'
-                }}
-              >
-                <Layout size={16} /> Dạng Thẻ React
-              </button>
-            </div>
-          )}
-        </div>
-      </div>
 
       {viewMode === 'iframe' && lesson.flashcardsHtmlUrl ? (
         <div style={{ width: '100%', height: '850px', borderRadius: '24px', overflow: 'hidden', border: '2px solid #f59e0b', boxShadow: '0 10px 30px rgba(0,0,0,0.08)', background: '#ffffff' }}>

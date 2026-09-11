@@ -43,19 +43,8 @@ export default function QuizEngine({ lesson }) {
 
   return (
     <div className="quiz-container" style={{ maxWidth: '1100px', margin: '0 auto' }}>
-      {/* Quiz Banner */}
-      <div className="card" style={{ marginBottom: '24px', background: 'linear-gradient(135deg, #eef2ff 0%, #e0e7ff 100%)', border: '1px solid #c7d2fe' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '12px' }}>
-          <div>
-            <h2 style={{ fontSize: '1.4rem', color: '#312e81', display: 'flex', alignItems: 'center', gap: '8px' }}>
-              <HelpCircle color="#4338ca" />
-              Academic English Formative Quiz (UbD Stage 5)
-            </h2>
-            <p style={{ fontSize: '0.9rem', color: '#4338ca', marginTop: '4px' }}>
-              Bài kiểm tra trắc nghiệm bằng Tiếng Anh học thuật kèm giải thích chi tiết bám sát sách giáo khoa.
-            </p>
-          </div>
-
+      {(lesson.quizHtmlUrl || (showResults && viewMode === 'react')) && (
+        <div style={{ display: 'flex', justifyContent: lesson.quizHtmlUrl ? 'space-between' : 'flex-end', alignItems: 'center', flexWrap: 'wrap', gap: '12px', marginBottom: '24px' }}>
           {lesson.quizHtmlUrl && (
             <div style={{ display: 'flex', gap: '8px', background: '#ffffff', padding: '4px', borderRadius: '12px', border: '1px solid #c7d2fe' }}>
               <button
@@ -103,7 +92,7 @@ export default function QuizEngine({ lesson }) {
             </div>
           )}
         </div>
-      </div>
+      )}
 
       {viewMode === 'iframe' && lesson.quizHtmlUrl ? (
         <div style={{ width: '100%', height: '850px', borderRadius: '24px', overflow: 'hidden', border: '2px solid #6366f1', boxShadow: '0 10px 30px rgba(0,0,0,0.08)', background: '#ffffff' }}>
