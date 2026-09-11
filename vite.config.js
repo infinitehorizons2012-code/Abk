@@ -1,6 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
+const buildTime = Date.now();
+
 export default defineConfig({
   plugins: [react()],
   base: './',
@@ -9,9 +11,9 @@ export default defineConfig({
     sourcemap: true,
     rollupOptions: {
       output: {
-        entryFileNames: `assets/[name]-[hash]-v7ubd.js`,
-        chunkFileNames: `assets/[name]-[hash]-v7ubd.js`,
-        assetFileNames: `assets/[name]-[hash]-v7ubd.[ext]`
+        entryFileNames: `assets/[name]-[hash]-v10_${buildTime}.js`,
+        chunkFileNames: `assets/[name]-[hash]-v10_${buildTime}.js`,
+        assetFileNames: `assets/[name]-[hash]-v10_${buildTime}.[ext]`
       }
     }
   }
