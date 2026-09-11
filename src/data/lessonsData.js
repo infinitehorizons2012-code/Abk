@@ -13,6 +13,9 @@ export const LESSONS_DATA = {
     bookTitle: "Arithmetic 5 (Work-text) (Ấn bản 4/5, Abeka - AR)",
     bookPages: "Lesson 1, Trang 1–2 (Place Value through Hundred Billions, Roman Numerals)",
     manualRef: "Grade 5 Video Manual (Tr. T6, Tr. 2)",
+    flashcardsHtmlUrl: "./html/Flashcards_Old_World_History_Pages_1-2.html",
+    slidesHtmlUrl: "./html/Slide_Deck_Old_World_History_Pages_1-2.html",
+    quizHtmlUrl: "./html/Quiz_Old_World_History_Pages_1-2.html",
     
     timestampMap: [
       {

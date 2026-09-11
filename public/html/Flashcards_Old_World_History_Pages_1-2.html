@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards: Old World History &amp; Geography (Trang 1 &amp; 2)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background: linear-gradient(135deg, #e8f5e9 0%, #fffde7 50%, #fce4ec 100%);
+      font-family: 'Quicksand', 'Comic Sans MS', sans-serif;
+      color: #2d3748;
+      min-height: 100vh;
+      padding: 30px 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      width: 100%;
+      max-width: 860px;
+    }
+    header {
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 25px 20px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+      border: 3px solid #bbf7d0;
+      margin-bottom: 25px;
+    }
+    .badge {
+      display: inline-block;
+      background-color: #dcfce7;
+      color: #15803d;
+      font-weight: 700;
+      font-size: 14px;
+      padding: 5px 14px;
+      border-radius: 50px;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 28px;
+      color: #1e3a8a;
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+    .subtitle {
+      color: #059669;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .mode-switch {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 25px;
+    }
+    .mode-btn {
+      background: #ffffff;
+      border: 2px solid #cbd5e1;
+      padding: 10px 20px;
+      border-radius: 30px;
+      font-size: 16px;
+      font-weight: 700;
+      color: #475569;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      font-family: inherit;
+    }
+    .mode-btn.active {
+      background: #0ea5e9;
+      color: #ffffff;
+      border-color: #0ea5e9;
+      box-shadow: 0 4px 12px rgba(14, 165, 233, 0.35);
+    }
+    
+    /* Interactive Flashcard Stage */
+    #deck-view {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .progress-bar-container {
+      width: 100%;
+      max-width: 550px;
+      background: #e2e8f0;
+      height: 10px;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 12px;
+    }
+    .progress-bar {
+      height: 100%;
+      background: linear-gradient(90deg, #34d399, #38bdf8);
+      width: 8.33%;
+      transition: width 0.3s ease;
+    }
+    .card-counter {
+      font-size: 16px;
+      font-weight: 700;
+      color: #64748b;
+      margin-bottom: 15px;
+    }
+    .flashcard-wrapper {
+      perspective: 1000px;
+      width: 100%;
+      max-width: 580px;
+      height: 380px;
+      cursor: pointer;
+      margin-bottom: 25px;
+    }
+    .flashcard {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+      border-radius: 20px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    }
+    .flashcard.flipped {
+      transform: rotateY(180deg);
+    }
+    .card-face {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 20px;
+      padding: 30px 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-sizing: border-box;
+      border: 3px solid #e2e8f0;
+    }
+    .card-front {
+      background: #ffffff;
+    }
+    .card-back {
+      background: #fffdf0;
+      transform: rotateY(180deg);
+      border-color: #fde047;
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .card-tag {
+      padding: 5px 14px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .card-hint {
+      font-size: 13px;
+      color: #94a3b8;
+      font-weight: 600;
+    }
+    .card-body {
+      text-align: center;
+      margin: auto 0;
+    }
+    .card-emoji {
+      font-size: 48px;
+      margin-bottom: 12px;
+      display: block;
+    }
+    .card-question {
+      font-size: 22px;
+      font-weight: 700;
+      color: #1e3a8a;
+      line-height: 1.5;
+      margin-bottom: 8px;
+    }
+    .card-question-vn {
+      font-size: 17px;
+      color: #64748b;
+      font-weight: 600;
+    }
+    .card-answer {
+      font-size: 20px;
+      font-weight: 600;
+      color: #0f172a;
+      line-height: 1.6;
+      margin-bottom: 10px;
+      white-space: pre-line;
+    }
+    .card-answer-vn {
+      font-size: 16px;
+      color: #047857;
+      font-weight: 600;
+      line-height: 1.5;
+      white-space: pre-line;
+      background: #f0fdf4;
+      padding: 10px 14px;
+      border-radius: 12px;
+    }
+    .card-footer {
+      text-align: center;
+      font-size: 14px;
+      color: #94a3b8;
+      font-weight: 600;
+    }
+    
+    /* Controls */
+    .controls {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+    }
+    .btn {
+      padding: 12px 24px;
+      border-radius: 30px;
+      border: none;
+      font-size: 17px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: all 0.2s;
+      font-family: inherit;
+    }
+    .btn:active {
+      transform: scale(0.96);
+    }
+    .btn-prev, .btn-next {
+      background: #ffffff;
+      color: #334155;
+    }
+    .btn-prev:hover, .btn-next:hover {
+      background: #f1f5f9;
+    }
+    .btn-flip {
+      background: #10b981;
+      color: #ffffff;
+      padding: 14px 28px;
+      font-size: 18px;
+    }
+    .btn-flip:hover {
+      background: #059669;
+    }
+    .btn-shuffle {
+      background: #f8fafc;
+      color: #64748b;
+      padding: 10px 16px;
+      border-radius: 20px;
+      font-size: 14px;
+      margin-top: 15px;
+      border: 1px solid #cbd5e1;
+    }
+
+    /* Grid View */
+    #grid-view {
+      display: none;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px;
+      width: 100%;
+    }
+    .grid-card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+      border: 2px solid #e2e8f0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .grid-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+    }
+    .grid-card-q {
+      font-size: 18px;
+      font-weight: 700;
+      color: #1e3a8a;
+      margin: 10px 0 6px;
+    }
+    .grid-card-q-vn {
+      font-size: 14px;
+      color: #64748b;
+      margin-bottom: 12px;
+    }
+    .grid-card-a {
+      font-size: 16px;
+      color: #334155;
+      line-height: 1.5;
+      padding-top: 10px;
+      border-top: 1px dashed #cbd5e1;
+      white-space: pre-line;
+    }
+    .grid-card-a-vn {
+      font-size: 14px;
+      color: #047857;
+      margin-top: 6px;
+      background: #f0fdf4;
+      padding: 6px 10px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <span class="badge">📖 NotebookLM Focus Flashcards</span>
+      <h1>🌟 THẺ HỌC TẬP THÔNG MINH (FLASHCARDS)</h1>
+      <p class="subtitle">Old World History &amp; Geography — Trang 1 &amp; 2 (Trọng Tâm)</p>
+    </header>
+
+    <div class="mode-switch">
+      <button class="mode-btn active" id="btn-mode-deck" onclick="setMode('deck')">🃏 Lật thẻ tương tác</button>
+      <button class="mode-btn" id="btn-mode-grid" onclick="setMode('grid')">📋 Xem toàn bộ danh sách</button>
+    </div>
+
+    <!-- Deck View -->
+    <div id="deck-view">
+      <div class="progress-bar-container">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+      <div class="card-counter" id="card-counter">Thẻ 1 / 12</div>
+
+      <div class="flashcard-wrapper" onclick="toggleFlip()">
+        <div class="flashcard" id="flashcard">
+          <!-- Front Face -->
+          <div class="card-face card-front" id="card-front">
+            <div class="card-header">
+              <span class="card-tag" id="f-tag">Khái niệm</span>
+              <span class="card-hint">💡 Nhấn để xem đáp án</span>
+            </div>
+            <div class="card-body">
+              <span class="card-emoji" id="f-emoji">📜</span>
+              <div class="card-question" id="f-q">What is History?</div>
+              <div class="card-question-vn" id="f-q-vn">Lịch sử là gì?</div>
+            </div>
+            <div class="card-footer">Mặt trước • Câu hỏi / Thuật ngữ</div>
+          </div>
+
+          <!-- Back Face -->
+          <div class="card-face card-back" id="card-back">
+            <div class="card-header">
+              <span class="card-tag" id="b-tag">Đáp án &amp; Định nghĩa</span>
+              <span class="card-hint">🔄 Nhấn để lật lại</span>
+            </div>
+            <div class="card-body">
+              <div class="card-answer" id="b-a">Đáp án tiếng Anh</div>
+              <div class="card-answer-vn" id="b-a-vn">Giải nghĩa tiếng Việt</div>
+            </div>
+            <div class="card-footer">Mặt sau • Trọng tâm bài học</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation buttons -->
+      <div class="controls">
+        <button class="btn btn-prev" onclick="prevCard()">⬅️ Thẻ trước</button>
+        <button class="btn btn-flip" onclick="toggleFlip()">🔄 Lật thẻ</button>
+        <button class="btn btn-next" onclick="nextCard()">Thẻ tiếp ➡️</button>
+      </div>
+
+      <button class="btn-shuffle" onclick="shuffleCards()">🔀 Xáo trộn thứ tự thẻ</button>
+    </div>
+
+    <!-- Grid View -->
+    <div id="grid-view"></div>
+
+  </div>
+
+  <script>
+    const originalCards = [{"id": 1, "category": "Key Definition", "emoji": "\ud83d\udcdc", "question": "What is History?", "question_vn": "L\u1ecbch s\u1eed l\u00e0 g\u00ec?", "answer": "History is the written record of mankind. It is the true story of what man has done with the time God has given him (some have called it 'His story').", "answer_vn": "L\u1ecbch s\u1eed l\u00e0 b\u1ea3n ghi ch\u00e9p b\u1eb1ng v\u0103n t\u1ef1 c\u1ee7a nh\u00e2n lo\u1ea1i; c\u00e2u chuy\u1ec7n c\u00f3 th\u1eadt v\u1ec1 nh\u1eefng g\u00ec con ng\u01b0\u1eddi \u0111\u00e3 l\u00e0m v\u1edbi th\u1eddi gian Ch\u00faa ban cho.", "badge_color": "#dcfce7", "badge_text_color": "#15803d", "border_color": "#86efac"}, {"id": 2, "category": "Key Definition", "emoji": "\ud83c\udf0d", "question": "What is Geography?", "question_vn": "\u0110\u1ecba l\u00fd l\u00e0 g\u00ec?", "answer": "Geography is the study of the earth's surface \u2014 the continents, oceans, rivers, mountains, islands, and other features that are God's gift to mankind.", "answer_vn": "\u0110\u1ecba l\u00fd l\u00e0 m\u00f4n h\u1ecdc nghi\u00ean c\u1ee9u b\u1ec1 m\u1eb7t tr\u00e1i \u0111\u1ea5t \u2014 c\u00e1c ch\u00e2u l\u1ee5c, \u0111\u1ea1i d\u01b0\u01a1ng, s\u00f4ng ng\u00f2i, n\u00fai non, h\u1ea3i \u0111\u1ea3o v\u00e0 c\u00e1c \u0111\u1eb7c \u0111i\u1ec3m t\u1ef1 nhi\u00ean kh\u00e1c.", "badge_color": "#e0f2fe", "badge_text_color": "#0369a1", "border_color": "#7dd3fc"}, {"id": 3, "category": "Continents & Geography", "emoji": "\ud83d\uddfa\ufe0f", "question": "Which continents make up the Old World?", "question_vn": "Nh\u1eefng ch\u00e2u l\u1ee5c n\u00e0o t\u1ea1o n\u00ean C\u1ef1u Th\u1ebf Gi\u1edbi (Old World)?", "answer": "The Old World is made up of five continents: Asia, Africa, Europe, Australia, and Antarctica.", "answer_vn": "C\u1ef1u Th\u1ebf Gi\u1edbi g\u1ed3m 5 ch\u00e2u l\u1ee5c: Ch\u00e2u \u00c1, Ch\u00e2u Phi, Ch\u00e2u \u00c2u, Ch\u00e2u \u0110\u1ea1i D\u01b0\u01a1ng (\u00dac) v\u00e0 Ch\u00e2u Nam C\u1ef1c.", "badge_color": "#fef3c7", "badge_text_color": "#b45309", "border_color": "#fcd34d"}, {"id": 4, "category": "World History", "emoji": "\ud83c\udf0f", "question": "Where did human history begin?", "question_vn": "L\u1ecbch s\u1eed th\u1ebf gi\u1edbi b\u1eaft \u0111\u1ea7u t\u1eeb ch\u00e2u l\u1ee5c n\u00e0o?", "answer": "Asia is the continent where history began. Studying Asia first helps us understand the events that led to the discovery of the New World.", "answer_vn": "Ch\u00e2u \u00c1 l\u00e0 n\u01a1i l\u1ecbch s\u1eed b\u1eaft \u0111\u1ea7u. Nghi\u00ean c\u1ee9u Ch\u00e2u \u00c1 tr\u01b0\u1edbc ti\u00ean gi\u00fap ch\u00fang ta hi\u1ec3u c\u00e1c bi\u1ebfn c\u1ed1 d\u1eabn \u0111\u1ebfn vi\u1ec7c kh\u00e1m ph\u00e1 T\u00e2n Th\u1ebf Gi\u1edbi.", "badge_color": "#ede9fe", "badge_text_color": "#6d28d9", "border_color": "#c4b5fd"}, {"id": 5, "category": "Geography", "emoji": "\u26f5", "question": "What is the New World?", "question_vn": "T\u00e2n Th\u1ebf Gi\u1edbi (New World) g\u1ed3m nh\u1eefng v\u00f9ng \u0111\u1ea5t n\u00e0o?", "answer": "The New World refers to North America and South America, which were discovered and settled later in history.", "answer_vn": "T\u00e2n Th\u1ebf Gi\u1edbi ch\u1ec9 B\u1eafc M\u1ef9 v\u00e0 Nam M\u1ef9, nh\u1eefng v\u00f9ng \u0111\u1ea5t \u0111\u01b0\u1ee3c kh\u00e1m ph\u00e1 v\u00e0 \u0111\u1ecbnh c\u01b0 sau c\u00e1c s\u1ef1 ki\u1ec7n \u1edf C\u1ef1u Th\u1ebf Gi\u1edbi.", "badge_color": "#fce7f3", "badge_text_color": "#be185d", "border_color": "#f472b6"}, {"id": 6, "category": "Importance of Geography", "emoji": "\u2708\ufe0f", "question": "Why is geography important to history and daily life?", "question_vn": "V\u00ec sao \u0111\u1ecba l\u00fd quan tr\u1ecdng \u0111\u1ed1i v\u1edbi l\u1ecbch s\u1eed v\u00e0 \u0111\u1eddi s\u1ed1ng h\u00e0ng ng\u00e0y?", "answer": "WHERE something happened is just as important as WHEN it happened and WHO was involved. Geography affects world travel, trade products, international news, business, and daily decisions.", "answer_vn": "N\u01a0I di\u1ec5n ra s\u1ef1 ki\u1ec7n c\u0169ng quan tr\u1ecdng nh\u01b0 TH\u1edcI GIAN v\u00e0 NH\u00c2N V\u1eacT tham gia. \u0110\u1ecba l\u00fd \u1ea3nh h\u01b0\u1edfng \u0111\u1ebfn di chuy\u1ec3n, giao th\u01b0\u01a1ng h\u00e0ng h\u00f3a qu\u1ed1c t\u1ebf v\u00e0 tin t\u1ee9c th\u1ebf gi\u1edbi.", "badge_color": "#ccfbf1", "badge_text_color": "#0f766e", "border_color": "#5eead4"}, {"id": 7, "category": "Origins of Humanity", "emoji": "\ud83c\udf31", "question": "What marks the beginning of human history?", "question_vn": "S\u1ef1 ki\u1ec7n n\u00e0o \u0111\u00e1nh d\u1ea5u s\u1ef1 kh\u1edfi \u0111\u1ea7u c\u1ee7a l\u1ecbch s\u1eed nh\u00e2n lo\u1ea1i?", "answer": "God's creation of Adam and Eve, the first man and woman, marks the beginning of human history.", "answer_vn": "S\u1ef1 ki\u1ec7n Thi\u00ean Ch\u00faa t\u1ea1o d\u1ef1ng n\u00ean Adam v\u00e0 Eva (ng\u01b0\u1eddi \u0111\u00e0n \u00f4ng v\u00e0 ph\u1ee5 n\u1eef \u0111\u1ea7u ti\u00ean) \u0111\u00e1nh d\u1ea5u \u0111i\u1ec3m kh\u1edfi \u0111\u1ea7u c\u1ee7a l\u1ecbch s\u1eed lo\u00e0i ng\u01b0\u1eddi.", "badge_color": "#dcfce7", "badge_text_color": "#15803d", "border_color": "#86efac"}, {"id": 8, "category": "Human Nature", "emoji": "\ud83d\udc51", "question": "What special abilities did God give only to mankind?", "question_vn": "Ch\u00faa \u0111\u00e3 ban nh\u1eefng kh\u1ea3 n\u0103ng \u0111\u1eb7c bi\u1ec7t n\u00e0o duy nh\u1ea5t cho con ng\u01b0\u1eddi?", "answer": "1) The ability to speak and think,\n2) The ability to choose right from wrong,\n3) The ability to communicate with God.", "answer_vn": "1) Kh\u1ea3 n\u0103ng t\u01b0 duy v\u00e0 ng\u00f4n ng\u1eef n\u00f3i,\n2) Kh\u1ea3 n\u0103ng ph\u00e2n bi\u1ec7t v\u00e0 ch\u1ecdn l\u1ef1a \u0111i\u1ec1u \u0111\u00fang - \u0111i\u1ec1u sai,\n3) Kh\u1ea3 n\u0103ng t\u01b0\u01a1ng giao, k\u1ebft n\u1ed1i v\u1edbi Thi\u00ean Ch\u00faa.", "badge_color": "#fef9c3", "badge_text_color": "#854d0e", "border_color": "#fde047"}, {"id": 9, "category": "Biblical History", "emoji": "\ud83c\udf0a", "question": "What two early events explain why history is filled with both tragedy and greatness?", "question_vn": "Hai bi\u1ebfn c\u1ed1 l\u1edbn th\u1eddi k\u1ef3 \u0111\u1ea7u gi\u1ea3i th\u00edch ngu\u1ed3n g\u1ed1c t\u1ed9i l\u1ed7i v\u00e0 bi k\u1ecbch trong l\u1ecbch s\u1eed?", "answer": "1) The sin (Fall) of Adam and Eve,\n2) The Great Flood sent over 1,600 years later to destroy wicked mankind, saving only Noah and his family.", "answer_vn": "1) T\u1ed9i l\u1ed7i (s\u1ef1 sa ng\u00e3) c\u1ee7a Adam v\u00e0 Eva,\n2) Tr\u1eadn \u0110\u1ea1i h\u1ed3ng th\u1ee7y x\u1ea3y ra h\u01a1n 1.600 n\u0103m sau h\u1ee7y di\u1ec7t nh\u00e2n lo\u1ea1i t\u1ed9i l\u1ed7i, ch\u1ec9 c\u00f3 gia \u0111\u00ecnh N\u00f4-\u00ea s\u1ed1ng s\u00f3t.", "badge_color": "#fee2e2", "badge_text_color": "#b91c1c", "border_color": "#fca5a5"}, {"id": 10, "category": "Hope in History", "emoji": "\ud83d\udd4a\ufe0f", "question": "What is the Promise of a Savior?", "question_vn": "L\u1eddi h\u1ee9a v\u1ec1 \u0110\u1ea5ng C\u1ee9u Th\u1ebf trong l\u1ecbch s\u1eed l\u00e0 g\u00ec?", "answer": "God's promise that He would send a Savior (Jesus Christ) to take away the sins of the world. His coming is the central turning point in human history.", "answer_vn": "L\u1eddi h\u1ee9a c\u1ee7a Ch\u00faa r\u1eb1ng Ng\u00e0i s\u1ebd ban \u0110\u1ea5ng C\u1ee9u Th\u1ebf (Ch\u00faa Gi\u00ea-su) \u0111\u1ec3 chu\u1ed9c t\u1ed9i l\u1ed7i nh\u00e2n lo\u1ea1i. \u0110\u00e2y l\u00e0 b\u01b0\u1edbc ngo\u1eb7t v\u0129 \u0111\u1ea1i nh\u1ea5t c\u1ee7a l\u1ecbch s\u1eed.", "badge_color": "#e0e7ff", "badge_text_color": "#3730a3", "border_color": "#a5b4fc"}, {"id": 11, "category": "Dating System", "emoji": "\u23f3", "question": "What does B.C. mean?", "question_vn": "K\u00fd hi\u1ec7u ni\u00ean \u0111\u1ea1i B.C. c\u00f3 ngh\u0129a l\u00e0 g\u00ec?", "answer": "B.C. stands for 'Before Christ'. The date 3000 B.C. means 3,000 years before the birth of Jesus Christ.", "answer_vn": "B.C. l\u00e0 vi\u1ebft t\u1eaft c\u1ee7a 'Before Christ' (Tr\u01b0\u1edbc Ch\u00faa Gi\u00e1ng Sinh / Tr\u01b0\u1edbc C\u00f4ng Nguy\u00ean). V\u00ed d\u1ee5: 3000 B.C. ngh\u0129a l\u00e0 3.000 n\u0103m tr\u01b0\u1edbc Ch\u00faa.", "badge_color": "#fef3c7", "badge_text_color": "#b45309", "border_color": "#fcd34d"}, {"id": 12, "category": "Dating System", "emoji": "\u2b50", "question": "What does A.D. mean?", "question_vn": "K\u00fd hi\u1ec7u ni\u00ean \u0111\u1ea1i A.D. c\u00f3 ngh\u0129a l\u00e0 g\u00ec?", "answer": "A.D. stands for 'anno Domini' (Latin for 'in the year of our Lord'). A.D. 2000 means 2,000 years after the birth of Christ.", "answer_vn": "A.D. l\u00e0 vi\u1ebft t\u1eaft c\u1ee7a c\u1ee5m t\u1eeb ti\u1ebfng Latinh 'anno Domini' (ngh\u0129a l\u00e0 'v\u00e0o n\u0103m c\u1ee7a Ch\u00faa' / Sau C\u00f4ng Nguy\u00ean).", "badge_color": "#dbeafe", "badge_text_color": "#1e40af", "border_color": "#93c5fd"}];
+    let cards = [...originalCards];
+    let currentIndex = 0;
+    let isFlipped = false;
+
+    function updateCard() {
+      const c = cards[currentIndex];
+      const cardElem = document.getElementById('flashcard');
+      const frontElem = document.getElementById('card-front');
+      const backElem = document.getElementById('card-back');
+
+      // Unflip first
+      isFlipped = false;
+      cardElem.classList.remove('flipped');
+
+      // Update contents
+      document.getElementById('f-tag').textContent = c.category;
+      document.getElementById('f-tag').style.background = c.badge_color;
+      document.getElementById('f-tag').style.color = c.badge_text_color;
+
+      document.getElementById('b-tag').textContent = c.category + ' — Ghi nhớ';
+      document.getElementById('b-tag').style.background = c.badge_color;
+      document.getElementById('b-tag').style.color = c.badge_text_color;
+
+      frontElem.style.borderColor = c.border_color;
+      backElem.style.borderColor = c.border_color;
+
+      document.getElementById('f-emoji').textContent = c.emoji;
+      document.getElementById('f-q').textContent = c.question;
+      document.getElementById('f-q-vn').textContent = c.question_vn;
+
+      document.getElementById('b-a').textContent = c.answer;
+      document.getElementById('b-a-vn').textContent = c.answer_vn;
+
+      // Update progress & counter
+      const progressPercent = ((currentIndex + 1) / cards.length) * 100;
+      document.getElementById('progress-bar').style.width = progressPercent + '%';
+      document.getElementById('card-counter').textContent = `Thẻ ${currentIndex + 1} / ${cards.length} (${c.category})`;
+    }
+
+    function toggleFlip() {
+      isFlipped = !isFlipped;
+      const cardElem = document.getElementById('flashcard');
+      if (isFlipped) {
+        cardElem.classList.add('flipped');
+      } else {
+        cardElem.classList.remove('flipped');
+      }
+    }
+
+    function nextCard() {
+      currentIndex = (currentIndex + 1) % cards.length;
+      updateCard();
+    }
+
+    function prevCard() {
+      currentIndex = (currentIndex - 1 + cards.length) % cards.length;
+      updateCard();
+    }
+
+    function shuffleCards() {
+      for (let i = cards.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [cards[i], cards[j]] = [cards[j], cards[i]];
+      }
+      currentIndex = 0;
+      updateCard();
+    }
+
+    function setMode(mode) {
+      const deckView = document.getElementById('deck-view');
+      const gridView = document.getElementById('grid-view');
+      const btnDeck = document.getElementById('btn-mode-deck');
+      const btnGrid = document.getElementById('btn-mode-grid');
+
+      if (mode === 'deck') {
+        deckView.style.display = 'flex';
+        gridView.style.display = 'none';
+        btnDeck.classList.add('active');
+        btnGrid.classList.remove('active');
+      } else {
+        deckView.style.display = 'none';
+        gridView.style.display = 'grid';
+        btnDeck.classList.remove('active');
+        btnGrid.classList.add('active');
+        renderGrid();
+      }
+    }
+
+    function renderGrid() {
+      const grid = document.getElementById('grid-view');
+      grid.innerHTML = '';
+      cards.forEach((c, idx) => {
+        const cardDiv = document.createElement('div');
+        cardDiv.className = 'grid-card';
+        cardDiv.style.borderColor = c.border_color;
+        cardDiv.innerHTML = `
+          <div>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="background:${c.badge_color}; color:${c.badge_text_color}; padding:3px 10px; border-radius:15px; font-size:12px; font-weight:700;">${c.category}</span>
+              <span style="font-size:24px;">${c.emoji}</span>
+            </div>
+            <div class="grid-card-q">${c.question}</div>
+            <div class="grid-card-q-vn">${c.question_vn}</div>
+          </div>
+          <div>
+            <div class="grid-card-a">${c.answer}</div>
+            <div class="grid-card-a-vn">👉 ${c.answer_vn}</div>
+          </div>
+        `;
+        grid.appendChild(cardDiv);
+      });
+    }
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+      if (document.getElementById('deck-view').style.display !== 'none') {
+        if (e.code === 'Space') {
+          e.preventDefault();
+          toggleFlip();
+        } else if (e.code === 'ArrowRight') {
+          nextCard();
+        } else if (e.code === 'ArrowLeft') {
+          prevCard();
+        }
+      }
+    });
+
+    // Init
+    updateCard();
+  </script>
+</body>
+</html>

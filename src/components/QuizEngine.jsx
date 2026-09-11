@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import confetti from 'canvas-confetti';
-import { HelpCircle, CheckCircle2, XCircle, RotateCcw, Award, BookOpen } from 'lucide-react';
+import { HelpCircle, CheckCircle2, XCircle, RotateCcw, Award, BookOpen, Globe, Layout } from 'lucide-react';
 
 export default function QuizEngine({ lesson }) {
   const [userAnswers, setUserAnswers] = useState({});
   const [showResults, setShowResults] = useState(false);
+  const [viewMode, setViewMode] = useState(lesson.quizHtmlUrl ? 'iframe' : 'react');
 
   const handleSelectOption = (qId, optionLetter) => {
     setUserAnswers((prev) => ({
@@ -15,7 +16,7 @@ export default function QuizEngine({ lesson }) {
 
   const calculateScore = () => {
     let score = 0;
-    lesson.quizData.forEach((q) => {
+    (lesson.quizData || []).forEach((q) => {
       if (userAnswers[q.id] === q.correct) {
         score += 1;
       }
@@ -26,7 +27,7 @@ export default function QuizEngine({ lesson }) {
   const handleFinish = () => {
     setShowResults(true);
     const finalScore = calculateScore();
-    if (finalScore >= Math.ceil(lesson.quizData.length * 0.7)) {
+    if (finalScore >= Math.ceil((lesson.quizData || []).length * 0.7)) {
       confetti({
         particleCount: 100,
         spread: 70,
@@ -41,7 +42,7 @@ export default function QuizEngine({ lesson }) {
   };
 
   return (
-    <div className="quiz-container">
+    <div className="quiz-container" style={{ maxWidth: '1100px', margin: '0 auto' }}>
       {/* Quiz Banner */}
       <div className="card" style={{ marginBottom: '24px', background: 'linear-gradient(135deg, #eef2ff 0%, #e0e7ff 100%)', border: '1px solid #c7d2fe' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '12px' }}>
@@ -55,15 +56,66 @@ export default function QuizEngine({ lesson }) {
             </p>
           </div>
 
-          {showResults && (
+          {lesson.quizHtmlUrl && (
+            <div style={{ display: 'flex', gap: '8px', background: '#ffffff', padding: '4px', borderRadius: '12px', border: '1px solid #c7d2fe' }}>
+              <button
+                onClick={() => setViewMode('iframe')}
+                style={{
+                  padding: '8px 14px',
+                  borderRadius: '8px',
+                  border: 'none',
+                  background: viewMode === 'iframe' ? '#4338ca' : 'transparent',
+                  color: viewMode === 'iframe' ? '#ffffff' : '#312e81',
+                  fontWeight: '800',
+                  cursor: 'pointer',
+                  fontSize: '0.85rem',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '6px'
+                }}
+              >
+                <Globe size={16} /> Trang HTML Gốc
+              </button>
+              <button
+                onClick={() => setViewMode('react')}
+                style={{
+                  padding: '8px 14px',
+                  borderRadius: '8px',
+                  border: 'none',
+                  background: viewMode === 'react' ? '#4338ca' : 'transparent',
+                  color: viewMode === 'react' ? '#ffffff' : '#312e81',
+                  fontWeight: '800',
+                  cursor: 'pointer',
+                  fontSize: '0.85rem',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '6px'
+                }}
+              >
+                <Layout size={16} /> Dạng Quiz React
+              </button>
+            </div>
+          )}
+
+          {showResults && viewMode === 'react' && (
             <div style={{ background: '#ffffff', padding: '10px 18px', borderRadius: '14px', boxShadow: '0 4px 10px rgba(0,0,0,0.05)', fontWeight: '800', color: '#16a34a', fontSize: '1.1rem' }}>
-              🎯 Kết Quả: {calculateScore()} / {lesson.quizData.length} Đúng
+              🎯 Kết Quả: {calculateScore()} / {(lesson.quizData || []).length} Đúng
             </div>
           )}
         </div>
       </div>
 
-      {/* Questions List */}
+      {viewMode === 'iframe' && lesson.quizHtmlUrl ? (
+        <div style={{ width: '100%', height: '850px', borderRadius: '24px', overflow: 'hidden', border: '2px solid #6366f1', boxShadow: '0 10px 30px rgba(0,0,0,0.08)', background: '#ffffff' }}>
+          <iframe 
+            src={lesson.quizHtmlUrl} 
+            title="Quiz HTML Standalone" 
+            style={{ width: '100%', height: '100%', border: 'none' }}
+          />
+        </div>
+      ) : (
+        <>
+        {/* Questions List */}
       {lesson.quizData.map((q, idx) => {
         const selected = userAnswers[q.id];
         const isAnswered = selected !== undefined;
@@ -133,10 +185,12 @@ export default function QuizEngine({ lesson }) {
         ) : (
           <button className="btn-primary" style={{ padding: '12px 32px', fontSize: '1.05rem', background: '#475569' }} onClick={handleReset}>
             <RotateCcw size={20} />
-            Làm Lai Bài Quiz
+            Làm Lại Bài Quiz
           </button>
         )}
       </div>
+      </>
+      )}
     </div>
   );
 }

@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz: Kiểm Tra Kiến Thức Lịch Sử &amp; Địa Lý (Trang 1 &amp; 2)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background: linear-gradient(135deg, #e0f2fe 0%, #fef9c3 50%, #fce7f3 100%);
+      font-family: 'Quicksand', 'Comic Sans MS', sans-serif;
+      color: #2d3748;
+      min-height: 100vh;
+      padding: 30px 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .quiz-container {
+      width: 100%;
+      max-width: 760px;
+    }
+    header {
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 25px 20px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+      border: 3px solid #7dd3fc;
+      margin-bottom: 25px;
+    }
+    .badge {
+      display: inline-block;
+      background-color: #e0f2fe;
+      color: #0369a1;
+      font-weight: 700;
+      font-size: 14px;
+      padding: 5px 14px;
+      border-radius: 50px;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 26px;
+      color: #1e3a8a;
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+    .subtitle {
+      color: #059669;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    /* Card Container */
+    .quiz-card {
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 30px 25px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+      border: 3px solid #bbf7d0;
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+    }
+    .progress-bar-container {
+      background: #e2e8f0;
+      height: 12px;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 15px;
+    }
+    .progress-bar {
+      height: 100%;
+      background: linear-gradient(90deg, #34d399, #38bdf8);
+      width: 10%;
+      transition: width 0.3s ease;
+    }
+    .meta-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px;
+      font-size: 15px;
+      font-weight: 700;
+      color: #64748b;
+    }
+    .score-badge {
+      background: #fef3c7;
+      color: #b45309;
+      padding: 4px 12px;
+      border-radius: 20px;
+    }
+
+    /* Question */
+    .question-title {
+      font-size: 22px;
+      font-weight: 800;
+      color: #1e3a8a;
+      line-height: 1.5;
+      margin-bottom: 8px;
+    }
+    .question-vn {
+      font-size: 16px;
+      font-weight: 600;
+      color: #64748b;
+      margin-bottom: 22px;
+      line-height: 1.5;
+    }
+
+    /* Options */
+    .options-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    .option-btn {
+      background: #f8fafc;
+      border: 2px solid #cbd5e1;
+      border-radius: 15px;
+      padding: 16px 20px;
+      font-size: 17px;
+      font-weight: 700;
+      color: #334155;
+      text-align: left;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-family: inherit;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .option-btn:hover:not(.disabled) {
+      background: #f0fdf4;
+      border-color: #86efac;
+      transform: translateX(4px);
+    }
+    .option-letter {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: #e2e8f0;
+      color: #475569;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      flex-shrink: 0;
+    }
+    .option-btn.correct {
+      background: #dcfce7 !important;
+      border-color: #22c55e !important;
+      color: #15803d !important;
+    }
+    .option-btn.correct .option-letter {
+      background: #22c55e;
+      color: #ffffff;
+    }
+    .option-btn.incorrect {
+      background: #fee2e2 !important;
+      border-color: #ef4444 !important;
+      color: #b91c1c !important;
+    }
+    .option-btn.incorrect .option-letter {
+      background: #ef4444;
+      color: #ffffff;
+    }
+    .option-btn.disabled {
+      cursor: default;
+    }
+
+    /* Feedback box */
+    .feedback-box {
+      display: none;
+      background: #f0fdf4;
+      border-left: 6px solid #22c55e;
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin-top: 15px;
+      animation: fadeIn 0.3s ease;
+    }
+    .feedback-box.wrong {
+      background: #fff1f2;
+      border-left-color: #f43f5e;
+    }
+    .feedback-title {
+      font-size: 18px;
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+    .feedback-title.correct-text {
+      color: #15803d;
+    }
+    .feedback-title.wrong-text {
+      color: #be123c;
+    }
+    .feedback-detail {
+      font-size: 16px;
+      color: #1e293b;
+      line-height: 1.5;
+      margin-bottom: 4px;
+    }
+    .feedback-detail-vn {
+      font-size: 15px;
+      color: #047857;
+      font-weight: 600;
+    }
+
+    /* Action bar */
+    .action-bar {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 20px;
+    }
+    .next-btn {
+      background: #0ea5e9;
+      color: #ffffff;
+      border: none;
+      padding: 14px 30px;
+      border-radius: 30px;
+      font-size: 17px;
+      font-weight: 800;
+      cursor: pointer;
+      box-shadow: 0 4px 14px rgba(14, 165, 233, 0.4);
+      transition: all 0.2s;
+      font-family: inherit;
+      display: none;
+    }
+    .next-btn:hover {
+      background: #0284c7;
+      transform: translateY(-2px);
+    }
+
+    /* Results Screen */
+    #results-card {
+      display: none;
+      text-align: center;
+      padding: 40px 25px;
+    }
+    .result-emoji {
+      font-size: 70px;
+      margin-bottom: 15px;
+    }
+    .result-score {
+      font-size: 48px;
+      font-weight: 900;
+      color: #1e3a8a;
+      margin-bottom: 10px;
+    }
+    .result-message {
+      font-size: 22px;
+      font-weight: 700;
+      color: #059669;
+      margin-bottom: 25px;
+    }
+    .restart-btn {
+      background: #10b981;
+      color: #ffffff;
+      border: none;
+      padding: 15px 36px;
+      border-radius: 35px;
+      font-size: 18px;
+      font-weight: 800;
+      cursor: pointer;
+      box-shadow: 0 6px 18px rgba(16, 185, 129, 0.4);
+      transition: all 0.2s;
+      font-family: inherit;
+    }
+    .restart-btn:hover {
+      background: #059669;
+      transform: translateY(-2px);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="quiz-container">
+    <header>
+      <span class="badge">📝 Interactive Comprehension Quiz</span>
+      <h1>🌟 BÀI TRẮC NGHIỆM ĐÁNH GIÁ KIẾN THỨC</h1>
+      <p class="subtitle">Old World History &amp; Geography — Trang 1 &amp; 2</p>
+    </header>
+
+    <!-- Quiz In-Progress Card -->
+    <div class="quiz-card" id="question-card">
+      <div class="progress-bar-container">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+
+      <div class="meta-row">
+        <span id="question-counter">Câu hỏi 1 / 10</span>
+        <span class="score-badge" id="live-score">Điểm: 0</span>
+      </div>
+
+      <div class="question-title" id="q-title">Question title in English</div>
+      <div class="question-vn" id="q-vn">Dịch nghĩa câu hỏi tiếng Việt</div>
+
+      <div class="options-list" id="options-container"></div>
+
+      <div class="feedback-box" id="feedback-box">
+        <div class="feedback-title" id="fb-title"></div>
+        <div class="feedback-detail" id="fb-detail"></div>
+        <div class="feedback-detail-vn" id="fb-detail-vn"></div>
+      </div>
+
+      <div class="action-bar">
+        <button class="next-btn" id="next-btn" onclick="nextQuestion()">Câu tiếp theo ➡️</button>
+      </div>
+    </div>
+
+    <!-- Results Card -->
+    <div class="quiz-card" id="results-card">
+      <div class="result-emoji" id="res-emoji">🏆</div>
+      <div class="result-score" id="res-score">10 / 10</div>
+      <div class="result-message" id="res-msg">Xuất sắc! Bạn đã nắm vững toàn bộ bài học!</div>
+      <button class="restart-btn" onclick="restartQuiz()">🔄 Làm lại bài kiểm tra</button>
+    </div>
+
+  </div>
+
+  <script>
+    const questions = [{"id": 1, "question": "What do we call the written record of mankind?", "question_vn": "Ch\u00fang ta g\u1ecdi b\u1ea3n ghi ch\u00e9p b\u1eb1ng ch\u1eef vi\u1ebft c\u1ee7a nh\u00e2n lo\u1ea1i l\u00e0 g\u00ec?", "options": ["Geography (\u0110\u1ecba l\u00fd)", "History (L\u1ecbch s\u1eed)", "Archaeology (Kh\u1ea3o c\u1ed5 h\u1ecdc)", "Science (Khoa h\u1ecdc)"], "correctIndex": 1, "explanation": "History is the written record of mankind. It is the true story of what man has done with the time God has given him.", "explanation_vn": "L\u1ecbch s\u1eed ch\u00ednh l\u00e0 b\u1ea3n ghi ch\u00e9p b\u1eb1ng ch\u1eef vi\u1ebft c\u1ee7a nh\u00e2n lo\u1ea1i, c\u00e2u chuy\u1ec7n th\u1eadt v\u1ec1 nh\u1eefng g\u00ec con ng\u01b0\u1eddi \u0111\u00e3 l\u00e0m v\u1edbi th\u1eddi gian Ch\u00faa ban cho."}, {"id": 2, "question": "What is the study of the earth's surface called?", "question_vn": "M\u00f4n h\u1ecdc nghi\u00ean c\u1ee9u b\u1ec1 m\u1eb7t tr\u00e1i \u0111\u1ea5t (ch\u00e2u l\u1ee5c, \u0111\u1ea1i d\u01b0\u01a1ng, s\u00f4ng n\u00fai, h\u1ea3i \u0111\u1ea3o) \u0111\u01b0\u1ee3c g\u1ecdi l\u00e0 g\u00ec?", "options": ["History (L\u1ecbch s\u1eed)", "Astronomy (Thi\u00ean v\u0103n h\u1ecdc)", "Geography (\u0110\u1ecba l\u00fd)", "Geology (\u0110\u1ecba ch\u1ea5t h\u1ecdc)"], "correctIndex": 2, "explanation": "Geography is the study of the earth's surface \u2014 the continents, oceans, rivers, mountains, islands, and other features that are God's gift to mankind.", "explanation_vn": "\u0110\u1ecba l\u00fd l\u00e0 m\u00f4n nghi\u00ean c\u1ee9u b\u1ec1 m\u1eb7t tr\u00e1i \u0111\u1ea5t \u2014 c\u00e1c ch\u00e2u l\u1ee5c, \u0111\u1ea1i d\u01b0\u01a1ng, s\u00f4ng ng\u00f2i, n\u00fai non, h\u1ea3i \u0111\u1ea3o v\u00e0 c\u00e1c \u0111\u1eb7c \u0111i\u1ec3m t\u1ef1 nhi\u00ean kh\u00e1c."}, {"id": 3, "question": "Which continents make up the 'Old World'?", "question_vn": "Nh\u1eefng ch\u00e2u l\u1ee5c n\u00e0o t\u1ea1o n\u00ean 'C\u1ef1u Th\u1ebf Gi\u1edbi' (Old World)?", "options": ["North America, South America, and Europe", "Asia, Africa, Europe, Australia, and Antarctica", "Asia, Europe, and North America only", "Africa, Australia, and South America"], "correctIndex": 1, "explanation": "The Old World consists of the continents of Asia, Africa, Europe, Australia, and Antarctica.", "explanation_vn": "C\u1ef1u Th\u1ebf Gi\u1edbi g\u1ed3m 5 ch\u00e2u l\u1ee5c: Ch\u00e2u \u00c1, Ch\u00e2u Phi, Ch\u00e2u \u00c2u, Ch\u00e2u \u00dac (Australia) v\u00e0 Ch\u00e2u Nam C\u1ef1c."}, {"id": 4, "question": "On which continent did human history begin?", "question_vn": "L\u1ecbch s\u1eed lo\u00e0i ng\u01b0\u1eddi b\u1eaft \u0111\u1ea7u t\u1eeb ch\u00e2u l\u1ee5c n\u00e0o?", "options": ["Europe (Ch\u00e2u \u00c2u)", "Africa (Ch\u00e2u Phi)", "Asia (Ch\u00e2u \u00c1)", "North America (B\u1eafc M\u1ef9)"], "correctIndex": 2, "explanation": "Asia is the continent where history began.", "explanation_vn": "Ch\u00e2u \u00c1 l\u00e0 ch\u00e2u l\u1ee5c n\u01a1i l\u1ecbch s\u1eed nh\u00e2n lo\u1ea1i b\u1eaft \u0111\u1ea7u."}, {"id": 5, "question": "What continents make up the 'New World'?", "question_vn": "'T\u00e2n Th\u1ebf Gi\u1edbi' (New World) g\u1ed3m c\u00e1c ch\u00e2u l\u1ee5c n\u00e0o?", "options": ["North and South America (B\u1eafc M\u1ef9 v\u00e0 Nam M\u1ef9)", "Australia and Antarctica (Ch\u00e2u \u00dac v\u00e0 Nam C\u1ef1c)", "Europe and Asia (Ch\u00e2u \u00c2u v\u00e0 Ch\u00e2u \u00c1)", "Africa and Madagascar (Ch\u00e2u Phi v\u00e0 Madagascar)"], "correctIndex": 0, "explanation": "The New World refers to North and South America, which were discovered and settled after the Old World.", "explanation_vn": "T\u00e2n Th\u1ebf Gi\u1edbi l\u00e0 B\u1eafc v\u00e0 Nam M\u1ef9, \u0111\u01b0\u1ee3c kh\u00e1m ph\u00e1 v\u00e0 \u0111\u1ecbnh c\u01b0 sau c\u00e1c bi\u1ebfn c\u1ed1 \u1edf C\u1ef1u Th\u1ebf Gi\u1edbi."}, {"id": 6, "question": "What event marks the beginning of human history?", "question_vn": "S\u1ef1 ki\u1ec7n n\u00e0o \u0111\u00e1nh d\u1ea5u s\u1ef1 kh\u1edfi \u0111\u1ea7u c\u1ee7a l\u1ecbch s\u1eed lo\u00e0i ng\u01b0\u1eddi?", "options": ["The invention of writing (S\u1ef1 ph\u00e1t minh ra ch\u1eef vi\u1ebft)", "The building of the Pyramids (Vi\u1ec7c x\u00e2y d\u1ef1ng Kim t\u1ef1 th\u00e1p)", "God's creation of Adam and Eve (Thi\u00ean Ch\u00faa t\u1ea1o d\u1ef1ng Adam v\u00e0 Eva)", "The discovery of fire (Vi\u1ec7c t\u00ecm ra l\u1eeda)"], "correctIndex": 2, "explanation": "God's creation of Adam and Eve, the first man and woman, marks the beginning of human history.", "explanation_vn": "Vi\u1ec7c Thi\u00ean Ch\u00faa t\u1ea1o d\u1ef1ng Adam v\u00e0 Eva (ng\u01b0\u1eddi nam v\u00e0 ng\u01b0\u1eddi n\u1eef \u0111\u1ea7u ti\u00ean) \u0111\u00e1nh d\u1ea5u kh\u1edfi \u0111\u1ea7u l\u1ecbch s\u1eed lo\u00e0i ng\u01b0\u1eddi."}, {"id": 7, "question": "Which of the following abilities did God give ONLY to mankind?", "question_vn": "Ch\u00faa \u0111\u00e3 ban nh\u1eefng kh\u1ea3 n\u0103ng \u0111\u1eb7c bi\u1ec7t n\u00e0o duy nh\u1ea5t cho con ng\u01b0\u1eddi m\u00e0 lo\u00e0i v\u1eadt kh\u00f4ng c\u00f3?", "options": ["The ability to fly and swim underwater", "The ability to speak, think, choose right from wrong, and communicate with God", "The ability to see in the dark and hunt", "The ability to live forever without eating"], "correctIndex": 1, "explanation": "God gave man special abilities given to no other creature on earth: the ability to speak and think, to choose right from wrong, and to communicate with God.", "explanation_vn": "Ch\u00faa ban cho con ng\u01b0\u1eddi: kh\u1ea3 n\u0103ng n\u00f3i v\u00e0 suy ngh\u0129, kh\u1ea3 n\u0103ng ph\u00e2n bi\u1ec7t v\u00e0 l\u1ef1a ch\u1ecdn \u0111\u00fang sai, v\u00e0 kh\u1ea3 n\u0103ng t\u01b0\u01a1ng giao v\u1edbi Ch\u00faa."}, {"id": 8, "question": "Why is where something happened just as important as when and who in history?", "question_vn": "T\u1ea1i sao 'N\u01a0I CH\u1ed0N' di\u1ec5n ra s\u1ef1 ki\u1ec7n l\u1ea1i quan tr\u1ecdng kh\u00f4ng k\u00e9m 'TH\u1edcI GIAN' v\u00e0 'CON NG\u01af\u1edcI'?", "options": ["Because geography influences cultures, trade routes, travel, and God's historical plans", "Because maps are more colorful than history books", "Because people only lived in one city in ancient times", "Because history cannot be written without drawing mountains"], "correctIndex": 0, "explanation": "Generally, where something happened in history is just as important as when it happened and who was involved. Geographic locations (like Israel's central position or the Nile in Egypt) shaped history and culture.", "explanation_vn": "N\u01a1i ch\u1ed1n \u1ea3nh h\u01b0\u1edfng l\u1edbn \u0111\u1ebfn v\u0103n h\u00f3a, l\u1ed1i s\u1ed1ng v\u00e0 c\u00e1c k\u1ebf ho\u1ea1ch l\u1ecbch s\u1eed (v\u00ed d\u1ee5 v\u1ecb tr\u00ed trung t\u00e2m c\u1ee7a Israel hay s\u00f4ng Nin \u0111\u1ed1i v\u1edbi Ai C\u1eadp)."}, {"id": 9, "question": "What does the abbreviation 'B.C.' stand for?", "question_vn": "K\u00fd hi\u1ec7u 'B.C.' trong ni\u00ean \u0111\u1ea1i l\u1ecbch s\u1eed c\u00f3 ngh\u0129a l\u00e0 g\u00ec?", "options": ["Before Centuries (Tr\u01b0\u1edbc c\u00e1c th\u1ebf k\u1ef7)", "Before Creation (Tr\u01b0\u1edbc s\u1ef1 s\u00e1ng t\u1ea1o)", "Before Christ (Tr\u01b0\u1edbc Ch\u00faa Gi\u00e1ng Sinh / Tr\u01b0\u1edbc C\u00f4ng Nguy\u00ean)", "Beginning Calendar (B\u1eaft \u0111\u1ea7u l\u1ecbch)"], "correctIndex": 2, "explanation": "The letters B.C. with a date mean 'Before Christ.' The date 3000 B.C. means 3,000 years before Christ.", "explanation_vn": "B.C. l\u00e0 vi\u1ebft t\u1eaft c\u1ee7a 'Before Christ' (Tr\u01b0\u1edbc Ch\u00faa Gi\u00e1ng Sinh). V\u00ed d\u1ee5: 3000 B.C. ngh\u0129a l\u00e0 3.000 n\u0103m tr\u01b0\u1edbc Ch\u00faa."}, {"id": 10, "question": "What does the abbreviation 'A.D.' stand for and translate to in English?", "question_vn": "K\u00fd hi\u1ec7u 'A.D.' b\u1eaft ngu\u1ed3n t\u1eeb c\u1ee5m t\u1eeb ti\u1ebfng Latin n\u00e0o v\u00e0 c\u00f3 ngh\u0129a l\u00e0 g\u00ec?", "options": ["After Death, meaning after the disciple died", "Anno Domini, meaning 'in the year of our Lord'", "All Days, meaning every day of the calendar", "Ancient Days, meaning centuries ago"], "correctIndex": 1, "explanation": "The letters A.D. stand for 'anno Domini', which is Latin for 'in the year of our Lord.' The date A.D. 2000 means 2,000 years after the birth of Christ.", "explanation_vn": "A.D. l\u00e0 vi\u1ebft t\u1eaft c\u1ee7a ti\u1ebfng Latinh 'anno Domini', ngh\u0129a l\u00e0 'v\u00e0o n\u0103m c\u1ee7a Ch\u00faa' (Sau C\u00f4ng Nguy\u00ean)."}];
+    let currentIndex = 0;
+    let score = 0;
+    let answered = false;
+
+    const letters = ['A', 'B', 'C', 'D'];
+
+    function loadQuestion() {
+      answered = false;
+      const q = questions[currentIndex];
+      
+      // Update header info
+      document.getElementById('question-counter').textContent = `Câu hỏi ${currentIndex + 1} / ${questions.length}`;
+      document.getElementById('live-score').textContent = `Điểm: ${score}`;
+      document.getElementById('progress-bar').style.width = `${((currentIndex + 1) / questions.length) * 100}%`;
+
+      // Update question text
+      document.getElementById('q-title').textContent = q.question;
+      document.getElementById('q-vn').textContent = q.question_vn;
+
+      // Hide feedback & next button
+      const fbBox = document.getElementById('feedback-box');
+      fbBox.style.display = 'none';
+      fbBox.className = 'feedback-box';
+      document.getElementById('next-btn').style.display = 'none';
+
+      // Render options
+      const optContainer = document.getElementById('options-container');
+      optContainer.innerHTML = '';
+
+      q.options.forEach((opt, idx) => {
+        const btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.innerHTML = `
+          <span class="option-letter">${letters[idx]}</span>
+          <span>${opt}</span>
+        `;
+        btn.onclick = () => selectOption(idx);
+        optContainer.appendChild(btn);
+      });
+    }
+
+    function selectOption(selectedIdx) {
+      if (answered) return;
+      answered = true;
+
+      const q = questions[currentIndex];
+      const optButtons = document.querySelectorAll('.option-btn');
+
+      optButtons.forEach(b => b.classList.add('disabled'));
+
+      const fbBox = document.getElementById('feedback-box');
+      const fbTitle = document.getElementById('fb-title');
+      const fbDetail = document.getElementById('fb-detail');
+      const fbDetailVn = document.getElementById('fb-detail-vn');
+
+      if (selectedIdx === q.correctIndex) {
+        score++;
+        document.getElementById('live-score').textContent = `Điểm: ${score}`;
+        optButtons[selectedIdx].classList.add('correct');
+        fbBox.className = 'feedback-box';
+        fbTitle.className = 'feedback-title correct-text';
+        fbTitle.textContent = '🎉 Chính xác! (Correct!)';
+      } else {
+        optButtons[selectedIdx].classList.add('incorrect');
+        optButtons[q.correctIndex].classList.add('correct');
+        fbBox.className = 'feedback-box wrong';
+        fbTitle.className = 'feedback-title wrong-text';
+        fbTitle.textContent = '❌ Chưa chính xác! (Incorrect)';
+      }
+
+      fbDetail.textContent = '📖 Trích sách: ' + q.explanation;
+      fbDetailVn.textContent = '👉 Giải nghĩa: ' + q.explanation_vn;
+      fbBox.style.display = 'block';
+
+      const nextBtn = document.getElementById('next-btn');
+      if (currentIndex === questions.length - 1) {
+        nextBtn.textContent = 'Xem kết quả 🎉';
+      } else {
+        nextBtn.textContent = 'Câu tiếp theo ➡️';
+      }
+      nextBtn.style.display = 'inline-block';
+    }
+
+    function nextQuestion() {
+      if (currentIndex < questions.length - 1) {
+        currentIndex++;
+        loadQuestion();
+      } else {
+        showResults();
+      }
+    }
+
+    function showResults() {
+      document.getElementById('question-card').style.display = 'none';
+      const resCard = document.getElementById('results-card');
+      resCard.style.display = 'block';
+
+      const resScore = document.getElementById('res-score');
+      const resMsg = document.getElementById('res-msg');
+      const resEmoji = document.getElementById('res-emoji');
+
+      resScore.textContent = `${score} / ${questions.length}`;
+
+      if (score === questions.length) {
+        resEmoji.textContent = '🏆';
+        resMsg.textContent = 'Tuyệt đối 100%! Bạn là một thiên tài Lịch sử & Địa lý!';
+      } else if (score >= 8) {
+        resEmoji.textContent = '🌟';
+        resMsg.textContent = 'Xuất sắc! Bạn đã nắm vững hầu hết các kiến thức trọng tâm!';
+      } else if (score >= 5) {
+        resEmoji.textContent = '👍';
+        resMsg.textContent = 'Khá tốt! Hãy ôn lại thẻ học tập (Flashcards) để đạt điểm cao hơn nhé!';
+      } else {
+        resEmoji.textContent = '💪';
+        resMsg.textContent = 'Cố gắng lên nhé! Hãy đọc lại tài liệu và thử sức lại nào!';
+      }
+    }
+
+    function restartQuiz() {
+      currentIndex = 0;
+      score = 0;
+      document.getElementById('results-card').style.display = 'none';
+      document.getElementById('question-card').style.display = 'block';
+      loadQuestion();
+    }
+
+    // Init
+    loadQuestion();
+  </script>
+</body>
+</html>
