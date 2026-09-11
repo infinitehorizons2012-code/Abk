@@ -27,7 +27,7 @@ export default function App() {
       <header className="header-banner">
         <div className="header-top">
           <span style={{ background: '#4338ca', color: '#ffffff', padding: '4px 14px', borderRadius: '20px', fontSize: '0.82rem', fontWeight: '800', display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
-            <Sparkles size={14} color="#fbbf24" /> Phiên bản v11.0 (Chuẩn Google Doc 100%)
+            <Sparkles size={14} color="#fbbf24" /> Phiên bản v11.1 (Chuẩn Google Doc 100%)
           </span>
           <span style={{ fontSize: '0.85rem', color: '#c7d2fe', fontWeight: '600' }}>
             NotebookLM RAG Hub: <a href="https://notebook.google.com/notebook/a6e74d47-7b28-4adc-b2c4-fc9c9feca0d7" target="_blank" rel="noreferrer" style={{ color: '#fbbf24', textDecoration: 'underline' }}>Notebook Link</a>
