@@ -14,16 +14,6 @@ export default function BookIdentificationViewer({ lesson }) {
 
   return (
     <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
-      {/* Header Banner */}
-      <div className="card" style={{ marginBottom: '20px', background: 'linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%)', border: '1px solid #0284c7' }}>
-        <h2 style={{ fontSize: '1.4rem', color: '#0369a1', display: 'flex', alignItems: 'center', gap: '10px' }}>
-          <BookOpen color="#0284c7" size={26} />
-          Báo Cáo Nhận Diện Sách & Hướng Dẫn Thực Hành (Book Identification & Guide)
-        </h2>
-        <p style={{ fontSize: '0.88rem', color: '#075985', marginTop: '4px' }}>
-          Chi tiết nhận diện từng trang sách giáo khoa, mục bài tập trên lớp và nhiệm vụ tự học sau video.
-        </p>
-      </div>
 
       {/* Summary Info Cards Grid */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '12px', marginBottom: '24px' }}>

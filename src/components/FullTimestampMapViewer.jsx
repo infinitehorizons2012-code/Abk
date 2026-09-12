@@ -12,16 +12,6 @@ export default function FullTimestampMapViewer({ lesson, onSelectTimestamp }) {
 
   return (
     <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
-      {/* Header Banner */}
-      <div className="card" style={{ marginBottom: '20px', background: 'linear-gradient(135deg, #fef3c7 0%, #fde68a 100%)', border: '1px solid #f59e0b' }}>
-        <h2 style={{ fontSize: '1.4rem', color: '#92400e', display: 'flex', alignItems: 'center', gap: '10px' }}>
-          <Map color="#d97706" size={26} />
-          Bảng Phân Đoạn Thời Gian Video Với Sách Giáo Khoa (Video-to-Book Timestamp Map)
-        </h2>
-        <p style={{ fontSize: '0.88rem', color: '#b45309', marginTop: '4px' }}>
-          Bảng tra cứu mốc thời gian từng phút bài giảng kết nối trực tiếp với trang sách giáo khoa Abeka.
-        </p>
-      </div>
 
       {/* Timeline Table Card */}
       <div className="card">
