@@ -73,8 +73,8 @@ def normalize_quiz_data(raw_quiz):
         if not isinstance(q, dict):
             continue
         qid = q.get("id") or q.get("qNum") or f"q{idx+1}"
-        question = q.get("question") or q.get("qText") or ""
-        options = q.get("options") or q.get("opts") or []
+        question = q.get("question") or q.get("qText") or q.get("q") or ""
+        options = q.get("options") or q.get("opts") or q.get("choices") or []
         correct = q.get("correct") or q.get("ans") or q.get("correct_answer") or "A"
         explanation = q.get("explanation") or q.get("exp") or ""
         textbook_ref = q.get("textbook_page_reference") or q.get("bookRef") or ""
@@ -88,6 +88,65 @@ def normalize_quiz_data(raw_quiz):
             "textbook_page_reference": textbook_ref
         })
     return norm
+
+def extract_fallback_flashcards(ubd_data):
+    if not ubd_data or not isinstance(ubd_data, dict):
+        return []
+    cards = []
+    stage1 = ubd_data.get("stage1_desired_results", {})
+    taxonomy = stage1.get("skill_taxonomy") or ubd_data.get("skill_taxonomy") or []
+    for item in taxonomy:
+        if isinstance(item, dict):
+            cards.append({
+                "term": item.get("level_name") or item.get("levelName") or "Skill Level",
+                "category": "Skill Taxonomy",
+                "definition": item.get("competency_desc") or item.get("desc") or "",
+                "memoryTip": item.get("lesson_illustration") or item.get("illustration") or ""
+            })
+    takeaways = ubd_data.get("key_takeaways", [])
+    for item in takeaways:
+        if isinstance(item, dict):
+            cards.append({
+                "term": item.get("title") or "Key Takeaway",
+                "category": "Key Takeaway",
+                "definition": item.get("desc") or item.get("description") or "",
+                "memoryTip": "Trọng tâm bài học UbD"
+            })
+    return cards
+
+def extract_fallback_slides(ubd_data, subj_clean, day_num, grade):
+    if not ubd_data or not isinstance(ubd_data, dict):
+        return []
+    slides = []
+    meta = ubd_data.get("meta", {})
+    stage1 = ubd_data.get("stage1_desired_results", {})
+    taxonomy = stage1.get("skill_taxonomy") or ubd_data.get("skill_taxonomy") or []
+    
+    slides.append({
+        "slideNumber": 1,
+        "title": f"Tổng Quan Bài Học {subj_clean} (Bài {day_num:03d})",
+        "tag": f"{grade} Overview",
+        "bulletPoints": [
+            f"Giáo viên: {meta.get('teacher', 'Abeka Academy Teacher')}",
+            f"Sách giáo khoa: {meta.get('textbook', f'{subj_clean} Work-text')}",
+            f"Tài liệu hướng dẫn: {meta.get('supplementary', 'Video Manual')}",
+            f"Thời lượng bài giảng: {meta.get('duration', 'Theo Abeka Video')}"
+        ],
+        "keyTakeaway": f"Dụng cụ cần thiết: {meta.get('supplies', 'Sách bài tập và bút chì')}"
+    })
+    
+    for idx, item in enumerate(taxonomy):
+        if isinstance(item, dict):
+            slides.append({
+                "slideNumber": idx + 2,
+                "title": item.get("level_name") or f"Tầng bậc nhận thức {idx+1}",
+                "tag": "Skill Taxonomy",
+                "bulletPoints": [
+                    item.get("competency_desc") or ""
+                ],
+                "keyTakeaway": item.get("lesson_illustration") or ""
+            })
+    return slides
 
 def process_subject_folder(subj_path, grade, day_str, day_num, subj_clean, legacy_key):
     book_data = {}
@@ -127,7 +186,12 @@ def process_subject_folder(subj_path, grade, day_str, day_num, subj_clean, legac
     quiz_data = normalize_quiz_data(raw_quiz)
 
     flashcards = interactive_data.get("flashcards", [])
+    if not flashcards and ubd_data:
+        flashcards = extract_fallback_flashcards(ubd_data)
+
     slides = interactive_data.get("slides", [])
+    if not slides and ubd_data:
+        slides = extract_fallback_slides(ubd_data, subj_clean, day_num, grade)
 
     has_any_json = bool(book_data or ubd_data or interactive_data)
     teacher = book_id.get("teacher") or book_data.get("teacher") or ("Abeka Academy Teacher" if has_any_json else "")
@@ -204,11 +268,11 @@ def main():
 
     print(f"Total compiled lessons: {len(all_lessons)}")
 
-    # Print statistics for Grade 5 Day 1, 2, 3
-    for k in ['arithmetic-5', 'g5-d001-spelling-5', 'g5-d002-spelling-5', 'g5-d003-arithmetic-5']:
+    # Print statistics for Grade 3 Day 1 Arithmetic 3 & Grade 5 Day 1, 2, 3
+    for k in ['arithmetic-5', 'g3-d001-arithmetic-3', 'g5-d001-spelling-5', 'g5-d002-spelling-5', 'g5-d003-arithmetic-5']:
         if k in all_lessons:
             item = all_lessons[k]
-            print(f"Key: {k:25s} | Subj: {item['subject']:22s} | TS: {len(item['timestampMap']):2d} | Quiz: {len(item['quizData']):2d}")
+            print(f"Key: {k:25s} | Subj: {item['subject']:22s} | TS: {len(item['timestampMap']):2d} | Quiz: {len(item['quizData']):2d} | Flash: {len(item['flashcards']):2d} | Slides: {len(item['slides']):2d}")
 
     js_content = f"export const LESSONS_DATA = {json.dumps(all_lessons, ensure_ascii=False, indent=2)};\n"
 

@@ -35170,8 +35170,100 @@ export const LESSONS_DATA = {
         ]
       }
     },
-    "flashcards": [],
-    "slides": [],
+    "flashcards": [
+      {
+        "term": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Nhận biết và định nghĩa đúng các từ vựng khoa học cơ bản: Science, Scientist, Observe, Hypothesis, Data, Order, Experiment; sử dụng các giác quan để quan sát sự vật.",
+        "memoryTip": "Ví dụ: Học sinh dùng kính lúp quan sát gân lá hoặc cánh bướm trên tranh bìa sách."
+      },
+      {
+        "term": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Nắm vững định nghĩa \"Science is studying God's world\"; hiểu rằng vũ trụ vận hành theo trật tự hoàn hảo (Order) do Đấng Tạo Hóa thiết lập; nhớ đúng 4 bước của Phương pháp khoa học (The Scientific Method).",
+        "memoryTip": "Ví dụ: Giải thích được giả thuyết (hypothesis) là một \"dự đoán hợp lý\" (sensible guess) chứ không phải đoán mò."
+      },
+      {
+        "term": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Áp dụng 4 bước của Phương pháp khoa học vào các tình huống khám phá đơn giản: Quan sát hiện tượng -> Đặt câu hỏi -> Nêu giả thuyết -> Làm thí nghiệm thu thập dữ liệu -> Rút ra kết luận.",
+        "memoryTip": "Ví dụ: Tự thiết kế thí nghiệm nhỏ quan sát hạt mầm đậu nảy mầm trong điều kiện có nước và không có nước."
+      },
+      {
+        "term": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Ý thức được rằng trí tò mò khám phá là món quà Chúa ban tặng; tự rà soát dữ liệu thu thập được để kiểm chứng xem giả thuyết ban đầu của mình đúng hay sai mà không thiên vị.",
+        "memoryTip": "Ví dụ: Sẵn sàng điều chỉnh kết luận khi số liệu thực tế khác với dự đoán ban đầu."
+      },
+      {
+        "term": "Bản chất của Khoa học",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Vũ trụ có trật tự (Order)",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Phương pháp khoa học 4 bước",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      }
+    ],
+    "slides": [
+      {
+        "slideNumber": 1,
+        "title": "Tổng Quan Bài Học Science-Health 3 (Bài 001)",
+        "tag": "Grade 3 Overview",
+        "bulletPoints": [
+          "Giáo viên: Miss Boyd",
+          "Sách giáo khoa: Exploring God's World (Trang xi–xiv, 1–5)",
+          "Tài liệu hướng dẫn: Exploring God's World Answer Key to Text Questions, Lesson Plans Homeschool Science and Health 3",
+          "Thời lượng bài giảng: 21 phút 52 giây"
+        ],
+        "keyTakeaway": "Dụng cụ cần thiết: Sách Exploring God's World, bút chì"
+      },
+      {
+        "slideNumber": 2,
+        "title": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Nhận biết và định nghĩa đúng các từ vựng khoa học cơ bản: Science, Scientist, Observe, Hypothesis, Data, Order, Experiment; sử dụng các giác quan để quan sát sự vật."
+        ],
+        "keyTakeaway": "Ví dụ: Học sinh dùng kính lúp quan sát gân lá hoặc cánh bướm trên tranh bìa sách."
+      },
+      {
+        "slideNumber": 3,
+        "title": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Nắm vững định nghĩa \"Science is studying God's world\"; hiểu rằng vũ trụ vận hành theo trật tự hoàn hảo (Order) do Đấng Tạo Hóa thiết lập; nhớ đúng 4 bước của Phương pháp khoa học (The Scientific Method)."
+        ],
+        "keyTakeaway": "Ví dụ: Giải thích được giả thuyết (hypothesis) là một \"dự đoán hợp lý\" (sensible guess) chứ không phải đoán mò."
+      },
+      {
+        "slideNumber": 4,
+        "title": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Áp dụng 4 bước của Phương pháp khoa học vào các tình huống khám phá đơn giản: Quan sát hiện tượng -> Đặt câu hỏi -> Nêu giả thuyết -> Làm thí nghiệm thu thập dữ liệu -> Rút ra kết luận."
+        ],
+        "keyTakeaway": "Ví dụ: Tự thiết kế thí nghiệm nhỏ quan sát hạt mầm đậu nảy mầm trong điều kiện có nước và không có nước."
+      },
+      {
+        "slideNumber": 5,
+        "title": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Ý thức được rằng trí tò mò khám phá là món quà Chúa ban tặng; tự rà soát dữ liệu thu thập được để kiểm chứng xem giả thuyết ban đầu của mình đúng hay sai mà không thiên vị."
+        ],
+        "keyTakeaway": "Ví dụ: Sẵn sàng điều chỉnh kết luận khi số liệu thực tế khác với dự đoán ban đầu."
+      }
+    ],
     "quizData": [
       {
         "id": "q1",
@@ -35560,8 +35652,100 @@ export const LESSONS_DATA = {
         ]
       }
     },
-    "flashcards": [],
-    "slides": [],
+    "flashcards": [
+      {
+        "term": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Đếm cách 10 đến 100, đếm cách 5 đến 60; phản xạ nhanh bảng cộng trừ trong phạm vi 18 qua thẻ Flashcard; nhận biết kim ngắn (giờ) và kim dài (phút).",
+        "memoryTip": "Ví dụ: Đứng lên trả lời nhanh phép tính 9 + 8 = 17 trong trò chơi Popcorn Flashcard."
+      },
+      {
+        "term": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Nắm vững 4 hàng giá trị vị trí chữ số: Hàng đơn vị (Ones), Hàng chục (Tens), Hàng trăm (Hundreds), Hàng nghìn (Thousands); hiểu quy tắc đặt dấu phẩy (\"The comma says thousand\"); chuyển đổi thành thạo từ dạng tổng khai triển (Expanded form) sang dạng số chuẩn (Standard form); thuộc bảng quy đổi thời gian.",
+        "memoryTip": "Ví dụ: Hiểu rằng chữ số 0 trong số 4,000 đóng vai trò giữ chỗ (place holder) cho hàng trăm, chục và đơn vị."
+      },
+      {
+        "term": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Đọc chính xác giờ trên đồng hồ kim đến từng khoảng 5 phút; phân biệt hoạt động diễn ra vào giờ AM (sáng) và PM (chiều/tối); giải quyết các bài tập phân tích chữ số khoanh tròn trong sách Arithmetic 3 trang 1-2.",
+        "memoryTip": "Ví dụ: Xác định đúng thời điểm 9:05 trên mặt đồng hồ lớp học."
+      },
+      {
+        "term": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Tự rà soát tính hợp lý của số chữ số khi viết số có chứa số 0 giữ chỗ; tự kiểm tra thứ tự kim giờ và kim phút khi xem đồng hồ để tránh nhầm lẫn.",
+        "memoryTip": "Ví dụ: Khi viết \"ba nghìn linh ba\", học sinh tự đếm lại xem đã đủ 4 chữ số (3,003) chưa thay vì viết vội 33."
+      },
+      {
+        "term": "Hệ giá trị vị trí đến hàng nghìn",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Quy tắc dấu phẩy hàng nghìn",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Đơn vị đo thời gian & Xem đồng hồ",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      }
+    ],
+    "slides": [
+      {
+        "slideNumber": 1,
+        "title": "Tổng Quan Bài Học Arithmetic 3 (Bài 001)",
+        "tag": "Grade 3 Overview",
+        "bulletPoints": [
+          "Giáo viên: Miss Boyd",
+          "Sách giáo khoa: Arithmetic 3 Work-text (Trang 1 – 2)",
+          "Tài liệu hướng dẫn: Addition/Subtraction Flashcards, Teaching Clock, Teacher Key, Lesson Plans Homeschool Arithmetic 3",
+          "Thời lượng bài giảng: 42 phút 30 giây"
+        ],
+        "keyTakeaway": "Dụng cụ cần thiết: Sách Arithmetic 3 Work-text, bút chì gọt sẵn, giấy nháp"
+      },
+      {
+        "slideNumber": 2,
+        "title": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Đếm cách 10 đến 100, đếm cách 5 đến 60; phản xạ nhanh bảng cộng trừ trong phạm vi 18 qua thẻ Flashcard; nhận biết kim ngắn (giờ) và kim dài (phút)."
+        ],
+        "keyTakeaway": "Ví dụ: Đứng lên trả lời nhanh phép tính 9 + 8 = 17 trong trò chơi Popcorn Flashcard."
+      },
+      {
+        "slideNumber": 3,
+        "title": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Nắm vững 4 hàng giá trị vị trí chữ số: Hàng đơn vị (Ones), Hàng chục (Tens), Hàng trăm (Hundreds), Hàng nghìn (Thousands); hiểu quy tắc đặt dấu phẩy (\"The comma says thousand\"); chuyển đổi thành thạo từ dạng tổng khai triển (Expanded form) sang dạng số chuẩn (Standard form); thuộc bảng quy đổi thời gian."
+        ],
+        "keyTakeaway": "Ví dụ: Hiểu rằng chữ số 0 trong số 4,000 đóng vai trò giữ chỗ (place holder) cho hàng trăm, chục và đơn vị."
+      },
+      {
+        "slideNumber": 4,
+        "title": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Đọc chính xác giờ trên đồng hồ kim đến từng khoảng 5 phút; phân biệt hoạt động diễn ra vào giờ AM (sáng) và PM (chiều/tối); giải quyết các bài tập phân tích chữ số khoanh tròn trong sách Arithmetic 3 trang 1-2."
+        ],
+        "keyTakeaway": "Ví dụ: Xác định đúng thời điểm 9:05 trên mặt đồng hồ lớp học."
+      },
+      {
+        "slideNumber": 5,
+        "title": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Tự rà soát tính hợp lý của số chữ số khi viết số có chứa số 0 giữ chỗ; tự kiểm tra thứ tự kim giờ và kim phút khi xem đồng hồ để tránh nhầm lẫn."
+        ],
+        "keyTakeaway": "Ví dụ: Khi viết \"ba nghìn linh ba\", học sinh tự đếm lại xem đã đủ 4 chữ số (3,003) chưa thay vì viết vội 33."
+      }
+    ],
     "quizData": [
       {
         "id": "q1",
@@ -35943,8 +36127,100 @@ export const LESSONS_DATA = {
         ]
       }
     },
-    "flashcards": [],
-    "slides": [],
+    "flashcards": [
+      {
+        "term": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Phát âm chuẩn xác, đánh vần đúng từng chữ cái trong 17 từ của Spelling List 1; giữ sách bằng hai tay, đặt sách đúng góc bàn và thực hiện thao tác mở/úp sách theo hiệu lệnh.",
+        "memoryTip": "Ví dụ: Đọc to rõ ràng: \"Praise, p-r-a-i-s-e, praise\"."
+      },
+      {
+        "term": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Nắm vững 2 quy tắc chính tả then chốt của âm /ā/ dài: viết là 'ai' ở giữa từ (praise, braid, frail, plain, stairway) và viết là 'ay' ở cuối từ hoặc âm tiết (today, daydream, maybe, airway); hiểu khái niệm từ ghép (Compound words); thuộc quy tắc viết hoa tên tháng.",
+        "memoryTip": "Ví dụ: Phân biệt vì sao trong từ \"today\" dùng 'ay' còn trong \"braid\" lại dùng 'ai'."
+      },
+      {
+        "term": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Đặt câu đúng ngữ cảnh với các từ vựng mới: frail (yếu ớt), proclaim (tuyên bố), plain (đồng bằng / đơn giản); nhận diện và đếm số khổ thơ (stanzas) trong bài thơ \"Keep a Poem in Your Pocket\" trang 71.",
+        "memoryTip": "Ví dụ: Đặt câu: \"The sick bird was very frail.\""
+      },
+      {
+        "term": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Tự phát hiện lỗi chính tả khi viết từ có âm /ā/ dài bằng cách tự đặt câu hỏi: \"Âm này nằm ở giữa hay cuối từ?\"; cảm thụ thông điệp của châm ngôn tuần: \"A little praise goes a long way\" để khích lệ người khác.",
+        "memoryTip": "Ví dụ: Tự kiểm tra lại bài viết chính tả trước khi nộp, chủ động khen ngợi một việc tốt của bạn bè."
+      },
+      {
+        "term": "Quy tắc âm /ā/ dài",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Nhận diện Từ ghép & Viết hoa",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Ý nghĩa từ vựng & Thơ ca",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      }
+    ],
+    "slides": [
+      {
+        "slideNumber": 1,
+        "title": "Tổng Quan Bài Học Spelling 3 (Bài 001)",
+        "tag": "Grade 3 Overview",
+        "bulletPoints": [
+          "Giáo viên: Mrs. Quito",
+          "Sách giáo khoa: Spelling and Poetry 3 (Trang 2, 71)",
+          "Tài liệu hướng dẫn: Spelling 3 Teacher Edition, Lesson Plans Homeschool Language Arts 3",
+          "Thời lượng bài giảng: 20 phút 21 giây"
+        ],
+        "keyTakeaway": "Dụng cụ cần thiết: Sách Spelling and Poetry 3, bút chì, vở ghi bài tập"
+      },
+      {
+        "slideNumber": 2,
+        "title": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Phát âm chuẩn xác, đánh vần đúng từng chữ cái trong 17 từ của Spelling List 1; giữ sách bằng hai tay, đặt sách đúng góc bàn và thực hiện thao tác mở/úp sách theo hiệu lệnh."
+        ],
+        "keyTakeaway": "Ví dụ: Đọc to rõ ràng: \"Praise, p-r-a-i-s-e, praise\"."
+      },
+      {
+        "slideNumber": 3,
+        "title": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Nắm vững 2 quy tắc chính tả then chốt của âm /ā/ dài: viết là 'ai' ở giữa từ (praise, braid, frail, plain, stairway) và viết là 'ay' ở cuối từ hoặc âm tiết (today, daydream, maybe, airway); hiểu khái niệm từ ghép (Compound words); thuộc quy tắc viết hoa tên tháng."
+        ],
+        "keyTakeaway": "Ví dụ: Phân biệt vì sao trong từ \"today\" dùng 'ay' còn trong \"braid\" lại dùng 'ai'."
+      },
+      {
+        "slideNumber": 4,
+        "title": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Đặt câu đúng ngữ cảnh với các từ vựng mới: frail (yếu ớt), proclaim (tuyên bố), plain (đồng bằng / đơn giản); nhận diện và đếm số khổ thơ (stanzas) trong bài thơ \"Keep a Poem in Your Pocket\" trang 71."
+        ],
+        "keyTakeaway": "Ví dụ: Đặt câu: \"The sick bird was very frail.\""
+      },
+      {
+        "slideNumber": 5,
+        "title": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Tự phát hiện lỗi chính tả khi viết từ có âm /ā/ dài bằng cách tự đặt câu hỏi: \"Âm này nằm ở giữa hay cuối từ?\"; cảm thụ thông điệp của châm ngôn tuần: \"A little praise goes a long way\" để khích lệ người khác."
+        ],
+        "keyTakeaway": "Ví dụ: Tự kiểm tra lại bài viết chính tả trước khi nộp, chủ động khen ngợi một việc tốt của bạn bè."
+      }
+    ],
     "quizData": [
       {
         "id": "q1",
@@ -36298,8 +36574,100 @@ export const LESSONS_DATA = {
         ]
       }
     },
-    "flashcards": [],
-    "slides": [],
+    "flashcards": [
+      {
+        "term": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Thực hiện chuẩn xác 3 thói quen viết cơ bản: Tư thế ngồi thẳng lưng, hai chân chạm sàn; góc nghiêng của vở (Paper slant); cách cầm bút đúng quy tắc \"Pinch, tuck, and rest\" (kẹp bút giữa ngón cái và ngón trỏ, tựa nhẹ trên ngón giữa).",
+        "memoryTip": "Ví dụ: Học sinh tự chỉnh vở nghiêng sang phải trước khi đặt bút viết."
+      },
+      {
+        "term": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Nắm vững đặc trưng hình học của chữ Cursive: Luôn có độ nghiêng đều (slant) sang phải và các nét tròn đều có dạng hình elip (oval), không bao giờ viết tròn xoe; nhận biết hệ thống dòng kẻ: Baseline (đường đáy), Dotted midline (đường đứt đoạn giữa) và Top line.",
+        "memoryTip": "Ví dụ: Nhận biết chữ 'a' thường chỉ cao đến đường đứt đoạn giữa và đứng vững trên đường đáy."
+      },
+      {
+        "term": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Tô theo nét mẫu (trace) và tự viết độc lập (write) đúng chuẩn chữ hoa cursive A, chữ thường a, tổ hợp nối nét và chữ số 1, 2 trên trang 1 sách Writing with Purpose 3; kiểm soát lực ấn ngòi bút để nét chữ thanh thoát.",
+        "memoryTip": "Ví dụ: Viết một dòng chữ A hoa và a thường đều nét, không bị lem mực."
+      },
+      {
+        "term": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Tự so sánh nét chữ của mình với chữ mẫu chuẩn trong sách giáo khoa; tự phát hiện các lỗi như: chữ bị thẳng đứng mất độ nghiêng, đáy chữ không chạm đường kẻ hoặc chữ số 2 bị nghiêng đổ; tự giác nắn nót từng nét bút.",
+        "memoryTip": "Ví dụ: Học sinh tự chọn ra một chữ viết đẹp nhất trong dòng của mình để làm chuẩn mực phấn đấu."
+      },
+      {
+        "term": "Ba thói quen vàng khi viết chữ",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Linh hồn của chữ Cursive",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Chữ A, a và Số 1, 2",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      }
+    ],
+    "slides": [
+      {
+        "slideNumber": 1,
+        "title": "Tổng Quan Bài Học Writing 3 (Bài 001)",
+        "tag": "Grade 3 Overview",
+        "bulletPoints": [
+          "Giáo viên: Mrs. Quito",
+          "Sách giáo khoa: Writing with Purpose 3 (Trang 1)",
+          "Tài liệu hướng dẫn: 10.1. Lesson Plans Homeschool Language Arts 3 (Penmanship / Writing)",
+          "Thời lượng bài giảng: 12 phút 04 giây"
+        ],
+        "keyTakeaway": "Dụng cụ cần thiết: Sách Writing with Purpose 3, bút chì gọt nhọn"
+      },
+      {
+        "slideNumber": 2,
+        "title": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Thực hiện chuẩn xác 3 thói quen viết cơ bản: Tư thế ngồi thẳng lưng, hai chân chạm sàn; góc nghiêng của vở (Paper slant); cách cầm bút đúng quy tắc \"Pinch, tuck, and rest\" (kẹp bút giữa ngón cái và ngón trỏ, tựa nhẹ trên ngón giữa)."
+        ],
+        "keyTakeaway": "Ví dụ: Học sinh tự chỉnh vở nghiêng sang phải trước khi đặt bút viết."
+      },
+      {
+        "slideNumber": 3,
+        "title": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Nắm vững đặc trưng hình học của chữ Cursive: Luôn có độ nghiêng đều (slant) sang phải và các nét tròn đều có dạng hình elip (oval), không bao giờ viết tròn xoe; nhận biết hệ thống dòng kẻ: Baseline (đường đáy), Dotted midline (đường đứt đoạn giữa) và Top line."
+        ],
+        "keyTakeaway": "Ví dụ: Nhận biết chữ 'a' thường chỉ cao đến đường đứt đoạn giữa và đứng vững trên đường đáy."
+      },
+      {
+        "slideNumber": 4,
+        "title": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Tô theo nét mẫu (trace) và tự viết độc lập (write) đúng chuẩn chữ hoa cursive A, chữ thường a, tổ hợp nối nét và chữ số 1, 2 trên trang 1 sách Writing with Purpose 3; kiểm soát lực ấn ngòi bút để nét chữ thanh thoát."
+        ],
+        "keyTakeaway": "Ví dụ: Viết một dòng chữ A hoa và a thường đều nét, không bị lem mực."
+      },
+      {
+        "slideNumber": 5,
+        "title": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Tự so sánh nét chữ của mình với chữ mẫu chuẩn trong sách giáo khoa; tự phát hiện các lỗi như: chữ bị thẳng đứng mất độ nghiêng, đáy chữ không chạm đường kẻ hoặc chữ số 2 bị nghiêng đổ; tự giác nắn nót từng nét bút."
+        ],
+        "keyTakeaway": "Ví dụ: Học sinh tự chọn ra một chữ viết đẹp nhất trong dòng của mình để làm chuẩn mực phấn đấu."
+      }
+    ],
     "quizData": [
       {
         "id": "q1",
@@ -36653,8 +37021,100 @@ export const LESSONS_DATA = {
         ]
       }
     },
-    "flashcards": [],
-    "slides": [],
+    "flashcards": [
+      {
+        "term": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Chuẩn bị đầy đủ 5 đầu sách giáo khoa và dụng cụ học tập (bút chì gọt sẵn, thước kẻ, tẩy) trên góc bàn; đọc hiểu và tuân thủ bảng phân công nhiệm vụ (Seatwork Chart) hiển thị trên màn hình.",
+        "memoryTip": "Ví dụ: Học sinh tự xếp ngay ngắn 5 cuốn sách theo đúng thứ tự làm bài trên bàn học."
+      },
+      {
+        "term": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Độc lập vận dụng các kiến thức vừa học trong các tiết video để giải quyết các bài tập củng cố: Làm toán hàng nghìn trang 2; xác định câu hoàn chỉnh trong Language trang 1-2; viết chữ hoa A, thường a trang 1; chép List 1 chính tả; đọc bài thơ \"My Bed Is a Boat\".",
+        "memoryTip": "Ví dụ: Tự giải quyết bài tập toán mà không cần bố mẹ ngồi kè kè chỉ từng câu."
+      },
+      {
+        "term": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Kỹ năng quản lý thời gian (Time Management) và chuyển dịch nhiệm vụ linh hoạt: Phân bổ hợp lý khoảng 10-15 phút cho mỗi môn, hoàn thành trọn vẹn từng phần việc theo đúng tiến độ mà không bỏ dở giữa chừng.",
+        "memoryTip": "Ví dụ: Khi chuông báo 15 phút môn Toán kết thúc, học sinh cất sách Toán và mở ngay sách Language để tiếp tục làm việc."
+      },
+      {
+        "term": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Kỹ năng tự kiểm tra (Self-Check & Audit): Dành 5 phút cuối giờ rà soát lại toàn bộ các bài tập đã làm, phát hiện các lỗi tính toán, thiếu dấu câu hay chữ viết ẩu trước khi nộp bài cho phụ huynh/giáo viên tại chỗ chấm điểm.",
+        "memoryTip": "Ví dụ: Tự phát hiện câu 3 bài Language bị thiếu dấu chấm và kịp thời bổ sung trước khi nộp bài."
+      },
+      {
+        "term": "Tự lập và Kỷ luật học tập",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Kỹ năng quản lý thời gian đa nhiệm",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Tiêu chuẩn cẩn thận và Tự chịu trách nhiệm",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      }
+    ],
+    "slides": [
+      {
+        "slideNumber": 1,
+        "title": "Tổng Quan Bài Học Seatwork 3 (Bài 001)",
+        "tag": "Grade 3 Overview",
+        "bulletPoints": [
+          "Giáo viên: Hướng dẫn tự học độc lập / On-site Parent Guide",
+          "Sách giáo khoa: Seatwork Assignment Chart (Bảng phân công tự học) (Arithmetic 3 tr. 2; Language 3 tr. 1–2; Writing 3 tr. 1; Spelling 3 tr. 2; Reading 3 tr. 1–6)",
+          "Tài liệu hướng dẫn: Lesson Plans Homeschool Language Arts 3 & Arithmetic 3",
+          "Thời lượng bài giảng: 55 phút 00 giây"
+        ],
+        "keyTakeaway": "Dụng cụ cần thiết: 5 đầu sách thực hành (Arithmetic 3, Language 3, Writing 3, Spelling 3, From Shore to Shore), bút chì gọt sẵn, thước kẻ, tẩy"
+      },
+      {
+        "slideNumber": 2,
+        "title": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Chuẩn bị đầy đủ 5 đầu sách giáo khoa và dụng cụ học tập (bút chì gọt sẵn, thước kẻ, tẩy) trên góc bàn; đọc hiểu và tuân thủ bảng phân công nhiệm vụ (Seatwork Chart) hiển thị trên màn hình."
+        ],
+        "keyTakeaway": "Ví dụ: Học sinh tự xếp ngay ngắn 5 cuốn sách theo đúng thứ tự làm bài trên bàn học."
+      },
+      {
+        "slideNumber": 3,
+        "title": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Độc lập vận dụng các kiến thức vừa học trong các tiết video để giải quyết các bài tập củng cố: Làm toán hàng nghìn trang 2; xác định câu hoàn chỉnh trong Language trang 1-2; viết chữ hoa A, thường a trang 1; chép List 1 chính tả; đọc bài thơ \"My Bed Is a Boat\"."
+        ],
+        "keyTakeaway": "Ví dụ: Tự giải quyết bài tập toán mà không cần bố mẹ ngồi kè kè chỉ từng câu."
+      },
+      {
+        "slideNumber": 4,
+        "title": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Kỹ năng quản lý thời gian (Time Management) và chuyển dịch nhiệm vụ linh hoạt: Phân bổ hợp lý khoảng 10-15 phút cho mỗi môn, hoàn thành trọn vẹn từng phần việc theo đúng tiến độ mà không bỏ dở giữa chừng."
+        ],
+        "keyTakeaway": "Ví dụ: Khi chuông báo 15 phút môn Toán kết thúc, học sinh cất sách Toán và mở ngay sách Language để tiếp tục làm việc."
+      },
+      {
+        "slideNumber": 5,
+        "title": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Kỹ năng tự kiểm tra (Self-Check & Audit): Dành 5 phút cuối giờ rà soát lại toàn bộ các bài tập đã làm, phát hiện các lỗi tính toán, thiếu dấu câu hay chữ viết ẩu trước khi nộp bài cho phụ huynh/giáo viên tại chỗ chấm điểm."
+        ],
+        "keyTakeaway": "Ví dụ: Tự phát hiện câu 3 bài Language bị thiếu dấu chấm và kịp thời bổ sung trước khi nộp bài."
+      }
+    ],
     "quizData": [
       {
         "id": "q1",
@@ -37008,8 +37468,100 @@ export const LESSONS_DATA = {
         ]
       }
     },
-    "flashcards": [],
-    "slides": [],
+    "flashcards": [
+      {
+        "term": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Nhận biết và đọc thuộc lòng định nghĩa câu chuẩn Abeka: \"A sentence is a group of words that expresses a complete thought\"; nhận diện hai dấu hiệu hình thức bắt buộc: Bắt đầu bằng chữ hoa (Capital letter) và kết thúc bằng dấu câu (Punctuation mark: dấu chấm, dấu hỏi, dấu chấm than).",
+        "memoryTip": "Ví dụ: Nhận biết chữ cái đầu tiên trong câu luôn phải được viết hoa."
+      },
+      {
+        "term": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Phân biệt chính xác giữa một Câu hoàn chỉnh (Complete sentence) diễn đạt trọn vẹn một ý và một Cụm từ chưa trọn ý (Sentence fragment) bị bỏ lửng nghĩa; xác định được chủ thể thực hiện hành động và hành động diễn ra trong câu.",
+        "memoryTip": "Ví dụ: Xác định \"The big brown bear\" chỉ là cụm từ chưa trọn ý vì thiếu hành động của chú gấu."
+      },
+      {
+        "term": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Kỹ năng chỉnh sửa văn bản: Bổ sung chữ hoa đầu câu và dấu câu cuối câu thích hợp; phát triển một cụm từ rời rạc thành một câu hoàn chỉnh trọn ý; giải quyết các bài tập thử thách \"Thinking Cap\" trên trang 2 sách Language 3.",
+        "memoryTip": "Ví dụ: Sửa lại cụm \"under the table\" thành câu: \"The kitten is sleeping under the table.\""
+      },
+      {
+        "term": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Tự đọc lại câu văn của mình trước khi đặt dấu chấm để kiểm tra: \"Câu này đã trọn ý chưa? Người đọc có hiểu trọn vẹn ai đang làm gì không?\"; tự giác rà soát lỗi thiếu viết hoa và quên dấu câu trong mọi môn học.",
+        "memoryTip": "Ví dụ: Học sinh tự đọc thầm lại bài viết và tự hỏi: \"Nếu mình dừng ở đây thì bạn mình có hiểu hết ý mình muốn nói không?\""
+      },
+      {
+        "term": "Định nghĩa chuẩn về Câu",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Hai quy tắc bất di bất dịch của Câu",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Phân biệt Câu và Cụm từ bỏ lửng",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      }
+    ],
+    "slides": [
+      {
+        "slideNumber": 1,
+        "title": "Tổng Quan Bài Học Language 3 (Bài 001)",
+        "tag": "Grade 3 Overview",
+        "bulletPoints": [
+          "Giáo viên: Mrs. Quito",
+          "Sách giáo khoa: Language 3 Work-text (Trang 1 – 2)",
+          "Tài liệu hướng dẫn: Language 3 Teacher Key, Teaching Chart 1 (Sentences), Lesson Plans Homeschool Language Arts 3",
+          "Thời lượng bài giảng: 15 phút 10 giây"
+        ],
+        "keyTakeaway": "Dụng cụ cần thiết: Sách Language 3 Work-text, bút chì"
+      },
+      {
+        "slideNumber": 2,
+        "title": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Nhận biết và đọc thuộc lòng định nghĩa câu chuẩn Abeka: \"A sentence is a group of words that expresses a complete thought\"; nhận diện hai dấu hiệu hình thức bắt buộc: Bắt đầu bằng chữ hoa (Capital letter) và kết thúc bằng dấu câu (Punctuation mark: dấu chấm, dấu hỏi, dấu chấm than)."
+        ],
+        "keyTakeaway": "Ví dụ: Nhận biết chữ cái đầu tiên trong câu luôn phải được viết hoa."
+      },
+      {
+        "slideNumber": 3,
+        "title": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Phân biệt chính xác giữa một Câu hoàn chỉnh (Complete sentence) diễn đạt trọn vẹn một ý và một Cụm từ chưa trọn ý (Sentence fragment) bị bỏ lửng nghĩa; xác định được chủ thể thực hiện hành động và hành động diễn ra trong câu."
+        ],
+        "keyTakeaway": "Ví dụ: Xác định \"The big brown bear\" chỉ là cụm từ chưa trọn ý vì thiếu hành động của chú gấu."
+      },
+      {
+        "slideNumber": 4,
+        "title": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Kỹ năng chỉnh sửa văn bản: Bổ sung chữ hoa đầu câu và dấu câu cuối câu thích hợp; phát triển một cụm từ rời rạc thành một câu hoàn chỉnh trọn ý; giải quyết các bài tập thử thách \"Thinking Cap\" trên trang 2 sách Language 3."
+        ],
+        "keyTakeaway": "Ví dụ: Sửa lại cụm \"under the table\" thành câu: \"The kitten is sleeping under the table.\""
+      },
+      {
+        "slideNumber": 5,
+        "title": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Tự đọc lại câu văn của mình trước khi đặt dấu chấm để kiểm tra: \"Câu này đã trọn ý chưa? Người đọc có hiểu trọn vẹn ai đang làm gì không?\"; tự giác rà soát lỗi thiếu viết hoa và quên dấu câu trong mọi môn học."
+        ],
+        "keyTakeaway": "Ví dụ: Học sinh tự đọc thầm lại bài viết và tự hỏi: \"Nếu mình dừng ở đây thì bạn mình có hiểu hết ý mình muốn nói không?\""
+      }
+    ],
     "quizData": [
       {
         "id": "q1",
@@ -37341,8 +37893,100 @@ export const LESSONS_DATA = {
         ]
       }
     },
-    "flashcards": [],
-    "slides": [],
+    "flashcards": [
+      {
+        "term": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Rèn luyện thói quen đọc sách chuẩn mực lớp 3: Đặt sách ở góc bàn, tư thế ngồi thẳng lưng, mở trang sách nhẹ nhàng bằng mép ngoài không làm gập gáy; rèn kỹ năng đọc thầm bằng mắt, không mấp máy môi và không dùng ngón tay chỉ từng chữ.",
+        "memoryTip": "Ví dụ: Học sinh tự giác để hai tay giữ hai mép trang sách phẳng phiu, mắt lướt theo dòng chữ."
+      },
+      {
+        "term": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Đọc to diễn cảm (Oral Reading) bài thơ \"My Bed Is a Boat\" của tác giả Robert Louis Stevenson với âm lượng vừa đủ nghe, phát âm chuẩn xác, ngắt nghỉ đúng nhịp thơ và dấu câu; hiểu hình ảnh ẩn dụ trung tâm: Chiếc giường là con thuyền, màn đêm là đại dương bao la đưa em vào giấc ngủ diệu kỳ.",
+        "memoryTip": "Ví dụ: Ngắt giọng êm ái ở cuối mỗi dòng thơ và ngân nga theo vần điệu boat - coat."
+      },
+      {
+        "term": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Trả lời các câu hỏi đọc hiểu sâu sắc về bài thơ; chuẩn bị đọc nối tiếp truyện \"The Sandcastle Contest\" trên trang 3-6 cùng phụ huynh/giáo viên tại chỗ; liên hệ hình ảnh con thuyền giấc mơ với trải nghiệm giờ đi ngủ bình an của chính mình.",
+        "memoryTip": "Ví dụ: Nhận diện được hành động \"cập bến an toàn\" vào buổi sáng khi thức dậy."
+      },
+      {
+        "term": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Tự điều chỉnh tốc độ đọc của bản thân: Không đọc quá nhanh như đọc vẹt, cũng không đọc rời rạc từng từ; tự lắng nghe ngữ điệu của mình để truyền tải cảm xúc êm đềm của bài thơ; nhận biết khi mình bị mất tập trung để chủ động đọc lại.",
+        "memoryTip": "Ví dụ: Học sinh tự nhận thấy mình đọc quá nhanh ở khổ thơ 2 và chủ động hạ tốc độ, đọc chậm rãi và truyền cảm hơn."
+      },
+      {
+        "term": "Kỹ năng và Thói quen đọc sách chuẩn",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Hình tượng nghệ thuật trong \"My Bed Is a Boat\"",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Đọc to diễn cảm & Cảm thụ thi ca",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      }
+    ],
+    "slides": [
+      {
+        "slideNumber": 1,
+        "title": "Tổng Quan Bài Học Reading 3 (Bài 001)",
+        "tag": "Grade 3 Overview",
+        "bulletPoints": [
+          "Giáo viên: Mrs. Quito",
+          "Sách giáo khoa: From Shore to Shore (Trang 1 – 6)",
+          "Tài liệu hướng dẫn: 4.13. Reading 3 - Answer Key, Lesson Plans Homeschool Language Arts 3 (Reading)",
+          "Thời lượng bài giảng: 6 phút 34 giây"
+        ],
+        "keyTakeaway": "Dụng cụ cần thiết: Sách tập đọc From Shore to Shore"
+      },
+      {
+        "slideNumber": 2,
+        "title": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Rèn luyện thói quen đọc sách chuẩn mực lớp 3: Đặt sách ở góc bàn, tư thế ngồi thẳng lưng, mở trang sách nhẹ nhàng bằng mép ngoài không làm gập gáy; rèn kỹ năng đọc thầm bằng mắt, không mấp máy môi và không dùng ngón tay chỉ từng chữ."
+        ],
+        "keyTakeaway": "Ví dụ: Học sinh tự giác để hai tay giữ hai mép trang sách phẳng phiu, mắt lướt theo dòng chữ."
+      },
+      {
+        "slideNumber": 3,
+        "title": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Đọc to diễn cảm (Oral Reading) bài thơ \"My Bed Is a Boat\" của tác giả Robert Louis Stevenson với âm lượng vừa đủ nghe, phát âm chuẩn xác, ngắt nghỉ đúng nhịp thơ và dấu câu; hiểu hình ảnh ẩn dụ trung tâm: Chiếc giường là con thuyền, màn đêm là đại dương bao la đưa em vào giấc ngủ diệu kỳ."
+        ],
+        "keyTakeaway": "Ví dụ: Ngắt giọng êm ái ở cuối mỗi dòng thơ và ngân nga theo vần điệu boat - coat."
+      },
+      {
+        "slideNumber": 4,
+        "title": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Trả lời các câu hỏi đọc hiểu sâu sắc về bài thơ; chuẩn bị đọc nối tiếp truyện \"The Sandcastle Contest\" trên trang 3-6 cùng phụ huynh/giáo viên tại chỗ; liên hệ hình ảnh con thuyền giấc mơ với trải nghiệm giờ đi ngủ bình an của chính mình."
+        ],
+        "keyTakeaway": "Ví dụ: Nhận diện được hành động \"cập bến an toàn\" vào buổi sáng khi thức dậy."
+      },
+      {
+        "slideNumber": 5,
+        "title": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Tự điều chỉnh tốc độ đọc của bản thân: Không đọc quá nhanh như đọc vẹt, cũng không đọc rời rạc từng từ; tự lắng nghe ngữ điệu của mình để truyền tải cảm xúc êm đềm của bài thơ; nhận biết khi mình bị mất tập trung để chủ động đọc lại."
+        ],
+        "keyTakeaway": "Ví dụ: Học sinh tự nhận thấy mình đọc quá nhanh ở khổ thơ 2 và chủ động hạ tốc độ, đọc chậm rãi và truyền cảm hơn."
+      }
+    ],
     "quizData": [
       {
         "id": "q1",
@@ -37724,73 +38368,246 @@ export const LESSONS_DATA = {
         ]
       }
     },
-    "flashcards": [],
-    "slides": [],
+    "flashcards": [
+      {
+        "id": 1,
+        "term": "Biblical Faith",
+        "category": "Theological Definition",
+        "definition": "The confident assurance and conviction in the reality of things hoped for and the evidence of spiritual truths that are not seen with physical eyes.",
+        "textbook_citation": "Holy Bible, Hebrews 11:1; Abeka Grade 3 Bible Curriculum, Lesson 1",
+        "exact_textbook_quote": "Now faith is the substance of things hoped for, the evidence of things not seen.",
+        "memory_trick": "Faith sees the invisible, believes the incredible, and receives the impossible through God's Word!"
+      },
+      {
+        "id": 2,
+        "term": "Creation ex Nihilo",
+        "category": "Doctrine of Creation",
+        "definition": "The foundational biblical truth that God spoke the entire universe into existence out of nothing by His omnipotent command.",
+        "textbook_citation": "Holy Bible, Hebrews 11:3; Abeka Grade 3 Bible Curriculum, Lesson 1",
+        "exact_textbook_quote": "Through faith we understand that the worlds were framed by the word of God, so that things which are seen were not made of things which do appear.",
+        "memory_trick": "God spoke, and the worlds were framed without pre-existing materials!"
+      },
+      {
+        "id": 3,
+        "term": "Testimony of Enoch",
+        "category": "Old Testament Model of Faith",
+        "definition": "The lifelong walk of communion and obedience with God that resulted in Enoch being translated to heaven without experiencing physical death.",
+        "textbook_citation": "Holy Bible, Hebrews 11:5; Salvation Series Flash-a-Cards, Lesson 1",
+        "exact_textbook_quote": "By faith Enoch was translated that he should not see death... for before his translation he had this testimony, that he pleased God.",
+        "memory_trick": "Enoch walked so closely with God that he stepped straight into eternity!"
+      },
+      {
+        "id": 4,
+        "term": "Necessity of Faith",
+        "category": "Spiritual Law",
+        "definition": "The absolute requirement of believing in God's existence and His character as a rewarder of diligent seekers in order to please Him.",
+        "textbook_citation": "Holy Bible, Hebrews 11:6; Abeka Grade 3 Bible Curriculum, Lesson 1",
+        "exact_textbook_quote": "But without faith it is impossible to please him: for he that cometh to God must believe that he is, and that he is a rewarder of them that diligently seek him.",
+        "memory_trick": "No faith, no favor; true faith seeks God and finds His reward!"
+      },
+      {
+        "id": 5,
+        "term": "The New Jerusalem (Heaven)",
+        "category": "Eschatological Concept",
+        "definition": "The holy city prepared by God as the eternal dwelling place for His redeemed people, characterized by divine perfection, brilliant light, and holy purity.",
+        "textbook_citation": "Holy Bible, Revelation 21:2; Salvation Series Flash-a-Cards, Lesson 1",
+        "exact_textbook_quote": "And I John saw the holy city, new Jerusalem, coming down from God out of heaven, prepared as a bride adorned for her husband.",
+        "memory_trick": "New Jerusalem: God's eternal home designed with bride-like radiant beauty!"
+      },
+      {
+        "id": 6,
+        "term": "Twelve Pearl Gates",
+        "category": "Heavenly Architecture",
+        "definition": "The monumental entrances into the New Jerusalem, each crafted from a single colossal pearl, open continually and guarded by twelve angels.",
+        "textbook_citation": "Holy Bible, Revelation 21:21; Salvation Series Flash-a-Cards, Lesson 1",
+        "exact_textbook_quote": "And the twelve gates were twelve pearls; every several gate was of one pearl: and the street of the city was pure gold, as it were transparent glass.",
+        "memory_trick": "12 gates = 12 giant pearls, welcoming the redeemed from every direction!"
+      },
+      {
+        "id": 7,
+        "term": "Absence of Physical Temple and Sun",
+        "category": "Divine Presence",
+        "definition": "The unique reality of Heaven where no constructed building or celestial body is needed because the Almighty God and the Lamb provide direct fellowship and radiant illumination.",
+        "textbook_citation": "Holy Bible, Revelation 21:22–23; Salvation Series Flash-a-Cards, Lesson 1",
+        "exact_textbook_quote": "And I saw no temple therein: for the Lord God Almighty and the Lamb are the temple of it. And the city had no need of the sun, neither of the moon, to shine in it: for the glory of God did lighten it, and the Lamb is the light thereof.",
+        "memory_trick": "No sun, no lamp, no temple walls—God's direct glory covers all!"
+      },
+      {
+        "id": 8,
+        "term": "The Lamb's Book of Life",
+        "category": "Eternal Citizenship",
+        "definition": "The divine heavenly registry recording the names of all individuals who have received salvation through faith in Jesus Christ, which serves as the sole title of entry into Heaven.",
+        "textbook_citation": "Holy Bible, Revelation 21:27; Salvation Series Flash-a-Cards, Lesson 1",
+        "exact_textbook_quote": "And there shall in no wise enter into it any thing that defileth... but they which are written in the Lamb's book of life.",
+        "memory_trick": "Only registered citizens in the Lamb's Book have a passport to Heaven!"
+      },
+      {
+        "id": 9,
+        "term": "The Tree of Life & River of Water of Life",
+        "category": "Heavenly Provisions",
+        "definition": "The crystal-clear river flowing from the Throne of God, flanked by the Tree of Life yielding twelve manner of fruits every month with leaves for the healing of nations.",
+        "textbook_citation": "Holy Bible, Revelation 22:1–2; Salvation Series Flash-a-Cards, Lesson 1",
+        "exact_textbook_quote": "And he shewed me a pure river of water of life, clear as crystal, proceeding out of the throne of God and of the Lamb... on either side of the river, was there the tree of life.",
+        "memory_trick": "Crystal river, monthly fruit, eternal life taking permanent root!"
+      }
+    ],
+    "slides": [
+      {
+        "slide_number": 1,
+        "title": "Introduction to Bible 3: The Living Word of God",
+        "category": "Orientation & Course Overview",
+        "bullet_points": [
+          "Exploring the Bible as God's inspired, inerrant treasure book for life and doctrine",
+          "Surveying upcoming biographical narratives: Samuel the Prophet, King David, and Queen Esther",
+          "Cultivating reverent classroom habits: respectful listening, posture of prayer, and scripture recitation"
+        ],
+        "textbook_evidence": "Abeka Grade 3 Bible Curriculum Scope & Sequence, Lesson 1 Overview; Psalm 119:160",
+        "key_takeaway": "God's Word is the authoritative anchor and guiding compass for every Christian learner."
+      },
+      {
+        "slide_number": 2,
+        "title": "The Essence and Power of Faith: Hebrews 11:1–6",
+        "category": "Doctrinal Foundations",
+        "bullet_points": [
+          "Defining faith as the objective confidence in things hoped for and conviction of unseen spiritual realities",
+          "Examining the cosmos framed ex nihilo by the commanding Word of God",
+          "Contrasting Abel's excellent sacrificial faith with Cain's unacceptable offering",
+          "Remembering Enoch's pleasing walk of faith culminating in divine translation"
+        ],
+        "textbook_evidence": "Holy Bible, Hebrews 11:1–6; Abeka Grade 3 Bible Curriculum, Lesson 1",
+        "key_takeaway": "True faith produces obedient actions and is indispensable to pleasing God."
+      },
+      {
+        "slide_number": 3,
+        "title": "Architectural Splendor of Heaven: The Holy City",
+        "category": "Biblical Eschatology",
+        "bullet_points": [
+          "The descent of the New Jerusalem from God, prepared as a bride adorned for her husband",
+          "Twelve towering gates of single solid pearl guarded by angelic heralds",
+          "Foundations adorned with twelve varieties of precious gems and streets of transparent pure gold",
+          "Dimensions reflecting perfect divine symmetry, balance, and holiness"
+        ],
+        "textbook_evidence": "Holy Bible, Revelation 21:10–21; Salvation Series Flash-a-Cards, Lesson 1",
+        "key_takeaway": "Heaven is an actual, prepared place of supreme majesty designed by God for His children."
+      },
+      {
+        "slide_number": 4,
+        "title": "What Is NOT in Heaven: The Things of the Curse Removed",
+        "category": "Theological Distinction",
+        "bullet_points": [
+          "No physical temple or church building: direct, unhindered access to God the Father and the Lamb",
+          "No sun, moon, or artificial light: the radiant glory of God illuminates the entire city forever",
+          "No sin, deceit, malice, or defilement: absolute moral holiness preserved eternally",
+          "No sickness, hospitals, mourning, pain, cemeteries, or death: the first things are passed away"
+        ],
+        "textbook_evidence": "Holy Bible, Revelation 21:4, 22–27; Salvation Series Flash-a-Cards, Lesson 1",
+        "key_takeaway": "Every consequence of the Fall and sin is completely abolished in the presence of God."
+      },
+      {
+        "slide_number": 5,
+        "title": "What IS in Heaven: Eternal Provisions and Fellowship",
+        "category": "Theological Realities",
+        "bullet_points": [
+          "The Throne of God and of the Lamb as the supreme center of celestial worship",
+          "The crystal-clear River of the Water of Life flowing freely from God's throne",
+          "The Tree of Life bearing twelve harvests of fruit with leaves imparting continuous vitality",
+          "Perpetual joy, service, and fellowship with holy angels and redeemed saints"
+        ],
+        "textbook_evidence": "Holy Bible, Revelation 22:1–5; Salvation Series Flash-a-Cards, Lesson 1",
+        "key_takeaway": "Heaven offers everlasting communion, purposeful worship, and divine abundance."
+      },
+      {
+        "slide_number": 6,
+        "title": "Securing Entrance: The Lamb's Book of Life",
+        "category": "Gospel Application & Call to Faith",
+        "bullet_points": [
+          "Understanding that good works, family lineage, or human effort cannot purchase entrance into Heaven",
+          "Recognizing that entry is reserved exclusively for those whose names are written in the Lamb's Book of Life",
+          "Embracing Christ's substitutionary atonement on the cross for the forgiveness of sins",
+          "Responding in humble faith to God's gracious invitation of eternal salvation"
+        ],
+        "textbook_evidence": "Holy Bible, Revelation 21:27; Salvation Series Flash-a-Cards, Lesson 1",
+        "key_takeaway": "Eternal citizenship in God's kingdom is granted solely by grace through personal faith in Jesus Christ."
+      }
+    ],
     "quizData": [
       {
         "id": "q1",
-        "question": "According to Hebrews 11:1, how is biblical faith fundamentally defined?",
+        "question": "According to Hebrews 11:1, what is the precise definition of faith?",
         "options": [
-          "A. A temporary feeling of optimism about daily life",
-          "B. The substance of things hoped for, the evidence of things not seen",
-          "C. Believing only what can be scientifically proven in a laboratory",
-          "D. A human tradition passed down through generations"
+          "A. A blind hope that things might turn out well without any evidence",
+          "B. The substance of things hoped for and the evidence of things not seen",
+          "C. A feeling of happiness felt only during church worship services",
+          "D. The belief that human technology can explain the origins of all nature"
         ],
         "correct": "B",
-        "explanation": "Hebrews 11:1 states: 'Now faith is the substance of things hoped for, the evidence of things not seen.'",
-        "textbook_page_reference": ""
+        "explanation": "Hebrews 11:1 explicitly defines faith as 'the substance of things hoped for, the evidence of things not seen.' It represents biblical confidence grounded in God's unfailing Word.",
+        "textbook_page_reference": "Holy Bible, Hebrews 11:1; Abeka Grade 3 Bible Curriculum, Lesson 1"
       },
       {
         "id": "q2",
-        "question": "Why is there no physical temple or church building in the New Jerusalem according to Revelation 21:22?",
+        "question": "Why did Enoch not experience physical death, according to Hebrews 11:5?",
         "options": [
-          "A. The city was too small to fit large architectural structures",
-          "B. The believers forgot to construct places of worship",
-          "C. The Lord God Almighty and the Lamb are the temple thereof, allowing direct communion",
-          "D. Temples are only permitted in earthly kingdoms"
+          "A. He discovered a medicinal cure that prevented physical aging",
+          "B. He was translated by God because his life of faith pleased God",
+          "C. He built a great ark to escape the judgment of the flood",
+          "D. He conquered mighty kingdoms with military force"
         ],
-        "correct": "C",
-        "explanation": "Revelation 21:22 states that there is no temple because God Almighty and the Lamb are its temple.",
-        "textbook_page_reference": ""
+        "correct": "B",
+        "explanation": "Hebrews 11:5 states that 'By faith Enoch was translated that he should not see death... for before his translation he had this testimony, that he pleased God.'",
+        "textbook_page_reference": "Holy Bible, Hebrews 11:5; Salvation Series Flash-a-Cards, Lesson 1"
       },
       {
         "id": "q3",
-        "question": "What serves as the eternal source of illumination in Heaven according to Revelation 21:23?",
+        "question": "What reason does Revelation 21:22 give for the absence of a temple in the New Jerusalem?",
         "options": [
-          "A. Multiple suns and artificial lighting systems",
-          "B. The glory of God lightens it, and the Lamb is the light thereof",
-          "C. Enormous candles placed along the golden streets",
-          "D. Reflections from the surrounding twelve pearly gates"
+          "A. The builders ran out of building materials during construction",
+          "B. The city is too small to accommodate a formal church building",
+          "C. The Lord God Almighty and the Lamb are the temple of it",
+          "D. Believers will no longer engage in praise and worship"
         ],
-        "correct": "B",
-        "explanation": "Revelation 21:23 explains that Heaven has no need of the sun or moon because 'the glory of God did lighten it, and the Lamb is the light thereof.'",
-        "textbook_page_reference": ""
+        "correct": "C",
+        "explanation": "Revelation 21:22 states: 'And I saw no temple therein: for the Lord God Almighty and the Lamb are the temple of it.' Redeemed saints experience direct, unmediated fellowship with God.",
+        "textbook_page_reference": "Holy Bible, Revelation 21:22; Salvation Series Flash-a-Cards, Lesson 1"
       },
       {
         "id": "q4",
-        "question": "Which of the following realities is strictly ABSENT from Heaven according to Revelation 21:4 and 21:27?",
+        "question": "Which of the following items will definitely NOT exist in Heaven, according to Revelation 21?",
         "options": [
-          "A. The Tree of Life and river of water of life",
-          "B. Tears, sorrow, crying, pain, death, and anything that defileth",
-          "C. Gates made of single pearls and streets of pure gold",
-          "D. Resurrected saints and holy angels praising God"
+          "A. Streets of pure gold transparent as glass",
+          "B. Gates constructed of immense pearls",
+          "C. Death, sorrow, crying, pain, and night",
+          "D. The throne of God and of the Lamb"
         ],
-        "correct": "B",
-        "explanation": "Revelation 21:4 and 21:27 make clear that God wipes away all tears, and there shall be no more death, sorrow, crying, pain, or any sin/defilement in Heaven.",
-        "textbook_page_reference": ""
+        "correct": "C",
+        "explanation": "Revelation 21:4 teaches that God shall wipe away all tears, and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain.",
+        "textbook_page_reference": "Holy Bible, Revelation 21:4; Salvation Series Flash-a-Cards, Lesson 1"
       },
       {
         "id": "q5",
-        "question": "Who alone is granted entrance into the Holy City as recorded in Revelation 21:27?",
+        "question": "From what source does the New Jerusalem receive its radiant light according to Revelation 21:23?",
         "options": [
-          "A. Anyone who performed sufficient good deeds on earth",
-          "B. Only those whose names are written in the Lamb's Book of Life",
-          "C. Those who accumulated great earthly wealth and influence",
-          "D. People who memorized the entire Old and New Testament"
+          "A. A multitude of high-powered electrical street lamps",
+          "B. The glory of God lightens it, and the Lamb is the light thereof",
+          "C. Continuous daylight provided by three suns and moons",
+          "D. Huge bonfires kept lit along the golden streets"
         ],
         "correct": "B",
-        "explanation": "Revelation 21:27 declares that only 'they which are written in the Lamb's book of life' may enter the city.",
-        "textbook_page_reference": ""
+        "explanation": "Revelation 21:23 declares: 'And the city had no need of the sun, neither of the moon, to shine in it: for the glory of God did lighten it, and the Lamb is the light thereof.'",
+        "textbook_page_reference": "Holy Bible, Revelation 21:23; Salvation Series Flash-a-Cards, Lesson 1"
+      },
+      {
+        "id": "q6",
+        "question": "Who alone is permitted to enter through the pearly gates into the New Jerusalem?",
+        "options": [
+          "A. Anyone who performed at least ten philanthropic acts in their lifetime",
+          "B. Only those whose names are written in the Lamb's Book of Life",
+          "C. Any individual who visits the city gates with curiosity",
+          "D. Scholars who memorized the entire historical Old Testament"
+        ],
+        "correct": "B",
+        "explanation": "Revelation 21:27 confirms that nothing that defileth shall enter, but only 'they which are written in the Lamb's book of life' through salvation in Jesus Christ.",
+        "textbook_page_reference": "Holy Bible, Revelation 21:27; Salvation Series Flash-a-Cards, Lesson 1"
       }
     ]
   },
@@ -38107,8 +38924,100 @@ export const LESSONS_DATA = {
         ]
       }
     },
-    "flashcards": [],
-    "slides": [],
+    "flashcards": [
+      {
+        "term": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Nhận diện và gọi tên chính xác 7 châu lục (North America, South America, Europe, Africa, Asia, Australia, Antarctica) và 5 đại dương (Pacific, Atlantic, Indian, Arctic, Southern Ocean) trên quả địa cầu và bản đồ phẳng; giữ đúng tư thế mở và lật sách nhẹ nhàng.",
+        "memoryTip": "Ví dụ: Học sinh chỉ đúng vị trí châu Úc (\"Land Down Under\") trên quả địa cầu."
+      },
+      {
+        "term": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Hiểu bản chất của \"Di sản\" (Heritage là những ý tưởng, tự do, phong tục quý báu được trao truyền lại); định nghĩa môn Lịch sử là \"His-Story\" (câu chuyện ghi lại những gì con người làm với thời gian Chúa ban); nắm cách đọc trục thời gian (Timeline).",
+        "memoryTip": "Ví dụ: Giải thích được vì sao nước Mỹ ngày nay được thừa hưởng nền tự do từ các nhà lập quốc."
+      },
+      {
+        "term": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Khai thác Mục lục (Contents) để định vị 3 thời kỳ lịch sử lớn (Founding, Expansion, Modernization); áp dụng công cụ Timeline để sắp xếp các sự kiện theo đúng thứ tự thời gian; hoàn thành phiếu thực hành kỹ năng bản đồ (Map Skill Sheet 32).",
+        "memoryTip": "Ví dụ: Đặt sự kiện thành lập nước Mỹ trước thời kỳ mở rộng bờ cõi trên trục thời gian."
+      },
+      {
+        "term": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Nhận thức rõ ràng trách nhiệm của bản thân thế hệ học sinh hôm nay trong việc giữ gìn và phát huy di sản của cha ông; tự rà soát xem mình đang sử dụng quỹ thời gian mỗi ngày có ích lợi như thế nào.",
+        "memoryTip": "Ví dụ: Học sinh tự liên hệ: \"Mình đang viết tiếp trang sử của gia đình và đất nước bằng việc học chăm chỉ mỗi ngày.\""
+      },
+      {
+        "term": "Bức tranh địa lý toàn cầu",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Giá trị của Di sản (Heritage)",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Ý nghĩa của Lịch sử (His-Story) và Dòng thời gian",
+        "category": "Key Takeaway",
+        "definition": "",
+        "memoryTip": "Trọng tâm bài học UbD"
+      }
+    ],
+    "slides": [
+      {
+        "slideNumber": 1,
+        "title": "Tổng Quan Bài Học History 3 (Bài 001)",
+        "tag": "Grade 3 Overview",
+        "bulletPoints": [
+          "Giáo viên: Miss Boyd",
+          "Sách giáo khoa: Our American Heritage (Trang xi–xiv, 1–3)",
+          "Tài liệu hướng dẫn: Our American Heritage: Map Skills 3 (Map Skill Sheet 32, p. 65), Answer Key to Text Questions, Lesson Plans Homeschool History 3",
+          "Thời lượng bài giảng: 19 phút 12 giây"
+        ],
+        "keyTakeaway": "Dụng cụ cần thiết: Sách Our American Heritage, bút chì, quả địa cầu / bản đồ thế giới phẳng"
+      },
+      {
+        "slideNumber": 2,
+        "title": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Nhận diện và gọi tên chính xác 7 châu lục (North America, South America, Europe, Africa, Asia, Australia, Antarctica) và 5 đại dương (Pacific, Atlantic, Indian, Arctic, Southern Ocean) trên quả địa cầu và bản đồ phẳng; giữ đúng tư thế mở và lật sách nhẹ nhàng."
+        ],
+        "keyTakeaway": "Ví dụ: Học sinh chỉ đúng vị trí châu Úc (\"Land Down Under\") trên quả địa cầu."
+      },
+      {
+        "slideNumber": 3,
+        "title": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Hiểu bản chất của \"Di sản\" (Heritage là những ý tưởng, tự do, phong tục quý báu được trao truyền lại); định nghĩa môn Lịch sử là \"His-Story\" (câu chuyện ghi lại những gì con người làm với thời gian Chúa ban); nắm cách đọc trục thời gian (Timeline)."
+        ],
+        "keyTakeaway": "Ví dụ: Giải thích được vì sao nước Mỹ ngày nay được thừa hưởng nền tự do từ các nhà lập quốc."
+      },
+      {
+        "slideNumber": 4,
+        "title": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Khai thác Mục lục (Contents) để định vị 3 thời kỳ lịch sử lớn (Founding, Expansion, Modernization); áp dụng công cụ Timeline để sắp xếp các sự kiện theo đúng thứ tự thời gian; hoàn thành phiếu thực hành kỹ năng bản đồ (Map Skill Sheet 32)."
+        ],
+        "keyTakeaway": "Ví dụ: Đặt sự kiện thành lập nước Mỹ trước thời kỳ mở rộng bờ cõi trên trục thời gian."
+      },
+      {
+        "slideNumber": 5,
+        "title": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Nhận thức rõ ràng trách nhiệm của bản thân thế hệ học sinh hôm nay trong việc giữ gìn và phát huy di sản của cha ông; tự rà soát xem mình đang sử dụng quỹ thời gian mỗi ngày có ích lợi như thế nào."
+        ],
+        "keyTakeaway": "Ví dụ: Học sinh tự liên hệ: \"Mình đang viết tiếp trang sử của gia đình và đất nước bằng việc học chăm chỉ mỗi ngày.\""
+      }
+    ],
     "quizData": [
       {
         "id": "q1",
