@@ -2,34 +2,6 @@
 <html lang="vi">
   <head>
     <meta charset="UTF-8" />
-    <script>
-      (function() {
-        if (localStorage.getItem('abk_v') !== '24.1') {
-          try {
-            localStorage.clear();
-            sessionStorage.clear();
-          } catch(e) {}
-          if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.getRegistrations().then(function(registrations) {
-              for (let registration of registrations) {
-                registration.unregister();
-              }
-            });
-          }
-          if ('caches' in window) {
-            caches.keys().then(function(names) {
-              for (let name of names) caches.delete(name);
-            });
-          }
-          try {
-            localStorage.setItem('abk_v', '24.1');
-          } catch(e) {}
-          if (!window.location.search.includes('v24_1_force')) {
-            window.location.href = window.location.pathname + '?v24_1_force=' + Date.now();
-          }
-        }
-      })();
-    </script>
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
@@ -40,8 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Outfit:wght@400;500;600;700;800&family=Quicksand:wght@500;600;700" rel="stylesheet">
-    <script type="module" crossorigin src="./assets/abk-v24_1_clean_1789239991103-CbA3cHaL.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/abk-v24_1_clean_1789239991103-DnI8WLvG.css">
+    <script type="module" crossorigin src="./assets/abk-v24_1_clean_1789240596417-BcMnIMTf.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/abk-v24_1_clean_1789240596417-DnI8WLvG.css">
   </head>
   <body>
     <div id="root"></div>
