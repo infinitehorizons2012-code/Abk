@@ -1,14 +1,13 @@
 import os
 import json
 import re
+import sys
 
 base_dir = r"G:\My Drive\80-Shared\Team-Shared\Abeka_Videos\Abeka Video"
 g5_dir = os.path.join(base_dir, "Grade 5")
 g3_dir = os.path.join(base_dir, "Grade 3")
 
 output_js_path = r"C:\Users\DT.HANG\Downloads\ABK\src\data\lessonsData.js"
-
-all_lessons = {}
 
 def format_day_name(folder_name):
     match = re.search(r'(\d+)', folder_name)
@@ -139,23 +138,24 @@ def load_subject_data(subj_path, grade, day_str, day_num, subj_clean, legacy_key
     # Fallback to Whisper / extra JSON
     if not ts_map or not quiz_data:
         try:
-            for fname in os.listdir(subj_path):
-                if fname.endswith('.json') and fname not in ['book_and_timestamp.json', 'ubd_analysis.json', 'interactive_learning.json']:
-                    with open(os.path.join(subj_path, fname), 'r', encoding='utf-8') as f:
-                        vdata = json.load(f)
-                        segs = vdata.get("segments", [])
-                        if not ts_map and segs:
-                            ts_map = []
-                            for seg in segs[:30]:
-                                ts_map.append({
-                                    "startTime": int(seg.get("start", 0)),
-                                    "endTime": int(seg.get("end", 0)),
-                                    "title": f"Phân đoạn {seg.get('id', 0) + 1}",
-                                    "desc": seg.get("text", "").strip(),
-                                    "bookRef": f"{subj_clean} Bài {day_num:03d}"
-                                })
-                        if not quiz_data and vdata.get("quizzes"):
-                            quiz_data = normalize_quiz_data(vdata.get("quizzes"))
+            if os.path.exists(subj_path) and os.path.isdir(subj_path):
+                for fname in os.listdir(subj_path):
+                    if fname.endswith('.json') and fname not in ['book_and_timestamp.json', 'ubd_analysis.json', 'interactive_learning.json']:
+                        with open(os.path.join(subj_path, fname), 'r', encoding='utf-8') as f:
+                            vdata = json.load(f)
+                            segs = vdata.get("segments", [])
+                            if not ts_map and segs:
+                                ts_map = []
+                                for seg in segs[:30]:
+                                    ts_map.append({
+                                        "startTime": int(seg.get("start", 0)),
+                                        "endTime": int(seg.get("end", 0)),
+                                        "title": f"Phân đoạn {seg.get('id', 0) + 1}",
+                                        "desc": seg.get("text", "").strip(),
+                                        "bookRef": f"{subj_clean} Bài {day_num:03d}"
+                                    })
+                            if not quiz_data and vdata.get("quizzes"):
+                                quiz_data = normalize_quiz_data(vdata.get("quizzes"))
         except Exception:
             pass
 
@@ -218,72 +218,80 @@ def load_subject_data(subj_path, grade, day_str, day_num, subj_clean, legacy_key
         "quizData": quiz_data
     }
 
-# Standard Subjects
-g5_subjects = ["Arithmetic 5", "History 5", "Bible 5", "Language 5", "Reading 5", "Science-Health 5", "Spelling 5", "Writing 5"]
-g3_subjects = ["Arithmetic 3", "History 3", "Bible 3", "Language 3", "Reading 3", "Science-Health 3", "Spelling 3", "Writing 3", "Seatwork 3"]
+def main():
+    all_lessons = {}
+    g5_subjects = ["Arithmetic 5", "History 5", "Bible 5", "Language 5", "Reading 5", "Science-Health 5", "Spelling 5", "Writing 5"]
+    g3_subjects = ["Arithmetic 3", "History 3", "Bible 3", "Language 3", "Reading 3", "Science-Health 3", "Spelling 3", "Writing 3", "Seatwork 3"]
 
-# 1. PROCESS GRADE 5 (170 Days)
-print("--- Processing Grade 5 ---")
-if os.path.exists(g5_dir):
-    day_folders = sorted(os.listdir(g5_dir))
-    for day_folder in day_folders:
-        day_path = os.path.join(g5_dir, day_folder)
-        if not os.path.isdir(day_path):
-            continue
+    print("--- Processing Grade 5 ---", flush=True)
+    if os.path.exists(g5_dir):
+        day_folders = sorted(os.listdir(g5_dir))
+        for day_folder in day_folders:
+            day_path = os.path.join(g5_dir, day_folder)
+            if not os.path.isdir(day_path):
+                continue
 
-        day_str = format_day_name(day_folder)
-        day_num_match = re.search(r'(\d+)', day_str)
-        day_num = int(day_num_match.group(1)) if day_num_match else 1
+            day_str = format_day_name(day_folder)
+            day_num_match = re.search(r'(\d+)', day_str)
+            day_num = int(day_num_match.group(1)) if day_num_match else 1
 
-        sub_items = os.listdir(day_path)
-        subject_folders = [s for s in sub_items if os.path.isdir(os.path.join(day_path, s))]
-        if not subject_folders:
-            subject_folders = g5_subjects
+            sub_items = os.listdir(day_path)
+            subject_folders = [s for s in sub_items if os.path.isdir(os.path.join(day_path, s))]
+            if not subject_folders:
+                subject_folders = g5_subjects
 
-        for subj in subject_folders:
-            subj_clean = subj.strip()
-            key_slug = f"g5-d{day_num:03d}-{subj_clean.lower().replace(' ', '-')}"
-            if day_num == 1 and "arithmetic" in subj_clean.lower():
-                legacy_key = "arithmetic-5"
-            else:
-                legacy_key = key_slug
+            for subj in subject_folders:
+                subj_clean = subj.strip()
+                if subj_clean in ['test', 'desktop.ini'] or subj_clean.endswith('.gdoc'):
+                    continue
+                key_slug = f"g5-d{day_num:03d}-{subj_clean.lower().replace(' ', '-')}"
+                if day_num == 1 and "arithmetic" in subj_clean.lower():
+                    legacy_key = "arithmetic-5"
+                else:
+                    legacy_key = key_slug
 
-            subj_path = os.path.join(day_path, subj)
-            all_lessons[legacy_key] = load_subject_data(subj_path, "Grade 5", day_str, day_num, subj_clean, legacy_key)
+                subj_path = os.path.join(day_path, subj)
+                all_lessons[legacy_key] = load_subject_data(subj_path, "Grade 5", day_str, day_num, subj_clean, legacy_key)
 
-# 2. PROCESS GRADE 3 (170 Days)
-print("--- Processing Grade 3 ---")
-if os.path.exists(g3_dir):
-    day_folders = sorted(os.listdir(g3_dir))
-    for day_folder in day_folders:
-        day_path = os.path.join(g3_dir, day_folder)
-        if not os.path.isdir(day_path):
-            continue
+    print("--- Processing Grade 3 ---", flush=True)
+    if os.path.exists(g3_dir):
+        day_folders = sorted(os.listdir(g3_dir))
+        for day_folder in day_folders:
+            day_path = os.path.join(g3_dir, day_folder)
+            if not os.path.isdir(day_path):
+                continue
 
-        day_str = format_day_name(day_folder)
-        day_num_match = re.search(r'(\d+)', day_str)
-        day_num = int(day_num_match.group(1)) if day_num_match else 1
+            day_str = format_day_name(day_folder)
+            day_num_match = re.search(r'(\d+)', day_str)
+            day_num = int(day_num_match.group(1)) if day_num_match else 1
 
-        sub_items = os.listdir(day_path)
-        subject_folders = [s for s in sub_items if os.path.isdir(os.path.join(day_path, s))]
-        if not subject_folders:
-            subject_folders = g3_subjects
+            sub_items = os.listdir(day_path)
+            subject_folders = [s for s in sub_items if os.path.isdir(os.path.join(day_path, s))]
+            if not subject_folders:
+                subject_folders = g3_subjects
 
-        for subj in subject_folders:
-            subj_clean = subj.strip()
-            key_slug = f"g3-d{day_num:03d}-{subj_clean.lower().replace(' ', '-')}"
-            subj_path = os.path.join(day_path, subj)
-            if os.path.exists(subj_path) and os.path.isdir(subj_path):
+            for subj in subject_folders:
+                subj_clean = subj.strip()
+                if subj_clean in ['test', 'desktop.ini'] or subj_clean.endswith('.gdoc'):
+                    continue
+                key_slug = f"g3-d{day_num:03d}-{subj_clean.lower().replace(' ', '-')}"
+                subj_path = os.path.join(day_path, subj)
                 all_lessons[key_slug] = load_subject_data(subj_path, "Grade 3", day_str, day_num, subj_clean, key_slug)
-            else:
-                # Placeholder for missing Grade 3 subject folders
-                all_lessons[key_slug] = load_subject_data(subj_path, "Grade 3", day_str, day_num, subj_clean, key_slug)
 
-print(f"Total compiled lessons across Grade 3 & Grade 5: {len(all_lessons)}")
+    print(f"Total compiled lessons across Grade 3 & Grade 5: {len(all_lessons)}", flush=True)
 
-js_content = f"export const LESSONS_DATA = {json.dumps(all_lessons, ensure_ascii=False, indent=2)};\n"
+    # Print Grade 5 Day 1 statistics
+    for k in ['arithmetic-5', 'g5-d001-spelling-5', 'g5-d001-reading-5', 'g5-d001-science-health-5']:
+        if k in all_lessons:
+            item = all_lessons[k]
+            print(f"Key: {k:25s} | Subj: {item['subject']:22s} | TS: {len(item['timestampMap']):2d} | Quiz: {len(item['quizData']):2d}", flush=True)
 
-with open(output_js_path, 'w', encoding='utf-8') as f:
-    f.write(js_content)
+    js_content = f"export const LESSONS_DATA = {json.dumps(all_lessons, ensure_ascii=False, indent=2)};\n"
 
-print(f"Successfully compiled dataset to {output_js_path}!")
+    with open(output_js_path, 'w', encoding='utf-8') as f:
+        f.write(js_content)
+
+    print(f"Successfully compiled dataset to {output_js_path}!", flush=True)
+
+if __name__ == '__main__':
+    main()

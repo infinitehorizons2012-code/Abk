@@ -8,8 +8,6 @@ g3_dir = os.path.join(base_dir, "Grade 3")
 
 output_js_path = r"C:\Users\DT.HANG\Downloads\ABK\src\data\lessonsData.js"
 
-all_lessons = {}
-
 def format_day_name(folder_name):
     match = re.search(r'(\d+)', folder_name)
     if match:
@@ -91,35 +89,51 @@ def normalize_quiz_data(raw_quiz):
         })
     return norm
 
-def load_subject_data(subj_path, grade, day_str, day_num, subj_clean, legacy_key):
-    book_json = os.path.join(subj_path, "book_and_timestamp.json")
-    ubd_json = os.path.join(subj_path, "ubd_analysis.json")
-    interactive_json = os.path.join(subj_path, "interactive_learning.json")
-
+def process_subject_folder(subj_path, grade, day_str, day_num, subj_clean, legacy_key):
     book_data = {}
     ubd_data = {}
     interactive_data = {}
+    whisper_segs = []
+    whisper_quizzes = []
 
-    if os.path.exists(book_json):
-        try:
-            with open(book_json, 'r', encoding='utf-8') as f:
-                book_data = json.load(f)
-        except Exception:
-            pass
+    try:
+        if os.path.exists(subj_path) and os.path.isdir(subj_path):
+            files = set(os.listdir(subj_path))
+            if 'book_and_timestamp.json' in files:
+                try:
+                    with open(os.path.join(subj_path, 'book_and_timestamp.json'), 'r', encoding='utf-8') as f:
+                        book_data = json.load(f)
+                except Exception:
+                    pass
 
-    if os.path.exists(ubd_json):
-        try:
-            with open(ubd_json, 'r', encoding='utf-8') as f:
-                ubd_data = json.load(f)
-        except Exception:
-            pass
+            if 'ubd_analysis.json' in files:
+                try:
+                    with open(os.path.join(subj_path, 'ubd_analysis.json'), 'r', encoding='utf-8') as f:
+                        ubd_data = json.load(f)
+                except Exception:
+                    pass
 
-    if os.path.exists(interactive_json):
-        try:
-            with open(interactive_json, 'r', encoding='utf-8') as f:
-                interactive_data = json.load(f)
-        except Exception:
-            pass
+            if 'interactive_learning.json' in files:
+                try:
+                    with open(os.path.join(subj_path, 'interactive_learning.json'), 'r', encoding='utf-8') as f:
+                        interactive_data = json.load(f)
+                except Exception:
+                    pass
+
+            for fname in files:
+                if fname.endswith('.json') and fname not in ['book_and_timestamp.json', 'ubd_analysis.json', 'interactive_learning.json']:
+                    try:
+                        with open(os.path.join(subj_path, fname), 'r', encoding='utf-8') as f:
+                            content = json.load(f)
+                        if isinstance(content, dict):
+                            if 'segments' in content and not whisper_segs:
+                                whisper_segs = content['segments']
+                            if 'quizzes' in content and not whisper_quizzes:
+                                whisper_quizzes = content['quizzes']
+                    except Exception:
+                        pass
+    except Exception:
+        pass
 
     book_id = book_data.get("book_identification") or book_data.get("bookIdentification") or ubd_data.get("meta") or {}
     raw_ts = book_data.get("timestamp_map") or book_data.get("timestampMap") or ubd_data.get("stage3_learning_plan", {}).get("timestamp_mapping") or []
@@ -136,30 +150,22 @@ def load_subject_data(subj_path, grade, day_str, day_num, subj_clean, legacy_key
     book_pages = book_id.get("textbook_pages") or book_data.get("bookPages") or f"Lesson {day_num}"
     manual_ref = book_id.get("supplementary_materials") or book_id.get("supplementary") or book_data.get("manualRef") or f"{grade} Video Manual"
 
-    # Fallback to Whisper / extra JSON
-    if not ts_map or not quiz_data:
-        try:
-            for fname in os.listdir(subj_path):
-                if fname.endswith('.json') and fname not in ['book_and_timestamp.json', 'ubd_analysis.json', 'interactive_learning.json']:
-                    with open(os.path.join(subj_path, fname), 'r', encoding='utf-8') as f:
-                        vdata = json.load(f)
-                        segs = vdata.get("segments", [])
-                        if not ts_map and segs:
-                            ts_map = []
-                            for seg in segs[:30]:
-                                ts_map.append({
-                                    "startTime": int(seg.get("start", 0)),
-                                    "endTime": int(seg.get("end", 0)),
-                                    "title": f"Phân đoạn {seg.get('id', 0) + 1}",
-                                    "desc": seg.get("text", "").strip(),
-                                    "bookRef": f"{subj_clean} Bài {day_num:03d}"
-                                })
-                        if not quiz_data and vdata.get("quizzes"):
-                            quiz_data = normalize_quiz_data(vdata.get("quizzes"))
-        except Exception:
-            pass
+    # Whisper Fallback
+    if not ts_map and whisper_segs:
+        ts_map = []
+        for seg in whisper_segs[:30]:
+            ts_map.append({
+                "startTime": int(seg.get("start", 0)),
+                "endTime": int(seg.get("end", 0)),
+                "title": f"Phân đoạn {seg.get('id', 0) + 1}",
+                "desc": seg.get("text", "").strip(),
+                "bookRef": f"{subj_clean} Bài {day_num:03d}"
+            })
 
-    # Fallbacks if still empty
+    if not quiz_data and whisper_quizzes:
+        quiz_data = normalize_quiz_data(whisper_quizzes)
+
+    # Placeholders if still empty
     if not ts_map:
         ts_map = [{
             "startTime": 0,
@@ -218,72 +224,72 @@ def load_subject_data(subj_path, grade, day_str, day_num, subj_clean, legacy_key
         "quizData": quiz_data
     }
 
-# Standard Subjects
-g5_subjects = ["Arithmetic 5", "History 5", "Bible 5", "Language 5", "Reading 5", "Science-Health 5", "Spelling 5", "Writing 5"]
-g3_subjects = ["Arithmetic 3", "History 3", "Bible 3", "Language 3", "Reading 3", "Science-Health 3", "Spelling 3", "Writing 3", "Seatwork 3"]
+def main():
+    all_lessons = {}
+    g5_subjects = ["Arithmetic 5", "History 5", "Bible 5", "Language 5", "Reading 5", "Science-Health 5", "Spelling 5", "Writing 5"]
+    g3_subjects = ["Arithmetic 3", "History 3", "Bible 3", "Language 3", "Reading 3", "Science-Health 3", "Spelling 3", "Writing 3", "Seatwork 3"]
 
-# 1. PROCESS GRADE 5 (170 Days)
-print("--- Processing Grade 5 ---")
-if os.path.exists(g5_dir):
-    day_folders = sorted(os.listdir(g5_dir))
-    for day_folder in day_folders:
-        day_path = os.path.join(g5_dir, day_folder)
-        if not os.path.isdir(day_path):
-            continue
+    print("--- Processing Grade 5 ---", flush=True)
+    if os.path.exists(g5_dir):
+        day_folders = sorted([d for d in os.listdir(g5_dir) if os.path.isdir(os.path.join(g5_dir, d))])
+        for day_folder in day_folders:
+            day_path = os.path.join(g5_dir, day_folder)
+            day_str = format_day_name(day_folder)
+            day_num_match = re.search(r'(\d+)', day_str)
+            day_num = int(day_num_match.group(1)) if day_num_match else 1
 
-        day_str = format_day_name(day_folder)
-        day_num_match = re.search(r'(\d+)', day_str)
-        day_num = int(day_num_match.group(1)) if day_num_match else 1
+            sub_items = [s for s in os.listdir(day_path) if os.path.isdir(os.path.join(day_path, s))]
+            if not sub_items:
+                sub_items = g5_subjects
 
-        sub_items = os.listdir(day_path)
-        subject_folders = [s for s in sub_items if os.path.isdir(os.path.join(day_path, s))]
-        if not subject_folders:
-            subject_folders = g5_subjects
+            for subj in sub_items:
+                subj_clean = subj.strip()
+                if subj_clean in ['test', 'desktop.ini'] or subj_clean.endswith('.gdoc'):
+                    continue
+                key_slug = f"g5-d{day_num:03d}-{subj_clean.lower().replace(' ', '-')}"
+                if day_num == 1 and "arithmetic" in subj_clean.lower():
+                    legacy_key = "arithmetic-5"
+                else:
+                    legacy_key = key_slug
 
-        for subj in subject_folders:
-            subj_clean = subj.strip()
-            key_slug = f"g5-d{day_num:03d}-{subj_clean.lower().replace(' ', '-')}"
-            if day_num == 1 and "arithmetic" in subj_clean.lower():
-                legacy_key = "arithmetic-5"
-            else:
-                legacy_key = key_slug
+                subj_path = os.path.join(day_path, subj)
+                all_lessons[legacy_key] = process_subject_folder(subj_path, "Grade 5", day_str, day_num, subj_clean, legacy_key)
 
-            subj_path = os.path.join(day_path, subj)
-            all_lessons[legacy_key] = load_subject_data(subj_path, "Grade 5", day_str, day_num, subj_clean, legacy_key)
+    print("--- Processing Grade 3 ---", flush=True)
+    if os.path.exists(g3_dir):
+        day_folders = sorted([d for d in os.listdir(g3_dir) if os.path.isdir(os.path.join(g3_dir, d))])
+        for day_folder in day_folders:
+            day_path = os.path.join(g3_dir, day_folder)
+            day_str = format_day_name(day_folder)
+            day_num_match = re.search(r'(\d+)', day_str)
+            day_num = int(day_num_match.group(1)) if day_num_match else 1
 
-# 2. PROCESS GRADE 3 (170 Days)
-print("--- Processing Grade 3 ---")
-if os.path.exists(g3_dir):
-    day_folders = sorted(os.listdir(g3_dir))
-    for day_folder in day_folders:
-        day_path = os.path.join(g3_dir, day_folder)
-        if not os.path.isdir(day_path):
-            continue
+            sub_items = [s for s in os.listdir(day_path) if os.path.isdir(os.path.join(day_path, s))]
+            if not sub_items:
+                sub_items = g3_subjects
 
-        day_str = format_day_name(day_folder)
-        day_num_match = re.search(r'(\d+)', day_str)
-        day_num = int(day_num_match.group(1)) if day_num_match else 1
+            for subj in sub_items:
+                subj_clean = subj.strip()
+                if subj_clean in ['test', 'desktop.ini'] or subj_clean.endswith('.gdoc'):
+                    continue
+                key_slug = f"g3-d{day_num:03d}-{subj_clean.lower().replace(' ', '-')}"
+                subj_path = os.path.join(day_path, subj)
+                all_lessons[key_slug] = process_subject_folder(subj_path, "Grade 3", day_str, day_num, subj_clean, key_slug)
 
-        sub_items = os.listdir(day_path)
-        subject_folders = [s for s in sub_items if os.path.isdir(os.path.join(day_path, s))]
-        if not subject_folders:
-            subject_folders = g3_subjects
+    print(f"Total compiled lessons: {len(all_lessons)}", flush=True)
 
-        for subj in subject_folders:
-            subj_clean = subj.strip()
-            key_slug = f"g3-d{day_num:03d}-{subj_clean.lower().replace(' ', '-')}"
-            subj_path = os.path.join(day_path, subj)
-            if os.path.exists(subj_path) and os.path.isdir(subj_path):
-                all_lessons[key_slug] = load_subject_data(subj_path, "Grade 3", day_str, day_num, subj_clean, key_slug)
-            else:
-                # Placeholder for missing Grade 3 subject folders
-                all_lessons[key_slug] = load_subject_data(subj_path, "Grade 3", day_str, day_num, subj_clean, key_slug)
+    # Print Grade 5 Day 1 statistics
+    for k in ['arithmetic-5', 'g5-d001-spelling-5', 'g5-d001-reading-5', 'g5-d001-science-health-5']:
+        if k in all_lessons:
+            item = all_lessons[k]
+            print(f"Key: {k:25s} | Subj: {item['subject']:22s} | TS: {len(item['timestampMap']):2d} | Quiz: {len(item['quizData']):2d}", flush=True)
 
-print(f"Total compiled lessons across Grade 3 & Grade 5: {len(all_lessons)}")
+    js_content = f"export const LESSONS_DATA = {json.dumps(all_lessons, ensure_ascii=False, indent=2)};\n"
 
-js_content = f"export const LESSONS_DATA = {json.dumps(all_lessons, ensure_ascii=False, indent=2)};\n"
+    with open(output_js_path, 'w', encoding='utf-8') as f:
+        f.write(js_content)
 
-with open(output_js_path, 'w', encoding='utf-8') as f:
-    f.write(js_content)
+    print(f"Successfully compiled dataset to {output_js_path}!", flush=True)
 
-print(f"Successfully compiled dataset to {output_js_path}!")
+if __name__ == '__main__':
+    main()
