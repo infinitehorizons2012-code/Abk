@@ -35198,19 +35198,19 @@ export const LESSONS_DATA = {
       {
         "term": "Bản chất của Khoa học",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Khoa học là việc học hỏi và nghiên cứu về thế giới kỳ diệu do Đức Chúa Trời tạo dựng (Studying God's world).",
         "memoryTip": "Trọng tâm bài học UbD"
       },
       {
         "term": "Vũ trụ có trật tự (Order)",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Đức Chúa Trời đã thiết lập các quy luật trật tự hoàn hảo và bất biến trong vũ trụ, giúp các nhà khoa học có thể quan sát, đo lường và khám phá.",
         "memoryTip": "Trọng tâm bài học UbD"
       },
       {
         "term": "Phương pháp khoa học 4 bước",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Quy trình chuẩn mực để khám phá thế giới gồm: (1) Quan sát và đặt câu hỏi, (2) Đưa ra giả thuyết hợp lý, (3) Làm thí nghiệm thu thập dữ liệu, (4) Nghiên cứu dữ liệu và rút ra kết luận.",
         "memoryTip": "Trọng tâm bài học UbD"
       }
     ],
@@ -35262,6 +35262,17 @@ export const LESSONS_DATA = {
           "Ý thức được rằng trí tò mò khám phá là món quà Chúa ban tặng; tự rà soát dữ liệu thu thập được để kiểm chứng xem giả thuyết ban đầu của mình đúng hay sai mà không thiên vị."
         ],
         "keyTakeaway": "Ví dụ: Sẵn sàng điều chỉnh kết luận khi số liệu thực tế khác với dự đoán ban đầu."
+      },
+      {
+        "slideNumber": 6,
+        "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
+        "tag": "Core Knowledge",
+        "bulletPoints": [
+          "Bản chất của Khoa học: Khoa học là việc học hỏi và nghiên cứu về thế giới kỳ diệu do Đức Chúa Trời tạo dựng (Studying God's world).",
+          "Vũ trụ có trật tự (Order): Đức Chúa Trời đã thiết lập các quy luật trật tự hoàn hảo và bất biến trong vũ trụ, giúp các nhà khoa học có thể quan sát, đo lường và khám phá.",
+          "Phương pháp khoa học 4 bước: Quy trình chuẩn mực để khám phá thế giới gồm: (1) Quan sát và đặt câu hỏi, (2) Đưa ra giả thuyết hợp lý, (3) Làm thí nghiệm thu thập dữ liệu, (4) Nghiên cứu dữ liệu và rút ra kết luận."
+        ],
+        "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
       }
     ],
     "quizData": [
@@ -35680,19 +35691,19 @@ export const LESSONS_DATA = {
       {
         "term": "Hệ giá trị vị trí đến hàng nghìn",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Số có 4 chữ số gồm các hàng tính từ phải sang trái: Đơn vị (Ones) -> Chục (Tens) -> Trăm (Hundreds) -> Nghìn (Thousands).",
         "memoryTip": "Trọng tâm bài học UbD"
       },
       {
         "term": "Quy tắc dấu phẩy hàng nghìn",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Đếm 3 chữ số từ phải sang trái rồi đặt dấu phẩy. Khi đọc số, vị trí dấu phẩy được phát âm là \"thousand\" (nghìn).",
         "memoryTip": "Trọng tâm bài học UbD"
       },
       {
         "term": "Đơn vị đo thời gian & Xem đồng hồ",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "1 phút = 60 giây, 1 giờ = 60 phút, 1 ngày = 24 giờ. Kim ngắn chỉ giờ, kim dài chỉ phút; mỗi số lớn trên mặt đồng hồ ứng với 5 phút trôi qua.",
         "memoryTip": "Trọng tâm bài học UbD"
       }
     ],
@@ -35744,6 +35755,17 @@ export const LESSONS_DATA = {
           "Tự rà soát tính hợp lý của số chữ số khi viết số có chứa số 0 giữ chỗ; tự kiểm tra thứ tự kim giờ và kim phút khi xem đồng hồ để tránh nhầm lẫn."
         ],
         "keyTakeaway": "Ví dụ: Khi viết \"ba nghìn linh ba\", học sinh tự đếm lại xem đã đủ 4 chữ số (3,003) chưa thay vì viết vội 33."
+      },
+      {
+        "slideNumber": 6,
+        "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
+        "tag": "Core Knowledge",
+        "bulletPoints": [
+          "Hệ giá trị vị trí đến hàng nghìn: Số có 4 chữ số gồm các hàng tính từ phải sang trái: Đơn vị (Ones) -> Chục (Tens) -> Trăm (Hundreds) -> Nghìn (Thousands).",
+          "Quy tắc dấu phẩy hàng nghìn: Đếm 3 chữ số từ phải sang trái rồi đặt dấu phẩy. Khi đọc số, vị trí dấu phẩy được phát âm là \"thousand\" (nghìn).",
+          "Đơn vị đo thời gian & Xem đồng hồ: 1 phút = 60 giây, 1 giờ = 60 phút, 1 ngày = 24 giờ. Kim ngắn chỉ giờ, kim dài chỉ phút; mỗi số lớn trên mặt đồng hồ ứng với 5 phút trôi qua."
+        ],
+        "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
       }
     ],
     "quizData": [
@@ -36155,19 +36177,19 @@ export const LESSONS_DATA = {
       {
         "term": "Quy tắc âm /ā/ dài",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Âm /ā/ ở giữa từ viết là ai (praise, braid, frail, plain); âm /ā/ ở cuối từ hoặc âm tiết viết là ay (today, daydream, maybe).",
         "memoryTip": "Trọng tâm bài học UbD"
       },
       {
         "term": "Nhận diện Từ ghép & Viết hoa",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Từ ghép (Compound words) như backpack, bookshelf, lunchbox được viết liền khối. Tên các tháng (August, September, October) luôn bắt buộc viết hoa.",
         "memoryTip": "Trọng tâm bài học UbD"
       },
       {
         "term": "Ý nghĩa từ vựng & Thơ ca",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Frail là yếu ớt, proclaim là tuyên bố công khai. Luôn giữ một bài thơ trong túi áo (Keep a Poem in Your Pocket) để tâm hồn luôn vui vẻ và lạc quan.",
         "memoryTip": "Trọng tâm bài học UbD"
       }
     ],
@@ -36219,6 +36241,17 @@ export const LESSONS_DATA = {
           "Tự phát hiện lỗi chính tả khi viết từ có âm /ā/ dài bằng cách tự đặt câu hỏi: \"Âm này nằm ở giữa hay cuối từ?\"; cảm thụ thông điệp của châm ngôn tuần: \"A little praise goes a long way\" để khích lệ người khác."
         ],
         "keyTakeaway": "Ví dụ: Tự kiểm tra lại bài viết chính tả trước khi nộp, chủ động khen ngợi một việc tốt của bạn bè."
+      },
+      {
+        "slideNumber": 6,
+        "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
+        "tag": "Core Knowledge",
+        "bulletPoints": [
+          "Quy tắc âm /ā/ dài: Âm /ā/ ở giữa từ viết là ai (praise, braid, frail, plain); âm /ā/ ở cuối từ hoặc âm tiết viết là ay (today, daydream, maybe).",
+          "Nhận diện Từ ghép & Viết hoa: Từ ghép (Compound words) như backpack, bookshelf, lunchbox được viết liền khối. Tên các tháng (August, September, October) luôn bắt buộc viết hoa.",
+          "Ý nghĩa từ vựng & Thơ ca: Frail là yếu ớt, proclaim là tuyên bố công khai. Luôn giữ một bài thơ trong túi áo (Keep a Poem in Your Pocket) để tâm hồn luôn vui vẻ và lạc quan."
+        ],
+        "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
       }
     ],
     "quizData": [
@@ -36602,19 +36635,19 @@ export const LESSONS_DATA = {
       {
         "term": "Ba thói quen vàng khi viết chữ",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Ngồi thẳng lưng hai chân chạm sàn -> Vở nghiêng theo tay thuận -> Cầm bút theo quy tắc \"Pinch, tuck, and rest\".",
         "memoryTip": "Trọng tâm bài học UbD"
       },
       {
         "term": "Linh hồn của chữ Cursive",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Độ nghiêng đều sang phải và cấu trúc hình elip (oval). Chữ viết lớp 3 không chạm đường đỉnh mà tựa chuẩn mực trên đường đáy (baseline) và cao đến đường đứt đoạn (midline).",
         "memoryTip": "Trọng tâm bài học UbD"
       },
       {
         "term": "Chữ A, a và Số 1, 2",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Chữ hoa A cao từ baseline lên gần dòng đỉnh; chữ a thường nằm trọn vẹn trong khoảng dòng đáy đến đường đứt đoạn; số 1 kéo thẳng nghiêng, số 2 có chân lượn êm ái trên đường đáy.",
         "memoryTip": "Trọng tâm bài học UbD"
       }
     ],
@@ -36666,6 +36699,17 @@ export const LESSONS_DATA = {
           "Tự so sánh nét chữ của mình với chữ mẫu chuẩn trong sách giáo khoa; tự phát hiện các lỗi như: chữ bị thẳng đứng mất độ nghiêng, đáy chữ không chạm đường kẻ hoặc chữ số 2 bị nghiêng đổ; tự giác nắn nót từng nét bút."
         ],
         "keyTakeaway": "Ví dụ: Học sinh tự chọn ra một chữ viết đẹp nhất trong dòng của mình để làm chuẩn mực phấn đấu."
+      },
+      {
+        "slideNumber": 6,
+        "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
+        "tag": "Core Knowledge",
+        "bulletPoints": [
+          "Ba thói quen vàng khi viết chữ: Ngồi thẳng lưng hai chân chạm sàn -> Vở nghiêng theo tay thuận -> Cầm bút theo quy tắc \"Pinch, tuck, and rest\".",
+          "Linh hồn của chữ Cursive: Độ nghiêng đều sang phải và cấu trúc hình elip (oval). Chữ viết lớp 3 không chạm đường đỉnh mà tựa chuẩn mực trên đường đáy (baseline) và cao đến đường đứt đoạn (midline).",
+          "Chữ A, a và Số 1, 2: Chữ hoa A cao từ baseline lên gần dòng đỉnh; chữ a thường nằm trọn vẹn trong khoảng dòng đáy đến đường đứt đoạn; số 1 kéo thẳng nghiêng, số 2 có chân lượn êm ái trên đường đáy."
+        ],
+        "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
       }
     ],
     "quizData": [
@@ -37049,19 +37093,19 @@ export const LESSONS_DATA = {
       {
         "term": "Tự lập và Kỷ luật học tập",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Tiết Seatwork là cơ hội vàng để học sinh xây dựng tính tự giác học tập không cần nhắc nhở, làm việc nghiêm túc ngay cả khi không có giáo viên đứng trước mặt.",
         "memoryTip": "Trọng tâm bài học UbD"
       },
       {
         "term": "Kỹ năng quản lý thời gian đa nhiệm",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Biết chia nhỏ thời gian và hoàn thành tuần tự 5 nhiệm vụ học tập khác nhau một cách khoa học, đúng tiến độ.",
         "memoryTip": "Trọng tâm bài học UbD"
       },
       {
         "term": "Tiêu chuẩn cẩn thận và Tự chịu trách nhiệm",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Mọi bài tập nộp đi đều phải đại diện cho nỗ lực cao nhất của bản thân: Chữ viết nắn nót, kết quả chính xác và luôn được rà soát kỹ lưỡng.",
         "memoryTip": "Trọng tâm bài học UbD"
       }
     ],
@@ -37113,6 +37157,17 @@ export const LESSONS_DATA = {
           "Kỹ năng tự kiểm tra (Self-Check & Audit): Dành 5 phút cuối giờ rà soát lại toàn bộ các bài tập đã làm, phát hiện các lỗi tính toán, thiếu dấu câu hay chữ viết ẩu trước khi nộp bài cho phụ huynh/giáo viên tại chỗ chấm điểm."
         ],
         "keyTakeaway": "Ví dụ: Tự phát hiện câu 3 bài Language bị thiếu dấu chấm và kịp thời bổ sung trước khi nộp bài."
+      },
+      {
+        "slideNumber": 6,
+        "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
+        "tag": "Core Knowledge",
+        "bulletPoints": [
+          "Tự lập và Kỷ luật học tập: Tiết Seatwork là cơ hội vàng để học sinh xây dựng tính tự giác học tập không cần nhắc nhở, làm việc nghiêm túc ngay cả khi không có giáo viên đứng trước mặt.",
+          "Kỹ năng quản lý thời gian đa nhiệm: Biết chia nhỏ thời gian và hoàn thành tuần tự 5 nhiệm vụ học tập khác nhau một cách khoa học, đúng tiến độ.",
+          "Tiêu chuẩn cẩn thận và Tự chịu trách nhiệm: Mọi bài tập nộp đi đều phải đại diện cho nỗ lực cao nhất của bản thân: Chữ viết nắn nót, kết quả chính xác và luôn được rà soát kỹ lưỡng."
+        ],
+        "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
       }
     ],
     "quizData": [
@@ -37496,19 +37551,19 @@ export const LESSONS_DATA = {
       {
         "term": "Định nghĩa chuẩn về Câu",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Câu là một nhóm từ diễn đạt một ý trọn vẹn (A sentence is a group of words that expresses a complete thought).",
         "memoryTip": "Trọng tâm bài học UbD"
       },
       {
         "term": "Hai quy tắc bất di bất dịch của Câu",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Luôn luôn bắt đầu bằng một chữ cái viết hoa (Capital letter) và luôn luôn kết thúc bằng một dấu câu thích hợp (Punctuation mark).",
         "memoryTip": "Trọng tâm bài học UbD"
       },
       {
         "term": "Phân biệt Câu và Cụm từ bỏ lửng",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Một câu hoàn chỉnh bắt buộc phải có chủ thể và hành động. Cụm từ thiếu một trong hai yếu tố này chỉ là mẩu vụn ý nghĩ (Fragment) cần được viết thêm để thành câu.",
         "memoryTip": "Trọng tâm bài học UbD"
       }
     ],
@@ -37560,6 +37615,17 @@ export const LESSONS_DATA = {
           "Tự đọc lại câu văn của mình trước khi đặt dấu chấm để kiểm tra: \"Câu này đã trọn ý chưa? Người đọc có hiểu trọn vẹn ai đang làm gì không?\"; tự giác rà soát lỗi thiếu viết hoa và quên dấu câu trong mọi môn học."
         ],
         "keyTakeaway": "Ví dụ: Học sinh tự đọc thầm lại bài viết và tự hỏi: \"Nếu mình dừng ở đây thì bạn mình có hiểu hết ý mình muốn nói không?\""
+      },
+      {
+        "slideNumber": 6,
+        "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
+        "tag": "Core Knowledge",
+        "bulletPoints": [
+          "Định nghĩa chuẩn về Câu: Câu là một nhóm từ diễn đạt một ý trọn vẹn (A sentence is a group of words that expresses a complete thought).",
+          "Hai quy tắc bất di bất dịch của Câu: Luôn luôn bắt đầu bằng một chữ cái viết hoa (Capital letter) và luôn luôn kết thúc bằng một dấu câu thích hợp (Punctuation mark).",
+          "Phân biệt Câu và Cụm từ bỏ lửng: Một câu hoàn chỉnh bắt buộc phải có chủ thể và hành động. Cụm từ thiếu một trong hai yếu tố này chỉ là mẩu vụn ý nghĩ (Fragment) cần được viết thêm để thành câu."
+        ],
+        "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
       }
     ],
     "quizData": [
@@ -37921,19 +37987,19 @@ export const LESSONS_DATA = {
       {
         "term": "Kỹ năng và Thói quen đọc sách chuẩn",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Đọc bằng mắt, không mấp máy môi, không dùng ngón tay chỉ chữ; cầm sách nhẹ nhàng và giữ gìn trang sách phẳng phiu.",
         "memoryTip": "Trọng tâm bài học UbD"
       },
       {
         "term": "Hình tượng nghệ thuật trong \"My Bed Is a Boat\"",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Đại thi hào Robert Louis Stevenson đã ví chiếc giường ngủ như con thuyền buồm êm đềm, đưa em bé chu du vào đại dương giấc mộng đẹp và cập bến bình an vào sáng hôm sau.",
         "memoryTip": "Trọng tâm bài học UbD"
       },
       {
         "term": "Đọc to diễn cảm & Cảm thụ thi ca",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Đọc to thành tiếng cần phát âm rõ ràng, ngắt nghỉ đúng dấu câu và gửi gắm cảm xúc phù hợp với nội dung bài thơ.",
         "memoryTip": "Trọng tâm bài học UbD"
       }
     ],
@@ -37985,6 +38051,17 @@ export const LESSONS_DATA = {
           "Tự điều chỉnh tốc độ đọc của bản thân: Không đọc quá nhanh như đọc vẹt, cũng không đọc rời rạc từng từ; tự lắng nghe ngữ điệu của mình để truyền tải cảm xúc êm đềm của bài thơ; nhận biết khi mình bị mất tập trung để chủ động đọc lại."
         ],
         "keyTakeaway": "Ví dụ: Học sinh tự nhận thấy mình đọc quá nhanh ở khổ thơ 2 và chủ động hạ tốc độ, đọc chậm rãi và truyền cảm hơn."
+      },
+      {
+        "slideNumber": 6,
+        "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
+        "tag": "Core Knowledge",
+        "bulletPoints": [
+          "Kỹ năng và Thói quen đọc sách chuẩn: Đọc bằng mắt, không mấp máy môi, không dùng ngón tay chỉ chữ; cầm sách nhẹ nhàng và giữ gìn trang sách phẳng phiu.",
+          "Hình tượng nghệ thuật trong \"My Bed Is a Boat\": Đại thi hào Robert Louis Stevenson đã ví chiếc giường ngủ như con thuyền buồm êm đềm, đưa em bé chu du vào đại dương giấc mộng đẹp và cập bến bình an vào sáng hôm sau.",
+          "Đọc to diễn cảm & Cảm thụ thi ca: Đọc to thành tiếng cần phát âm rõ ràng, ngắt nghỉ đúng dấu câu và gửi gắm cảm xúc phù hợp với nội dung bài thơ."
+        ],
+        "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
       }
     ],
     "quizData": [
@@ -38952,19 +39029,19 @@ export const LESSONS_DATA = {
       {
         "term": "Bức tranh địa lý toàn cầu",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Thế giới gồm 7 châu lục lớn và 5 đại dương bao la. Nước Mỹ nằm ở lục địa Bắc Mỹ, được bao bọc bởi Đại Tây Dương và Thái Bình Dương.",
         "memoryTip": "Trọng tâm bài học UbD"
       },
       {
         "term": "Giá trị của Di sản (Heritage)",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Di sản là những món quà tuyệt vời về tự do, cơ hội, luật pháp và truyền thống tốt đẹp mà các thế hệ đi trước đã cống hiến để trao lại cho chúng ta hôm nay.",
         "memoryTip": "Trọng tâm bài học UbD"
       },
       {
         "term": "Ý nghĩa của Lịch sử (His-Story) và Dòng thời gian",
         "category": "Key Takeaway",
-        "definition": "",
+        "definition": "Lịch sử là câu chuyện Chúa dẫn dắt con người qua dòng thời gian; Trục thời gian (Timeline) giúp ta sắp xếp các sự kiện theo trình tự logic và có hệ thống.",
         "memoryTip": "Trọng tâm bài học UbD"
       }
     ],
@@ -39016,6 +39093,17 @@ export const LESSONS_DATA = {
           "Nhận thức rõ ràng trách nhiệm của bản thân thế hệ học sinh hôm nay trong việc giữ gìn và phát huy di sản của cha ông; tự rà soát xem mình đang sử dụng quỹ thời gian mỗi ngày có ích lợi như thế nào."
         ],
         "keyTakeaway": "Ví dụ: Học sinh tự liên hệ: \"Mình đang viết tiếp trang sử của gia đình và đất nước bằng việc học chăm chỉ mỗi ngày.\""
+      },
+      {
+        "slideNumber": 6,
+        "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
+        "tag": "Core Knowledge",
+        "bulletPoints": [
+          "Bức tranh địa lý toàn cầu: Thế giới gồm 7 châu lục lớn và 5 đại dương bao la. Nước Mỹ nằm ở lục địa Bắc Mỹ, được bao bọc bởi Đại Tây Dương và Thái Bình Dương.",
+          "Giá trị của Di sản (Heritage): Di sản là những món quà tuyệt vời về tự do, cơ hội, luật pháp và truyền thống tốt đẹp mà các thế hệ đi trước đã cống hiến để trao lại cho chúng ta hôm nay.",
+          "Ý nghĩa của Lịch sử (His-Story) và Dòng thời gian: Lịch sử là câu chuyện Chúa dẫn dắt con người qua dòng thời gian; Trục thời gian (Timeline) giúp ta sắp xếp các sự kiện theo trình tự logic và có hệ thống."
+        ],
+        "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
       }
     ],
     "quizData": [

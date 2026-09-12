@@ -109,7 +109,7 @@ def extract_fallback_flashcards(ubd_data):
             cards.append({
                 "term": item.get("title") or "Key Takeaway",
                 "category": "Key Takeaway",
-                "definition": item.get("desc") or item.get("description") or "",
+                "definition": item.get("content") or item.get("desc") or item.get("description") or "",
                 "memoryTip": "Trọng tâm bài học UbD"
             })
     return cards
@@ -121,6 +121,8 @@ def extract_fallback_slides(ubd_data, subj_clean, day_num, grade):
     meta = ubd_data.get("meta", {})
     stage1 = ubd_data.get("stage1_desired_results", {})
     taxonomy = stage1.get("skill_taxonomy") or ubd_data.get("skill_taxonomy") or []
+    takeaways = ubd_data.get("key_takeaways", [])
+    pitfalls = ubd_data.get("pitfalls", [])
     
     slides.append({
         "slideNumber": 1,
@@ -138,7 +140,7 @@ def extract_fallback_slides(ubd_data, subj_clean, day_num, grade):
     for idx, item in enumerate(taxonomy):
         if isinstance(item, dict):
             slides.append({
-                "slideNumber": idx + 2,
+                "slideNumber": len(slides) + 1,
                 "title": item.get("level_name") or f"Tầng bậc nhận thức {idx+1}",
                 "tag": "Skill Taxonomy",
                 "bulletPoints": [
@@ -146,6 +148,23 @@ def extract_fallback_slides(ubd_data, subj_clean, day_num, grade):
                 ],
                 "keyTakeaway": item.get("lesson_illustration") or ""
             })
+
+    if takeaways:
+        bullets = []
+        for t in takeaways:
+            if isinstance(t, dict):
+                title = t.get("title") or "Key Point"
+                content = t.get("content") or t.get("desc") or ""
+                bullets.append(f"{title}: {content}")
+        if bullets:
+            slides.append({
+                "slideNumber": len(slides) + 1,
+                "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
+                "tag": "Core Knowledge",
+                "bulletPoints": bullets,
+                "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
+            })
+
     return slides
 
 def process_subject_folder(subj_path, grade, day_str, day_num, subj_clean, legacy_key):
@@ -159,24 +178,24 @@ def process_subject_folder(subj_path, grade, day_str, day_num, subj_clean, legac
             try:
                 with open(b_path, 'r', encoding='utf-8') as f:
                     book_data = json.load(f)
-            except Exception:
-                pass
+            except Exception as e:
+                print(f"[WARN] Failed to load {b_path}: {e}")
 
         u_path = os.path.join(subj_path, 'ubd_analysis.json')
         if os.path.exists(u_path):
             try:
                 with open(u_path, 'r', encoding='utf-8') as f:
                     ubd_data = json.load(f)
-            except Exception:
-                pass
+            except Exception as e:
+                print(f"[WARN] Failed to load {u_path}: {e}")
 
         i_path = os.path.join(subj_path, 'interactive_learning.json')
         if os.path.exists(i_path):
             try:
                 with open(i_path, 'r', encoding='utf-8') as f:
                     interactive_data = json.load(f)
-            except Exception:
-                pass
+            except Exception as e:
+                print(f"[WARN] Failed to load {i_path}: {e}")
 
     book_id = book_data.get("book_identification") or book_data.get("bookIdentification") or ubd_data.get("meta") or {}
     raw_ts = book_data.get("timestamp_map") or book_data.get("timestampMap") or ubd_data.get("stage3_learning_plan", {}).get("timestamp_mapping") or []
