@@ -1,8 +1,36 @@
 import React from 'react';
-import { Map, Clock, BookOpen, PlayCircle, CheckCircle2, FileSpreadsheet } from 'lucide-react';
+import { Map, Clock, BookOpen, PlayCircle, CheckCircle2, FileSpreadsheet, AlertCircle } from 'lucide-react';
 
 export default function FullTimestampMapViewer({ lesson, onSelectTimestamp }) {
   const mapData = lesson.timestampMap || [];
+
+  if (mapData.length === 0) {
+    return (
+      <div style={{ maxWidth: '1000px', margin: '30px auto', fontFamily: 'Inter, system-ui, sans-serif' }}>
+        <div style={{
+          background: '#ffffff',
+          borderRadius: '24px',
+          padding: '44px 32px',
+          border: '2px dashed #cbd5e1',
+          boxShadow: '0 8px 24px rgba(0,0,0,0.03)',
+          textAlign: 'center'
+        }}>
+          <div style={{ background: '#fef3c7', color: '#d97706', width: '64px', height: '64px', borderRadius: '50%', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', marginBottom: '16px' }}>
+            <AlertCircle size={36} />
+          </div>
+          <h2 style={{ fontSize: '1.4rem', fontWeight: '900', color: '#1e293b', marginBottom: '8px' }}>
+            Bảng Timestamp Map Cho {lesson.subject} ({lesson.day}) Đang Được Cập Nhật
+          </h2>
+          <p style={{ fontSize: '0.98rem', color: '#64748b', maxWidth: '650px', margin: '0 auto 20px', lineHeight: '1.7' }}>
+            Bài học này chưa được nạp file <code>book_and_timestamp.json</code> từ Gemini Spark. Hệ thống không tạo dữ liệu giả để đảm bảo tính chính xác 100%.
+          </p>
+          <div style={{ background: '#f8fafc', padding: '14px 20px', borderRadius: '14px', border: '1px solid #e2e8f0', display: 'inline-block', fontSize: '0.88rem', color: '#475569', fontWeight: '700' }}>
+            💡 Khi bạn chạy Gemini Spark phân tích xong bài học {lesson.day}, mốc thời gian sẽ tự động hiển thị đầy đủ tại đây.
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   const formatTimePill = (seconds) => {
     const m = Math.floor(seconds / 60);

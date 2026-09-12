@@ -1,7 +1,6 @@
 import os
 import json
 import re
-import sys
 
 base_dir = r"G:\My Drive\80-Shared\Team-Shared\Abeka_Videos\Abeka Video"
 g5_dir = os.path.join(base_dir, "Grade 5")
@@ -53,9 +52,9 @@ def normalize_timestamp_map(raw_map, subj_clean, day_num):
             else:
                 end_sec = start_sec + 60
 
-        title = item.get("teacher_activity") or item.get("title") or item.get("act") or f"Mở đầu bài giảng {subj_clean}"
-        desc = item.get("core_concept") or item.get("desc") or item.get("conc") or f"Nội dung trọng tâm môn {subj_clean} Bài {day_num:03d}."
-        book_ref = item.get("book_reference") or item.get("bookRef") or item.get("ref") or f"{subj_clean} Bài {day_num:03d}"
+        title = item.get("teacher_activity") or item.get("title") or item.get("act") or ""
+        desc = item.get("core_concept") or item.get("desc") or item.get("conc") or ""
+        book_ref = item.get("book_reference") or item.get("bookRef") or item.get("ref") or ""
 
         norm.append({
             "startTime": start_sec,
@@ -90,92 +89,35 @@ def normalize_quiz_data(raw_quiz):
         })
     return norm
 
-def create_placeholder_lesson(grade, day_str, day_num, subj_clean, legacy_key):
-    book_id = {
-        "teacher": "Miss Emma Spaugh (Abeka Academy)",
-        "videoFile": f"{grade} - {day_num:03d} - {subj_clean}.mp4",
-        "primary_textbook": f"{subj_clean} Work-text (Abeka {grade})",
-        "textbook_pages": f"Lesson {day_num}",
-        "required_supplies": "Sách bài tập, bút chì, giấy nháp làm bài."
-    }
-    ts_map = [{
-        "startTime": 0,
-        "endTime": 60,
-        "title": f"Mở đầu bài giảng {subj_clean} ({day_str})",
-        "desc": f"Giới thiệu nội dung trọng tâm bài học môn {subj_clean} bài {day_num:03d} & dặn dò bài tập.",
-        "bookRef": f"{subj_clean} Bài {day_num:03d}"
-    }]
-    quiz_data = [{
-        "id": "q1",
-        "question": f"Bài học {subj_clean} {day_str} thuộc khối lớp mấy?",
-        "options": ["A. Grade 5", "B. Grade 3", "C. Grade 1", "D. Grade 2"],
-        "correct": "A" if grade == "Grade 5" else "B",
-        "explanation": f"Chương trình tiêu chuẩn Abeka {grade}."
-    }]
-    flashcards = [{
-        "term": f"{subj_clean} Core Concept",
-        "category": f"{grade} Concept",
-        "definition": f"Khái niệm trọng tâm bài học môn {subj_clean} {day_str}.",
-        "memoryTip": f"Ghi nhớ kiến thức chuẩn chương trình Abeka {grade}."
-    }]
-    slides = [{
-        "slideNumber": 1,
-        "title": f"Khung Bài Học {subj_clean} ({day_str})",
-        "tag": f"{grade} Overview",
-        "bulletPoints": [
-            f"Chủ đề trọng tâm {subj_clean} {day_str}",
-            "Tích hợp hệ thống phân tích UbD & Timestamp Map",
-            "Vẫn hỗ trợ xem Video bài giảng & tài liệu SGK"
-        ],
-        "keyTakeaway": f"Học tập tự giác và chủ động theo chương trình Abeka {grade}."
-    }]
-    return {
-        "id": legacy_key,
-        "grade": grade,
-        "day": day_str,
-        "subject": f"{subj_clean} (Bài {day_num:03d})",
-        "teacher": "Miss Emma Spaugh (Abeka Academy)",
-        "videoUrl": "",
-        "driveEmbedUrl": "",
-        "bookTitle": f"{subj_clean} Work-text (Abeka {grade})",
-        "bookPages": f"Bài học {day_num:03d}",
-        "manualRef": f"{grade} Video Manual",
-        "bookIdentification": book_id,
-        "timestampMap": ts_map,
-        "ubdReport": {},
-        "flashcards": flashcards,
-        "slides": slides,
-        "quizData": quiz_data
-    }
-
 def process_subject_folder(subj_path, grade, day_str, day_num, subj_clean, legacy_key):
     book_data = {}
     ubd_data = {}
     interactive_data = {}
 
-    try:
+    if os.path.exists(subj_path) and os.path.isdir(subj_path):
         b_path = os.path.join(subj_path, 'book_and_timestamp.json')
         if os.path.exists(b_path):
-            with open(b_path, 'r', encoding='utf-8') as f:
-                book_data = json.load(f)
-    except Exception:
-        pass
+            try:
+                with open(b_path, 'r', encoding='utf-8') as f:
+                    book_data = json.load(f)
+            except Exception:
+                pass
 
-    try:
         u_path = os.path.join(subj_path, 'ubd_analysis.json')
         if os.path.exists(u_path):
-            with open(u_path, 'r', encoding='utf-8') as f:
-                ubd_data = json.load(f)
-    except Exception:
-        pass
+            try:
+                with open(u_path, 'r', encoding='utf-8') as f:
+                    ubd_data = json.load(f)
+            except Exception:
+                pass
 
-    try:
         i_path = os.path.join(subj_path, 'interactive_learning.json')
         if os.path.exists(i_path):
-            with open(i_path, 'r', encoding='utf-8') as f:
-                interactive_data = json.load(f)
-    except Exception:
-        pass
+            try:
+                with open(i_path, 'r', encoding='utf-8') as f:
+                    interactive_data = json.load(f)
+            except Exception:
+                pass
 
     book_id = book_data.get("book_identification") or book_data.get("bookIdentification") or ubd_data.get("meta") or {}
     raw_ts = book_data.get("timestamp_map") or book_data.get("timestampMap") or ubd_data.get("stage3_learning_plan", {}).get("timestamp_mapping") or []
@@ -187,50 +129,10 @@ def process_subject_folder(subj_path, grade, day_str, day_num, subj_clean, legac
     flashcards = interactive_data.get("flashcards", [])
     slides = interactive_data.get("slides", [])
 
-    teacher = book_id.get("teacher") or book_data.get("teacher") or "Miss Emma Spaugh (Abeka Academy)"
+    teacher = book_id.get("teacher") or book_data.get("teacher") or ""
     book_title = book_id.get("primary_textbook") or book_id.get("textbook") or book_data.get("bookTitle") or f"{subj_clean} Work-text"
     book_pages = book_id.get("textbook_pages") or book_data.get("bookPages") or f"Lesson {day_num}"
     manual_ref = book_id.get("supplementary_materials") or book_id.get("supplementary") or book_data.get("manualRef") or f"{grade} Video Manual"
-
-    # Placeholders if empty
-    if not ts_map:
-        ts_map = [{
-            "startTime": 0,
-            "endTime": 60,
-            "title": f"Mở đầu bài giảng {subj_clean} ({day_str})",
-            "desc": f"Giới thiệu nội dung trọng tâm bài học môn {subj_clean} bài {day_num:03d} & dặn dò bài tập.",
-            "bookRef": f"{subj_clean} Bài {day_num:03d}"
-        }]
-
-    if not quiz_data:
-        quiz_data = [{
-            "id": "q1",
-            "question": f"Bài học {subj_clean} {day_str} thuộc khối lớp mấy?",
-            "options": ["A. Grade 5", "B. Grade 3", "C. Grade 1", "D. Grade 2"],
-            "correct": "A" if grade == "Grade 5" else "B",
-            "explanation": f"Chương trình tiêu chuẩn Abeka {grade}."
-        }]
-
-    if not flashcards:
-        flashcards = [{
-            "term": f"{subj_clean} Core Concept",
-            "category": f"{grade} Concept",
-            "definition": f"Khái niệm trọng tâm bài học môn {subj_clean} {day_str}.",
-            "memoryTip": f"Ghi nhớ kiến thức chuẩn chương trình Abeka {grade}."
-        }]
-
-    if not slides:
-        slides = [{
-            "slideNumber": 1,
-            "title": f"Khung Bài Học {subj_clean} ({day_str})",
-            "tag": f"{grade} Overview",
-            "bulletPoints": [
-                f"Chủ đề trọng tâm {subj_clean} {day_str}",
-                "Tích hợp hệ thống phân tích UbD & Timestamp Map",
-                "Vẫn hỗ trợ xem Video bài giảng & tài liệu SGK"
-            ],
-            "keyTakeaway": f"Học tập tự giác và chủ động theo chương trình Abeka {grade}."
-        }]
 
     return {
         "id": legacy_key,
@@ -267,19 +169,16 @@ def main():
 
             sub_items = [s for s in os.listdir(day_path) if os.path.isdir(os.path.join(day_path, s))]
             if not sub_items:
-                for subj_clean in g5_subjects:
-                    key_slug = f"g5-d{day_num:03d}-{subj_clean.lower().replace(' ', '-')}"
-                    legacy_key = "arithmetic-5" if (day_num == 1 and "arithmetic" in subj_clean.lower()) else key_slug
-                    all_lessons[legacy_key] = create_placeholder_lesson("Grade 5", day_str, day_num, subj_clean, legacy_key)
-            else:
-                for subj in sub_items:
-                    subj_clean = subj.strip()
-                    if subj_clean in ['test', 'desktop.ini'] or subj_clean.endswith('.gdoc'):
-                        continue
-                    key_slug = f"g5-d{day_num:03d}-{subj_clean.lower().replace(' ', '-')}"
-                    legacy_key = "arithmetic-5" if (day_num == 1 and "arithmetic" in subj_clean.lower()) else key_slug
-                    subj_path = os.path.join(day_path, subj)
-                    all_lessons[legacy_key] = process_subject_folder(subj_path, "Grade 5", day_str, day_num, subj_clean, legacy_key)
+                sub_items = g5_subjects
+
+            for subj in sub_items:
+                subj_clean = subj.strip()
+                if subj_clean in ['test', 'desktop.ini'] or subj_clean.endswith('.gdoc'):
+                    continue
+                key_slug = f"g5-d{day_num:03d}-{subj_clean.lower().replace(' ', '-')}"
+                legacy_key = "arithmetic-5" if (day_num == 1 and "arithmetic" in subj_clean.lower()) else key_slug
+                subj_path = os.path.join(day_path, subj)
+                all_lessons[legacy_key] = process_subject_folder(subj_path, "Grade 5", day_str, day_num, subj_clean, legacy_key)
 
     print("--- Processing Grade 3 ---")
     if os.path.exists(g3_dir):
@@ -292,22 +191,20 @@ def main():
 
             sub_items = [s for s in os.listdir(day_path) if os.path.isdir(os.path.join(day_path, s))]
             if not sub_items:
-                for subj_clean in g3_subjects:
-                    key_slug = f"g3-d{day_num:03d}-{subj_clean.lower().replace(' ', '-')}"
-                    all_lessons[key_slug] = create_placeholder_lesson("Grade 3", day_str, day_num, subj_clean, key_slug)
-            else:
-                for subj in sub_items:
-                    subj_clean = subj.strip()
-                    if subj_clean in ['test', 'desktop.ini'] or subj_clean.endswith('.gdoc'):
-                        continue
-                    key_slug = f"g3-d{day_num:03d}-{subj_clean.lower().replace(' ', '-')}"
-                    subj_path = os.path.join(day_path, subj)
-                    all_lessons[key_slug] = process_subject_folder(subj_path, "Grade 3", day_str, day_num, subj_clean, key_slug)
+                sub_items = g3_subjects
+
+            for subj in sub_items:
+                subj_clean = subj.strip()
+                if subj_clean in ['test', 'desktop.ini'] or subj_clean.endswith('.gdoc'):
+                    continue
+                key_slug = f"g3-d{day_num:03d}-{subj_clean.lower().replace(' ', '-')}"
+                subj_path = os.path.join(day_path, subj)
+                all_lessons[key_slug] = process_subject_folder(subj_path, "Grade 3", day_str, day_num, subj_clean, key_slug)
 
     print(f"Total compiled lessons: {len(all_lessons)}")
 
-    # Print statistics for Grade 5 Day 1
-    for k in ['arithmetic-5', 'g5-d001-spelling-5', 'g5-d001-reading-5', 'g5-d001-science-health-5']:
+    # Print statistics for Grade 5 Day 1, 2, 3
+    for k in ['arithmetic-5', 'g5-d001-spelling-5', 'g5-d002-spelling-5', 'g5-d003-arithmetic-5']:
         if k in all_lessons:
             item = all_lessons[k]
             print(f"Key: {k:25s} | Subj: {item['subject']:22s} | TS: {len(item['timestampMap']):2d} | Quiz: {len(item['quizData']):2d}")
