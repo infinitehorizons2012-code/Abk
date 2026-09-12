@@ -43,56 +43,7 @@ export default function QuizEngine({ lesson }) {
 
   return (
     <div className="quiz-container" style={{ maxWidth: '1100px', margin: '0 auto' }}>
-      {(lesson.quizHtmlUrl || (showResults && viewMode === 'react')) && (
-        <div style={{ display: 'flex', justifyContent: lesson.quizHtmlUrl ? 'space-between' : 'flex-end', alignItems: 'center', flexWrap: 'wrap', gap: '12px', marginBottom: '24px' }}>
-          {lesson.quizHtmlUrl && (
-            <div style={{ display: 'flex', gap: '8px', background: '#ffffff', padding: '4px', borderRadius: '12px', border: '1px solid #c7d2fe' }}>
-              <button
-                onClick={() => setViewMode('iframe')}
-                style={{
-                  padding: '8px 14px',
-                  borderRadius: '8px',
-                  border: 'none',
-                  background: viewMode === 'iframe' ? '#4338ca' : 'transparent',
-                  color: viewMode === 'iframe' ? '#ffffff' : '#312e81',
-                  fontWeight: '800',
-                  cursor: 'pointer',
-                  fontSize: '0.85rem',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '6px'
-                }}
-              >
-                <Globe size={16} /> Trang HTML Gốc
-              </button>
-              <button
-                onClick={() => setViewMode('react')}
-                style={{
-                  padding: '8px 14px',
-                  borderRadius: '8px',
-                  border: 'none',
-                  background: viewMode === 'react' ? '#4338ca' : 'transparent',
-                  color: viewMode === 'react' ? '#ffffff' : '#312e81',
-                  fontWeight: '800',
-                  cursor: 'pointer',
-                  fontSize: '0.85rem',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '6px'
-                }}
-              >
-                <Layout size={16} /> Dạng Quiz React
-              </button>
-            </div>
-          )}
 
-          {showResults && viewMode === 'react' && (
-            <div style={{ background: '#ffffff', padding: '10px 18px', borderRadius: '14px', boxShadow: '0 4px 10px rgba(0,0,0,0.05)', fontWeight: '800', color: '#16a34a', fontSize: '1.1rem' }}>
-              🎯 Kết Quả: {calculateScore()} / {(lesson.quizData || []).length} Đúng
-            </div>
-          )}
-        </div>
-      )}
 
       {viewMode === 'iframe' && lesson.quizHtmlUrl ? (
         <div style={{ width: '100%', height: '850px', borderRadius: '24px', overflow: 'hidden', border: '2px solid #6366f1', boxShadow: '0 10px 30px rgba(0,0,0,0.08)', background: '#ffffff' }}>
