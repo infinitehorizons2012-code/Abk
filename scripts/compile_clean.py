@@ -299,7 +299,9 @@ def main():
             item = all_lessons[k]
             print(f"Key: {k:25s} | Subj: {item['subject']:22s} | TS: {len(item['timestampMap']):2d} | Quiz: {len(item['quizData']):2d} | Flash: {len(item['flashcards']):2d} | Slides: {len(item['slides']):2d}")
 
-    js_content = f"export const LESSONS_DATA = {json.dumps(all_lessons, ensure_ascii=False, indent=2)};\n"
+    import time
+    ts_now = time.time()
+    js_content = f"// Build timestamp: {ts_now}\nexport const LESSONS_DATA = {json.dumps(all_lessons, ensure_ascii=False, indent=2)};\n"
 
     with open(output_js_path, 'w', encoding='utf-8') as f:
         f.write(js_content)
