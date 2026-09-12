@@ -1,13 +1,43 @@
 import React from 'react';
-import { BookOpen, User, Film, ListChecks, CheckCircle2 } from 'lucide-react';
+import { BookOpen, User, Film, ListChecks, CheckCircle2, AlertCircle } from 'lucide-react';
 
 export default function BookIdentificationViewer({ lesson }) {
   const bookInfo = lesson.bookIdentification || {};
-  const teacher = lesson.teacher || bookInfo.teacher || "Abeka Academy Teacher";
-  const mainBook = lesson.bookTitle || bookInfo.primary_textbook || `${lesson.subject} Work-text`;
-  const bookPages = lesson.bookPages || bookInfo.textbook_pages || `Bài học ${lesson.day}`;
-  const manualRef = lesson.manualRef || bookInfo.supplementary_materials || "Video Manual & Guide";
+  const teacher = lesson.teacher || bookInfo.teacher || "";
+  const mainBook = lesson.bookTitle || bookInfo.primary_textbook || "";
+  const bookPages = lesson.bookPages || bookInfo.textbook_pages || "";
+  const manualRef = lesson.manualRef || bookInfo.supplementary_materials || "";
   const requiredSupplies = bookInfo.required_supplies || "Sách bài tập, bút chì, giấy nháp làm bài.";
+
+  const hasBookData = Boolean(teacher || mainBook || Object.keys(bookInfo).length > 0);
+
+  if (!hasBookData) {
+    return (
+      <div style={{ maxWidth: '1000px', margin: '30px auto', fontFamily: 'Inter, system-ui, sans-serif' }}>
+        <div style={{
+          background: '#ffffff',
+          borderRadius: '24px',
+          padding: '44px 32px',
+          border: '2px dashed #cbd5e1',
+          boxShadow: '0 8px 24px rgba(0,0,0,0.03)',
+          textAlign: 'center'
+        }}>
+          <div style={{ background: '#fef3c7', color: '#d97706', width: '64px', height: '64px', borderRadius: '50%', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', marginBottom: '16px' }}>
+            <AlertCircle size={36} />
+          </div>
+          <h2 style={{ fontSize: '1.4rem', fontWeight: '900', color: '#1e293b', marginBottom: '8px' }}>
+            Thông Tin Nhận Diện Sách Cho {lesson.subject} ({lesson.day}) Đang Được Cập Nhật
+          </h2>
+          <p style={{ fontSize: '0.98rem', color: '#64748b', maxWidth: '650px', margin: '0 auto 20px', lineHeight: '1.7' }}>
+            Bài học này chưa được nạp file <code>book_and_timestamp.json</code> từ Gemini Spark. Hệ thống không tự ý điền thông tin giả để đảm bảo tính chính xác 100%.
+          </p>
+          <div style={{ background: '#f8fafc', padding: '14px 20px', borderRadius: '14px', border: '1px solid #e2e8f0', display: 'inline-block', fontSize: '0.88rem', color: '#475569', fontWeight: '700' }}>
+            💡 Khi bạn chạy Gemini Spark phân tích xong bài học {lesson.day}, thông tin sách giáo khoa và học liệu đối chiếu sẽ tự động nạp lên đây.
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div style={{ maxWidth: '1100px', margin: '0 auto', fontFamily: 'Nunito, Quicksand, sans-serif' }}>

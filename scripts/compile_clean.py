@@ -129,10 +129,11 @@ def process_subject_folder(subj_path, grade, day_str, day_num, subj_clean, legac
     flashcards = interactive_data.get("flashcards", [])
     slides = interactive_data.get("slides", [])
 
-    teacher = book_id.get("teacher") or book_data.get("teacher") or ""
-    book_title = book_id.get("primary_textbook") or book_id.get("textbook") or book_data.get("bookTitle") or f"{subj_clean} Work-text"
-    book_pages = book_id.get("textbook_pages") or book_data.get("bookPages") or f"Lesson {day_num}"
-    manual_ref = book_id.get("supplementary_materials") or book_id.get("supplementary") or book_data.get("manualRef") or f"{grade} Video Manual"
+    has_any_json = bool(book_data or ubd_data or interactive_data)
+    teacher = book_id.get("teacher") or book_data.get("teacher") or ("Abeka Academy Teacher" if has_any_json else "")
+    book_title = book_id.get("primary_textbook") or book_id.get("textbook") or book_data.get("bookTitle") or (f"{subj_clean} Work-text" if has_any_json else "")
+    book_pages = book_id.get("textbook_pages") or book_data.get("bookPages") or (f"Lesson {day_num}" if has_any_json else "")
+    manual_ref = book_id.get("supplementary_materials") or book_id.get("supplementary") or book_data.get("manualRef") or (f"{grade} Video Manual" if has_any_json else "")
 
     return {
         "id": legacy_key,
