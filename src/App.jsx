@@ -17,13 +17,13 @@ export default function App() {
     Object.values(LESSONS_DATA).forEach((lesson) => {
       if (lesson.grade) gradesSet.add(lesson.grade);
     });
-    return Array.from(gradesSet);
+    return Array.from(gradesSet).sort();
   }, []);
 
   // State level 1: Grade
   const [selectedGrade, setSelectedGrade] = useState(() => availableGrades[0] || 'Grade 5');
 
-  // Extract all available days for selectedGrade
+  // Extract all available days for selectedGrade sorted numerically
   const availableDays = useMemo(() => {
     const daysSet = new Set();
     Object.values(LESSONS_DATA).forEach((lesson) => {
@@ -31,7 +31,11 @@ export default function App() {
         daysSet.add(lesson.day);
       }
     });
-    return Array.from(daysSet);
+    return Array.from(daysSet).sort((a, b) => {
+      const numA = parseInt(a.replace(/\D/g, ''), 10) || 0;
+      const numB = parseInt(b.replace(/\D/g, ''), 10) || 0;
+      return numA - numB;
+    });
   }, [selectedGrade]);
 
   // State level 2: Day
@@ -74,7 +78,11 @@ export default function App() {
           .filter((l) => l.grade === newGrade)
           .map((l) => l.day)
       )
-    );
+    ).sort((a, b) => {
+      const numA = parseInt(a.replace(/\D/g, ''), 10) || 0;
+      const numB = parseInt(b.replace(/\D/g, ''), 10) || 0;
+      return numA - numB;
+    });
     const nextDay = daysForGrade[0] || 'Ngày 001';
     setSelectedDay(nextDay);
 

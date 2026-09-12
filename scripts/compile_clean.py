@@ -237,6 +237,10 @@ def process_subject_folder(subj_path, grade, day_str, day_num, subj_clean, legac
         "quizData": quiz_data
     }
 
+def extract_day_num(name):
+    m = re.search(r'(\d+)', name)
+    return int(m.group(1)) if m else 999
+
 def main():
     all_lessons = {}
     g5_subjects = ["Arithmetic 5", "History 5", "Bible 5", "Language 5", "Reading 5", "Science-Health 5", "Spelling 5", "Writing 5"]
@@ -244,7 +248,8 @@ def main():
 
     print("--- Processing Grade 5 ---")
     if os.path.exists(g5_dir):
-        day_folders = [d for d in os.listdir(g5_dir) if 'Ngày' in d]
+        raw_folders = [d for d in os.listdir(g5_dir) if 'Ngày' in d or 'Day' in d]
+        day_folders = sorted(raw_folders, key=extract_day_num)
         for day_folder in day_folders:
             day_path = os.path.join(g5_dir, day_folder)
             day_str = format_day_name(day_folder)
@@ -266,7 +271,8 @@ def main():
 
     print("--- Processing Grade 3 ---")
     if os.path.exists(g3_dir):
-        day_folders = [d for d in os.listdir(g3_dir) if 'Ngày' in d]
+        raw_folders = [d for d in os.listdir(g3_dir) if 'Ngày' in d or 'Day' in d]
+        day_folders = sorted(raw_folders, key=extract_day_num)
         for day_folder in day_folders:
             day_path = os.path.join(g3_dir, day_folder)
             day_str = format_day_name(day_folder)
