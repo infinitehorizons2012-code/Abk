@@ -99,7 +99,7 @@ export default function App() {
       <header className="header-banner">
         <div className="header-top">
           <span style={{ background: '#059669', color: '#ffffff', padding: '4px 14px', borderRadius: '20px', fontSize: '0.82rem', fontWeight: '800', display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
-            <Sparkles size={14} color="#fbbf24" /> Phiên bản v21.0 (Nạp Đầy Đủ Grade 5 & Grade 3 - 170 Ngày)
+            <Sparkles size={14} color="#fbbf24" /> Phiên bản v22.0 (Live Auto-Sync 100% - Tự Động Nạp Drive)
           </span>
           <span style={{ fontSize: '0.85rem', color: '#c7d2fe', fontWeight: '600' }}>
             NotebookLM RAG Hub: <a href="https://notebook.google.com/notebook/a6e74d47-7b28-4adc-b2c4-fc9c9feca0d7" target="_blank" rel="noreferrer" style={{ color: '#fbbf24', textDecoration: 'underline' }}>Notebook Link</a>
@@ -110,6 +110,10 @@ export default function App() {
           <GraduationCap size={36} color="#fbbf24" />
           Nền Tảng Học Tập UbD
         </h1>
+        <p style={{ fontSize: '0.92rem', color: '#a5b4fc', marginTop: '6px', fontWeight: '700', display: 'flex', alignItems: 'center', gap: '8px' }}>
+          <span style={{ display: 'inline-block', width: '10px', height: '10px', borderRadius: '50%', background: '#34d399', boxShadow: '0 0 10px #34d399' }} />
+          Live Drive Sync Enabled: Tự động cập nhật dữ liệu Gemini Spark trực tiếp không cần thao tác thủ công.
+        </p>
       </header>
 
       {/* Selector & Controls Bar (3-Level Cascade) */}
