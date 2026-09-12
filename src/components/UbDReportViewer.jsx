@@ -22,10 +22,10 @@ export default function UbDReportViewer({ lesson }) {
           Thiết Kế Sư Phạm Ngược (UbD) & Thang Nhận Thức Bloom
         </div>
         <h1 style={{ fontSize: '1.75rem', fontWeight: '900', color: '#ffffff', marginBottom: '8px', lineHeight: '1.3' }}>
-          BÁO CÁO PHÂN TÍCH SƯ PHẠM TOÁN HỌC LỚP 5 (ARITHMETIC 5)
+          BÁO CÁO PHÂN TÍCH SƯ PHẠM {lesson.subject.toUpperCase()} ({lesson.grade.toUpperCase()})
         </h1>
         <div style={{ fontSize: '1rem', color: '#cbd5e1', fontWeight: '600', marginBottom: '20px' }}>
-          Chủ đề: Hệ Thống Giá Trị Vị Trí (Place Value through Hundred Billions), Chữ Số La Mã & Phép Cộng Cơ Bản
+          Chủ đề: {lesson.bookPages || 'Bối cảnh trọng tâm theo sách giáo khoa Abeka'}
         </div>
 
         {/* Metadata Grid */}
@@ -39,12 +39,12 @@ export default function UbDReportViewer({ lesson }) {
           border: '1px solid rgba(255,255,255,0.12)',
           fontSize: '0.88rem'
         }}>
-          <div><strong style={{ color: '#93c5fd' }}>📘 Môn học:</strong> Arithmetic 5 (Bài 001)</div>
-          <div><strong style={{ color: '#93c5fd' }}>👩‍🏫 Giáo viên:</strong> Miss Emma Spaugh</div>
-          <div><strong style={{ color: '#93c5fd' }}>📖 Học liệu SGK:</strong> Arithmetic 5 Work-text (tr. 1–2)</div>
-          <div><strong style={{ color: '#93c5fd' }}>📋 Tài liệu kèm theo:</strong> Video Manual (tr. 2, T6), Facts Sheets</div>
-          <div><strong style={{ color: '#93c5fd' }}>⏱️ Thời lượng video:</strong> 36 phút 14 giây</div>
-          <div><strong style={{ color: '#93c5fd' }}>✏️ Quy định học tập:</strong> Bút chì, giấy nháp kẹp đầu sách</div>
+          <div><strong style={{ color: '#93c5fd' }}>📘 Môn học:</strong> {lesson.subject} ({lesson.day})</div>
+          <div><strong style={{ color: '#93c5fd' }}>👩‍🏫 Giáo viên:</strong> {lesson.teacher || 'Abeka Academy Teacher'}</div>
+          <div><strong style={{ color: '#93c5fd' }}>📖 Học liệu SGK:</strong> {lesson.bookTitle || lesson.subject}</div>
+          <div><strong style={{ color: '#93c5fd' }}>📋 Tài liệu kèm theo:</strong> {lesson.manualRef || 'Video Manual'}</div>
+          <div><strong style={{ color: '#93c5fd' }}>⏱️ Thời lượng video:</strong> Theo bài giảng Abeka</div>
+          <div><strong style={{ color: '#93c5fd' }}>✏️ Quy định học tập:</strong> Sách bài tập, bút chì, nháp</div>
         </div>
       </div>
 
