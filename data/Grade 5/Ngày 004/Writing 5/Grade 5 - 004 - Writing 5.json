@@ -1,0 +1,8286 @@
+{
+  "audio_path": "audio.wav",
+  "segments": [
+    {
+      "id": 0,
+      "start": 4.75,
+      "end": 6.97,
+      "text": "Welcome back to writing class students watching.",
+      "vietnamese": "Chào mừng các em học sinh lớp viết văn quay trở lại đang xem.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Welcome",
+          "pinyin": "/ˈwɛlkəm/",
+          "start": 4.75,
+          "end": 5.33
+        },
+        {
+          "word": " back",
+          "pinyin": "/bæk/",
+          "start": 5.33,
+          "end": 5.65
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 5.65,
+          "end": 5.87
+        },
+        {
+          "word": " writing",
+          "pinyin": "/ˈraɪtɪŋ/",
+          "start": 5.87,
+          "end": 6.03
+        },
+        {
+          "word": " class",
+          "pinyin": "/klæs/",
+          "start": 6.03,
+          "end": 6.31
+        },
+        {
+          "word": " students",
+          "pinyin": "/ˈstudənts/",
+          "start": 6.31,
+          "end": 6.57
+        },
+        {
+          "word": " watching.",
+          "pinyin": "/ˈwɑʧɪŋ/",
+          "start": 6.57,
+          "end": 6.97
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "start": 7.21,
+      "end": 9.67,
+      "text": "I know that you already are set for writing class I know",
+      "vietnamese": "Tôi biết rằng bạn đã sẵn sàng cho lớp viết văn, tôi biết",
+      "highlight": "",
+      "words": [
+        {
+          "word": " I",
+          "pinyin": "/aɪ/",
+          "start": 7.21,
+          "end": 7.27
+        },
+        {
+          "word": " know",
+          "pinyin": "/noʊ/",
+          "start": 7.27,
+          "end": 7.59
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 7.59,
+          "end": 7.77
+        },
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 7.77,
+          "end": 7.99
+        },
+        {
+          "word": " already",
+          "pinyin": "/ɔˈrɛdi/",
+          "start": 7.99,
+          "end": 8.25
+        },
+        {
+          "word": " are",
+          "pinyin": "/ər/",
+          "start": 8.25,
+          "end": 8.61
+        },
+        {
+          "word": " set",
+          "pinyin": "/sɛt/",
+          "start": 8.61,
+          "end": 8.77
+        },
+        {
+          "word": " for",
+          "pinyin": "/fər/",
+          "start": 8.77,
+          "end": 8.93
+        },
+        {
+          "word": " writing",
+          "pinyin": "/ˈraɪtɪŋ/",
+          "start": 8.93,
+          "end": 9.11
+        },
+        {
+          "word": " class",
+          "pinyin": "/klæs/",
+          "start": 9.11,
+          "end": 9.33
+        },
+        {
+          "word": " I",
+          "pinyin": "/aɪ/",
+          "start": 9.33,
+          "end": 9.45
+        },
+        {
+          "word": " know",
+          "pinyin": "/noʊ/",
+          "start": 9.45,
+          "end": 9.67
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 9.67,
+      "end": 12.15,
+      "text": "you have your books landed where it's supposed to be tilted so",
+      "vietnamese": "bạn đã đặt sách của mình ở nơi lẽ ra phải nghiêng để",
+      "highlight": "",
+      "words": [
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 9.67,
+          "end": 9.79
+        },
+        {
+          "word": " have",
+          "pinyin": "/hæv/",
+          "start": 9.79,
+          "end": 9.93
+        },
+        {
+          "word": " your",
+          "pinyin": "/jʊr/",
+          "start": 9.93,
+          "end": 10.07
+        },
+        {
+          "word": " books",
+          "pinyin": "/bʊks/",
+          "start": 10.07,
+          "end": 10.31
+        },
+        {
+          "word": " landed",
+          "pinyin": "/ˈlændɪd/",
+          "start": 10.31,
+          "end": 10.61
+        },
+        {
+          "word": " where",
+          "pinyin": "/wɛr/",
+          "start": 10.61,
+          "end": 10.79
+        },
+        {
+          "word": " it's",
+          "pinyin": "/ɪts/",
+          "start": 10.79,
+          "end": 10.91
+        },
+        {
+          "word": " supposed",
+          "pinyin": "/səˈpoʊzd/",
+          "start": 10.91,
+          "end": 11.17
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 11.17,
+          "end": 11.25
+        },
+        {
+          "word": " be",
+          "pinyin": "/bi/",
+          "start": 11.25,
+          "end": 11.65
+        },
+        {
+          "word": " tilted",
+          "pinyin": "/ˈtɪltɪd/",
+          "start": 11.65,
+          "end": 11.85
+        },
+        {
+          "word": " so",
+          "pinyin": "/soʊ/",
+          "start": 11.85,
+          "end": 12.15
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 12.15,
+      "end": 14.71,
+      "text": "you can write correctly I already know that you have a pin",
+      "vietnamese": "bạn có thể viết chính xác tôi đã biết rằng bạn có một cái ghim",
+      "highlight": "",
+      "words": [
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 12.15,
+          "end": 12.33
+        },
+        {
+          "word": " can",
+          "pinyin": "/kən/",
+          "start": 12.33,
+          "end": 12.51
+        },
+        {
+          "word": " write",
+          "pinyin": "/raɪt/",
+          "start": 12.51,
+          "end": 12.71
+        },
+        {
+          "word": " correctly",
+          "pinyin": "/kərˈɛktli/",
+          "start": 12.71,
+          "end": 13.01
+        },
+        {
+          "word": " I",
+          "pinyin": "/aɪ/",
+          "start": 13.01,
+          "end": 13.33
+        },
+        {
+          "word": " already",
+          "pinyin": "/ɔˈrɛdi/",
+          "start": 13.33,
+          "end": 13.61
+        },
+        {
+          "word": " know",
+          "pinyin": "/noʊ/",
+          "start": 13.61,
+          "end": 13.83
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 13.83,
+          "end": 13.97
+        },
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 13.97,
+          "end": 14.13
+        },
+        {
+          "word": " have",
+          "pinyin": "/hæv/",
+          "start": 14.13,
+          "end": 14.23
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 14.23,
+          "end": 14.39
+        },
+        {
+          "word": " pin",
+          "pinyin": "/pɪn/",
+          "start": 14.39,
+          "end": 14.71
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 14.71,
+      "end": 17.57,
+      "text": "and you're holding it correctly And I know that you're gonna choose",
+      "vietnamese": "và bạn đang giữ nó một cách chính xác Và tôi biết rằng bạn sẽ chọn",
+      "highlight": "",
+      "words": [
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 14.71,
+          "end": 14.87
+        },
+        {
+          "word": " you're",
+          "pinyin": "/jʊr/",
+          "start": 14.87,
+          "end": 15.03
+        },
+        {
+          "word": " holding",
+          "pinyin": "/ˈhoʊldɪŋ/",
+          "start": 15.03,
+          "end": 15.25
+        },
+        {
+          "word": " it",
+          "pinyin": "/ɪt/",
+          "start": 15.25,
+          "end": 15.49
+        },
+        {
+          "word": " correctly",
+          "pinyin": "/kərˈɛktli/",
+          "start": 15.49,
+          "end": 15.83
+        },
+        {
+          "word": " And",
+          "pinyin": "/ənd/",
+          "start": 15.83,
+          "end": 16.37
+        },
+        {
+          "word": " I",
+          "pinyin": "/aɪ/",
+          "start": 16.37,
+          "end": 16.71
+        },
+        {
+          "word": " know",
+          "pinyin": "/noʊ/",
+          "start": 16.71,
+          "end": 16.89
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 16.89,
+          "end": 17.03
+        },
+        {
+          "word": " you're",
+          "pinyin": "/jʊr/",
+          "start": 17.03,
+          "end": 17.11
+        },
+        {
+          "word": " gonna",
+          "pinyin": "/ˈgɑnə/",
+          "start": 17.11,
+          "end": 17.31
+        },
+        {
+          "word": " choose",
+          "pinyin": "/ʧuz/",
+          "start": 17.31,
+          "end": 17.57
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 17.57,
+      "end": 20.89,
+      "text": "to write at that correct pace and you're gonna sit correctly I",
+      "vietnamese": "viết đúng tốc độ và bạn sẽ ngồi đúng cách, tôi",
+      "highlight": "",
+      "words": [
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 17.57,
+          "end": 17.75
+        },
+        {
+          "word": " write",
+          "pinyin": "/raɪt/",
+          "start": 17.75,
+          "end": 18.19
+        },
+        {
+          "word": " at",
+          "pinyin": "/æt/",
+          "start": 18.19,
+          "end": 18.37
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 18.37,
+          "end": 18.61
+        },
+        {
+          "word": " correct",
+          "pinyin": "/kərˈɛkt/",
+          "start": 18.61,
+          "end": 18.91
+        },
+        {
+          "word": " pace",
+          "pinyin": "/peɪs/",
+          "start": 18.91,
+          "end": 19.27
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 19.27,
+          "end": 19.55
+        },
+        {
+          "word": " you're",
+          "pinyin": "/jʊr/",
+          "start": 19.55,
+          "end": 19.65
+        },
+        {
+          "word": " gonna",
+          "pinyin": "/ˈgɑnə/",
+          "start": 19.65,
+          "end": 19.87
+        },
+        {
+          "word": " sit",
+          "pinyin": "/sɪt/",
+          "start": 19.87,
+          "end": 20.09
+        },
+        {
+          "word": " correctly",
+          "pinyin": "/kərˈɛktli/",
+          "start": 20.09,
+          "end": 20.45
+        },
+        {
+          "word": " I",
+          "pinyin": "/aɪ/",
+          "start": 20.45,
+          "end": 20.89
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 20.89,
+      "end": 23.17,
+      "text": "already know all these things about you so don't let's not waste",
+      "vietnamese": "đã biết tất cả những điều này về bạn nên đừng lãng phí",
+      "highlight": "",
+      "words": [
+        {
+          "word": " already",
+          "pinyin": "/ɔˈrɛdi/",
+          "start": 20.89,
+          "end": 21.05
+        },
+        {
+          "word": " know",
+          "pinyin": "/noʊ/",
+          "start": 21.05,
+          "end": 21.21
+        },
+        {
+          "word": " all",
+          "pinyin": "/ɔl/",
+          "start": 21.21,
+          "end": 21.35
+        },
+        {
+          "word": " these",
+          "pinyin": "/ðiz/",
+          "start": 21.35,
+          "end": 21.49
+        },
+        {
+          "word": " things",
+          "pinyin": "/θɪŋz/",
+          "start": 21.49,
+          "end": 21.73
+        },
+        {
+          "word": " about",
+          "pinyin": "/əˈbaʊt/",
+          "start": 21.73,
+          "end": 21.99
+        },
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 21.99,
+          "end": 22.15
+        },
+        {
+          "word": " so",
+          "pinyin": "/soʊ/",
+          "start": 22.15,
+          "end": 22.23
+        },
+        {
+          "word": " don't",
+          "pinyin": "/doʊnt/",
+          "start": 22.23,
+          "end": 22.49
+        },
+        {
+          "word": " let's",
+          "pinyin": "/lɛts/",
+          "start": 22.49,
+          "end": 22.85
+        },
+        {
+          "word": " not",
+          "pinyin": "/nɑt/",
+          "start": 22.85,
+          "end": 23.01
+        },
+        {
+          "word": " waste",
+          "pinyin": "/weɪst/",
+          "start": 23.01,
+          "end": 23.17
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 23.17,
+      "end": 26.19,
+      "text": "another second Let's remind ourselves what we did in our last lesson",
+      "vietnamese": "một giây nữa Hãy tự nhắc nhở mình những gì chúng ta đã làm trong bài học trước",
+      "highlight": "",
+      "words": [
+        {
+          "word": " another",
+          "pinyin": "/əˈnəðər/",
+          "start": 23.17,
+          "end": 23.41
+        },
+        {
+          "word": " second",
+          "pinyin": "/ˈsɛkənd/",
+          "start": 23.41,
+          "end": 23.87
+        },
+        {
+          "word": " Let's",
+          "pinyin": "/lɛts/",
+          "start": 23.87,
+          "end": 24.25
+        },
+        {
+          "word": " remind",
+          "pinyin": "/riˈmaɪnd/",
+          "start": 24.25,
+          "end": 24.53
+        },
+        {
+          "word": " ourselves",
+          "pinyin": "/ɑrˈsɛlvz/",
+          "start": 24.53,
+          "end": 24.97
+        },
+        {
+          "word": " what",
+          "pinyin": "/wət/",
+          "start": 24.97,
+          "end": 25.15
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 25.15,
+          "end": 25.27
+        },
+        {
+          "word": " did",
+          "pinyin": "/dɪd/",
+          "start": 25.27,
+          "end": 25.37
+        },
+        {
+          "word": " in",
+          "pinyin": "/ɪn/",
+          "start": 25.37,
+          "end": 25.47
+        },
+        {
+          "word": " our",
+          "pinyin": "/ɑr/",
+          "start": 25.47,
+          "end": 25.61
+        },
+        {
+          "word": " last",
+          "pinyin": "/læst/",
+          "start": 25.61,
+          "end": 25.87
+        },
+        {
+          "word": " lesson",
+          "pinyin": "/ˈlɛsən/",
+          "start": 25.87,
+          "end": 26.19
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 26.19,
+      "end": 29.13,
+      "text": "in our last lesson We started out by reminding ourselves how to",
+      "vietnamese": "trong bài học trước Chúng ta bắt đầu bằng cách nhắc nhở bản thân cách",
+      "highlight": "",
+      "words": [
+        {
+          "word": " in",
+          "pinyin": "/ɪn/",
+          "start": 26.19,
+          "end": 26.65
+        },
+        {
+          "word": " our",
+          "pinyin": "/ɑr/",
+          "start": 26.65,
+          "end": 26.81
+        },
+        {
+          "word": " last",
+          "pinyin": "/læst/",
+          "start": 26.81,
+          "end": 27.05
+        },
+        {
+          "word": " lesson",
+          "pinyin": "/ˈlɛsən/",
+          "start": 27.05,
+          "end": 27.31
+        },
+        {
+          "word": " We",
+          "pinyin": "/wi/",
+          "start": 27.31,
+          "end": 27.59
+        },
+        {
+          "word": " started",
+          "pinyin": "/ˈstɑrtɪd/",
+          "start": 27.59,
+          "end": 27.83
+        },
+        {
+          "word": " out",
+          "pinyin": "/aʊt/",
+          "start": 27.83,
+          "end": 28.09
+        },
+        {
+          "word": " by",
+          "pinyin": "/baɪ/",
+          "start": 28.09,
+          "end": 28.31
+        },
+        {
+          "word": " reminding",
+          "pinyin": "/riˈmaɪndɪŋ/",
+          "start": 28.31,
+          "end": 28.55
+        },
+        {
+          "word": " ourselves",
+          "pinyin": "/ɑrˈsɛlvz/",
+          "start": 28.55,
+          "end": 28.89
+        },
+        {
+          "word": " how",
+          "pinyin": "/haʊ/",
+          "start": 28.89,
+          "end": 29.05
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 29.05,
+          "end": 29.13
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 29.13,
+      "end": 32.07,
+      "text": "write that capital E in that lowercase E and we said that",
+      "vietnamese": "viết hoa E bằng chữ E viết thường và chúng tôi đã nói rằng",
+      "highlight": "",
+      "words": [
+        {
+          "word": " write",
+          "pinyin": "/raɪt/",
+          "start": 29.13,
+          "end": 29.29
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 29.29,
+          "end": 29.71
+        },
+        {
+          "word": " capital",
+          "pinyin": "/ˈkæpɪtəl/",
+          "start": 29.71,
+          "end": 30.03
+        },
+        {
+          "word": " E",
+          "pinyin": "/i/",
+          "start": 30.03,
+          "end": 30.29
+        },
+        {
+          "word": " in",
+          "pinyin": "/ɪn/",
+          "start": 30.29,
+          "end": 30.39
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 30.39,
+          "end": 30.57
+        },
+        {
+          "word": " lowercase",
+          "pinyin": "/lowercase/",
+          "start": 30.57,
+          "end": 31.07
+        },
+        {
+          "word": " E",
+          "pinyin": "/i/",
+          "start": 31.07,
+          "end": 31.27
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 31.27,
+          "end": 31.33
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 31.33,
+          "end": 31.51
+        },
+        {
+          "word": " said",
+          "pinyin": "/sɛd/",
+          "start": 31.51,
+          "end": 31.77
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 31.77,
+          "end": 32.07
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 32.07,
+      "end": 33.85,
+      "text": "that capital E was extreme right?",
+      "vietnamese": "chữ E viết hoa đó cực kỳ đúng không?",
+      "highlight": "",
+      "words": [
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 32.07,
+          "end": 32.35
+        },
+        {
+          "word": " capital",
+          "pinyin": "/ˈkæpɪtəl/",
+          "start": 32.35,
+          "end": 32.55
+        },
+        {
+          "word": " E",
+          "pinyin": "/i/",
+          "start": 32.55,
+          "end": 32.73
+        },
+        {
+          "word": " was",
+          "pinyin": "/wɑz/",
+          "start": 32.73,
+          "end": 32.95
+        },
+        {
+          "word": " extreme",
+          "pinyin": "/ɪkˈstrim/",
+          "start": 32.95,
+          "end": 33.47
+        },
+        {
+          "word": " right?",
+          "pinyin": "/raɪt/",
+          "start": 33.47,
+          "end": 33.85
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 34.03,
+      "end": 36.41,
+      "text": "We started at the three-quarter space and we slanted down and",
+      "vietnamese": "Chúng tôi bắt đầu ở không gian ba phần tư và chúng tôi nghiêng xuống và",
+      "highlight": "",
+      "words": [
+        {
+          "word": " We",
+          "pinyin": "/wi/",
+          "start": 34.03,
+          "end": 34.17
+        },
+        {
+          "word": " started",
+          "pinyin": "/ˈstɑrtɪd/",
+          "start": 34.17,
+          "end": 34.37
+        },
+        {
+          "word": " at",
+          "pinyin": "/æt/",
+          "start": 34.37,
+          "end": 34.61
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 34.61,
+          "end": 34.77
+        },
+        {
+          "word": " three",
+          "pinyin": "/θri/",
+          "start": 34.77,
+          "end": 34.95
+        },
+        {
+          "word": "-quarter",
+          "pinyin": "/kˈwɔrtər/",
+          "start": 34.95,
+          "end": 35.11
+        },
+        {
+          "word": " space",
+          "pinyin": "/speɪs/",
+          "start": 35.11,
+          "end": 35.47
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 35.47,
+          "end": 35.59
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 35.59,
+          "end": 35.75
+        },
+        {
+          "word": " slanted",
+          "pinyin": "/sˈlænɪd/",
+          "start": 35.75,
+          "end": 36.01
+        },
+        {
+          "word": " down",
+          "pinyin": "/daʊn/",
+          "start": 36.01,
+          "end": 36.29
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 36.29,
+          "end": 36.41
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 36.41,
+      "end": 39.91,
+      "text": "around making a teardrop and then we curved out and came in",
+      "vietnamese": "xung quanh tạo ra một giọt nước mắt và sau đó chúng tôi rẽ ra và bước vào",
+      "highlight": "",
+      "words": [
+        {
+          "word": " around",
+          "pinyin": "/əraʊnd/",
+          "start": 36.41,
+          "end": 36.69
+        },
+        {
+          "word": " making",
+          "pinyin": "/ˈmeɪkɪŋ/",
+          "start": 36.69,
+          "end": 36.93
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 36.93,
+          "end": 37.15
+        },
+        {
+          "word": " teardrop",
+          "pinyin": "/teardrop/",
+          "start": 37.15,
+          "end": 37.55
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 37.55,
+          "end": 38.11
+        },
+        {
+          "word": " then",
+          "pinyin": "/ðɛn/",
+          "start": 38.11,
+          "end": 38.29
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 38.29,
+          "end": 38.35
+        },
+        {
+          "word": " curved",
+          "pinyin": "/kərvd/",
+          "start": 38.35,
+          "end": 38.49
+        },
+        {
+          "word": " out",
+          "pinyin": "/aʊt/",
+          "start": 38.49,
+          "end": 39.11
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 39.11,
+          "end": 39.31
+        },
+        {
+          "word": " came",
+          "pinyin": "/keɪm/",
+          "start": 39.31,
+          "end": 39.67
+        },
+        {
+          "word": " in",
+          "pinyin": "/ɪn/",
+          "start": 39.67,
+          "end": 39.91
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 39.91,
+      "end": 42.73,
+      "text": "at the middle to do a loop then we curved out again",
+      "vietnamese": "ở giữa để thực hiện một vòng lặp sau đó chúng tôi lại uốn cong ra",
+      "highlight": "",
+      "words": [
+        {
+          "word": " at",
+          "pinyin": "/æt/",
+          "start": 39.91,
+          "end": 40.05
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 40.05,
+          "end": 40.21
+        },
+        {
+          "word": " middle",
+          "pinyin": "/ˈmɪdəl/",
+          "start": 40.21,
+          "end": 40.35
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 40.35,
+          "end": 40.47
+        },
+        {
+          "word": " do",
+          "pinyin": "/du/",
+          "start": 40.47,
+          "end": 40.63
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 40.63,
+          "end": 41.09
+        },
+        {
+          "word": " loop",
+          "pinyin": "/lup/",
+          "start": 41.09,
+          "end": 41.09
+        },
+        {
+          "word": " then",
+          "pinyin": "/ðɛn/",
+          "start": 41.09,
+          "end": 41.45
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 41.45,
+          "end": 41.67
+        },
+        {
+          "word": " curved",
+          "pinyin": "/kərvd/",
+          "start": 41.67,
+          "end": 41.87
+        },
+        {
+          "word": " out",
+          "pinyin": "/aʊt/",
+          "start": 41.87,
+          "end": 42.21
+        },
+        {
+          "word": " again",
+          "pinyin": "/əˈgɛn/",
+          "start": 42.21,
+          "end": 42.73
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 42.73,
+      "end": 44.55,
+      "text": "but came in and bounced off of that baseline.",
+      "vietnamese": "nhưng đã đến và bật ra khỏi đường cơ sở đó.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " but",
+          "pinyin": "/bət/",
+          "start": 42.73,
+          "end": 43.09
+        },
+        {
+          "word": " came",
+          "pinyin": "/keɪm/",
+          "start": 43.09,
+          "end": 43.29
+        },
+        {
+          "word": " in",
+          "pinyin": "/ɪn/",
+          "start": 43.29,
+          "end": 43.43
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 43.43,
+          "end": 43.55
+        },
+        {
+          "word": " bounced",
+          "pinyin": "/baʊnst/",
+          "start": 43.55,
+          "end": 43.71
+        },
+        {
+          "word": " off",
+          "pinyin": "/ɔf/",
+          "start": 43.71,
+          "end": 43.89
+        },
+        {
+          "word": " of",
+          "pinyin": "/əv/",
+          "start": 43.89,
+          "end": 43.99
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 43.99,
+          "end": 44.17
+        },
+        {
+          "word": " baseline.",
+          "pinyin": "/ˈbeɪsˌlaɪn/",
+          "start": 44.17,
+          "end": 44.55
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 45.13,
+      "end": 47.51,
+      "text": "Then for our little e we started at the baseline and we",
+      "vietnamese": "Sau đó, đối với e nhỏ của chúng tôi, chúng tôi bắt đầu ở đường cơ sở và chúng tôi",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Then",
+          "pinyin": "/ðɛn/",
+          "start": 45.13,
+          "end": 45.23
+        },
+        {
+          "word": " for",
+          "pinyin": "/fər/",
+          "start": 45.23,
+          "end": 45.43
+        },
+        {
+          "word": " our",
+          "pinyin": "/ɑr/",
+          "start": 45.43,
+          "end": 45.65
+        },
+        {
+          "word": " little",
+          "pinyin": "/ˈlɪtəl/",
+          "start": 45.65,
+          "end": 45.87
+        },
+        {
+          "word": " e",
+          "pinyin": "/i/",
+          "start": 45.87,
+          "end": 46.05
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 46.05,
+          "end": 46.21
+        },
+        {
+          "word": " started",
+          "pinyin": "/ˈstɑrtɪd/",
+          "start": 46.21,
+          "end": 46.41
+        },
+        {
+          "word": " at",
+          "pinyin": "/æt/",
+          "start": 46.41,
+          "end": 46.59
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 46.59,
+          "end": 46.77
+        },
+        {
+          "word": " baseline",
+          "pinyin": "/ˈbeɪsˌlaɪn/",
+          "start": 46.77,
+          "end": 46.99
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 46.99,
+          "end": 47.29
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 47.29,
+          "end": 47.51
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start": 47.51,
+      "end": 50.79,
+      "text": "slanted up to the halfway point making a little loop there and",
+      "vietnamese": "nghiêng đến điểm giữa tạo thành một vòng nhỏ ở đó và",
+      "highlight": "",
+      "words": [
+        {
+          "word": " slanted",
+          "pinyin": "/sˈlænɪd/",
+          "start": 47.51,
+          "end": 47.83
+        },
+        {
+          "word": " up",
+          "pinyin": "/əp/",
+          "start": 47.83,
+          "end": 48.23
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 48.23,
+          "end": 48.39
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 48.39,
+          "end": 48.51
+        },
+        {
+          "word": " halfway",
+          "pinyin": "/ˈhæfˈweɪ/",
+          "start": 48.51,
+          "end": 48.75
+        },
+        {
+          "word": " point",
+          "pinyin": "/pɔɪnt/",
+          "start": 48.75,
+          "end": 49.15
+        },
+        {
+          "word": " making",
+          "pinyin": "/ˈmeɪkɪŋ/",
+          "start": 49.15,
+          "end": 49.41
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 49.41,
+          "end": 49.63
+        },
+        {
+          "word": " little",
+          "pinyin": "/ˈlɪtəl/",
+          "start": 49.63,
+          "end": 49.81
+        },
+        {
+          "word": " loop",
+          "pinyin": "/lup/",
+          "start": 49.81,
+          "end": 50.03
+        },
+        {
+          "word": " there",
+          "pinyin": "/ðɛr/",
+          "start": 50.03,
+          "end": 50.65
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 50.65,
+          "end": 50.79
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start": 50.79,
+      "end": 54.43,
+      "text": "then bounced off of that baseline making it as easy as possible.",
+      "vietnamese": "sau đó bật ra khỏi đường cơ sở đó để làm cho nó dễ dàng nhất có thể.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " then",
+          "pinyin": "/ðɛn/",
+          "start": 50.79,
+          "end": 50.99
+        },
+        {
+          "word": " bounced",
+          "pinyin": "/baʊnst/",
+          "start": 50.99,
+          "end": 51.21
+        },
+        {
+          "word": " off",
+          "pinyin": "/ɔf/",
+          "start": 51.21,
+          "end": 51.53
+        },
+        {
+          "word": " of",
+          "pinyin": "/əv/",
+          "start": 51.53,
+          "end": 51.65
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 51.65,
+          "end": 51.87
+        },
+        {
+          "word": " baseline",
+          "pinyin": "/ˈbeɪsˌlaɪn/",
+          "start": 51.87,
+          "end": 52.23
+        },
+        {
+          "word": " making",
+          "pinyin": "/ˈmeɪkɪŋ/",
+          "start": 52.23,
+          "end": 52.75
+        },
+        {
+          "word": " it",
+          "pinyin": "/ɪt/",
+          "start": 52.75,
+          "end": 52.93
+        },
+        {
+          "word": " as",
+          "pinyin": "/ɛz/",
+          "start": 52.93,
+          "end": 53.15
+        },
+        {
+          "word": " easy",
+          "pinyin": "/ˈizi/",
+          "start": 53.15,
+          "end": 53.51
+        },
+        {
+          "word": " as",
+          "pinyin": "/ɛz/",
+          "start": 53.51,
+          "end": 53.93
+        },
+        {
+          "word": " possible.",
+          "pinyin": "/ˈpɑsəbəl/",
+          "start": 53.93,
+          "end": 54.43
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "start": 54.63,
+      "end": 57.51,
+      "text": "Remember both of those letters can connect to another letter in a",
+      "vietnamese": "Hãy nhớ rằng cả hai chữ cái đó đều có thể kết nối với một chữ cái khác trong một",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Remember",
+          "pinyin": "/rɪˈmɛmbər/",
+          "start": 54.63,
+          "end": 54.81
+        },
+        {
+          "word": " both",
+          "pinyin": "/boʊθ/",
+          "start": 54.81,
+          "end": 55.07
+        },
+        {
+          "word": " of",
+          "pinyin": "/əv/",
+          "start": 55.07,
+          "end": 55.17
+        },
+        {
+          "word": " those",
+          "pinyin": "/ðoʊz/",
+          "start": 55.17,
+          "end": 55.39
+        },
+        {
+          "word": " letters",
+          "pinyin": "/ˈlɛtərz/",
+          "start": 55.39,
+          "end": 55.71
+        },
+        {
+          "word": " can",
+          "pinyin": "/kən/",
+          "start": 55.71,
+          "end": 55.99
+        },
+        {
+          "word": " connect",
+          "pinyin": "/kəˈnɛkt/",
+          "start": 55.99,
+          "end": 56.27
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 56.27,
+          "end": 56.49
+        },
+        {
+          "word": " another",
+          "pinyin": "/əˈnəðər/",
+          "start": 56.49,
+          "end": 56.71
+        },
+        {
+          "word": " letter",
+          "pinyin": "/ˈlɛtər/",
+          "start": 56.71,
+          "end": 57.19
+        },
+        {
+          "word": " in",
+          "pinyin": "/ɪn/",
+          "start": 57.19,
+          "end": 57.39
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 57.39,
+          "end": 57.51
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "start": 57.51,
+      "end": 60.41,
+      "text": "word but then we added a whole lot of flair to our",
+      "vietnamese": "nhưng sau đó chúng tôi đã thêm rất nhiều sự tinh tế vào",
+      "highlight": "",
+      "words": [
+        {
+          "word": " word",
+          "pinyin": "/wərd/",
+          "start": 57.51,
+          "end": 57.85
+        },
+        {
+          "word": " but",
+          "pinyin": "/bət/",
+          "start": 57.85,
+          "end": 58.27
+        },
+        {
+          "word": " then",
+          "pinyin": "/ðɛn/",
+          "start": 58.27,
+          "end": 58.49
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 58.49,
+          "end": 58.69
+        },
+        {
+          "word": " added",
+          "pinyin": "/ˈædɪd/",
+          "start": 58.69,
+          "end": 58.87
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 58.87,
+          "end": 59.11
+        },
+        {
+          "word": " whole",
+          "pinyin": "/hoʊl/",
+          "start": 59.11,
+          "end": 59.29
+        },
+        {
+          "word": " lot",
+          "pinyin": "/lɔt/",
+          "start": 59.29,
+          "end": 59.45
+        },
+        {
+          "word": " of",
+          "pinyin": "/əv/",
+          "start": 59.45,
+          "end": 59.61
+        },
+        {
+          "word": " flair",
+          "pinyin": "/flɛr/",
+          "start": 59.61,
+          "end": 59.89
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 59.89,
+          "end": 60.25
+        },
+        {
+          "word": " our",
+          "pinyin": "/ɑr/",
+          "start": 60.25,
+          "end": 60.41
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "start": 60.41,
+      "end": 63.67,
+      "text": "writing in our last lesson whenever we wrote the The upper left",
+      "vietnamese": "viết trong bài học cuối cùng của chúng tôi bất cứ khi nào chúng tôi viết Phía trên bên trái",
+      "highlight": "",
+      "words": [
+        {
+          "word": " writing",
+          "pinyin": "/ˈraɪtɪŋ/",
+          "start": 60.41,
+          "end": 60.65
+        },
+        {
+          "word": " in",
+          "pinyin": "/ɪn/",
+          "start": 60.65,
+          "end": 60.79
+        },
+        {
+          "word": " our",
+          "pinyin": "/ɑr/",
+          "start": 60.79,
+          "end": 60.91
+        },
+        {
+          "word": " last",
+          "pinyin": "/læst/",
+          "start": 60.91,
+          "end": 61.11
+        },
+        {
+          "word": " lesson",
+          "pinyin": "/ˈlɛsən/",
+          "start": 61.11,
+          "end": 61.35
+        },
+        {
+          "word": " whenever",
+          "pinyin": "/wɛˈnɛvər/",
+          "start": 61.35,
+          "end": 61.61
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 61.61,
+          "end": 61.79
+        },
+        {
+          "word": " wrote",
+          "pinyin": "/roʊt/",
+          "start": 61.79,
+          "end": 61.97
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 61.97,
+          "end": 63.25
+        },
+        {
+          "word": " The",
+          "pinyin": "/ðə/",
+          "start": 63.25,
+          "end": 63.27
+        },
+        {
+          "word": " upper",
+          "pinyin": "/ˈəpər/",
+          "start": 63.27,
+          "end": 63.41
+        },
+        {
+          "word": " left",
+          "pinyin": "/lɛft/",
+          "start": 63.41,
+          "end": 63.67
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "start": 63.67,
+      "end": 66.87,
+      "text": "starts at the three-quarter space, and we would carve down making",
+      "vietnamese": "bắt đầu từ không gian ba phần tư, và chúng tôi sẽ khắc xuống",
+      "highlight": "",
+      "words": [
+        {
+          "word": " starts",
+          "pinyin": "/stɑrts/",
+          "start": 63.67,
+          "end": 64.05
+        },
+        {
+          "word": " at",
+          "pinyin": "/æt/",
+          "start": 64.05,
+          "end": 64.35
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 64.35,
+          "end": 64.79
+        },
+        {
+          "word": " three",
+          "pinyin": "/θri/",
+          "start": 64.79,
+          "end": 64.89
+        },
+        {
+          "word": "-quarter",
+          "pinyin": "/kˈwɔrtər/",
+          "start": 64.89,
+          "end": 65.07
+        },
+        {
+          "word": " space,",
+          "pinyin": "/speɪs/",
+          "start": 65.07,
+          "end": 65.47
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 65.55,
+          "end": 65.83
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 65.83,
+          "end": 65.95
+        },
+        {
+          "word": " would",
+          "pinyin": "/wʊd/",
+          "start": 65.95,
+          "end": 66.09
+        },
+        {
+          "word": " carve",
+          "pinyin": "/kɑrv/",
+          "start": 66.09,
+          "end": 66.25
+        },
+        {
+          "word": " down",
+          "pinyin": "/daʊn/",
+          "start": 66.25,
+          "end": 66.63
+        },
+        {
+          "word": " making",
+          "pinyin": "/ˈmeɪkɪŋ/",
+          "start": 66.63,
+          "end": 66.87
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "start": 66.87,
+      "end": 68.23,
+      "text": "another tear drop here.",
+      "vietnamese": "một giọt nước mắt nữa đây",
+      "highlight": "",
+      "words": [
+        {
+          "word": " another",
+          "pinyin": "/əˈnəðər/",
+          "start": 66.87,
+          "end": 67.25
+        },
+        {
+          "word": " tear",
+          "pinyin": "/tɪr/",
+          "start": 67.25,
+          "end": 67.53
+        },
+        {
+          "word": " drop",
+          "pinyin": "/drɔp/",
+          "start": 67.53,
+          "end": 67.79
+        },
+        {
+          "word": " here.",
+          "pinyin": "/hir/",
+          "start": 67.79,
+          "end": 68.23
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "start": 68.41,
+      "end": 70.25,
+      "text": "Then when we get back to the three-quarter space, we're gonna",
+      "vietnamese": "Sau đó khi chúng ta quay trở lại không gian ba phần tư, chúng ta sẽ",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Then",
+          "pinyin": "/ðɛn/",
+          "start": 68.41,
+          "end": 68.57
+        },
+        {
+          "word": " when",
+          "pinyin": "/wɪn/",
+          "start": 68.57,
+          "end": 68.69
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 68.69,
+          "end": 68.77
+        },
+        {
+          "word": " get",
+          "pinyin": "/gɪt/",
+          "start": 68.77,
+          "end": 68.93
+        },
+        {
+          "word": " back",
+          "pinyin": "/bæk/",
+          "start": 68.93,
+          "end": 69.13
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 69.13,
+          "end": 69.27
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 69.27,
+          "end": 69.37
+        },
+        {
+          "word": " three",
+          "pinyin": "/θri/",
+          "start": 69.37,
+          "end": 69.53
+        },
+        {
+          "word": "-quarter",
+          "pinyin": "/kˈwɔrtər/",
+          "start": 69.53,
+          "end": 69.69
+        },
+        {
+          "word": " space,",
+          "pinyin": "/speɪs/",
+          "start": 69.69,
+          "end": 69.97
+        },
+        {
+          "word": " we're",
+          "pinyin": "/wɪr/",
+          "start": 69.99,
+          "end": 70.05
+        },
+        {
+          "word": " gonna",
+          "pinyin": "/ˈgɑnə/",
+          "start": 70.05,
+          "end": 70.25
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "start": 70.25,
+      "end": 73.27,
+      "text": "balance up, down, and back up, making a little squiggle.",
+      "vietnamese": "cân bằng lên, xuống và sao lưu, tạo ra một chút ngoằn ngoèo.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " balance",
+          "pinyin": "/ˈbæləns/",
+          "start": 70.25,
+          "end": 70.45
+        },
+        {
+          "word": " up,",
+          "pinyin": "/əp/",
+          "start": 70.45,
+          "end": 71.25
+        },
+        {
+          "word": " down,",
+          "pinyin": "/daʊn/",
+          "start": 71.39,
+          "end": 71.79
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 71.81,
+          "end": 72.03
+        },
+        {
+          "word": " back",
+          "pinyin": "/bæk/",
+          "start": 72.03,
+          "end": 72.21
+        },
+        {
+          "word": " up,",
+          "pinyin": "/əp/",
+          "start": 72.21,
+          "end": 72.41
+        },
+        {
+          "word": " making",
+          "pinyin": "/ˈmeɪkɪŋ/",
+          "start": 72.51,
+          "end": 72.59
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 72.59,
+          "end": 72.81
+        },
+        {
+          "word": " little",
+          "pinyin": "/ˈlɪtəl/",
+          "start": 72.81,
+          "end": 73.03
+        },
+        {
+          "word": " squiggle.",
+          "pinyin": "/skˈwɪgəl/",
+          "start": 73.03,
+          "end": 73.27
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "start": 73.71,
+      "end": 76.53,
+      "text": "Then we would slant down to that baseline, and we're gonna balance",
+      "vietnamese": "Sau đó chúng ta sẽ nghiêng xuống đường cơ sở đó và chúng ta sẽ cân bằng",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Then",
+          "pinyin": "/ðɛn/",
+          "start": 73.71,
+          "end": 74.01
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 74.01,
+          "end": 74.15
+        },
+        {
+          "word": " would",
+          "pinyin": "/wʊd/",
+          "start": 74.15,
+          "end": 74.35
+        },
+        {
+          "word": " slant",
+          "pinyin": "/slænt/",
+          "start": 74.35,
+          "end": 74.55
+        },
+        {
+          "word": " down",
+          "pinyin": "/daʊn/",
+          "start": 74.55,
+          "end": 74.99
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 74.99,
+          "end": 75.15
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 75.15,
+          "end": 75.37
+        },
+        {
+          "word": " baseline,",
+          "pinyin": "/ˈbeɪsˌlaɪn/",
+          "start": 75.37,
+          "end": 75.79
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 75.93,
+          "end": 76.07
+        },
+        {
+          "word": " we're",
+          "pinyin": "/wɪr/",
+          "start": 76.07,
+          "end": 76.07
+        },
+        {
+          "word": " gonna",
+          "pinyin": "/ˈgɑnə/",
+          "start": 76.07,
+          "end": 76.29
+        },
+        {
+          "word": " balance",
+          "pinyin": "/ˈbæləns/",
+          "start": 76.29,
+          "end": 76.53
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "start": 76.53,
+      "end": 79.57,
+      "text": "backwards to the halfway point, and then do a little bit of",
+      "vietnamese": "lùi về điểm giữa, sau đó thực hiện một chút",
+      "highlight": "",
+      "words": [
+        {
+          "word": " backwards",
+          "pinyin": "/ˈbækwərdz/",
+          "start": 76.53,
+          "end": 77.31
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 77.31,
+          "end": 77.63
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 77.63,
+          "end": 77.77
+        },
+        {
+          "word": " halfway",
+          "pinyin": "/ˈhæfˈweɪ/",
+          "start": 77.77,
+          "end": 78.03
+        },
+        {
+          "word": " point,",
+          "pinyin": "/pɔɪnt/",
+          "start": 78.03,
+          "end": 78.51
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 78.51,
+          "end": 78.85
+        },
+        {
+          "word": " then",
+          "pinyin": "/ðɛn/",
+          "start": 78.85,
+          "end": 78.97
+        },
+        {
+          "word": " do",
+          "pinyin": "/du/",
+          "start": 78.97,
+          "end": 79.09
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 79.09,
+          "end": 79.17
+        },
+        {
+          "word": " little",
+          "pinyin": "/ˈlɪtəl/",
+          "start": 79.17,
+          "end": 79.33
+        },
+        {
+          "word": " bit",
+          "pinyin": "/bɪt/",
+          "start": 79.33,
+          "end": 79.47
+        },
+        {
+          "word": " of",
+          "pinyin": "/əv/",
+          "start": 79.47,
+          "end": 79.57
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "start": 79.57,
+      "end": 81.39,
+      "text": "a half smile, a smirk, if you will.",
+      "vietnamese": "một nụ cười nửa miệng, một nụ cười nhếch mép, nếu bạn muốn.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 79.57,
+          "end": 79.69
+        },
+        {
+          "word": " half",
+          "pinyin": "/hæf/",
+          "start": 79.69,
+          "end": 79.99
+        },
+        {
+          "word": " smile,",
+          "pinyin": "/smaɪl/",
+          "start": 79.99,
+          "end": 80.29
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 80.55,
+          "end": 80.59
+        },
+        {
+          "word": " smirk,",
+          "pinyin": "/smərk/",
+          "start": 80.59,
+          "end": 80.83
+        },
+        {
+          "word": " if",
+          "pinyin": "/ɪf/",
+          "start": 80.91,
+          "end": 81.03
+        },
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 81.03,
+          "end": 81.17
+        },
+        {
+          "word": " will.",
+          "pinyin": "/wɪl/",
+          "start": 81.17,
+          "end": 81.39
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "start": 81.63,
+      "end": 84.67,
+      "text": "Then we would pick up our pin and cross it at the",
+      "vietnamese": "Sau đó, chúng tôi sẽ nhặt chiếc ghim của mình lên và bắt chéo nó ở điểm",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Then",
+          "pinyin": "/ðɛn/",
+          "start": 81.63,
+          "end": 81.91
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 81.91,
+          "end": 81.99
+        },
+        {
+          "word": " would",
+          "pinyin": "/wʊd/",
+          "start": 81.99,
+          "end": 82.15
+        },
+        {
+          "word": " pick",
+          "pinyin": "/pɪk/",
+          "start": 82.15,
+          "end": 82.31
+        },
+        {
+          "word": " up",
+          "pinyin": "/əp/",
+          "start": 82.31,
+          "end": 82.43
+        },
+        {
+          "word": " our",
+          "pinyin": "/ɑr/",
+          "start": 82.43,
+          "end": 82.61
+        },
+        {
+          "word": " pin",
+          "pinyin": "/pɪn/",
+          "start": 82.61,
+          "end": 82.91
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 82.91,
+          "end": 83.31
+        },
+        {
+          "word": " cross",
+          "pinyin": "/krɔs/",
+          "start": 83.31,
+          "end": 83.57
+        },
+        {
+          "word": " it",
+          "pinyin": "/ɪt/",
+          "start": 83.57,
+          "end": 83.85
+        },
+        {
+          "word": " at",
+          "pinyin": "/æt/",
+          "start": 83.85,
+          "end": 84.03
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 84.03,
+          "end": 84.67
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "start": 84.67,
+      "end": 84.67,
+      "text": "middle.",
+      "vietnamese": "ở giữa.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " middle.",
+          "pinyin": "/ˈmɪdəl/",
+          "start": 84.67,
+          "end": 84.67
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "start": 84.79,
+      "end": 87.37,
+      "text": "Make sure that you don't try to connect a capital F to",
+      "vietnamese": "Đảm bảo rằng bạn không cố kết nối chữ F viết hoa với",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Make",
+          "pinyin": "/meɪk/",
+          "start": 84.79,
+          "end": 85.09
+        },
+        {
+          "word": " sure",
+          "pinyin": "/ʃʊr/",
+          "start": 85.09,
+          "end": 85.27
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 85.27,
+          "end": 85.43
+        },
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 85.43,
+          "end": 85.57
+        },
+        {
+          "word": " don't",
+          "pinyin": "/doʊnt/",
+          "start": 85.57,
+          "end": 85.87
+        },
+        {
+          "word": " try",
+          "pinyin": "/traɪ/",
+          "start": 85.87,
+          "end": 86.01
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 86.01,
+          "end": 86.17
+        },
+        {
+          "word": " connect",
+          "pinyin": "/kəˈnɛkt/",
+          "start": 86.17,
+          "end": 86.45
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 86.45,
+          "end": 86.79
+        },
+        {
+          "word": " capital",
+          "pinyin": "/ˈkæpɪtəl/",
+          "start": 86.79,
+          "end": 86.91
+        },
+        {
+          "word": " F",
+          "pinyin": "/ɛf/",
+          "start": 86.91,
+          "end": 87.23
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 87.23,
+          "end": 87.37
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "start": 87.37,
+      "end": 88.21,
+      "text": "another letter and a word.",
+      "vietnamese": "một lá thư khác và một từ.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " another",
+          "pinyin": "/əˈnəðər/",
+          "start": 87.37,
+          "end": 87.59
+        },
+        {
+          "word": " letter",
+          "pinyin": "/ˈlɛtər/",
+          "start": 87.59,
+          "end": 87.83
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 87.83,
+          "end": 87.97
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 87.97,
+          "end": 88.05
+        },
+        {
+          "word": " word.",
+          "pinyin": "/wərd/",
+          "start": 88.05,
+          "end": 88.21
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "start": 88.27,
+      "end": 89.23,
+      "text": "It wouldn't work very well.",
+      "vietnamese": "Nó sẽ không hoạt động tốt lắm.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " It",
+          "pinyin": "/ɪt/",
+          "start": 88.27,
+          "end": 88.37
+        },
+        {
+          "word": " wouldn't",
+          "pinyin": "/ˈwʊdənt/",
+          "start": 88.37,
+          "end": 88.53
+        },
+        {
+          "word": " work",
+          "pinyin": "/wərk/",
+          "start": 88.53,
+          "end": 88.77
+        },
+        {
+          "word": " very",
+          "pinyin": "/ˈvɛri/",
+          "start": 88.77,
+          "end": 88.99
+        },
+        {
+          "word": " well.",
+          "pinyin": "/wɛl/",
+          "start": 88.99,
+          "end": 89.23
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "start": 89.67,
+      "end": 92.31,
+      "text": "The lower case F, though, starts at the baseline, And we would",
+      "vietnamese": "Tuy nhiên, chữ F thường bắt đầu ở đường cơ sở và chúng ta sẽ",
+      "highlight": "",
+      "words": [
+        {
+          "word": " The",
+          "pinyin": "/ðə/",
+          "start": 89.67,
+          "end": 90.03
+        },
+        {
+          "word": " lower",
+          "pinyin": "/loʊər/",
+          "start": 90.03,
+          "end": 90.17
+        },
+        {
+          "word": " case",
+          "pinyin": "/keɪs/",
+          "start": 90.17,
+          "end": 90.47
+        },
+        {
+          "word": " F,",
+          "pinyin": "/ɛf/",
+          "start": 90.47,
+          "end": 90.69
+        },
+        {
+          "word": " though,",
+          "pinyin": "/ðoʊ/",
+          "start": 90.71,
+          "end": 90.93
+        },
+        {
+          "word": " starts",
+          "pinyin": "/stɑrts/",
+          "start": 91.07,
+          "end": 91.07
+        },
+        {
+          "word": " at",
+          "pinyin": "/æt/",
+          "start": 91.07,
+          "end": 91.21
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 91.21,
+          "end": 91.35
+        },
+        {
+          "word": " baseline,",
+          "pinyin": "/ˈbeɪsˌlaɪn/",
+          "start": 91.35,
+          "end": 91.61
+        },
+        {
+          "word": " And",
+          "pinyin": "/ənd/",
+          "start": 91.61,
+          "end": 91.99
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 91.99,
+          "end": 92.09
+        },
+        {
+          "word": " would",
+          "pinyin": "/wʊd/",
+          "start": 92.09,
+          "end": 92.31
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "start": 92.31,
+      "end": 95.17,
+      "text": "slam up to the three-quarter space, make it a good loop.",
+      "vietnamese": "lao lên khoảng ba phần tư, tạo thành một vòng lặp tốt.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " slam",
+          "pinyin": "/slæm/",
+          "start": 92.31,
+          "end": 92.53
+        },
+        {
+          "word": " up",
+          "pinyin": "/əp/",
+          "start": 92.53,
+          "end": 93.07
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 93.07,
+          "end": 93.33
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 93.33,
+          "end": 93.49
+        },
+        {
+          "word": " three",
+          "pinyin": "/θri/",
+          "start": 93.49,
+          "end": 93.65
+        },
+        {
+          "word": "-quarter",
+          "pinyin": "/kˈwɔrtər/",
+          "start": 93.65,
+          "end": 93.77
+        },
+        {
+          "word": " space,",
+          "pinyin": "/speɪs/",
+          "start": 93.77,
+          "end": 94.13
+        },
+        {
+          "word": " make",
+          "pinyin": "/meɪk/",
+          "start": 94.23,
+          "end": 94.25
+        },
+        {
+          "word": " it",
+          "pinyin": "/ɪt/",
+          "start": 94.25,
+          "end": 94.37
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 94.37,
+          "end": 94.55
+        },
+        {
+          "word": " good",
+          "pinyin": "/gʊd/",
+          "start": 94.55,
+          "end": 94.79
+        },
+        {
+          "word": " loop.",
+          "pinyin": "/lup/",
+          "start": 94.79,
+          "end": 95.17
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "start": 95.21,
+      "end": 98.19,
+      "text": "Then we would pass the baseline at the bottom, make a forward",
+      "vietnamese": "Sau đó, chúng tôi sẽ vượt qua đường cơ sở ở phía dưới, tiến về phía trước",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Then",
+          "pinyin": "/ðɛn/",
+          "start": 95.21,
+          "end": 95.53
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 95.53,
+          "end": 95.65
+        },
+        {
+          "word": " would",
+          "pinyin": "/wʊd/",
+          "start": 95.65,
+          "end": 95.87
+        },
+        {
+          "word": " pass",
+          "pinyin": "/pæs/",
+          "start": 95.87,
+          "end": 96.17
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 96.17,
+          "end": 96.33
+        },
+        {
+          "word": " baseline",
+          "pinyin": "/ˈbeɪsˌlaɪn/",
+          "start": 96.33,
+          "end": 96.69
+        },
+        {
+          "word": " at",
+          "pinyin": "/æt/",
+          "start": 96.69,
+          "end": 96.89
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 96.89,
+          "end": 97.47
+        },
+        {
+          "word": " bottom,",
+          "pinyin": "/ˈbɑtəm/",
+          "start": 97.47,
+          "end": 97.47
+        },
+        {
+          "word": " make",
+          "pinyin": "/meɪk/",
+          "start": 97.51,
+          "end": 97.67
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 97.67,
+          "end": 97.99
+        },
+        {
+          "word": " forward",
+          "pinyin": "/ˈfɔrwərd/",
+          "start": 97.99,
+          "end": 98.19
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "start": 98.19,
+      "end": 101.07,
+      "text": "tail and bounce off the baseline so we could connect to the",
+      "vietnamese": "đuôi và bật ra khỏi đường cơ sở để chúng tôi có thể kết nối với",
+      "highlight": "",
+      "words": [
+        {
+          "word": " tail",
+          "pinyin": "/teɪl/",
+          "start": 98.19,
+          "end": 98.69
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 98.69,
+          "end": 99.05
+        },
+        {
+          "word": " bounce",
+          "pinyin": "/baʊns/",
+          "start": 99.05,
+          "end": 99.21
+        },
+        {
+          "word": " off",
+          "pinyin": "/ɔf/",
+          "start": 99.21,
+          "end": 99.47
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 99.47,
+          "end": 99.63
+        },
+        {
+          "word": " baseline",
+          "pinyin": "/ˈbeɪsˌlaɪn/",
+          "start": 99.63,
+          "end": 99.95
+        },
+        {
+          "word": " so",
+          "pinyin": "/soʊ/",
+          "start": 99.95,
+          "end": 100.19
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 100.19,
+          "end": 100.31
+        },
+        {
+          "word": " could",
+          "pinyin": "/kʊd/",
+          "start": 100.31,
+          "end": 100.49
+        },
+        {
+          "word": " connect",
+          "pinyin": "/kəˈnɛkt/",
+          "start": 100.49,
+          "end": 100.75
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 100.75,
+          "end": 100.99
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 100.99,
+          "end": 101.07
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "start": 101.07,
+      "end": 101.55,
+      "text": "next letter.",
+      "vietnamese": "bức thư tiếp theo.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " next",
+          "pinyin": "/nɛkst/",
+          "start": 101.07,
+          "end": 101.35
+        },
+        {
+          "word": " letter.",
+          "pinyin": "/ˈlɛtər/",
+          "start": 101.35,
+          "end": 101.55
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "start": 102.05,
+      "end": 104.31,
+      "text": "Lots of interesting things happen in our last lesson.",
+      "vietnamese": "Rất nhiều điều thú vị xảy ra trong bài học cuối cùng của chúng tôi.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Lots",
+          "pinyin": "/lɑts/",
+          "start": 102.05,
+          "end": 102.31
+        },
+        {
+          "word": " of",
+          "pinyin": "/əv/",
+          "start": 102.31,
+          "end": 102.57
+        },
+        {
+          "word": " interesting",
+          "pinyin": "/ˈɪntəˌrɛstɪŋ/",
+          "start": 102.57,
+          "end": 102.87
+        },
+        {
+          "word": " things",
+          "pinyin": "/θɪŋz/",
+          "start": 102.87,
+          "end": 103.25
+        },
+        {
+          "word": " happen",
+          "pinyin": "/ˈhæpən/",
+          "start": 103.25,
+          "end": 103.49
+        },
+        {
+          "word": " in",
+          "pinyin": "/ɪn/",
+          "start": 103.49,
+          "end": 103.59
+        },
+        {
+          "word": " our",
+          "pinyin": "/ɑr/",
+          "start": 103.59,
+          "end": 103.73
+        },
+        {
+          "word": " last",
+          "pinyin": "/læst/",
+          "start": 103.73,
+          "end": 103.99
+        },
+        {
+          "word": " lesson.",
+          "pinyin": "/ˈlɛsən/",
+          "start": 103.99,
+          "end": 104.31
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "start": 104.51,
+      "end": 106.23,
+      "text": "And we're gonna see some more in this lesson.",
+      "vietnamese": "Và chúng ta sẽ tìm hiểu thêm một số điều nữa trong bài học này.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " And",
+          "pinyin": "/ənd/",
+          "start": 104.51,
+          "end": 104.71
+        },
+        {
+          "word": " we're",
+          "pinyin": "/wɪr/",
+          "start": 104.71,
+          "end": 104.81
+        },
+        {
+          "word": " gonna",
+          "pinyin": "/ˈgɑnə/",
+          "start": 104.81,
+          "end": 104.95
+        },
+        {
+          "word": " see",
+          "pinyin": "/si/",
+          "start": 104.95,
+          "end": 105.09
+        },
+        {
+          "word": " some",
+          "pinyin": "/səm/",
+          "start": 105.09,
+          "end": 105.31
+        },
+        {
+          "word": " more",
+          "pinyin": "/mɔr/",
+          "start": 105.31,
+          "end": 105.65
+        },
+        {
+          "word": " in",
+          "pinyin": "/ɪn/",
+          "start": 105.65,
+          "end": 105.79
+        },
+        {
+          "word": " this",
+          "pinyin": "/ðɪs/",
+          "start": 105.79,
+          "end": 105.99
+        },
+        {
+          "word": " lesson.",
+          "pinyin": "/ˈlɛsən/",
+          "start": 105.99,
+          "end": 106.23
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "start": 106.27,
+      "end": 108.73,
+      "text": "And this lesson, we're gonna complete page number six.",
+      "vietnamese": "Và bài học này chúng ta sẽ hoàn thành trang số sáu.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " And",
+          "pinyin": "/ənd/",
+          "start": 106.27,
+          "end": 106.39
+        },
+        {
+          "word": " this",
+          "pinyin": "/ðɪs/",
+          "start": 106.39,
+          "end": 106.53
+        },
+        {
+          "word": " lesson,",
+          "pinyin": "/ˈlɛsən/",
+          "start": 106.53,
+          "end": 106.73
+        },
+        {
+          "word": " we're",
+          "pinyin": "/wɪr/",
+          "start": 106.77,
+          "end": 106.89
+        },
+        {
+          "word": " gonna",
+          "pinyin": "/ˈgɑnə/",
+          "start": 106.89,
+          "end": 107.19
+        },
+        {
+          "word": " complete",
+          "pinyin": "/kəmˈplit/",
+          "start": 107.19,
+          "end": 107.49
+        },
+        {
+          "word": " page",
+          "pinyin": "/peɪʤ/",
+          "start": 107.49,
+          "end": 107.79
+        },
+        {
+          "word": " number",
+          "pinyin": "/ˈnəmbər/",
+          "start": 107.79,
+          "end": 108.05
+        },
+        {
+          "word": " six.",
+          "pinyin": "/sɪks/",
+          "start": 108.05,
+          "end": 108.73
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "start": 108.77,
+      "end": 110.85,
+      "text": "And in order to do that well, you will want to warm",
+      "vietnamese": "Và để làm tốt điều đó, bạn sẽ muốn sưởi ấm",
+      "highlight": "",
+      "words": [
+        {
+          "word": " And",
+          "pinyin": "/ənd/",
+          "start": 108.77,
+          "end": 108.89
+        },
+        {
+          "word": " in",
+          "pinyin": "/ɪn/",
+          "start": 108.89,
+          "end": 108.99
+        },
+        {
+          "word": " order",
+          "pinyin": "/ˈɔrdər/",
+          "start": 108.99,
+          "end": 109.05
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 109.05,
+          "end": 109.21
+        },
+        {
+          "word": " do",
+          "pinyin": "/du/",
+          "start": 109.21,
+          "end": 109.41
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 109.41,
+          "end": 109.65
+        },
+        {
+          "word": " well,",
+          "pinyin": "/wɛl/",
+          "start": 109.65,
+          "end": 109.89
+        },
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 109.89,
+          "end": 110.01
+        },
+        {
+          "word": " will",
+          "pinyin": "/wɪl/",
+          "start": 110.01,
+          "end": 110.33
+        },
+        {
+          "word": " want",
+          "pinyin": "/wɔnt/",
+          "start": 110.33,
+          "end": 110.53
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 110.53,
+          "end": 110.71
+        },
+        {
+          "word": " warm",
+          "pinyin": "/wɔrm/",
+          "start": 110.71,
+          "end": 110.85
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "start": 110.85,
+      "end": 111.13,
+      "text": "up.",
+      "vietnamese": "hướng lên.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " up.",
+          "pinyin": "/əp/",
+          "start": 110.85,
+          "end": 111.13
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "start": 111.37,
+      "end": 113.39,
+      "text": "So in this lesson, we're gonna warm up with what I call",
+      "vietnamese": "Vì vậy, trong bài học này, chúng ta sẽ khởi động với cái mà tôi gọi là",
+      "highlight": "",
+      "words": [
+        {
+          "word": " So",
+          "pinyin": "/soʊ/",
+          "start": 111.37,
+          "end": 111.51
+        },
+        {
+          "word": " in",
+          "pinyin": "/ɪn/",
+          "start": 111.51,
+          "end": 111.65
+        },
+        {
+          "word": " this",
+          "pinyin": "/ðɪs/",
+          "start": 111.65,
+          "end": 111.89
+        },
+        {
+          "word": " lesson,",
+          "pinyin": "/ˈlɛsən/",
+          "start": 111.89,
+          "end": 112.11
+        },
+        {
+          "word": " we're",
+          "pinyin": "/wɪr/",
+          "start": 112.11,
+          "end": 112.27
+        },
+        {
+          "word": " gonna",
+          "pinyin": "/ˈgɑnə/",
+          "start": 112.27,
+          "end": 112.45
+        },
+        {
+          "word": " warm",
+          "pinyin": "/wɔrm/",
+          "start": 112.45,
+          "end": 112.61
+        },
+        {
+          "word": " up",
+          "pinyin": "/əp/",
+          "start": 112.61,
+          "end": 112.77
+        },
+        {
+          "word": " with",
+          "pinyin": "/wɪθ/",
+          "start": 112.77,
+          "end": 112.93
+        },
+        {
+          "word": " what",
+          "pinyin": "/wət/",
+          "start": 112.93,
+          "end": 113.05
+        },
+        {
+          "word": " I",
+          "pinyin": "/aɪ/",
+          "start": 113.05,
+          "end": 113.21
+        },
+        {
+          "word": " call",
+          "pinyin": "/kɔl/",
+          "start": 113.21,
+          "end": 113.39
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "start": 113.39,
+      "end": 114.99,
+      "text": "a wave stroke here.",
+      "vietnamese": "một cơn sóng ở đây.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 113.39,
+          "end": 113.77
+        },
+        {
+          "word": " wave",
+          "pinyin": "/weɪv/",
+          "start": 113.77,
+          "end": 114.09
+        },
+        {
+          "word": " stroke",
+          "pinyin": "/stroʊk/",
+          "start": 114.09,
+          "end": 114.69
+        },
+        {
+          "word": " here.",
+          "pinyin": "/hir/",
+          "start": 114.69,
+          "end": 114.99
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "start": 115.13,
+      "end": 117.27,
+      "text": "So we would start at the red dot and we're gonna slam",
+      "vietnamese": "Vậy nên chúng ta sẽ bắt đầu từ chấm đỏ và chúng ta sẽ kết thúc",
+      "highlight": "",
+      "words": [
+        {
+          "word": " So",
+          "pinyin": "/soʊ/",
+          "start": 115.13,
+          "end": 115.31
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 115.31,
+          "end": 115.41
+        },
+        {
+          "word": " would",
+          "pinyin": "/wʊd/",
+          "start": 115.41,
+          "end": 115.61
+        },
+        {
+          "word": " start",
+          "pinyin": "/stɑrt/",
+          "start": 115.61,
+          "end": 115.87
+        },
+        {
+          "word": " at",
+          "pinyin": "/æt/",
+          "start": 115.87,
+          "end": 116.03
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 116.03,
+          "end": 116.21
+        },
+        {
+          "word": " red",
+          "pinyin": "/rɛd/",
+          "start": 116.21,
+          "end": 116.41
+        },
+        {
+          "word": " dot",
+          "pinyin": "/dɑt/",
+          "start": 116.41,
+          "end": 116.61
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 116.61,
+          "end": 116.69
+        },
+        {
+          "word": " we're",
+          "pinyin": "/wɪr/",
+          "start": 116.69,
+          "end": 116.79
+        },
+        {
+          "word": " gonna",
+          "pinyin": "/ˈgɑnə/",
+          "start": 116.79,
+          "end": 116.99
+        },
+        {
+          "word": " slam",
+          "pinyin": "/slæm/",
+          "start": 116.99,
+          "end": 117.27
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "start": 117.27,
+      "end": 121.13,
+      "text": "up and retrace back down very carefully, trying not to get any",
+      "vietnamese": "lên và quay trở lại rất cẩn thận, cố gắng không nhận được bất kỳ",
+      "highlight": "",
+      "words": [
+        {
+          "word": " up",
+          "pinyin": "/əp/",
+          "start": 117.27,
+          "end": 117.73
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 117.73,
+          "end": 118.07
+        },
+        {
+          "word": " retrace",
+          "pinyin": "/riˈtreɪs/",
+          "start": 118.07,
+          "end": 118.45
+        },
+        {
+          "word": " back",
+          "pinyin": "/bæk/",
+          "start": 118.45,
+          "end": 118.93
+        },
+        {
+          "word": " down",
+          "pinyin": "/daʊn/",
+          "start": 118.93,
+          "end": 119.29
+        },
+        {
+          "word": " very",
+          "pinyin": "/ˈvɛri/",
+          "start": 119.29,
+          "end": 119.81
+        },
+        {
+          "word": " carefully,",
+          "pinyin": "/ˈkɛrfəli/",
+          "start": 119.81,
+          "end": 120.21
+        },
+        {
+          "word": " trying",
+          "pinyin": "/traɪɪŋ/",
+          "start": 120.21,
+          "end": 120.53
+        },
+        {
+          "word": " not",
+          "pinyin": "/nɑt/",
+          "start": 120.53,
+          "end": 120.73
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 120.73,
+          "end": 120.83
+        },
+        {
+          "word": " get",
+          "pinyin": "/gɪt/",
+          "start": 120.83,
+          "end": 120.93
+        },
+        {
+          "word": " any",
+          "pinyin": "/ˈɛni/",
+          "start": 120.93,
+          "end": 121.13
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "start": 121.13,
+      "end": 123.09,
+      "text": "bubbles in those retracing areas.",
+      "vietnamese": "bong bóng ở những khu vực thoái lui đó.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " bubbles",
+          "pinyin": "/ˈbəbəlz/",
+          "start": 121.13,
+          "end": 121.43
+        },
+        {
+          "word": " in",
+          "pinyin": "/ɪn/",
+          "start": 121.43,
+          "end": 121.91
+        },
+        {
+          "word": " those",
+          "pinyin": "/ðoʊz/",
+          "start": 121.91,
+          "end": 122.15
+        },
+        {
+          "word": " retracing",
+          "pinyin": "/riˈtreɪsɪŋ/",
+          "start": 122.15,
+          "end": 122.65
+        },
+        {
+          "word": " areas.",
+          "pinyin": "/ˈɛriəz/",
+          "start": 122.65,
+          "end": 123.09
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "start": 123.47,
+      "end": 125.61,
+      "text": "And you'd want to go straight through without picking up your pin",
+      "vietnamese": "Và bạn muốn đi thẳng mà không cần nhặt chiếc ghim của mình lên",
+      "highlight": "",
+      "words": [
+        {
+          "word": " And",
+          "pinyin": "/ənd/",
+          "start": 123.47,
+          "end": 123.55
+        },
+        {
+          "word": " you'd",
+          "pinyin": "/jʊd/",
+          "start": 123.55,
+          "end": 123.67
+        },
+        {
+          "word": " want",
+          "pinyin": "/wɔnt/",
+          "start": 123.67,
+          "end": 123.77
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 123.77,
+          "end": 123.83
+        },
+        {
+          "word": " go",
+          "pinyin": "/goʊ/",
+          "start": 123.83,
+          "end": 124.13
+        },
+        {
+          "word": " straight",
+          "pinyin": "/streɪt/",
+          "start": 124.13,
+          "end": 124.31
+        },
+        {
+          "word": " through",
+          "pinyin": "/θru/",
+          "start": 124.31,
+          "end": 124.47
+        },
+        {
+          "word": " without",
+          "pinyin": "/wɪˈθaʊt/",
+          "start": 124.47,
+          "end": 124.73
+        },
+        {
+          "word": " picking",
+          "pinyin": "/ˈpɪkɪŋ/",
+          "start": 124.73,
+          "end": 124.95
+        },
+        {
+          "word": " up",
+          "pinyin": "/əp/",
+          "start": 124.95,
+          "end": 125.15
+        },
+        {
+          "word": " your",
+          "pinyin": "/jʊr/",
+          "start": 125.15,
+          "end": 125.35
+        },
+        {
+          "word": " pin",
+          "pinyin": "/pɪn/",
+          "start": 125.35,
+          "end": 125.61
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "start": 125.61,
+      "end": 126.77,
+      "text": "and you'd want to do it twice.",
+      "vietnamese": "và bạn muốn làm điều đó hai lần.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 125.61,
+          "end": 125.85
+        },
+        {
+          "word": " you'd",
+          "pinyin": "/jʊd/",
+          "start": 125.85,
+          "end": 126.01
+        },
+        {
+          "word": " want",
+          "pinyin": "/wɔnt/",
+          "start": 126.01,
+          "end": 126.11
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 126.11,
+          "end": 126.13
+        },
+        {
+          "word": " do",
+          "pinyin": "/du/",
+          "start": 126.13,
+          "end": 126.23
+        },
+        {
+          "word": " it",
+          "pinyin": "/ɪt/",
+          "start": 126.23,
+          "end": 126.37
+        },
+        {
+          "word": " twice.",
+          "pinyin": "/twaɪs/",
+          "start": 126.37,
+          "end": 126.77
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "start": 127.37,
+      "end": 129.61,
+      "text": "Now let's move on to what I would have to consider one",
+      "vietnamese": "Bây giờ chúng ta hãy chuyển sang điều mà tôi sẽ phải xem xét",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Now",
+          "pinyin": "/naʊ/",
+          "start": 127.37,
+          "end": 127.47
+        },
+        {
+          "word": " let's",
+          "pinyin": "/lɛts/",
+          "start": 127.47,
+          "end": 127.63
+        },
+        {
+          "word": " move",
+          "pinyin": "/muv/",
+          "start": 127.63,
+          "end": 127.83
+        },
+        {
+          "word": " on",
+          "pinyin": "/ɔn/",
+          "start": 127.83,
+          "end": 128.03
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 128.03,
+          "end": 128.39
+        },
+        {
+          "word": " what",
+          "pinyin": "/wət/",
+          "start": 128.39,
+          "end": 128.53
+        },
+        {
+          "word": " I",
+          "pinyin": "/aɪ/",
+          "start": 128.53,
+          "end": 128.63
+        },
+        {
+          "word": " would",
+          "pinyin": "/wʊd/",
+          "start": 128.63,
+          "end": 128.79
+        },
+        {
+          "word": " have",
+          "pinyin": "/hæv/",
+          "start": 128.79,
+          "end": 129.05
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 129.05,
+          "end": 129.17
+        },
+        {
+          "word": " consider",
+          "pinyin": "/kənˈsɪdər/",
+          "start": 129.17,
+          "end": 129.37
+        },
+        {
+          "word": " one",
+          "pinyin": "/wən/",
+          "start": 129.37,
+          "end": 129.61
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "start": 129.61,
+      "end": 133.15,
+      "text": "of my favorite letters in the cursive alphabet because my name starts",
+      "vietnamese": "trong số các chữ cái yêu thích của tôi trong bảng chữ cái viết thảo vì tên của tôi bắt đầu",
+      "highlight": "",
+      "words": [
+        {
+          "word": " of",
+          "pinyin": "/əv/",
+          "start": 129.61,
+          "end": 129.69
+        },
+        {
+          "word": " my",
+          "pinyin": "/maɪ/",
+          "start": 129.69,
+          "end": 129.89
+        },
+        {
+          "word": " favorite",
+          "pinyin": "/ˈfeɪvərɪt/",
+          "start": 129.89,
+          "end": 130.17
+        },
+        {
+          "word": " letters",
+          "pinyin": "/ˈlɛtərz/",
+          "start": 130.17,
+          "end": 130.61
+        },
+        {
+          "word": " in",
+          "pinyin": "/ɪn/",
+          "start": 130.61,
+          "end": 131.01
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 131.01,
+          "end": 131.17
+        },
+        {
+          "word": " cursive",
+          "pinyin": "/cursive/",
+          "start": 131.17,
+          "end": 131.47
+        },
+        {
+          "word": " alphabet",
+          "pinyin": "/ˈælfəˌbɛt/",
+          "start": 131.47,
+          "end": 131.81
+        },
+        {
+          "word": " because",
+          "pinyin": "/bɪˈkəz/",
+          "start": 131.81,
+          "end": 132.45
+        },
+        {
+          "word": " my",
+          "pinyin": "/maɪ/",
+          "start": 132.45,
+          "end": 132.67
+        },
+        {
+          "word": " name",
+          "pinyin": "/neɪm/",
+          "start": 132.67,
+          "end": 132.93
+        },
+        {
+          "word": " starts",
+          "pinyin": "/stɑrts/",
+          "start": 132.93,
+          "end": 133.15
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "start": 133.15,
+      "end": 133.97,
+      "text": "with a capital G.",
+      "vietnamese": "với chữ G viết hoa.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " with",
+          "pinyin": "/wɪθ/",
+          "start": 133.15,
+          "end": 133.33
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 133.33,
+          "end": 133.45
+        },
+        {
+          "word": " capital",
+          "pinyin": "/ˈkæpɪtəl/",
+          "start": 133.45,
+          "end": 133.69
+        },
+        {
+          "word": " G.",
+          "pinyin": "/ʤi/",
+          "start": 133.69,
+          "end": 133.97
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "start": 134.25,
+      "end": 135.83,
+      "text": "So I need to know how to master this letter.",
+      "vietnamese": "Vì vậy tôi cần phải biết cách làm chủ lá thư này.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " So",
+          "pinyin": "/soʊ/",
+          "start": 134.25,
+          "end": 134.27
+        },
+        {
+          "word": " I",
+          "pinyin": "/aɪ/",
+          "start": 134.27,
+          "end": 134.47
+        },
+        {
+          "word": " need",
+          "pinyin": "/nid/",
+          "start": 134.47,
+          "end": 134.67
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 134.67,
+          "end": 134.81
+        },
+        {
+          "word": " know",
+          "pinyin": "/noʊ/",
+          "start": 134.81,
+          "end": 134.95
+        },
+        {
+          "word": " how",
+          "pinyin": "/haʊ/",
+          "start": 134.95,
+          "end": 135.07
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 135.07,
+          "end": 135.17
+        },
+        {
+          "word": " master",
+          "pinyin": "/ˈmæstər/",
+          "start": 135.17,
+          "end": 135.37
+        },
+        {
+          "word": " this",
+          "pinyin": "/ðɪs/",
+          "start": 135.37,
+          "end": 135.67
+        },
+        {
+          "word": " letter.",
+          "pinyin": "/ˈlɛtər/",
+          "start": 135.67,
+          "end": 135.83
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "start": 136.21,
+      "end": 138.17,
+      "text": "So in order to write the capital G, I would start at",
+      "vietnamese": "Vì vậy, để viết hoa G, tôi sẽ bắt đầu từ",
+      "highlight": "",
+      "words": [
+        {
+          "word": " So",
+          "pinyin": "/soʊ/",
+          "start": 136.21,
+          "end": 136.33
+        },
+        {
+          "word": " in",
+          "pinyin": "/ɪn/",
+          "start": 136.33,
+          "end": 136.45
+        },
+        {
+          "word": " order",
+          "pinyin": "/ˈɔrdər/",
+          "start": 136.45,
+          "end": 136.55
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 136.55,
+          "end": 136.79
+        },
+        {
+          "word": " write",
+          "pinyin": "/raɪt/",
+          "start": 136.79,
+          "end": 136.95
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 136.95,
+          "end": 137.17
+        },
+        {
+          "word": " capital",
+          "pinyin": "/ˈkæpɪtəl/",
+          "start": 137.17,
+          "end": 137.43
+        },
+        {
+          "word": " G,",
+          "pinyin": "/ʤi/",
+          "start": 137.43,
+          "end": 137.67
+        },
+        {
+          "word": " I",
+          "pinyin": "/aɪ/",
+          "start": 137.71,
+          "end": 137.75
+        },
+        {
+          "word": " would",
+          "pinyin": "/wʊd/",
+          "start": 137.75,
+          "end": 137.93
+        },
+        {
+          "word": " start",
+          "pinyin": "/stɑrt/",
+          "start": 137.93,
+          "end": 138.03
+        },
+        {
+          "word": " at",
+          "pinyin": "/æt/",
+          "start": 138.03,
+          "end": 138.17
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "start": 138.17,
+      "end": 138.57,
+      "text": "the baseline.",
+      "vietnamese": "đường cơ sở.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 138.17,
+          "end": 138.31
+        },
+        {
+          "word": " baseline.",
+          "pinyin": "/ˈbeɪsˌlaɪn/",
+          "start": 138.31,
+          "end": 138.57
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "start": 139.11,
+      "end": 141.23,
+      "text": "I would slam up to that three-quarter space and I'm going",
+      "vietnamese": "Tôi sẽ lao thẳng vào không gian ba phần tư đó và tôi sẽ",
+      "highlight": "",
+      "words": [
+        {
+          "word": " I",
+          "pinyin": "/aɪ/",
+          "start": 139.11,
+          "end": 139.21
+        },
+        {
+          "word": " would",
+          "pinyin": "/wʊd/",
+          "start": 139.21,
+          "end": 139.39
+        },
+        {
+          "word": " slam",
+          "pinyin": "/slæm/",
+          "start": 139.39,
+          "end": 139.57
+        },
+        {
+          "word": " up",
+          "pinyin": "/əp/",
+          "start": 139.57,
+          "end": 139.87
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 139.87,
+          "end": 139.99
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 139.99,
+          "end": 140.19
+        },
+        {
+          "word": " three",
+          "pinyin": "/θri/",
+          "start": 140.19,
+          "end": 140.39
+        },
+        {
+          "word": "-quarter",
+          "pinyin": "/kˈwɔrtər/",
+          "start": 140.39,
+          "end": 140.61
+        },
+        {
+          "word": " space",
+          "pinyin": "/speɪs/",
+          "start": 140.61,
+          "end": 140.95
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 140.95,
+          "end": 141.01
+        },
+        {
+          "word": " I'm",
+          "pinyin": "/əm/",
+          "start": 141.01,
+          "end": 141.23
+        },
+        {
+          "word": " going",
+          "pinyin": "/goʊɪŋ/",
+          "start": 141.23,
+          "end": 141.23
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "start": 141.23,
+      "end": 142.41,
+      "text": "to make a nice loop up here.",
+      "vietnamese": "để tạo một vòng lặp thú vị ở đây.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 141.23,
+          "end": 141.23
+        },
+        {
+          "word": " make",
+          "pinyin": "/meɪk/",
+          "start": 141.23,
+          "end": 141.35
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 141.35,
+          "end": 141.47
+        },
+        {
+          "word": " nice",
+          "pinyin": "/nis/",
+          "start": 141.47,
+          "end": 141.75
+        },
+        {
+          "word": " loop",
+          "pinyin": "/lup/",
+          "start": 141.75,
+          "end": 141.91
+        },
+        {
+          "word": " up",
+          "pinyin": "/əp/",
+          "start": 141.91,
+          "end": 142.11
+        },
+        {
+          "word": " here.",
+          "pinyin": "/hir/",
+          "start": 142.11,
+          "end": 142.41
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "start": 142.59,
+      "end": 144.47,
+      "text": "But instead of going back to the baseline, I'm going to curve",
+      "vietnamese": "Nhưng thay vì quay lại đường cơ sở, tôi sẽ đi đường cong",
+      "highlight": "",
+      "words": [
+        {
+          "word": " But",
+          "pinyin": "/bət/",
+          "start": 142.59,
+          "end": 142.73
+        },
+        {
+          "word": " instead",
+          "pinyin": "/ˌɪnˈstɛd/",
+          "start": 142.73,
+          "end": 142.89
+        },
+        {
+          "word": " of",
+          "pinyin": "/əv/",
+          "start": 142.89,
+          "end": 143.05
+        },
+        {
+          "word": " going",
+          "pinyin": "/goʊɪŋ/",
+          "start": 143.05,
+          "end": 143.15
+        },
+        {
+          "word": " back",
+          "pinyin": "/bæk/",
+          "start": 143.15,
+          "end": 143.41
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 143.41,
+          "end": 143.51
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 143.51,
+          "end": 143.59
+        },
+        {
+          "word": " baseline,",
+          "pinyin": "/ˈbeɪsˌlaɪn/",
+          "start": 143.59,
+          "end": 143.83
+        },
+        {
+          "word": " I'm",
+          "pinyin": "/əm/",
+          "start": 143.83,
+          "end": 144.23
+        },
+        {
+          "word": " going",
+          "pinyin": "/goʊɪŋ/",
+          "start": 144.23,
+          "end": 144.23
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 144.23,
+          "end": 144.25
+        },
+        {
+          "word": " curve",
+          "pinyin": "/kərv/",
+          "start": 144.25,
+          "end": 144.47
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "start": 144.47,
+      "end": 147.53,
+      "text": "through that line and back up just a little lower than the",
+      "vietnamese": "qua dòng đó và sao lưu chỉ thấp hơn một chút so với",
+      "highlight": "",
+      "words": [
+        {
+          "word": " through",
+          "pinyin": "/θru/",
+          "start": 144.47,
+          "end": 144.71
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 144.71,
+          "end": 144.91
+        },
+        {
+          "word": " line",
+          "pinyin": "/laɪn/",
+          "start": 144.91,
+          "end": 145.21
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 145.21,
+          "end": 145.65
+        },
+        {
+          "word": " back",
+          "pinyin": "/bæk/",
+          "start": 145.65,
+          "end": 145.91
+        },
+        {
+          "word": " up",
+          "pinyin": "/əp/",
+          "start": 145.91,
+          "end": 146.13
+        },
+        {
+          "word": " just",
+          "pinyin": "/ʤɪst/",
+          "start": 146.13,
+          "end": 146.43
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 146.43,
+          "end": 146.53
+        },
+        {
+          "word": " little",
+          "pinyin": "/ˈlɪtəl/",
+          "start": 146.53,
+          "end": 146.73
+        },
+        {
+          "word": " lower",
+          "pinyin": "/loʊər/",
+          "start": 146.73,
+          "end": 147.03
+        },
+        {
+          "word": " than",
+          "pinyin": "/ðən/",
+          "start": 147.03,
+          "end": 147.33
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 147.33,
+          "end": 147.53
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "start": 147.53,
+      "end": 148.29,
+      "text": "three-quarter space.",
+      "vietnamese": "không gian ba phần tư.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " three",
+          "pinyin": "/θri/",
+          "start": 147.53,
+          "end": 147.65
+        },
+        {
+          "word": "-quarter",
+          "pinyin": "/kˈwɔrtər/",
+          "start": 147.65,
+          "end": 147.85
+        },
+        {
+          "word": " space.",
+          "pinyin": "/speɪs/",
+          "start": 147.85,
+          "end": 148.29
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "start": 148.29,
+      "end": 152.37,
+      "text": "Then I'm going to slam it down, bounce backwards to the halfway",
+      "vietnamese": "Sau đó tôi sẽ đập nó xuống, bật ngược về nửa chừng",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Then",
+          "pinyin": "/ðɛn/",
+          "start": 148.29,
+          "end": 148.75
+        },
+        {
+          "word": " I'm",
+          "pinyin": "/əm/",
+          "start": 148.75,
+          "end": 148.85
+        },
+        {
+          "word": " going",
+          "pinyin": "/goʊɪŋ/",
+          "start": 148.85,
+          "end": 149.15
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 149.15,
+          "end": 149.15
+        },
+        {
+          "word": " slam",
+          "pinyin": "/slæm/",
+          "start": 149.15,
+          "end": 149.33
+        },
+        {
+          "word": " it",
+          "pinyin": "/ɪt/",
+          "start": 149.33,
+          "end": 149.57
+        },
+        {
+          "word": " down,",
+          "pinyin": "/daʊn/",
+          "start": 149.57,
+          "end": 150.27
+        },
+        {
+          "word": " bounce",
+          "pinyin": "/baʊns/",
+          "start": 150.65,
+          "end": 150.65
+        },
+        {
+          "word": " backwards",
+          "pinyin": "/ˈbækwərdz/",
+          "start": 150.65,
+          "end": 151.27
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 151.27,
+          "end": 152.05
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 152.05,
+          "end": 152.17
+        },
+        {
+          "word": " halfway",
+          "pinyin": "/ˈhæfˈweɪ/",
+          "start": 152.17,
+          "end": 152.37
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "start": 152.37,
+      "end": 155.53,
+      "text": "point, but this time I'm going to smile all the way straight",
+      "vietnamese": "nhưng lần này tôi sẽ mỉm cười thật tươi",
+      "highlight": "",
+      "words": [
+        {
+          "word": " point,",
+          "pinyin": "/pɔɪnt/",
+          "start": 152.37,
+          "end": 152.79
+        },
+        {
+          "word": " but",
+          "pinyin": "/bət/",
+          "start": 153.03,
+          "end": 153.15
+        },
+        {
+          "word": " this",
+          "pinyin": "/ðɪs/",
+          "start": 153.15,
+          "end": 153.39
+        },
+        {
+          "word": " time",
+          "pinyin": "/taɪm/",
+          "start": 153.39,
+          "end": 153.61
+        },
+        {
+          "word": " I'm",
+          "pinyin": "/əm/",
+          "start": 153.61,
+          "end": 153.97
+        },
+        {
+          "word": " going",
+          "pinyin": "/goʊɪŋ/",
+          "start": 153.97,
+          "end": 153.97
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 153.97,
+          "end": 154.01
+        },
+        {
+          "word": " smile",
+          "pinyin": "/smaɪl/",
+          "start": 154.01,
+          "end": 154.33
+        },
+        {
+          "word": " all",
+          "pinyin": "/ɔl/",
+          "start": 154.33,
+          "end": 154.79
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 154.79,
+          "end": 154.95
+        },
+        {
+          "word": " way",
+          "pinyin": "/weɪ/",
+          "start": 154.95,
+          "end": 155.23
+        },
+        {
+          "word": " straight",
+          "pinyin": "/streɪt/",
+          "start": 155.23,
+          "end": 155.53
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "start": 155.53,
+      "end": 158.71,
+      "text": "through the letter because capital G's can connect to the next letter",
+      "vietnamese": "qua chữ cái vì chữ G viết hoa có thể nối với chữ cái tiếp theo",
+      "highlight": "",
+      "words": [
+        {
+          "word": " through",
+          "pinyin": "/θru/",
+          "start": 155.53,
+          "end": 155.73
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 155.73,
+          "end": 155.89
+        },
+        {
+          "word": " letter",
+          "pinyin": "/ˈlɛtər/",
+          "start": 155.89,
+          "end": 156.15
+        },
+        {
+          "word": " because",
+          "pinyin": "/bɪˈkəz/",
+          "start": 156.15,
+          "end": 156.61
+        },
+        {
+          "word": " capital",
+          "pinyin": "/ˈkæpɪtəl/",
+          "start": 156.61,
+          "end": 156.89
+        },
+        {
+          "word": " G's",
+          "pinyin": "/ʤiz/",
+          "start": 156.89,
+          "end": 157.31
+        },
+        {
+          "word": " can",
+          "pinyin": "/kən/",
+          "start": 157.31,
+          "end": 157.57
+        },
+        {
+          "word": " connect",
+          "pinyin": "/kəˈnɛkt/",
+          "start": 157.57,
+          "end": 157.93
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 157.93,
+          "end": 158.25
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 158.25,
+          "end": 158.41
+        },
+        {
+          "word": " next",
+          "pinyin": "/nɛkst/",
+          "start": 158.41,
+          "end": 158.53
+        },
+        {
+          "word": " letter",
+          "pinyin": "/ˈlɛtər/",
+          "start": 158.53,
+          "end": 158.71
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "start": 158.71,
+      "end": 159.23,
+      "text": "in a word.",
+      "vietnamese": "trong một từ.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " in",
+          "pinyin": "/ɪn/",
+          "start": 158.71,
+          "end": 158.85
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 158.85,
+          "end": 158.95
+        },
+        {
+          "word": " word.",
+          "pinyin": "/wərd/",
+          "start": 158.95,
+          "end": 159.23
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "start": 159.57,
+      "end": 162.11,
+      "text": "The little G though, it starts at the halfway point and we",
+      "vietnamese": "Tuy nhiên, chữ G nhỏ bắt đầu ở điểm nửa chừng và chúng ta",
+      "highlight": "",
+      "words": [
+        {
+          "word": " The",
+          "pinyin": "/ðə/",
+          "start": 159.57,
+          "end": 159.71
+        },
+        {
+          "word": " little",
+          "pinyin": "/ˈlɪtəl/",
+          "start": 159.71,
+          "end": 159.89
+        },
+        {
+          "word": " G",
+          "pinyin": "/ʤi/",
+          "start": 159.89,
+          "end": 160.09
+        },
+        {
+          "word": " though,",
+          "pinyin": "/ðoʊ/",
+          "start": 160.09,
+          "end": 160.33
+        },
+        {
+          "word": " it",
+          "pinyin": "/ɪt/",
+          "start": 160.45,
+          "end": 160.53
+        },
+        {
+          "word": " starts",
+          "pinyin": "/stɑrts/",
+          "start": 160.53,
+          "end": 160.79
+        },
+        {
+          "word": " at",
+          "pinyin": "/æt/",
+          "start": 160.79,
+          "end": 161.05
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 161.05,
+          "end": 161.21
+        },
+        {
+          "word": " halfway",
+          "pinyin": "/ˈhæfˈweɪ/",
+          "start": 161.21,
+          "end": 161.45
+        },
+        {
+          "word": " point",
+          "pinyin": "/pɔɪnt/",
+          "start": 161.45,
+          "end": 161.87
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 161.87,
+          "end": 161.99
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 161.99,
+          "end": 162.11
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "start": 162.11,
+      "end": 164.99,
+      "text": "would start kind of like we would a lowercase A by making",
+      "vietnamese": "sẽ bắt đầu giống như chúng ta viết chữ A thường bằng cách tạo",
+      "highlight": "",
+      "words": [
+        {
+          "word": " would",
+          "pinyin": "/wʊd/",
+          "start": 162.11,
+          "end": 162.31
+        },
+        {
+          "word": " start",
+          "pinyin": "/stɑrt/",
+          "start": 162.31,
+          "end": 162.59
+        },
+        {
+          "word": " kind",
+          "pinyin": "/kaɪnd/",
+          "start": 162.59,
+          "end": 162.79
+        },
+        {
+          "word": " of",
+          "pinyin": "/əv/",
+          "start": 162.79,
+          "end": 162.85
+        },
+        {
+          "word": " like",
+          "pinyin": "/laɪk/",
+          "start": 162.85,
+          "end": 163.05
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 163.05,
+          "end": 163.09
+        },
+        {
+          "word": " would",
+          "pinyin": "/wʊd/",
+          "start": 163.09,
+          "end": 163.31
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 163.31,
+          "end": 163.47
+        },
+        {
+          "word": " lowercase",
+          "pinyin": "/lowercase/",
+          "start": 163.47,
+          "end": 164.01
+        },
+        {
+          "word": " A",
+          "pinyin": "/ə/",
+          "start": 164.01,
+          "end": 164.49
+        },
+        {
+          "word": " by",
+          "pinyin": "/baɪ/",
+          "start": 164.49,
+          "end": 164.69
+        },
+        {
+          "word": " making",
+          "pinyin": "/ˈmeɪkɪŋ/",
+          "start": 164.69,
+          "end": 164.99
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "start": 164.99,
+      "end": 168.55,
+      "text": "a nice oval, but then we would trace down past the baseline",
+      "vietnamese": "một hình bầu dục đẹp, nhưng sau đó chúng ta sẽ dò theo đường cơ sở",
+      "highlight": "",
+      "words": [
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 164.99,
+          "end": 165.17
+        },
+        {
+          "word": " nice",
+          "pinyin": "/nis/",
+          "start": 165.17,
+          "end": 165.43
+        },
+        {
+          "word": " oval,",
+          "pinyin": "/ˈoʊvəl/",
+          "start": 165.43,
+          "end": 165.93
+        },
+        {
+          "word": " but",
+          "pinyin": "/bət/",
+          "start": 166.11,
+          "end": 166.31
+        },
+        {
+          "word": " then",
+          "pinyin": "/ðɛn/",
+          "start": 166.31,
+          "end": 166.47
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 166.47,
+          "end": 166.59
+        },
+        {
+          "word": " would",
+          "pinyin": "/wʊd/",
+          "start": 166.59,
+          "end": 166.81
+        },
+        {
+          "word": " trace",
+          "pinyin": "/treɪs/",
+          "start": 166.81,
+          "end": 167.07
+        },
+        {
+          "word": " down",
+          "pinyin": "/daʊn/",
+          "start": 167.07,
+          "end": 167.69
+        },
+        {
+          "word": " past",
+          "pinyin": "/pæst/",
+          "start": 167.69,
+          "end": 168.03
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 168.03,
+          "end": 168.23
+        },
+        {
+          "word": " baseline",
+          "pinyin": "/ˈbeɪsˌlaɪn/",
+          "start": 168.23,
+          "end": 168.55
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "start": 168.55,
+      "end": 171.31,
+      "text": "and we would make a tail going this way and then we",
+      "vietnamese": "và chúng tôi sẽ tạo một cái đuôi theo hướng này và sau đó chúng tôi",
+      "highlight": "",
+      "words": [
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 168.55,
+          "end": 169.01
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 169.01,
+          "end": 169.11
+        },
+        {
+          "word": " would",
+          "pinyin": "/wʊd/",
+          "start": 169.11,
+          "end": 169.23
+        },
+        {
+          "word": " make",
+          "pinyin": "/meɪk/",
+          "start": 169.23,
+          "end": 169.39
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 169.39,
+          "end": 169.65
+        },
+        {
+          "word": " tail",
+          "pinyin": "/teɪl/",
+          "start": 169.65,
+          "end": 169.83
+        },
+        {
+          "word": " going",
+          "pinyin": "/goʊɪŋ/",
+          "start": 169.83,
+          "end": 170.09
+        },
+        {
+          "word": " this",
+          "pinyin": "/ðɪs/",
+          "start": 170.09,
+          "end": 170.43
+        },
+        {
+          "word": " way",
+          "pinyin": "/weɪ/",
+          "start": 170.43,
+          "end": 170.77
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 170.77,
+          "end": 171.11
+        },
+        {
+          "word": " then",
+          "pinyin": "/ðɛn/",
+          "start": 171.11,
+          "end": 171.27
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 171.27,
+          "end": 171.31
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "start": 171.31,
+      "end": 173.81,
+      "text": "would curve up off of that baseline to connect to the next",
+      "vietnamese": "sẽ cong lên khỏi đường cơ sở đó để kết nối với đường cơ sở tiếp theo",
+      "highlight": "",
+      "words": [
+        {
+          "word": " would",
+          "pinyin": "/wʊd/",
+          "start": 171.31,
+          "end": 171.51
+        },
+        {
+          "word": " curve",
+          "pinyin": "/kərv/",
+          "start": 171.51,
+          "end": 171.63
+        },
+        {
+          "word": " up",
+          "pinyin": "/əp/",
+          "start": 171.63,
+          "end": 171.87
+        },
+        {
+          "word": " off",
+          "pinyin": "/ɔf/",
+          "start": 171.87,
+          "end": 172.05
+        },
+        {
+          "word": " of",
+          "pinyin": "/əv/",
+          "start": 172.05,
+          "end": 172.13
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 172.13,
+          "end": 172.31
+        },
+        {
+          "word": " baseline",
+          "pinyin": "/ˈbeɪsˌlaɪn/",
+          "start": 172.31,
+          "end": 172.63
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 172.63,
+          "end": 173.13
+        },
+        {
+          "word": " connect",
+          "pinyin": "/kəˈnɛkt/",
+          "start": 173.13,
+          "end": 173.33
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 173.33,
+          "end": 173.53
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 173.53,
+          "end": 173.63
+        },
+        {
+          "word": " next",
+          "pinyin": "/nɛkst/",
+          "start": 173.63,
+          "end": 173.81
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "start": 173.81,
+      "end": 174.03,
+      "text": "letter.",
+      "vietnamese": "thư.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " letter.",
+          "pinyin": "/ˈlɛtər/",
+          "start": 173.81,
+          "end": 174.03
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "start": 174.45,
+      "end": 175.03,
+      "text": "Pretty good, right?",
+      "vietnamese": "Khá tốt phải không?",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Pretty",
+          "pinyin": "/ˈprɪti/",
+          "start": 174.45,
+          "end": 174.59
+        },
+        {
+          "word": " good,",
+          "pinyin": "/gʊd/",
+          "start": 174.59,
+          "end": 174.81
+        },
+        {
+          "word": " right?",
+          "pinyin": "/raɪt/",
+          "start": 175.03,
+          "end": 175.03
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "start": 175.15,
+      "end": 177.27,
+      "text": "I think these are good letters to learn how to write.",
+      "vietnamese": "Tôi nghĩ đây là những bức thư hay để học cách viết.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " I",
+          "pinyin": "/aɪ/",
+          "start": 175.15,
+          "end": 175.23
+        },
+        {
+          "word": " think",
+          "pinyin": "/θɪŋk/",
+          "start": 175.23,
+          "end": 175.23
+        },
+        {
+          "word": " these",
+          "pinyin": "/ðiz/",
+          "start": 175.23,
+          "end": 175.41
+        },
+        {
+          "word": " are",
+          "pinyin": "/ər/",
+          "start": 175.41,
+          "end": 175.59
+        },
+        {
+          "word": " good",
+          "pinyin": "/gʊd/",
+          "start": 175.59,
+          "end": 175.99
+        },
+        {
+          "word": " letters",
+          "pinyin": "/ˈlɛtərz/",
+          "start": 175.99,
+          "end": 176.35
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 176.35,
+          "end": 176.51
+        },
+        {
+          "word": " learn",
+          "pinyin": "/lərn/",
+          "start": 176.51,
+          "end": 176.69
+        },
+        {
+          "word": " how",
+          "pinyin": "/haʊ/",
+          "start": 176.69,
+          "end": 176.77
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 176.77,
+          "end": 176.93
+        },
+        {
+          "word": " write.",
+          "pinyin": "/raɪt/",
+          "start": 176.93,
+          "end": 177.27
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "start": 177.27,
+      "end": 179.01,
+      "text": "but then we have the capital H.",
+      "vietnamese": "nhưng sau đó chúng ta có chữ H viết hoa.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " but",
+          "pinyin": "/bət/",
+          "start": 177.27,
+          "end": 177.67
+        },
+        {
+          "word": " then",
+          "pinyin": "/ðɛn/",
+          "start": 177.67,
+          "end": 177.83
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 177.83,
+          "end": 177.99
+        },
+        {
+          "word": " have",
+          "pinyin": "/hæv/",
+          "start": 177.99,
+          "end": 178.13
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 178.13,
+          "end": 178.49
+        },
+        {
+          "word": " capital",
+          "pinyin": "/ˈkæpɪtəl/",
+          "start": 178.49,
+          "end": 178.49
+        },
+        {
+          "word": " H.",
+          "pinyin": "/eɪʧ/",
+          "start": 178.49,
+          "end": 179.01
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "start": 179.01,
+      "end": 181.91,
+      "text": "The capital H makes me happy right there because it's not too",
+      "vietnamese": "Chữ H viết hoa làm tôi vui ngay tại đó vì nó không quá",
+      "highlight": "",
+      "words": [
+        {
+          "word": " The",
+          "pinyin": "/ðə/",
+          "start": 179.01,
+          "end": 179.25
+        },
+        {
+          "word": " capital",
+          "pinyin": "/ˈkæpɪtəl/",
+          "start": 179.25,
+          "end": 179.45
+        },
+        {
+          "word": " H",
+          "pinyin": "/eɪʧ/",
+          "start": 179.45,
+          "end": 179.75
+        },
+        {
+          "word": " makes",
+          "pinyin": "/meɪks/",
+          "start": 179.75,
+          "end": 179.93
+        },
+        {
+          "word": " me",
+          "pinyin": "/mi/",
+          "start": 179.93,
+          "end": 180.19
+        },
+        {
+          "word": " happy",
+          "pinyin": "/ˈhæpi/",
+          "start": 180.19,
+          "end": 180.61
+        },
+        {
+          "word": " right",
+          "pinyin": "/raɪt/",
+          "start": 180.61,
+          "end": 180.95
+        },
+        {
+          "word": " there",
+          "pinyin": "/ðɛr/",
+          "start": 180.95,
+          "end": 181.11
+        },
+        {
+          "word": " because",
+          "pinyin": "/bɪˈkəz/",
+          "start": 181.11,
+          "end": 181.29
+        },
+        {
+          "word": " it's",
+          "pinyin": "/ɪts/",
+          "start": 181.29,
+          "end": 181.53
+        },
+        {
+          "word": " not",
+          "pinyin": "/nɑt/",
+          "start": 181.53,
+          "end": 181.75
+        },
+        {
+          "word": " too",
+          "pinyin": "/tu/",
+          "start": 181.75,
+          "end": 181.91
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "start": 181.91,
+      "end": 182.21,
+      "text": "difficult.",
+      "vietnamese": "khó.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " difficult.",
+          "pinyin": "/ˈdɪfəkəlt/",
+          "start": 181.91,
+          "end": 182.21
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "start": 182.67,
+      "end": 184.93,
+      "text": "The capital H would start at the three quarter space and we're",
+      "vietnamese": "Chữ H viết hoa sẽ bắt đầu ở ô ba phần tư và chúng ta",
+      "highlight": "",
+      "words": [
+        {
+          "word": " The",
+          "pinyin": "/ðə/",
+          "start": 182.67,
+          "end": 182.83
+        },
+        {
+          "word": " capital",
+          "pinyin": "/ˈkæpɪtəl/",
+          "start": 182.83,
+          "end": 183.01
+        },
+        {
+          "word": " H",
+          "pinyin": "/eɪʧ/",
+          "start": 183.01,
+          "end": 183.25
+        },
+        {
+          "word": " would",
+          "pinyin": "/wʊd/",
+          "start": 183.25,
+          "end": 183.43
+        },
+        {
+          "word": " start",
+          "pinyin": "/stɑrt/",
+          "start": 183.43,
+          "end": 183.71
+        },
+        {
+          "word": " at",
+          "pinyin": "/æt/",
+          "start": 183.71,
+          "end": 183.87
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 183.87,
+          "end": 184.07
+        },
+        {
+          "word": " three",
+          "pinyin": "/θri/",
+          "start": 184.07,
+          "end": 184.15
+        },
+        {
+          "word": " quarter",
+          "pinyin": "/kˈwɔrtər/",
+          "start": 184.15,
+          "end": 184.35
+        },
+        {
+          "word": " space",
+          "pinyin": "/speɪs/",
+          "start": 184.35,
+          "end": 184.73
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 184.73,
+          "end": 184.87
+        },
+        {
+          "word": " we're",
+          "pinyin": "/wɪr/",
+          "start": 184.87,
+          "end": 184.93
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "start": 184.93,
+      "end": 188.37,
+      "text": "gonna make what I call a shepherd's staff maybe by curving down",
+      "vietnamese": "có thể sẽ làm cái mà tôi gọi là cây gậy chăn cừu bằng cách uốn cong xuống",
+      "highlight": "",
+      "words": [
+        {
+          "word": " gonna",
+          "pinyin": "/ˈgɑnə/",
+          "start": 184.93,
+          "end": 185.07
+        },
+        {
+          "word": " make",
+          "pinyin": "/meɪk/",
+          "start": 185.07,
+          "end": 185.25
+        },
+        {
+          "word": " what",
+          "pinyin": "/wət/",
+          "start": 185.25,
+          "end": 185.39
+        },
+        {
+          "word": " I",
+          "pinyin": "/aɪ/",
+          "start": 185.39,
+          "end": 185.55
+        },
+        {
+          "word": " call",
+          "pinyin": "/kɔl/",
+          "start": 185.55,
+          "end": 185.87
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 185.87,
+          "end": 186.19
+        },
+        {
+          "word": " shepherd's",
+          "pinyin": "/ˈʃɛpərdz/",
+          "start": 186.19,
+          "end": 186.73
+        },
+        {
+          "word": " staff",
+          "pinyin": "/stæf/",
+          "start": 186.73,
+          "end": 187.01
+        },
+        {
+          "word": " maybe",
+          "pinyin": "/ˈmeɪbi/",
+          "start": 187.01,
+          "end": 187.43
+        },
+        {
+          "word": " by",
+          "pinyin": "/baɪ/",
+          "start": 187.43,
+          "end": 187.75
+        },
+        {
+          "word": " curving",
+          "pinyin": "/ˈkərvɪŋ/",
+          "start": 187.75,
+          "end": 188.03
+        },
+        {
+          "word": " down",
+          "pinyin": "/daʊn/",
+          "start": 188.03,
+          "end": 188.37
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "start": 188.37,
+      "end": 191.43,
+      "text": "and around and then we're gonna make that straight line all the",
+      "vietnamese": "và xung quanh và sau đó chúng ta sẽ tạo đường thẳng đó",
+      "highlight": "",
+      "words": [
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 188.37,
+          "end": 188.49
+        },
+        {
+          "word": " around",
+          "pinyin": "/əraʊnd/",
+          "start": 188.49,
+          "end": 188.95
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 188.95,
+          "end": 189.43
+        },
+        {
+          "word": " then",
+          "pinyin": "/ðɛn/",
+          "start": 189.43,
+          "end": 189.59
+        },
+        {
+          "word": " we're",
+          "pinyin": "/wɪr/",
+          "start": 189.59,
+          "end": 189.63
+        },
+        {
+          "word": " gonna",
+          "pinyin": "/ˈgɑnə/",
+          "start": 189.63,
+          "end": 189.81
+        },
+        {
+          "word": " make",
+          "pinyin": "/meɪk/",
+          "start": 189.81,
+          "end": 190.01
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 190.01,
+          "end": 190.33
+        },
+        {
+          "word": " straight",
+          "pinyin": "/streɪt/",
+          "start": 190.33,
+          "end": 190.69
+        },
+        {
+          "word": " line",
+          "pinyin": "/laɪn/",
+          "start": 190.69,
+          "end": 191.01
+        },
+        {
+          "word": " all",
+          "pinyin": "/ɔl/",
+          "start": 191.01,
+          "end": 191.29
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 191.29,
+          "end": 191.43
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "start": 191.43,
+      "end": 192.33,
+      "text": "way straight to the baseline.",
+      "vietnamese": "đi thẳng tới đường cơ sở.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " way",
+          "pinyin": "/weɪ/",
+          "start": 191.43,
+          "end": 191.61
+        },
+        {
+          "word": " straight",
+          "pinyin": "/streɪt/",
+          "start": 191.61,
+          "end": 191.81
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 191.81,
+          "end": 191.91
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 191.91,
+          "end": 192.03
+        },
+        {
+          "word": " baseline.",
+          "pinyin": "/ˈbeɪsˌlaɪn/",
+          "start": 192.03,
+          "end": 192.33
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "start": 192.61,
+      "end": 194.59,
+      "text": "Kind of looks like a shepherd's crook, doesn't it?",
+      "vietnamese": "Trông giống như kẻ lừa đảo của người chăn cừu phải không?",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Kind",
+          "pinyin": "/kaɪnd/",
+          "start": 192.61,
+          "end": 192.77
+        },
+        {
+          "word": " of",
+          "pinyin": "/əv/",
+          "start": 192.77,
+          "end": 192.79
+        },
+        {
+          "word": " looks",
+          "pinyin": "/lʊks/",
+          "start": 192.79,
+          "end": 192.95
+        },
+        {
+          "word": " like",
+          "pinyin": "/laɪk/",
+          "start": 192.95,
+          "end": 193.13
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 193.13,
+          "end": 193.45
+        },
+        {
+          "word": " shepherd's",
+          "pinyin": "/ˈʃɛpərdz/",
+          "start": 193.45,
+          "end": 193.67
+        },
+        {
+          "word": " crook,",
+          "pinyin": "/krʊk/",
+          "start": 193.67,
+          "end": 193.89
+        },
+        {
+          "word": " doesn't",
+          "pinyin": "/ˈdəzənt/",
+          "start": 194.17,
+          "end": 194.17
+        },
+        {
+          "word": " it?",
+          "pinyin": "/ɪt/",
+          "start": 194.17,
+          "end": 194.59
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "start": 194.59,
+      "end": 197.71,
+      "text": "Then we would pick up our pin, scoot over to the three",
+      "vietnamese": "Sau đó chúng tôi sẽ nhặt chiếc ghim của mình lên, lao tới chỗ ba người.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Then",
+          "pinyin": "/ðɛn/",
+          "start": 194.59,
+          "end": 194.81
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 194.81,
+          "end": 194.85
+        },
+        {
+          "word": " would",
+          "pinyin": "/wʊd/",
+          "start": 194.85,
+          "end": 195.07
+        },
+        {
+          "word": " pick",
+          "pinyin": "/pɪk/",
+          "start": 195.07,
+          "end": 195.21
+        },
+        {
+          "word": " up",
+          "pinyin": "/əp/",
+          "start": 195.21,
+          "end": 195.35
+        },
+        {
+          "word": " our",
+          "pinyin": "/ɑr/",
+          "start": 195.35,
+          "end": 195.53
+        },
+        {
+          "word": " pin,",
+          "pinyin": "/pɪn/",
+          "start": 195.53,
+          "end": 196.05
+        },
+        {
+          "word": " scoot",
+          "pinyin": "/skut/",
+          "start": 196.05,
+          "end": 196.31
+        },
+        {
+          "word": " over",
+          "pinyin": "/ˈoʊvər/",
+          "start": 196.31,
+          "end": 196.91
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 196.91,
+          "end": 197.29
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 197.29,
+          "end": 197.61
+        },
+        {
+          "word": " three",
+          "pinyin": "/θri/",
+          "start": 197.61,
+          "end": 197.71
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "start": 197.71,
+      "end": 200.85,
+      "text": "quarter space again and just make a straight line down to the",
+      "vietnamese": "một phần tư không gian một lần nữa và chỉ cần tạo một đường thẳng xuống",
+      "highlight": "",
+      "words": [
+        {
+          "word": " quarter",
+          "pinyin": "/kˈwɔrtər/",
+          "start": 197.71,
+          "end": 197.87
+        },
+        {
+          "word": " space",
+          "pinyin": "/speɪs/",
+          "start": 197.87,
+          "end": 198.15
+        },
+        {
+          "word": " again",
+          "pinyin": "/əˈgɛn/",
+          "start": 198.15,
+          "end": 198.57
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 198.57,
+          "end": 198.79
+        },
+        {
+          "word": " just",
+          "pinyin": "/ʤɪst/",
+          "start": 198.79,
+          "end": 198.99
+        },
+        {
+          "word": " make",
+          "pinyin": "/meɪk/",
+          "start": 198.99,
+          "end": 199.13
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 199.13,
+          "end": 199.43
+        },
+        {
+          "word": " straight",
+          "pinyin": "/streɪt/",
+          "start": 199.43,
+          "end": 199.75
+        },
+        {
+          "word": " line",
+          "pinyin": "/laɪn/",
+          "start": 199.75,
+          "end": 200.13
+        },
+        {
+          "word": " down",
+          "pinyin": "/daʊn/",
+          "start": 200.13,
+          "end": 200.55
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 200.55,
+          "end": 200.69
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 200.69,
+          "end": 200.85
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "start": 200.85,
+      "end": 201.73,
+      "text": "baseline slanted.",
+      "vietnamese": "đường cơ sở nghiêng.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " baseline",
+          "pinyin": "/ˈbeɪsˌlaɪn/",
+          "start": 200.85,
+          "end": 201.21
+        },
+        {
+          "word": " slanted.",
+          "pinyin": "/sˈlænɪd/",
+          "start": 201.21,
+          "end": 201.73
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "start": 202.09,
+      "end": 205.03,
+      "text": "Then we would slant up to a little bit higher or a",
+      "vietnamese": "Sau đó chúng ta sẽ nghiêng lên cao hơn một chút hoặc một",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Then",
+          "pinyin": "/ðɛn/",
+          "start": 202.09,
+          "end": 202.45
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 202.45,
+          "end": 202.61
+        },
+        {
+          "word": " would",
+          "pinyin": "/wʊd/",
+          "start": 202.61,
+          "end": 202.81
+        },
+        {
+          "word": " slant",
+          "pinyin": "/slænt/",
+          "start": 202.81,
+          "end": 203.05
+        },
+        {
+          "word": " up",
+          "pinyin": "/əp/",
+          "start": 203.05,
+          "end": 203.49
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 203.49,
+          "end": 203.97
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 203.97,
+          "end": 203.99
+        },
+        {
+          "word": " little",
+          "pinyin": "/ˈlɪtəl/",
+          "start": 203.99,
+          "end": 204.23
+        },
+        {
+          "word": " bit",
+          "pinyin": "/bɪt/",
+          "start": 204.23,
+          "end": 204.53
+        },
+        {
+          "word": " higher",
+          "pinyin": "/haɪər/",
+          "start": 204.53,
+          "end": 204.69
+        },
+        {
+          "word": " or",
+          "pinyin": "/ər/",
+          "start": 204.69,
+          "end": 205.03
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 205.03,
+          "end": 205.03
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "start": 205.03,
+      "end": 208.29,
+      "text": "little bit lower than the halfway point and we would curve over",
+      "vietnamese": "thấp hơn một chút so với điểm giữa và chúng ta sẽ đi vòng qua",
+      "highlight": "",
+      "words": [
+        {
+          "word": " little",
+          "pinyin": "/ˈlɪtəl/",
+          "start": 205.03,
+          "end": 205.21
+        },
+        {
+          "word": " bit",
+          "pinyin": "/bɪt/",
+          "start": 205.21,
+          "end": 205.67
+        },
+        {
+          "word": " lower",
+          "pinyin": "/loʊər/",
+          "start": 205.67,
+          "end": 205.89
+        },
+        {
+          "word": " than",
+          "pinyin": "/ðən/",
+          "start": 205.89,
+          "end": 206.13
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 206.13,
+          "end": 206.33
+        },
+        {
+          "word": " halfway",
+          "pinyin": "/ˈhæfˈweɪ/",
+          "start": 206.33,
+          "end": 206.47
+        },
+        {
+          "word": " point",
+          "pinyin": "/pɔɪnt/",
+          "start": 206.47,
+          "end": 206.87
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 206.87,
+          "end": 207.23
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 207.23,
+          "end": 207.31
+        },
+        {
+          "word": " would",
+          "pinyin": "/wʊd/",
+          "start": 207.31,
+          "end": 207.51
+        },
+        {
+          "word": " curve",
+          "pinyin": "/kərv/",
+          "start": 207.51,
+          "end": 207.73
+        },
+        {
+          "word": " over",
+          "pinyin": "/ˈoʊvər/",
+          "start": 207.73,
+          "end": 208.29
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "start": 208.29,
+      "end": 211.91,
+      "text": "hitting that first original line and then smile through the letter again.",
+      "vietnamese": "nhấn vào dòng đầu tiên đó và sau đó mỉm cười qua bức thư một lần nữa.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " hitting",
+          "pinyin": "/ˈhɪtɪŋ/",
+          "start": 208.29,
+          "end": 208.51
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 208.51,
+          "end": 208.75
+        },
+        {
+          "word": " first",
+          "pinyin": "/fərst/",
+          "start": 208.75,
+          "end": 209.01
+        },
+        {
+          "word": " original",
+          "pinyin": "/ərˈɪʤənəl/",
+          "start": 209.01,
+          "end": 209.33
+        },
+        {
+          "word": " line",
+          "pinyin": "/laɪn/",
+          "start": 209.33,
+          "end": 209.73
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 209.73,
+          "end": 210.09
+        },
+        {
+          "word": " then",
+          "pinyin": "/ðɛn/",
+          "start": 210.09,
+          "end": 210.33
+        },
+        {
+          "word": " smile",
+          "pinyin": "/smaɪl/",
+          "start": 210.33,
+          "end": 210.57
+        },
+        {
+          "word": " through",
+          "pinyin": "/θru/",
+          "start": 210.57,
+          "end": 210.89
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 210.89,
+          "end": 211.07
+        },
+        {
+          "word": " letter",
+          "pinyin": "/ˈlɛtər/",
+          "start": 211.07,
+          "end": 211.23
+        },
+        {
+          "word": " again.",
+          "pinyin": "/əˈgɛn/",
+          "start": 211.23,
+          "end": 211.91
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "start": 212.57,
+      "end": 215.47,
+      "text": "That lowercase h starts at the baseline and we would slam up",
+      "vietnamese": "Chữ h viết thường đó bắt đầu ở đường cơ sở và chúng ta sẽ tăng tốc",
+      "highlight": "",
+      "words": [
+        {
+          "word": " That",
+          "pinyin": "/ðət/",
+          "start": 212.57,
+          "end": 212.73
+        },
+        {
+          "word": " lowercase",
+          "pinyin": "/lowercase/",
+          "start": 212.73,
+          "end": 213.19
+        },
+        {
+          "word": " h",
+          "pinyin": "/eɪʧ/",
+          "start": 213.19,
+          "end": 213.47
+        },
+        {
+          "word": " starts",
+          "pinyin": "/stɑrts/",
+          "start": 213.47,
+          "end": 213.65
+        },
+        {
+          "word": " at",
+          "pinyin": "/æt/",
+          "start": 213.65,
+          "end": 213.79
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 213.79,
+          "end": 213.91
+        },
+        {
+          "word": " baseline",
+          "pinyin": "/ˈbeɪsˌlaɪn/",
+          "start": 213.91,
+          "end": 214.17
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 214.17,
+          "end": 214.53
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 214.53,
+          "end": 214.57
+        },
+        {
+          "word": " would",
+          "pinyin": "/wʊd/",
+          "start": 214.57,
+          "end": 214.79
+        },
+        {
+          "word": " slam",
+          "pinyin": "/slæm/",
+          "start": 214.79,
+          "end": 214.99
+        },
+        {
+          "word": " up",
+          "pinyin": "/əp/",
+          "start": 214.99,
+          "end": 215.47
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "start": 215.47,
+      "end": 219.05,
+      "text": "to the three quarter space rather making a nice loop, but we",
+      "vietnamese": "đến không gian ba phần tư thay vì tạo một vòng lặp đẹp mắt, nhưng chúng tôi",
+      "highlight": "",
+      "words": [
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 215.47,
+          "end": 215.87
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 215.87,
+          "end": 216.01
+        },
+        {
+          "word": " three",
+          "pinyin": "/θri/",
+          "start": 216.01,
+          "end": 216.63
+        },
+        {
+          "word": " quarter",
+          "pinyin": "/kˈwɔrtər/",
+          "start": 216.63,
+          "end": 216.79
+        },
+        {
+          "word": " space",
+          "pinyin": "/speɪs/",
+          "start": 216.79,
+          "end": 217.11
+        },
+        {
+          "word": " rather",
+          "pinyin": "/ˈrəðər/",
+          "start": 217.11,
+          "end": 217.33
+        },
+        {
+          "word": " making",
+          "pinyin": "/ˈmeɪkɪŋ/",
+          "start": 217.33,
+          "end": 217.59
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 217.59,
+          "end": 217.81
+        },
+        {
+          "word": " nice",
+          "pinyin": "/nis/",
+          "start": 217.81,
+          "end": 218.07
+        },
+        {
+          "word": " loop,",
+          "pinyin": "/lup/",
+          "start": 218.07,
+          "end": 218.41
+        },
+        {
+          "word": " but",
+          "pinyin": "/bət/",
+          "start": 218.81,
+          "end": 218.95
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 218.95,
+          "end": 219.05
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "start": 219.05,
+      "end": 222.83,
+      "text": "would stop at the baseline, slam up to the halfway point and",
+      "vietnamese": "sẽ dừng lại ở đường cơ sở, lao tới điểm giữa và",
+      "highlight": "",
+      "words": [
+        {
+          "word": " would",
+          "pinyin": "/wʊd/",
+          "start": 219.05,
+          "end": 219.29
+        },
+        {
+          "word": " stop",
+          "pinyin": "/stɑp/",
+          "start": 219.29,
+          "end": 219.47
+        },
+        {
+          "word": " at",
+          "pinyin": "/æt/",
+          "start": 219.47,
+          "end": 219.63
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 219.63,
+          "end": 219.75
+        },
+        {
+          "word": " baseline,",
+          "pinyin": "/ˈbeɪsˌlaɪn/",
+          "start": 219.75,
+          "end": 220.41
+        },
+        {
+          "word": " slam",
+          "pinyin": "/slæm/",
+          "start": 220.87,
+          "end": 221.13
+        },
+        {
+          "word": " up",
+          "pinyin": "/əp/",
+          "start": 221.13,
+          "end": 221.61
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 221.61,
+          "end": 221.83
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 221.83,
+          "end": 222.01
+        },
+        {
+          "word": " halfway",
+          "pinyin": "/ˈhæfˈweɪ/",
+          "start": 222.01,
+          "end": 222.31
+        },
+        {
+          "word": " point",
+          "pinyin": "/pɔɪnt/",
+          "start": 222.31,
+          "end": 222.71
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 222.71,
+          "end": 222.83
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "start": 222.83,
+      "end": 226.39,
+      "text": "make a hill, touch that baseline and bounce right off of it.",
+      "vietnamese": "tạo một ngọn đồi, chạm vào đường cơ sở đó và bật ra khỏi nó.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " make",
+          "pinyin": "/meɪk/",
+          "start": 222.83,
+          "end": 222.99
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 222.99,
+          "end": 223.27
+        },
+        {
+          "word": " hill,",
+          "pinyin": "/hɪl/",
+          "start": 223.27,
+          "end": 223.89
+        },
+        {
+          "word": " touch",
+          "pinyin": "/təʧ/",
+          "start": 224.09,
+          "end": 224.33
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 224.33,
+          "end": 224.57
+        },
+        {
+          "word": " baseline",
+          "pinyin": "/ˈbeɪsˌlaɪn/",
+          "start": 224.57,
+          "end": 224.97
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 224.97,
+          "end": 225.19
+        },
+        {
+          "word": " bounce",
+          "pinyin": "/baʊns/",
+          "start": 225.19,
+          "end": 225.43
+        },
+        {
+          "word": " right",
+          "pinyin": "/raɪt/",
+          "start": 225.43,
+          "end": 225.79
+        },
+        {
+          "word": " off",
+          "pinyin": "/ɔf/",
+          "start": 225.79,
+          "end": 225.99
+        },
+        {
+          "word": " of",
+          "pinyin": "/əv/",
+          "start": 225.99,
+          "end": 226.09
+        },
+        {
+          "word": " it.",
+          "pinyin": "/ɪt/",
+          "start": 226.09,
+          "end": 226.39
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "start": 226.53,
+      "end": 229.47,
+      "text": "The capital H and the little H are able to connect to",
+      "vietnamese": "Chữ H viết hoa và chữ H nhỏ có thể kết nối với",
+      "highlight": "",
+      "words": [
+        {
+          "word": " The",
+          "pinyin": "/ðə/",
+          "start": 226.53,
+          "end": 226.69
+        },
+        {
+          "word": " capital",
+          "pinyin": "/ˈkæpɪtəl/",
+          "start": 226.69,
+          "end": 226.93
+        },
+        {
+          "word": " H",
+          "pinyin": "/eɪʧ/",
+          "start": 226.93,
+          "end": 227.25
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 227.25,
+          "end": 227.49
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 227.49,
+          "end": 227.65
+        },
+        {
+          "word": " little",
+          "pinyin": "/ˈlɪtəl/",
+          "start": 227.65,
+          "end": 227.85
+        },
+        {
+          "word": " H",
+          "pinyin": "/eɪʧ/",
+          "start": 227.85,
+          "end": 228.09
+        },
+        {
+          "word": " are",
+          "pinyin": "/ər/",
+          "start": 228.09,
+          "end": 228.29
+        },
+        {
+          "word": " able",
+          "pinyin": "/ˈeɪbəl/",
+          "start": 228.29,
+          "end": 228.47
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 228.47,
+          "end": 228.73
+        },
+        {
+          "word": " connect",
+          "pinyin": "/kəˈnɛkt/",
+          "start": 228.73,
+          "end": 229.05
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 229.05,
+          "end": 229.47
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "start": 229.47,
+      "end": 230.53,
+      "text": "letters in another word.",
+      "vietnamese": "các chữ cái trong một từ khác.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " letters",
+          "pinyin": "/ˈlɛtərz/",
+          "start": 229.47,
+          "end": 229.73
+        },
+        {
+          "word": " in",
+          "pinyin": "/ɪn/",
+          "start": 229.73,
+          "end": 229.89
+        },
+        {
+          "word": " another",
+          "pinyin": "/əˈnəðər/",
+          "start": 229.89,
+          "end": 230.23
+        },
+        {
+          "word": " word.",
+          "pinyin": "/wərd/",
+          "start": 230.23,
+          "end": 230.53
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "start": 230.97,
+      "end": 234.01,
+      "text": "So whenever you do your practice, make sure that you don't pick",
+      "vietnamese": "Vì vậy, bất cứ khi nào bạn thực hành, hãy đảm bảo rằng bạn không chọn",
+      "highlight": "",
+      "words": [
+        {
+          "word": " So",
+          "pinyin": "/soʊ/",
+          "start": 230.97,
+          "end": 231.09
+        },
+        {
+          "word": " whenever",
+          "pinyin": "/wɛˈnɛvər/",
+          "start": 231.09,
+          "end": 231.31
+        },
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 231.31,
+          "end": 231.61
+        },
+        {
+          "word": " do",
+          "pinyin": "/du/",
+          "start": 231.61,
+          "end": 231.81
+        },
+        {
+          "word": " your",
+          "pinyin": "/jʊr/",
+          "start": 231.81,
+          "end": 232.03
+        },
+        {
+          "word": " practice,",
+          "pinyin": "/ˈpræktɪs/",
+          "start": 232.03,
+          "end": 232.43
+        },
+        {
+          "word": " make",
+          "pinyin": "/meɪk/",
+          "start": 232.45,
+          "end": 232.79
+        },
+        {
+          "word": " sure",
+          "pinyin": "/ʃʊr/",
+          "start": 232.79,
+          "end": 233.05
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 233.05,
+          "end": 233.25
+        },
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 233.25,
+          "end": 233.47
+        },
+        {
+          "word": " don't",
+          "pinyin": "/doʊnt/",
+          "start": 233.47,
+          "end": 233.81
+        },
+        {
+          "word": " pick",
+          "pinyin": "/pɪk/",
+          "start": 233.81,
+          "end": 234.01
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "start": 234.01,
+      "end": 236.89,
+      "text": "up your pin when you're moving from that capital G to the",
+      "vietnamese": "nâng mã pin của bạn lên khi bạn di chuyển từ chữ G viết hoa đó sang chữ G",
+      "highlight": "",
+      "words": [
+        {
+          "word": " up",
+          "pinyin": "/əp/",
+          "start": 234.01,
+          "end": 234.17
+        },
+        {
+          "word": " your",
+          "pinyin": "/jʊr/",
+          "start": 234.17,
+          "end": 234.41
+        },
+        {
+          "word": " pin",
+          "pinyin": "/pɪn/",
+          "start": 234.41,
+          "end": 234.71
+        },
+        {
+          "word": " when",
+          "pinyin": "/wɪn/",
+          "start": 234.71,
+          "end": 235.01
+        },
+        {
+          "word": " you're",
+          "pinyin": "/jʊr/",
+          "start": 235.01,
+          "end": 235.31
+        },
+        {
+          "word": " moving",
+          "pinyin": "/ˈmuvɪŋ/",
+          "start": 235.31,
+          "end": 235.39
+        },
+        {
+          "word": " from",
+          "pinyin": "/frəm/",
+          "start": 235.39,
+          "end": 235.59
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 235.59,
+          "end": 235.89
+        },
+        {
+          "word": " capital",
+          "pinyin": "/ˈkæpɪtəl/",
+          "start": 235.89,
+          "end": 236.03
+        },
+        {
+          "word": " G",
+          "pinyin": "/ʤi/",
+          "start": 236.03,
+          "end": 236.55
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 236.55,
+          "end": 236.77
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 236.77,
+          "end": 236.89
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "start": 236.89,
+      "end": 238.27,
+      "text": "next letter in the word of Ghana.",
+      "vietnamese": "chữ cái tiếp theo trong từ của Ghana.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " next",
+          "pinyin": "/nɛkst/",
+          "start": 236.89,
+          "end": 237.07
+        },
+        {
+          "word": " letter",
+          "pinyin": "/ˈlɛtər/",
+          "start": 237.07,
+          "end": 237.31
+        },
+        {
+          "word": " in",
+          "pinyin": "/ɪn/",
+          "start": 237.31,
+          "end": 237.49
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 237.49,
+          "end": 237.61
+        },
+        {
+          "word": " word",
+          "pinyin": "/wərd/",
+          "start": 237.61,
+          "end": 237.81
+        },
+        {
+          "word": " of",
+          "pinyin": "/əv/",
+          "start": 237.81,
+          "end": 238.01
+        },
+        {
+          "word": " Ghana.",
+          "pinyin": "/ˈgænə/",
+          "start": 238.01,
+          "end": 238.27
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "start": 238.67,
+      "end": 241.27,
+      "text": "Make sure that you do the same thing when you get to",
+      "vietnamese": "Hãy chắc chắn rằng bạn làm điều tương tự khi bạn đến",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Make",
+          "pinyin": "/meɪk/",
+          "start": 238.67,
+          "end": 238.95
+        },
+        {
+          "word": " sure",
+          "pinyin": "/ʃʊr/",
+          "start": 238.95,
+          "end": 239.17
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 239.17,
+          "end": 239.43
+        },
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 239.43,
+          "end": 239.55
+        },
+        {
+          "word": " do",
+          "pinyin": "/du/",
+          "start": 239.55,
+          "end": 239.69
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 239.69,
+          "end": 239.89
+        },
+        {
+          "word": " same",
+          "pinyin": "/seɪm/",
+          "start": 239.89,
+          "end": 240.05
+        },
+        {
+          "word": " thing",
+          "pinyin": "/θɪŋ/",
+          "start": 240.05,
+          "end": 240.29
+        },
+        {
+          "word": " when",
+          "pinyin": "/wɪn/",
+          "start": 240.29,
+          "end": 240.45
+        },
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 240.45,
+          "end": 240.51
+        },
+        {
+          "word": " get",
+          "pinyin": "/gɪt/",
+          "start": 240.51,
+          "end": 240.83
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 240.83,
+          "end": 241.27
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "start": 241.27,
+      "end": 243.13,
+      "text": "the capital H here in Hanoi.",
+      "vietnamese": "thủ đô H ở Hà Nội.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 241.27,
+          "end": 241.47
+        },
+        {
+          "word": " capital",
+          "pinyin": "/ˈkæpɪtəl/",
+          "start": 241.47,
+          "end": 241.75
+        },
+        {
+          "word": " H",
+          "pinyin": "/eɪʧ/",
+          "start": 241.75,
+          "end": 242.09
+        },
+        {
+          "word": " here",
+          "pinyin": "/hir/",
+          "start": 242.09,
+          "end": 242.37
+        },
+        {
+          "word": " in",
+          "pinyin": "/ɪn/",
+          "start": 242.37,
+          "end": 242.63
+        },
+        {
+          "word": " Hanoi.",
+          "pinyin": "/ˈhænɔɪ/",
+          "start": 242.63,
+          "end": 243.13
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "start": 243.23,
+      "end": 245.45,
+      "text": "You wanna make sure that you don't pick up your pin, right",
+      "vietnamese": "Bạn muốn chắc chắn rằng bạn không nhặt được mã pin của mình, phải không?",
+      "highlight": "",
+      "words": [
+        {
+          "word": " You",
+          "pinyin": "/ju/",
+          "start": 243.23,
+          "end": 243.31
+        },
+        {
+          "word": " wanna",
+          "pinyin": "/ˈwɑnə/",
+          "start": 243.31,
+          "end": 243.41
+        },
+        {
+          "word": " make",
+          "pinyin": "/meɪk/",
+          "start": 243.41,
+          "end": 243.63
+        },
+        {
+          "word": " sure",
+          "pinyin": "/ʃʊr/",
+          "start": 243.63,
+          "end": 243.83
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 243.83,
+          "end": 243.95
+        },
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 243.95,
+          "end": 244.07
+        },
+        {
+          "word": " don't",
+          "pinyin": "/doʊnt/",
+          "start": 244.07,
+          "end": 244.35
+        },
+        {
+          "word": " pick",
+          "pinyin": "/pɪk/",
+          "start": 244.35,
+          "end": 244.51
+        },
+        {
+          "word": " up",
+          "pinyin": "/əp/",
+          "start": 244.51,
+          "end": 244.65
+        },
+        {
+          "word": " your",
+          "pinyin": "/jʊr/",
+          "start": 244.65,
+          "end": 244.87
+        },
+        {
+          "word": " pin,",
+          "pinyin": "/pɪn/",
+          "start": 244.87,
+          "end": 245.03
+        },
+        {
+          "word": " right",
+          "pinyin": "/raɪt/",
+          "start": 245.27,
+          "end": 245.45
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "start": 245.45,
+      "end": 247.21,
+      "text": "all the way straight through that word.",
+      "vietnamese": "xuyên suốt từ đó.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " all",
+          "pinyin": "/ɔl/",
+          "start": 245.45,
+          "end": 245.59
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 245.59,
+          "end": 245.79
+        },
+        {
+          "word": " way",
+          "pinyin": "/weɪ/",
+          "start": 245.79,
+          "end": 246.19
+        },
+        {
+          "word": " straight",
+          "pinyin": "/streɪt/",
+          "start": 246.19,
+          "end": 246.47
+        },
+        {
+          "word": " through",
+          "pinyin": "/θru/",
+          "start": 246.47,
+          "end": 246.65
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 246.65,
+          "end": 246.91
+        },
+        {
+          "word": " word.",
+          "pinyin": "/wərd/",
+          "start": 246.91,
+          "end": 247.21
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "start": 247.55,
+      "end": 249.87,
+      "text": "Now, let's travel over here to where I can get my book",
+      "vietnamese": "Bây giờ chúng ta hãy đi qua đây để tôi có thể lấy cuốn sách của mình",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Now,",
+          "pinyin": "/naʊ/",
+          "start": 247.55,
+          "end": 247.71
+        },
+        {
+          "word": " let's",
+          "pinyin": "/lɛts/",
+          "start": 247.85,
+          "end": 247.89
+        },
+        {
+          "word": " travel",
+          "pinyin": "/ˈtrævəl/",
+          "start": 247.89,
+          "end": 248.07
+        },
+        {
+          "word": " over",
+          "pinyin": "/ˈoʊvər/",
+          "start": 248.07,
+          "end": 248.35
+        },
+        {
+          "word": " here",
+          "pinyin": "/hir/",
+          "start": 248.35,
+          "end": 248.57
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 248.57,
+          "end": 248.73
+        },
+        {
+          "word": " where",
+          "pinyin": "/wɛr/",
+          "start": 248.73,
+          "end": 248.87
+        },
+        {
+          "word": " I",
+          "pinyin": "/aɪ/",
+          "start": 248.87,
+          "end": 248.99
+        },
+        {
+          "word": " can",
+          "pinyin": "/kən/",
+          "start": 248.99,
+          "end": 249.11
+        },
+        {
+          "word": " get",
+          "pinyin": "/gɪt/",
+          "start": 249.11,
+          "end": 249.27
+        },
+        {
+          "word": " my",
+          "pinyin": "/maɪ/",
+          "start": 249.27,
+          "end": 249.51
+        },
+        {
+          "word": " book",
+          "pinyin": "/bʊk/",
+          "start": 249.51,
+          "end": 249.87
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "start": 249.87,
+      "end": 252.43,
+      "text": "because you're probably already looking at page number six.",
+      "vietnamese": "bởi vì có thể bạn đã xem trang số sáu rồi.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " because",
+          "pinyin": "/bɪˈkəz/",
+          "start": 249.87,
+          "end": 250.27
+        },
+        {
+          "word": " you're",
+          "pinyin": "/jʊr/",
+          "start": 250.27,
+          "end": 250.51
+        },
+        {
+          "word": " probably",
+          "pinyin": "/ˈprɑbəˌbli/",
+          "start": 250.51,
+          "end": 250.85
+        },
+        {
+          "word": " already",
+          "pinyin": "/ɔˈrɛdi/",
+          "start": 250.85,
+          "end": 251.19
+        },
+        {
+          "word": " looking",
+          "pinyin": "/ˈlʊkɪŋ/",
+          "start": 251.19,
+          "end": 251.39
+        },
+        {
+          "word": " at",
+          "pinyin": "/æt/",
+          "start": 251.39,
+          "end": 251.69
+        },
+        {
+          "word": " page",
+          "pinyin": "/peɪʤ/",
+          "start": 251.69,
+          "end": 251.81
+        },
+        {
+          "word": " number",
+          "pinyin": "/ˈnəmbər/",
+          "start": 251.81,
+          "end": 252.09
+        },
+        {
+          "word": " six.",
+          "pinyin": "/sɪks/",
+          "start": 252.09,
+          "end": 252.43
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "start": 252.73,
+      "end": 255.41,
+      "text": "Let me look at page number six and we're going to see",
+      "vietnamese": "Hãy để tôi nhìn vào trang số sáu và chúng ta sẽ thấy",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Let",
+          "pinyin": "/lɛt/",
+          "start": 252.73,
+          "end": 252.97
+        },
+        {
+          "word": " me",
+          "pinyin": "/mi/",
+          "start": 252.97,
+          "end": 253.15
+        },
+        {
+          "word": " look",
+          "pinyin": "/lʊk/",
+          "start": 253.15,
+          "end": 253.37
+        },
+        {
+          "word": " at",
+          "pinyin": "/æt/",
+          "start": 253.37,
+          "end": 253.57
+        },
+        {
+          "word": " page",
+          "pinyin": "/peɪʤ/",
+          "start": 253.57,
+          "end": 253.75
+        },
+        {
+          "word": " number",
+          "pinyin": "/ˈnəmbər/",
+          "start": 253.75,
+          "end": 254.01
+        },
+        {
+          "word": " six",
+          "pinyin": "/sɪks/",
+          "start": 254.01,
+          "end": 254.29
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 254.29,
+          "end": 254.41
+        },
+        {
+          "word": " we're",
+          "pinyin": "/wɪr/",
+          "start": 254.41,
+          "end": 254.49
+        },
+        {
+          "word": " going",
+          "pinyin": "/goʊɪŋ/",
+          "start": 254.49,
+          "end": 254.75
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 254.75,
+          "end": 254.89
+        },
+        {
+          "word": " see",
+          "pinyin": "/si/",
+          "start": 254.89,
+          "end": 255.41
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "start": 255.41,
+      "end": 259.53,
+      "text": "yet another inspirational quote, if you will, here, straight from scripture.",
+      "vietnamese": "lại một câu trích dẫn truyền cảm hứng khác, nếu bạn muốn, ở đây, trực tiếp từ kinh thánh.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " yet",
+          "pinyin": "/jɛt/",
+          "start": 255.41,
+          "end": 255.61
+        },
+        {
+          "word": " another",
+          "pinyin": "/əˈnəðər/",
+          "start": 255.61,
+          "end": 256.09
+        },
+        {
+          "word": " inspirational",
+          "pinyin": "/ˌɪnspərˈeɪʃənəl/",
+          "start": 256.09,
+          "end": 256.87
+        },
+        {
+          "word": " quote,",
+          "pinyin": "/kwoʊt/",
+          "start": 256.87,
+          "end": 257.35
+        },
+        {
+          "word": " if",
+          "pinyin": "/ɪf/",
+          "start": 257.35,
+          "end": 257.51
+        },
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 257.51,
+          "end": 257.63
+        },
+        {
+          "word": " will,",
+          "pinyin": "/wɪl/",
+          "start": 257.63,
+          "end": 257.85
+        },
+        {
+          "word": " here,",
+          "pinyin": "/hir/",
+          "start": 257.87,
+          "end": 258.15
+        },
+        {
+          "word": " straight",
+          "pinyin": "/streɪt/",
+          "start": 258.69,
+          "end": 258.77
+        },
+        {
+          "word": " from",
+          "pinyin": "/frəm/",
+          "start": 258.77,
+          "end": 259.09
+        },
+        {
+          "word": " scripture.",
+          "pinyin": "/ˈskrɪpʧər/",
+          "start": 259.09,
+          "end": 259.53
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "start": 259.81,
+      "end": 261.25,
+      "text": "That's gonna be helpful to us.",
+      "vietnamese": "Điều đó sẽ có ích cho chúng ta.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " That's",
+          "pinyin": "/ðæts/",
+          "start": 259.81,
+          "end": 260.07
+        },
+        {
+          "word": " gonna",
+          "pinyin": "/ˈgɑnə/",
+          "start": 260.07,
+          "end": 260.19
+        },
+        {
+          "word": " be",
+          "pinyin": "/bi/",
+          "start": 260.19,
+          "end": 260.39
+        },
+        {
+          "word": " helpful",
+          "pinyin": "/ˈhɛlpfəl/",
+          "start": 260.39,
+          "end": 260.57
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 260.57,
+          "end": 260.87
+        },
+        {
+          "word": " us.",
+          "pinyin": "/ˈjuˈɛs/",
+          "start": 260.87,
+          "end": 261.25
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "start": 261.39,
+      "end": 264.15,
+      "text": "At the bottom of page six, we see Proverbs 10, 4.",
+      "vietnamese": "Ở cuối trang sáu, chúng ta thấy Châm ngôn 10, 4.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " At",
+          "pinyin": "/æt/",
+          "start": 261.39,
+          "end": 261.51
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 261.51,
+          "end": 261.71
+        },
+        {
+          "word": " bottom",
+          "pinyin": "/ˈbɑtəm/",
+          "start": 261.71,
+          "end": 261.79
+        },
+        {
+          "word": " of",
+          "pinyin": "/əv/",
+          "start": 261.79,
+          "end": 262.01
+        },
+        {
+          "word": " page",
+          "pinyin": "/peɪʤ/",
+          "start": 262.01,
+          "end": 262.21
+        },
+        {
+          "word": " six,",
+          "pinyin": "/sɪks/",
+          "start": 262.21,
+          "end": 262.51
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 262.53,
+          "end": 262.63
+        },
+        {
+          "word": " see",
+          "pinyin": "/si/",
+          "start": 262.63,
+          "end": 262.89
+        },
+        {
+          "word": " Proverbs",
+          "pinyin": "/ˈprɑvərbz/",
+          "start": 262.89,
+          "end": 263.25
+        },
+        {
+          "word": " 10,",
+          "pinyin": "/10/",
+          "start": 263.25,
+          "end": 263.69
+        },
+        {
+          "word": " 4.",
+          "pinyin": "/4/",
+          "start": 263.87,
+          "end": 264.15
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "start": 264.15,
+      "end": 267.91,
+      "text": "Proverbs 10 4 says he become a poor that dilleth with a",
+      "vietnamese": "Châm ngôn 10 4 nói rằng người ấy trở thành kẻ nghèo khổ với một",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Proverbs",
+          "pinyin": "/ˈprɑvərbz/",
+          "start": 264.15,
+          "end": 264.61
+        },
+        {
+          "word": " 10",
+          "pinyin": "/10/",
+          "start": 264.61,
+          "end": 264.93
+        },
+        {
+          "word": " 4",
+          "pinyin": "/4/",
+          "start": 264.93,
+          "end": 265.21
+        },
+        {
+          "word": " says",
+          "pinyin": "/sɪz/",
+          "start": 265.21,
+          "end": 265.75
+        },
+        {
+          "word": " he",
+          "pinyin": "/hi/",
+          "start": 265.75,
+          "end": 265.93
+        },
+        {
+          "word": " become",
+          "pinyin": "/bɪˈkəm/",
+          "start": 265.93,
+          "end": 266.21
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 266.21,
+          "end": 266.45
+        },
+        {
+          "word": " poor",
+          "pinyin": "/pur/",
+          "start": 266.45,
+          "end": 266.95
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 266.95,
+          "end": 267.23
+        },
+        {
+          "word": " dilleth",
+          "pinyin": "/dilleth/",
+          "start": 267.23,
+          "end": 267.53
+        },
+        {
+          "word": " with",
+          "pinyin": "/wɪθ/",
+          "start": 267.53,
+          "end": 267.79
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 267.79,
+          "end": 267.91
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "start": 267.91,
+      "end": 271.55,
+      "text": "slack hand, but the hand of the diligent, mega-thritch.",
+      "vietnamese": "bàn tay lười biếng nhưng là bàn tay của người siêng năng, vĩ đại.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " slack",
+          "pinyin": "/slæk/",
+          "start": 267.91,
+          "end": 268.21
+        },
+        {
+          "word": " hand,",
+          "pinyin": "/hænd/",
+          "start": 268.21,
+          "end": 268.59
+        },
+        {
+          "word": " but",
+          "pinyin": "/bət/",
+          "start": 268.91,
+          "end": 268.97
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 268.97,
+          "end": 269.17
+        },
+        {
+          "word": " hand",
+          "pinyin": "/hænd/",
+          "start": 269.17,
+          "end": 269.43
+        },
+        {
+          "word": " of",
+          "pinyin": "/əv/",
+          "start": 269.43,
+          "end": 269.57
+        },
+        {
+          "word": " the",
+          "pinyin": "/ðə/",
+          "start": 269.57,
+          "end": 269.81
+        },
+        {
+          "word": " diligent,",
+          "pinyin": "/ˈdɪlɪʤənt/",
+          "start": 269.81,
+          "end": 270.23
+        },
+        {
+          "word": " mega",
+          "pinyin": "/ˈmɛgə/",
+          "start": 270.51,
+          "end": 270.73
+        },
+        {
+          "word": "-thritch.",
+          "pinyin": "/thritch/",
+          "start": 270.73,
+          "end": 271.55
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "start": 272.07,
+      "end": 275.71,
+      "text": "Now I think this could be talking about a monetary gain or",
+      "vietnamese": "Bây giờ tôi nghĩ điều này có thể nói về lợi ích tiền tệ hoặc",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Now",
+          "pinyin": "/naʊ/",
+          "start": 272.07,
+          "end": 272.25
+        },
+        {
+          "word": " I",
+          "pinyin": "/aɪ/",
+          "start": 272.25,
+          "end": 272.49
+        },
+        {
+          "word": " think",
+          "pinyin": "/θɪŋk/",
+          "start": 272.49,
+          "end": 272.67
+        },
+        {
+          "word": " this",
+          "pinyin": "/ðɪs/",
+          "start": 272.67,
+          "end": 273.03
+        },
+        {
+          "word": " could",
+          "pinyin": "/kʊd/",
+          "start": 273.03,
+          "end": 273.25
+        },
+        {
+          "word": " be",
+          "pinyin": "/bi/",
+          "start": 273.25,
+          "end": 273.49
+        },
+        {
+          "word": " talking",
+          "pinyin": "/ˈtɔkɪŋ/",
+          "start": 273.49,
+          "end": 273.81
+        },
+        {
+          "word": " about",
+          "pinyin": "/əˈbaʊt/",
+          "start": 273.81,
+          "end": 274.13
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 274.13,
+          "end": 274.27
+        },
+        {
+          "word": " monetary",
+          "pinyin": "/ˈmɑnəˌtɛri/",
+          "start": 274.27,
+          "end": 274.69
+        },
+        {
+          "word": " gain",
+          "pinyin": "/geɪn/",
+          "start": 274.69,
+          "end": 275.27
+        },
+        {
+          "word": " or",
+          "pinyin": "/ər/",
+          "start": 275.27,
+          "end": 275.71
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "start": 275.71,
+      "end": 277.01,
+      "text": "a monetary loss, right?",
+      "vietnamese": "một sự mất mát tiền tệ, phải không?",
+      "highlight": "",
+      "words": [
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 275.71,
+          "end": 275.89
+        },
+        {
+          "word": " monetary",
+          "pinyin": "/ˈmɑnəˌtɛri/",
+          "start": 275.89,
+          "end": 276.25
+        },
+        {
+          "word": " loss,",
+          "pinyin": "/lɔs/",
+          "start": 276.25,
+          "end": 276.71
+        },
+        {
+          "word": " right?",
+          "pinyin": "/raɪt/",
+          "start": 276.77,
+          "end": 277.01
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "start": 277.01,
+      "end": 278.95,
+      "text": "If you work hard, you'll probably make money.",
+      "vietnamese": "Nếu bạn làm việc chăm chỉ, chắc chắn bạn sẽ kiếm được tiền.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " If",
+          "pinyin": "/ɪf/",
+          "start": 277.01,
+          "end": 277.11
+        },
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 277.11,
+          "end": 277.29
+        },
+        {
+          "word": " work",
+          "pinyin": "/wərk/",
+          "start": 277.29,
+          "end": 277.51
+        },
+        {
+          "word": " hard,",
+          "pinyin": "/hɑrd/",
+          "start": 277.51,
+          "end": 277.77
+        },
+        {
+          "word": " you'll",
+          "pinyin": "/jul/",
+          "start": 277.77,
+          "end": 278.01
+        },
+        {
+          "word": " probably",
+          "pinyin": "/ˈprɑbəˌbli/",
+          "start": 278.01,
+          "end": 278.27
+        },
+        {
+          "word": " make",
+          "pinyin": "/meɪk/",
+          "start": 278.27,
+          "end": 278.59
+        },
+        {
+          "word": " money.",
+          "pinyin": "/ˈməni/",
+          "start": 278.59,
+          "end": 278.95
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "start": 279.17,
+      "end": 281.61,
+      "text": "If you don't work hard, you won't be able to make money.",
+      "vietnamese": "Nếu bạn không làm việc chăm chỉ, bạn sẽ không thể kiếm được tiền.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " If",
+          "pinyin": "/ɪf/",
+          "start": 279.17,
+          "end": 279.33
+        },
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 279.33,
+          "end": 279.49
+        },
+        {
+          "word": " don't",
+          "pinyin": "/doʊnt/",
+          "start": 279.49,
+          "end": 279.73
+        },
+        {
+          "word": " work",
+          "pinyin": "/wərk/",
+          "start": 279.73,
+          "end": 279.97
+        },
+        {
+          "word": " hard,",
+          "pinyin": "/hɑrd/",
+          "start": 279.97,
+          "end": 280.19
+        },
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 280.19,
+          "end": 280.39
+        },
+        {
+          "word": " won't",
+          "pinyin": "/woʊnt/",
+          "start": 280.39,
+          "end": 280.69
+        },
+        {
+          "word": " be",
+          "pinyin": "/bi/",
+          "start": 280.69,
+          "end": 280.81
+        },
+        {
+          "word": " able",
+          "pinyin": "/ˈeɪbəl/",
+          "start": 280.81,
+          "end": 280.95
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 280.95,
+          "end": 281.15
+        },
+        {
+          "word": " make",
+          "pinyin": "/meɪk/",
+          "start": 281.15,
+          "end": 281.29
+        },
+        {
+          "word": " money.",
+          "pinyin": "/ˈməni/",
+          "start": 281.29,
+          "end": 281.61
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "start": 281.97,
+      "end": 285.11,
+      "text": "But I think this is also talking about being rich or poor",
+      "vietnamese": "Nhưng tôi nghĩ đây cũng là nói về giàu hay nghèo",
+      "highlight": "",
+      "words": [
+        {
+          "word": " But",
+          "pinyin": "/bət/",
+          "start": 281.97,
+          "end": 282.19
+        },
+        {
+          "word": " I",
+          "pinyin": "/aɪ/",
+          "start": 282.19,
+          "end": 282.29
+        },
+        {
+          "word": " think",
+          "pinyin": "/θɪŋk/",
+          "start": 282.29,
+          "end": 282.45
+        },
+        {
+          "word": " this",
+          "pinyin": "/ðɪs/",
+          "start": 282.45,
+          "end": 282.71
+        },
+        {
+          "word": " is",
+          "pinyin": "/ɪz/",
+          "start": 282.71,
+          "end": 282.89
+        },
+        {
+          "word": " also",
+          "pinyin": "/ˈɔlsoʊ/",
+          "start": 282.89,
+          "end": 283.15
+        },
+        {
+          "word": " talking",
+          "pinyin": "/ˈtɔkɪŋ/",
+          "start": 283.15,
+          "end": 283.47
+        },
+        {
+          "word": " about",
+          "pinyin": "/əˈbaʊt/",
+          "start": 283.47,
+          "end": 283.73
+        },
+        {
+          "word": " being",
+          "pinyin": "/biɪŋ/",
+          "start": 283.73,
+          "end": 284.07
+        },
+        {
+          "word": " rich",
+          "pinyin": "/rɪʧ/",
+          "start": 284.07,
+          "end": 284.35
+        },
+        {
+          "word": " or",
+          "pinyin": "/ər/",
+          "start": 284.35,
+          "end": 284.71
+        },
+        {
+          "word": " poor",
+          "pinyin": "/pur/",
+          "start": 284.71,
+          "end": 285.11
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "start": 285.11,
+      "end": 285.83,
+      "text": "in character.",
+      "vietnamese": "trong tính cách.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " in",
+          "pinyin": "/ɪn/",
+          "start": 285.11,
+          "end": 285.47
+        },
+        {
+          "word": " character.",
+          "pinyin": "/ˈkɛrɪktər/",
+          "start": 285.47,
+          "end": 285.83
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "start": 286.29,
+      "end": 288.67,
+      "text": "If you have poor character and you have a slack or a",
+      "vietnamese": "Nếu bạn có tính cách kém và bạn có tính lười biếng hoặc",
+      "highlight": "",
+      "words": [
+        {
+          "word": " If",
+          "pinyin": "/ɪf/",
+          "start": 286.29,
+          "end": 286.43
+        },
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 286.43,
+          "end": 286.53
+        },
+        {
+          "word": " have",
+          "pinyin": "/hæv/",
+          "start": 286.53,
+          "end": 286.75
+        },
+        {
+          "word": " poor",
+          "pinyin": "/pur/",
+          "start": 286.75,
+          "end": 287.03
+        },
+        {
+          "word": " character",
+          "pinyin": "/ˈkɛrɪktər/",
+          "start": 287.03,
+          "end": 287.31
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 287.31,
+          "end": 287.43
+        },
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 287.43,
+          "end": 287.51
+        },
+        {
+          "word": " have",
+          "pinyin": "/hæv/",
+          "start": 287.51,
+          "end": 288.01
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 288.01,
+          "end": 288.09
+        },
+        {
+          "word": " slack",
+          "pinyin": "/slæk/",
+          "start": 288.09,
+          "end": 288.33
+        },
+        {
+          "word": " or",
+          "pinyin": "/ər/",
+          "start": 288.33,
+          "end": 288.57
+        },
+        {
+          "word": " a",
+          "pinyin": "/ə/",
+          "start": 288.57,
+          "end": 288.67
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "start": 288.67,
+      "end": 292.95,
+      "text": "relaxed hand, you're probably not going to increase your But if you",
+      "vietnamese": "thả lỏng bàn tay, có thể bạn sẽ không tăng số lượng nhưng nếu bạn",
+      "highlight": "",
+      "words": [
+        {
+          "word": " relaxed",
+          "pinyin": "/rɪˈlækst/",
+          "start": 288.67,
+          "end": 288.91
+        },
+        {
+          "word": " hand,",
+          "pinyin": "/hænd/",
+          "start": 288.91,
+          "end": 289.45
+        },
+        {
+          "word": " you're",
+          "pinyin": "/jʊr/",
+          "start": 289.57,
+          "end": 289.89
+        },
+        {
+          "word": " probably",
+          "pinyin": "/ˈprɑbəˌbli/",
+          "start": 289.89,
+          "end": 290.27
+        },
+        {
+          "word": " not",
+          "pinyin": "/nɑt/",
+          "start": 290.27,
+          "end": 290.55
+        },
+        {
+          "word": " going",
+          "pinyin": "/goʊɪŋ/",
+          "start": 290.55,
+          "end": 290.79
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 290.79,
+          "end": 290.85
+        },
+        {
+          "word": " increase",
+          "pinyin": "/ˌɪnˈkris/",
+          "start": 290.85,
+          "end": 291.05
+        },
+        {
+          "word": " your",
+          "pinyin": "/jʊr/",
+          "start": 291.05,
+          "end": 291.31
+        },
+        {
+          "word": " But",
+          "pinyin": "/bət/",
+          "start": 291.31,
+          "end": 292.01
+        },
+        {
+          "word": " if",
+          "pinyin": "/ɪf/",
+          "start": 292.01,
+          "end": 292.69
+        },
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 292.69,
+          "end": 292.95
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "start": 292.95,
+      "end": 296.69,
+      "text": "are diligent, you'll be rich in that good character and you will",
+      "vietnamese": "siêng năng, bạn sẽ giàu đức tính tốt và bạn sẽ",
+      "highlight": "",
+      "words": [
+        {
+          "word": " are",
+          "pinyin": "/ər/",
+          "start": 292.95,
+          "end": 293.21
+        },
+        {
+          "word": " diligent,",
+          "pinyin": "/ˈdɪlɪʤənt/",
+          "start": 293.21,
+          "end": 293.53
+        },
+        {
+          "word": " you'll",
+          "pinyin": "/jul/",
+          "start": 293.95,
+          "end": 294.11
+        },
+        {
+          "word": " be",
+          "pinyin": "/bi/",
+          "start": 294.11,
+          "end": 294.39
+        },
+        {
+          "word": " rich",
+          "pinyin": "/rɪʧ/",
+          "start": 294.39,
+          "end": 294.71
+        },
+        {
+          "word": " in",
+          "pinyin": "/ɪn/",
+          "start": 294.71,
+          "end": 294.93
+        },
+        {
+          "word": " that",
+          "pinyin": "/ðət/",
+          "start": 294.93,
+          "end": 295.11
+        },
+        {
+          "word": " good",
+          "pinyin": "/gʊd/",
+          "start": 295.11,
+          "end": 295.41
+        },
+        {
+          "word": " character",
+          "pinyin": "/ˈkɛrɪktər/",
+          "start": 295.41,
+          "end": 295.71
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 295.71,
+          "end": 296.15
+        },
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 296.15,
+          "end": 296.39
+        },
+        {
+          "word": " will",
+          "pinyin": "/wɪl/",
+          "start": 296.39,
+          "end": 296.69
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "start": 296.69,
+      "end": 297.97,
+      "text": "increase your penmanship skills.",
+      "vietnamese": "nâng cao kỹ năng viết lách của bạn.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " increase",
+          "pinyin": "/ˌɪnˈkris/",
+          "start": 296.69,
+          "end": 296.93
+        },
+        {
+          "word": " your",
+          "pinyin": "/jʊr/",
+          "start": 296.93,
+          "end": 297.23
+        },
+        {
+          "word": " penmanship",
+          "pinyin": "/penmanship/",
+          "start": 297.23,
+          "end": 297.49
+        },
+        {
+          "word": " skills.",
+          "pinyin": "/skɪlz/",
+          "start": 297.49,
+          "end": 297.97
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "start": 298.43,
+      "end": 299.19,
+      "text": "I know you can do it.",
+      "vietnamese": "Tôi biết bạn có thể làm được điều đó.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " I",
+          "pinyin": "/aɪ/",
+          "start": 298.43,
+          "end": 298.49
+        },
+        {
+          "word": " know",
+          "pinyin": "/noʊ/",
+          "start": 298.49,
+          "end": 298.65
+        },
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 298.65,
+          "end": 298.79
+        },
+        {
+          "word": " can",
+          "pinyin": "/kən/",
+          "start": 298.79,
+          "end": 298.93
+        },
+        {
+          "word": " do",
+          "pinyin": "/du/",
+          "start": 298.93,
+          "end": 299.03
+        },
+        {
+          "word": " it.",
+          "pinyin": "/ɪt/",
+          "start": 299.03,
+          "end": 299.19
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "start": 299.45,
+      "end": 299.85,
+      "text": "Students watching.",
+      "vietnamese": "Học sinh quan sát.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Students",
+          "pinyin": "/ˈstudənts/",
+          "start": 299.45,
+          "end": 299.45
+        },
+        {
+          "word": " watching.",
+          "pinyin": "/ˈwɑʧɪŋ/",
+          "start": 299.45,
+          "end": 299.85
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "start": 300.25,
+      "end": 301.37,
+      "text": "Finish up page number six.",
+      "vietnamese": "Hãy kết thúc trang số sáu.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Finish",
+          "pinyin": "/ˈfɪnɪʃ/",
+          "start": 300.25,
+          "end": 300.25
+        },
+        {
+          "word": " up",
+          "pinyin": "/əp/",
+          "start": 300.25,
+          "end": 300.47
+        },
+        {
+          "word": " page",
+          "pinyin": "/peɪʤ/",
+          "start": 300.47,
+          "end": 300.63
+        },
+        {
+          "word": " number",
+          "pinyin": "/ˈnəmbər/",
+          "start": 300.63,
+          "end": 300.85
+        },
+        {
+          "word": " six.",
+          "pinyin": "/sɪks/",
+          "start": 300.85,
+          "end": 301.37
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "start": 301.43,
+      "end": 303.57,
+      "text": "Show it to your on-site teacher and we will see you",
+      "vietnamese": "Đưa nó cho giáo viên tại chỗ của bạn và chúng tôi sẽ gặp bạn",
+      "highlight": "",
+      "words": [
+        {
+          "word": " Show",
+          "pinyin": "/ʃoʊ/",
+          "start": 301.43,
+          "end": 301.57
+        },
+        {
+          "word": " it",
+          "pinyin": "/ɪt/",
+          "start": 301.57,
+          "end": 301.75
+        },
+        {
+          "word": " to",
+          "pinyin": "/tɪ/",
+          "start": 301.75,
+          "end": 301.81
+        },
+        {
+          "word": " your",
+          "pinyin": "/jʊr/",
+          "start": 301.81,
+          "end": 301.97
+        },
+        {
+          "word": " on",
+          "pinyin": "/ɔn/",
+          "start": 301.97,
+          "end": 302.11
+        },
+        {
+          "word": "-site",
+          "pinyin": "/saɪt/",
+          "start": 302.11,
+          "end": 302.31
+        },
+        {
+          "word": " teacher",
+          "pinyin": "/ˈtiʧər/",
+          "start": 302.31,
+          "end": 302.57
+        },
+        {
+          "word": " and",
+          "pinyin": "/ənd/",
+          "start": 302.57,
+          "end": 302.97
+        },
+        {
+          "word": " we",
+          "pinyin": "/wi/",
+          "start": 302.97,
+          "end": 303.07
+        },
+        {
+          "word": " will",
+          "pinyin": "/wɪl/",
+          "start": 303.07,
+          "end": 303.27
+        },
+        {
+          "word": " see",
+          "pinyin": "/si/",
+          "start": 303.27,
+          "end": 303.41
+        },
+        {
+          "word": " you",
+          "pinyin": "/ju/",
+          "start": 303.41,
+          "end": 303.57
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "start": 303.57,
+      "end": 304.27,
+      "text": "in our next lesson.",
+      "vietnamese": "trong bài học tiếp theo của chúng tôi.",
+      "highlight": "",
+      "words": [
+        {
+          "word": " in",
+          "pinyin": "/ɪn/",
+          "start": 303.57,
+          "end": 303.67
+        },
+        {
+          "word": " our",
+          "pinyin": "/ɑr/",
+          "start": 303.67,
+          "end": 303.93
+        },
+        {
+          "word": " next",
+          "pinyin": "/nɛkst/",
+          "start": 303.93,
+          "end": 304.01
+        },
+        {
+          "word": " lesson.",
+          "pinyin": "/ˈlɛsən/",
+          "start": 304.01,
+          "end": 304.27
+        }
+      ]
+    }
+  ],
+  "quizzes": []
+}
