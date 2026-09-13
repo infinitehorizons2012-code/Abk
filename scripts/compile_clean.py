@@ -167,6 +167,35 @@ def extract_fallback_slides(ubd_data, subj_clean, day_num, grade):
 
     return slides
 
+def safe_load_json(file_path):
+    if not os.path.exists(file_path):
+        return {}
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"[WARN] Initial json.load failed for {file_path}: {e}. Attempting auto-repair...")
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                text = f.read()
+            pos_esc = text.find('\\"')
+            if pos_esc != -1:
+                part_before = text[:pos_esc]
+                part_after = text[pos_esc:]
+                part_after_clean = part_after.replace('\\n', '\n').replace('\\"', '"').replace('\\\\', '\\')
+                full_text = part_before + part_after_clean
+                repaired_data = json.loads(full_text)
+                print(f"[SUCCESS] Auto-repaired JSON for {file_path}!")
+                try:
+                    with open(file_path, 'w', encoding='utf-8') as f_out:
+                        json.dump(repaired_data, f_out, ensure_ascii=False, indent=2)
+                except Exception:
+                    pass
+                return repaired_data
+        except Exception as e2:
+            print(f"[ERROR] Auto-repair failed for {file_path}: {e2}")
+    return {}
+
 def process_subject_folder(subj_path, grade, day_str, day_num, subj_clean, legacy_key):
     book_data = {}
     ubd_data = {}
@@ -174,28 +203,13 @@ def process_subject_folder(subj_path, grade, day_str, day_num, subj_clean, legac
 
     if os.path.exists(subj_path) and os.path.isdir(subj_path):
         b_path = os.path.join(subj_path, 'book_and_timestamp.json')
-        if os.path.exists(b_path):
-            try:
-                with open(b_path, 'r', encoding='utf-8') as f:
-                    book_data = json.load(f)
-            except Exception as e:
-                print(f"[WARN] Failed to load {b_path}: {e}")
+        book_data = safe_load_json(b_path)
 
         u_path = os.path.join(subj_path, 'ubd_analysis.json')
-        if os.path.exists(u_path):
-            try:
-                with open(u_path, 'r', encoding='utf-8') as f:
-                    ubd_data = json.load(f)
-            except Exception as e:
-                print(f"[WARN] Failed to load {u_path}: {e}")
+        ubd_data = safe_load_json(u_path)
 
         i_path = os.path.join(subj_path, 'interactive_learning.json')
-        if os.path.exists(i_path):
-            try:
-                with open(i_path, 'r', encoding='utf-8') as f:
-                    interactive_data = json.load(f)
-            except Exception as e:
-                print(f"[WARN] Failed to load {i_path}: {e}")
+        interactive_data = safe_load_json(i_path)
 
     book_id = book_data.get("book_identification") or book_data.get("bookIdentification") or ubd_data.get("meta") or {}
     raw_ts = book_data.get("timestamp_map") or book_data.get("timestampMap") or ubd_data.get("stage3_learning_plan", {}).get("timestamp_mapping") or []

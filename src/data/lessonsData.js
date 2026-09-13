@@ -1,4 +1,4 @@
-// Build timestamp: 1789247169.0166605
+// Build timestamp: 1789286817.4110806
 export const LESSONS_DATA = {
   "g5-d001-spelling-5": {
     "id": "g5-d001-spelling-5",
@@ -4995,7 +4995,214 @@ export const LESSONS_DATA = {
         "bookRef": "Language B tr. 3–4; Video Manual tr. 3"
       }
     ],
-    "ubdReport": {},
+    "ubdReport": {
+      "subject_name": "Language 5",
+      "folder_url": "https://drive.google.com/drive/folders/1sVkEZBghZzEO_J-5t25IoZen-MaOMKJU",
+      "meta": {
+        "subject": "Language 5",
+        "lesson_day": "Bài 002",
+        "teacher": "Miss Katie Green",
+        "textbook": "God's Gift of Language B (Ấn bản lần 4/5, tr. 2–4)",
+        "supplementary": "Grade 5 Video Manual (tr. T17, tr. 3), Language Teaching Charts",
+        "duration": "27 phút 14 giây",
+        "supplies": "Sách bài tập God's Gift of Language B, bút chì, thước kẻ"
+      },
+      "stage1_desired_results": {
+        "skill_taxonomy": [
+          {
+            "level_name": "1. Kỹ năng Nền tảng (Foundation Skills)",
+            "competency_desc": "Nhận diện định nghĩa và đặc điểm hình thức của 4 loại câu: Declarative (Trần thuật, dấu chấm .), Interrogative (Nghi vấn, dấu hỏi ?), Imperative (Cầu khiến, dấu chấm .), Exclamatory (Cảm thán, dấu than !); ghi nhớ bảng chữ viết tắt chuẩn Dec., Int., Imp., Exc.; sử dụng ký hiệu hiệu đính 3 gạch dưới (===) và dấu mũ (^).",
+            "lesson_illustration": "Đứng lên khi nghe câu hoàn chỉnh, ngồi xuống khi nghe cụm từ chưa trọn ý (Sentence vs. Fragment); đánh dấu === dưới chữ cái đầu câu chưa viết hoa; chèn ^. vào cuối câu trần thuật."
+          },
+          {
+            "level_name": "2. Kỹ năng Cốt lõi (Core Skills)",
+            "competency_desc": "Thấu hiểu bản chất phân loại câu dựa trên Mục đích giao tiếp (Purpose): phân biệt câu trần thuật đưa tin vs câu cầu khiến ra lệnh; nắm vững khái niệm Chủ ngữ ngầm hiểu (Understood Subject 'you'); phân tích cấu trúc Complete Thought (Focus và Information).",
+            "lesson_illustration": "Trong câu 'Hand me that book, please', xác định đây là câu Imperative có chủ ngữ ngầm hiểu là (you); phân biệt câu Imperative khẩn cấp mang dấu than ('Stop that car!') vs câu Exclamatory thuần túy bộc lộ cảm xúc."
+          },
+          {
+            "level_name": "3. Kỹ năng Ứng dụng (Applied Skills)",
+            "competency_desc": "Hoàn thành 100% bài tập Think A và Think B trên trang 2–3 sách Language B: xác định loại câu, điền chữ viết tắt và bổ sung dấu câu thích hợp; rèn luyện ngữ điệu nói và đọc diễn cảm; hiệu đính đoạn văn mắc lỗi chính tả, thiếu chữ hoa và dấu kết thúc câu.",
+            "lesson_illustration": "Ghi nhãn chính xác: Dec. trước câu phát biểu về đại dương; Int. trước câu hỏi sonar; Imp. trước lời nhắc thắt dây an toàn; Exc. trước câu ca ngợi vẻ đẹp thiên nhiên."
+          },
+          {
+            "level_name": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+            "competency_desc": "Năng lực tự biên tập văn bản (Self-Editing & Proofreading): tự giác đọc lại từng câu văn mình viết ra để kiểm tra tính trọn vẹn của ý nghĩ và dấu câu; ý thức về quyền năng của ngôn ngữ: sử dụng ngôn từ đúng mục đích để xây dựng, khích lệ và truyền đạt chân lý.",
+            "lesson_illustration": "Tự rà soát: 'Câu này mình viết đã có chủ ngữ chưa? Dấu câu ở cuối đã phản ánh đúng cảm xúc và mục đích của câu chưa?'"
+          }
+        ],
+        "clos": [
+          "CLO 1: Phân loại chính xác 100% bốn kiểu câu (Declarative, Interrogative, Imperative, Exclamatory) dựa trên mục đích giao tiếp và viết đúng các chữ viết tắt quy ước (Dec., Int., Imp., Exc.) theo SGK Language B trang 2–3.",
+          "CLO 2: Đặt chính xác dấu câu kết thúc phù hợp (period, question mark, exclamation point) cho mọi loại câu, bao gồm cả trường hợp câu mệnh lệnh mang tính khẩn cấp.",
+          "CLO 3: Xác định đúng chủ ngữ ngầm hiểu (you) trong các câu cầu khiến và chứng minh tính trọn vẹn của câu mệnh lệnh.",
+          "CLO 4: Vận dụng thuần thục các ký hiệu hiệu đính chuẩn mực (triple underline, caret) để sửa chữa các lỗi viết hoa và dấu câu trong bài tập Think B trang 3."
+        ]
+      },
+      "stage3_learning_plan": {
+        "jit_tools": [
+          {
+            "tool_name": "Trò chơi Vận động Thể chất 'Đứng hay Ngồi' (Stand or Sit Drill)",
+            "description": "Biến việc phân biệt Sentence và Fragment thành vận động: Nghe câu hoàn chỉnh thì bật dậy đứng thẳng, nghe cụm từ chưa trọn ý thì ngồi yên. Thao tác này kích hoạt sự tập trung tối đa và giải phóng sức ì đầu giờ."
+          },
+          {
+            "tool_name": "Hộp Màu Vàng Cứu Trợ (Yellow Box Rule Anchor)",
+            "description": "Khung màu vàng đầu trang 2 đóng vai trò mỏ neo tri thức vững chắc: chứa đầy đủ định nghĩa, dấu câu kết thúc và chữ viết tắt của 4 loại câu để học sinh tra cứu đối chiếu bất kỳ lúc nào."
+          },
+          {
+            "tool_name": "Khẩu quyết 'Lịch sự dùng chấm, Khẩn cấp dùng than'",
+            "description": "Giúp học sinh không bối rối khi chọn dấu câu cho câu mệnh lệnh Imperative: Nếu là lời yêu cầu lịch sự có 'please' hoặc hướng dẫn bình thường thì kết thúc bằng dấu chấm (.); nếu là mệnh lệnh báo động khẩn cấp có tính cấp bách thì kết thúc bằng dấu chấm than (!)."
+          }
+        ]
+      },
+      "pitfalls": [
+        {
+          "trap_name": "Bẫy 1: Nhầm lẫn câu Cầu khiến có dấu chấm than thành câu Cảm thán",
+          "situation": "Câu văn: 'Look out for that falling rock!' hoặc 'Stop that car right now!'.",
+          "common_error": "Thấy dấu chấm than ở cuối, học sinh lập tức kết luận đây là câu Exclamatory.",
+          "solution": "Phân tích mục đích câu: Câu này dùng để ra lệnh/cảnh báo một hành động (Command) chứ không chỉ đơn thuần bộc lộ cảm xúc. Chủ ngữ ngầm hiểu là (You). Do đó, đây là câu Imperative, không phải Exclamatory."
+        },
+        {
+          "trap_name": "Bẫy 2: Nhầm lẫn câu trần thuật thuật lại câu hỏi thành câu nghi vấn",
+          "situation": "Câu văn: 'I wonder where the ship was sailing.' hoặc 'He asked if we could go.'.",
+          "common_error": "Thấy có từ where hoặc if, học sinh đặt dấu hỏi chấm ở cuối và ghi nhãn Int.",
+          "solution": "Kiểm tra cấu trúc: Câu này không trực tiếp hỏi người nghe mà đang phát biểu một suy nghĩ của người nói (Statement). Nó bắt đầu bằng chủ ngữ 'I' và vị ngữ 'wonder', do đó nó là câu Declarative, kết thúc bằng dấu chấm."
+        },
+        {
+          "trap_name": "Bẫy 3: Đặt câu hỏi thiếu dấu chấm hỏi hoặc viết hoa tùy tiện",
+          "situation": "Viết câu nghi vấn trong bài tự luận.",
+          "common_error": "Quên đặt dấu hỏi chấm ở cuối hoặc viết hoa cả các từ ở giữa câu hỏi.",
+          "solution": "Rèn thói quen dùng ký hiệu hiệu đính: Ngay khi phát hiện câu hỏi chưa có dấu, dùng dấu mũ chèn ngay (^?) vào cuối câu."
+        }
+      ],
+      "key_takeaways": [
+        {
+          "title": "Bốn Loại Câu & Mục Đích Giao Tiếp",
+          "content": "Declarative (Dec.): Phát biểu sự thật -> Dấu chấm (.). Interrogative (Int.): Đặt câu hỏi -> Dấu hỏi (?). Imperative (Imp.): Ra lệnh/yêu cầu lịch sự, chủ ngữ ngầm hiểu là (you) -> Dấu chấm (.) hoặc than (!). Exclamatory (Exc.): Bộc lộ cảm xúc mạnh mẽ -> Dấu than (!)."
+        },
+        {
+          "title": "Ký Hiệu Hiệu Đính (Proofreader's Marks)",
+          "content": "Ba gạch dưới (===) yêu cầu viết hoa chữ cái đầu câu; Dấu mũ (^) dùng để chèn từ hoặc dấu câu bị thiếu."
+        },
+        {
+          "title": "Ý Nghĩa Trọn Vẹn Của Câu (Complete Thought)",
+          "content": "Một câu hoàn chỉnh luôn phải có hai thành phần: Đối tượng trọng tâm (Focus) và Điều ta biết về đối tượng đó (What is happening/Action)."
+        }
+      ],
+      "formative_quiz": [
+        {
+          "question": "Which of the four kinds of sentences makes a factual statement and always concludes with a period?",
+          "options": [
+            "A. Interrogative sentence",
+            "B. Declarative sentence",
+            "C. Exclamatory sentence",
+            "D. Imperative sentence"
+          ],
+          "correct_answer": "B",
+          "explanation": "God's Gift of Language B (page 2) defines a declarative sentence as a sentence that makes a statement. It always begins with a capital letter and ends with a period."
+        },
+        {
+          "question": "What is the understood subject of the imperative sentence: 'Hand me that blue grammar book, please'?",
+          "options": [
+            "A. Book",
+            "B. Me",
+            "C. (You)",
+            "D. Grammar"
+          ],
+          "correct_answer": "C",
+          "explanation": "In imperative sentences (commands or requests), the subject is not explicitly written; it is the understood second-person pronoun (you) (Language B, p. 2)."
+        },
+        {
+          "question": "Which sentence type is exemplified by the sentence: 'How wonderfully the coral reef glitters beneath the sun!'?",
+          "options": [
+            "A. Declarative sentence",
+            "B. Interrogative sentence",
+            "C. Imperative sentence",
+            "D. Exclamatory sentence"
+          ],
+          "correct_answer": "D",
+          "explanation": "As stated on page 2, an exclamatory sentence shows sudden or strong feeling and concludes with an exclamation point."
+        },
+        {
+          "question": "When proofreading a student essay, what standard proofreader's mark is used to indicate that a lowercase letter at the beginning of a sentence must be capitalized?",
+          "options": [
+            "A. Circling the letter with a red pen",
+            "B. Drawing three horizontal lines beneath the letter (triple underline)",
+            "C. Crossing out the letter with an X",
+            "D. Placing a caret symbol above the letter"
+          ],
+          "correct_answer": "B",
+          "explanation": "On page 2 and in the video, Miss Green demonstrates using the triple underline (three small parallel lines beneath the letter) to signify capitalization."
+        },
+        {
+          "question": "Consider the urgent command: 'Watch out for that sharp coral reef!' Why is this sentence classified as Imperative rather than Exclamatory despite its exclamation point?",
+          "options": [
+            "A. Because it contains fewer than eight words.",
+            "B. Because its primary communicative purpose is to issue an urgent command with the understood subject (you).",
+            "C. Because all sentences about coral reefs are classified as commands.",
+            "D. Because it lacks adjectives."
+          ],
+          "correct_answer": "B",
+          "explanation": "Sentence classification depends on communicative purpose, not merely the ending mark. An urgent command remains an imperative sentence with the understood subject (you), even when an exclamation point is used to convey urgency."
+        },
+        {
+          "question": "Which punctuation mark should be inserted using a caret (^) at the end of the sentence: 'Did you remember to bring your research notebook today'?",
+          "options": [
+            "A. Period (.)",
+            "B. Comma (,)",
+            "C. Question mark (?)",
+            "D. Semicolon (;)"
+          ],
+          "correct_answer": "C",
+          "explanation": "The sentence begins with the auxiliary verb 'Did' and asks a direct question, requiring a question mark at the end (Language B, p. 2, Think A)."
+        }
+      ],
+      "stage2_bloom_assessment": {
+        "scenario": "Trưởng Ban Biên Tập Báo Thiếu Nhi Học Đường: Học sinh đóng vai trò là Tổng Biên Tập của tờ báo Thiếu Nhi Học Đường, có nhiệm vụ thẩm định bài viết của phóng viên nhí, phát hiện và hiệu đính các câu sai dấu câu hoặc thiếu thành phần ý nghĩa, chuyển đổi linh hoạt các kiểu câu và biên soạn sổ tay hướng dẫn viết câu chuẩn mực.",
+        "levels": [
+          {
+            "level": "Cấp độ 1: Remember (Nhớ)",
+            "sub_heading": "Quy ước viết tắt 4 loại câu",
+            "task": "Viết ra 4 chữ viết tắt chuẩn mực trong SGK Language B tương ứng với 4 loại câu.",
+            "solution": "Dec. (Declarative); Int. (Interrogative); Imp. (Imperative); Exc. (Exclamatory).",
+            "pedagogical_rationale": "Đánh giá khả năng ghi nhớ các quy ước viết tắt học thuật từ SGK trang 2."
+          },
+          {
+            "level": "Cấp độ 2: Understand (Hiểu)",
+            "sub_heading": "Phân biệt mục đích nói",
+            "task": "Giải thích sự khác biệt cơ bản về mục đích nói giữa câu: 'You will close the door.' (Declarative) và câu: 'Close the door, please.' (Imperative).",
+            "solution": "Câu thứ nhất là câu trần thuật (Declarative), mục đích là phát biểu một khẳng định/dự đoán về hành động tương lai. Câu thứ hai là câu cầu khiến (Imperative), mục đích là trực tiếp đưa ra một lời yêu cầu lịch sự bảo người nghe hành động ngay.",
+            "pedagogical_rationale": "Kiểm tra mức độ thấu hiểu sự khác biệt vi tế giữa phát biểu sự thật và đưa ra mệnh lệnh."
+          },
+          {
+            "level": "Cấp độ 3: Apply (Vận dụng)",
+            "sub_heading": "Hiệu đính bằng ký hiệu chuẩn",
+            "task": "Sử dụng các ký hiệu hiệu đính chuẩn mực (triple underline, caret) để hiệu đính câu văn sau: 'did you know that the ocean covers most of our planet'.",
+            "solution": "Gạch 3 đường dưới chữ cái 'd' trong did để viết hoa thành Did; dùng dấu mũ chèn dấu hỏi chấm (^?) vào cuối câu sau từ planet.",
+            "pedagogical_rationale": "Đo lường kỹ năng áp dụng trực tiếp các ký hiệu biên tập trong bài tập Think B trang 3."
+          },
+          {
+            "level": "Cấp độ 4: Analyze (Phân tích)",
+            "sub_heading": "Chứng minh câu trọn vẹn",
+            "task": "Phân tích câu văn sau để chứng minh nó là một câu hoàn chỉnh (Sentence) chứ không phải cụm từ (Fragment): 'Subsea robots explore the darkest ocean trenches.'.",
+            "solution": "Câu văn diễn đạt một ý nghĩ trọn vẹn (Complete Thought) vì có đủ 2 thành phần vi mô: (1) Trọng tâm (Focus/Subject): 'Subsea robots' (nói về cái gì); (2) Điều học được về trọng tâm (Action/Predicate): 'explore the darkest ocean trenches' (hành động đang diễn ra). Bắt đầu bằng chữ hoa và kết thúc bằng dấu chấm.",
+            "pedagogical_rationale": "Rèn luyện năng lực mổ xẻ cấu trúc ngữ pháp theo mô hình Focus-Information của cô Green."
+          },
+          {
+            "level": "Cấp độ 5: Evaluate (Đánh giá)",
+            "sub_heading": "Thẩm định phong cách viết đa dạng câu",
+            "task": "Một phóng viên nhí nộp bài viết chỉ toàn sử dụng các câu trần thuật (Declarative sentences) ngắn ngủn. Hãy đánh giá tác động của bài viết này đối với độc giả và đưa ra lời khuyên biên tập để nâng cao chất lượng bài báo.",
+            "solution": "Bài viết chỉ dùng một loại câu trần thuật sẽ trở nên đơn điệu, tẻ nhạt và nhanh chóng làm độc giả mất hứng thú. Lời khuyên: Cần phối hợp linh hoạt cả 4 loại câu: mở đầu bằng câu hỏi gợi mở (Interrogative); dùng câu trần thuật (Declarative) cung cấp dữ kiện; chèn câu cảm thán (Exclamatory) ở cao trào truyền cảm xúc; và kết thúc bằng câu kêu gọi hành động (Imperative).",
+            "pedagogical_rationale": "Phát triển tư duy thẩm mỹ ngôn ngữ và năng lực đánh giá phong cách viết văn bản."
+          },
+          {
+            "level": "Cấp độ 6: Create (Sáng tạo)",
+            "sub_heading": "Sáng tác đoạn văn 4 kiểu câu",
+            "task": "Hãy viết một đoạn văn ngắn (4 câu) giới thiệu về chủ đề 'Bảo vệ Môi trường Biển', trong đó bắt buộc phải chứa đủ cả 4 loại câu theo đúng thứ tự: (1) Interrogative, (2) Declarative, (3) Exclamatory, (4) Imperative.",
+            "solution": "Đoạn văn mẫu: 1. (Int.) Have you ever seen the colorful coral reefs beneath the blue ocean? 2. (Dec.) Millions of wonderful marine creatures depend on clean water to survive. 3. (Exc.) What a terrible tragedy it is when plastic pollution destroys their homes! 4. (Imp.) Please protect our oceans today by recycling your plastic waste. Rubric: Đúng 4 loại câu theo thứ tự (4đ); Dấu câu và chữ hoa chuẩn xác 100% (4đ); Nội dung giàu ý nghĩa (2đ).",
+            "pedagogical_rationale": "Thử thách năng lực sáng tạo văn bản tích hợp toàn diện 4 kiểu câu theo mục đích giao tiếp."
+          }
+        ]
+      }
+    },
     "flashcards": [
       {
         "id": 1,
@@ -35173,174 +35380,228 @@ export const LESSONS_DATA = {
     },
     "flashcards": [
       {
-        "term": "1. Kỹ năng Nền tảng (Foundation Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Nhận biết và định nghĩa đúng các từ vựng khoa học cơ bản: Science, Scientist, Observe, Hypothesis, Data, Order, Experiment; sử dụng các giác quan để quan sát sự vật.",
-        "memoryTip": "Ví dụ: Học sinh dùng kính lúp quan sát gân lá hoặc cánh bướm trên tranh bìa sách."
+        "id": 1,
+        "term": "Science",
+        "category": "Foundational Definition",
+        "definition": "The organized search for the laws of nature and for practical ways to use those laws for the benefit and well-being of mankind.",
+        "textbook_citation": "Exploring God's World, Page 1; Lesson Plans Homeschool Science and Health 3, Lesson 1, p. 1",
+        "exact_textbook_quote": "Science is a search for the laws of nature and for ways to use them for the benefit of mankind.",
+        "memory_trick": "Science Searches for God's laws to Serve mankind!"
       },
       {
-        "term": "2. Kỹ năng Cốt lõi (Core Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Nắm vững định nghĩa \"Science is studying God's world\"; hiểu rằng vũ trụ vận hành theo trật tự hoàn hảo (Order) do Đấng Tạo Hóa thiết lập; nhớ đúng 4 bước của Phương pháp khoa học (The Scientific Method).",
-        "memoryTip": "Ví dụ: Giải thích được giả thuyết (hypothesis) là một \"dự đoán hợp lý\" (sensible guess) chứ không phải đoán mò."
+        "id": 2,
+        "term": "Scientist",
+        "category": "Academic Profession",
+        "definition": "A dedicated investigator who operates like a detective, searching for law, order, and truth as he explores and examines the wonders of God's creation.",
+        "textbook_citation": "Exploring God's World, Page 1; Lesson Plans Homeschool Science and Health 3, Lesson 1, p. 1",
+        "exact_textbook_quote": "A scientist is like a detective searching for law and order as he or she investigates the mysteries of God's creation.",
+        "memory_trick": "A scientist is nature's detective examining God's clues!"
       },
       {
-        "term": "3. Kỹ năng Ứng dụng (Applied Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Áp dụng 4 bước của Phương pháp khoa học vào các tình huống khám phá đơn giản: Quan sát hiện tượng -> Đặt câu hỏi -> Nêu giả thuyết -> Làm thí nghiệm thu thập dữ liệu -> Rút ra kết luận.",
-        "memoryTip": "Ví dụ: Tự thiết kế thí nghiệm nhỏ quan sát hạt mầm đậu nảy mầm trong điều kiện có nước và không có nước."
+        "id": 3,
+        "term": "Observation",
+        "category": "Scientific Skill",
+        "definition": "The fundamental practice of looking closely, listening carefully, and examining common objects in nature using our God-given senses.",
+        "textbook_citation": "Exploring God's World, Page 1; Lesson Plans Homeschool Science and Health 3, Lesson 1, p. 1",
+        "exact_textbook_quote": "A scientist begins his work by looking closely at the common things around him. He observes stars and stones...",
+        "memory_trick": "Observation: Open eyes and keen senses uncover hidden order!"
       },
       {
-        "term": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Ý thức được rằng trí tò mò khám phá là món quà Chúa ban tặng; tự rà soát dữ liệu thu thập được để kiểm chứng xem giả thuyết ban đầu của mình đúng hay sai mà không thiên vị.",
-        "memoryTip": "Ví dụ: Sẵn sàng điều chỉnh kết luận khi số liệu thực tế khác với dự đoán ban đầu."
+        "id": 4,
+        "term": "Hypothesis",
+        "category": "Scientific Method",
+        "definition": "A sensible, educated guess formulated by a scientist to answer a question about nature, which can subsequently be tested through controlled experiments.",
+        "textbook_citation": "Exploring God's World, Page 2; Lesson Plans Homeschool Science and Health 3, Lesson 1, p. 2",
+        "exact_textbook_quote": "Often they make sensible guesses, called hypotheses, and do experiments to test their guesses.",
+        "memory_trick": "Hypothesis = A sensible guess you put to the test!"
       },
       {
-        "term": "Bản chất của Khoa học",
-        "category": "Key Takeaway",
-        "definition": "Khoa học là việc học hỏi và nghiên cứu về thế giới kỳ diệu do Đức Chúa Trời tạo dựng (Studying God's world).",
-        "memoryTip": "Trọng tâm bài học UbD"
+        "id": 5,
+        "term": "The Scientific Method",
+        "category": "Inquiry Process",
+        "definition": "The orderly four-step procedure employed by scientists: (1) Observe and ask questions, (2) Form a hypothesis, (3) Experiment and gather data, (4) Study data and reach conclusions.",
+        "textbook_citation": "Exploring God's World, Pages 2–4; Lesson Plans Homeschool Science and Health 3, Lesson 1, p. 2",
+        "exact_textbook_quote": "Scientists search for clues, examine evidence, make sensible guesses, do experiments, and study data to reach conclusions.",
+        "memory_trick": "O-H-E-C: Observe, Hypothesize, Experiment, Conclude!"
       },
       {
-        "term": "Vũ trụ có trật tự (Order)",
-        "category": "Key Takeaway",
-        "definition": "Đức Chúa Trời đã thiết lập các quy luật trật tự hoàn hảo và bất biến trong vũ trụ, giúp các nhà khoa học có thể quan sát, đo lường và khám phá.",
-        "memoryTip": "Trọng tâm bài học UbD"
+        "id": 6,
+        "term": "Detective's Tools: Senses",
+        "category": "Observational Instruments",
+        "definition": "The God-given faculties of sight, hearing, touch, and smell used to gather environmental information, noting that taste is strictly excluded during nature investigations for safety.",
+        "textbook_citation": "Exploring God's World, Pages 4–5; Lesson Plans Homeschool Science and Health 3, Lesson 1, p. 2",
+        "exact_textbook_quote": "To be safe, you should usually not use your other sense, your sense of taste, while you are investigating nature.",
+        "memory_trick": "Use 4 senses outdoors, but never taste unknown plants or creatures!"
       },
       {
-        "term": "Phương pháp khoa học 4 bước",
-        "category": "Key Takeaway",
-        "definition": "Quy trình chuẩn mực để khám phá thế giới gồm: (1) Quan sát và đặt câu hỏi, (2) Đưa ra giả thuyết hợp lý, (3) Làm thí nghiệm thu thập dữ liệu, (4) Nghiên cứu dữ liệu và rút ra kết luận.",
-        "memoryTip": "Trọng tâm bài học UbD"
+        "id": 7,
+        "term": "Field Guides & Range Maps",
+        "category": "Research Literature",
+        "definition": "Specialized reference books that provide pictures and descriptions of plants, birds, insects, and minerals, featuring range maps that show geographical distributions.",
+        "textbook_citation": "Exploring God's World, Page 5; Lesson Plans Homeschool Science and Health 3, Lesson 1, p. 2",
+        "exact_textbook_quote": "Field guides show pictures and give information... Range maps show the range of a plant or animal, or where on the continent it is found.",
+        "memory_trick": "Field guide identifies the creature; range map shows where it lives!"
       }
     ],
     "slides": [
       {
-        "slideNumber": 1,
-        "title": "Tổng Quan Bài Học Science-Health 3 (Bài 001)",
-        "tag": "Grade 3 Overview",
-        "bulletPoints": [
-          "Giáo viên: Miss Boyd",
-          "Sách giáo khoa: Exploring God's World (Trang xi–xiv, 1–5)",
-          "Tài liệu hướng dẫn: Exploring God's World Answer Key to Text Questions, Lesson Plans Homeschool Science and Health 3",
-          "Thời lượng bài giảng: 21 phút 52 giây"
+        "slide_number": 1,
+        "title": "Welcome to Exploring God's World: Grade 3 Science",
+        "category": "Course Orientation",
+        "bullet_points": [
+          "Introducing Exploring God's World as an adventure into the design and beauty of nature",
+          "Recognizing that science reveals the handiwork, wisdom, and eternal power of the Creator",
+          "Surveying upcoming topics: Insects, Plants, Birds, Matter, Energy, and Earth Science",
+          "Learning how 'Something to Do' sections empower students as active hands-on investigators"
         ],
-        "keyTakeaway": "Dụng cụ cần thiết: Sách Exploring God's World, bút chì"
+        "textbook_evidence": "Exploring God's World, Pages xi–xiv; Lesson Plans Homeschool Science and Health 3, Lesson 1",
+        "key_takeaway": "Science is the joyful exploration of God's orderly creation and natural laws."
       },
       {
-        "slideNumber": 2,
-        "title": "1. Kỹ năng Nền tảng (Foundation Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Nhận biết và định nghĩa đúng các từ vựng khoa học cơ bản: Science, Scientist, Observe, Hypothesis, Data, Order, Experiment; sử dụng các giác quan để quan sát sự vật."
+        "slide_number": 2,
+        "title": "The Scientist as a Detective: Searching for Law and Order",
+        "category": "Core Concept",
+        "bullet_points": [
+          "Comparing the work of a scientist to that of a sharp detective investigating clues",
+          "Observing common objects: from tiny molecules to towering trees, from insects to distant galaxies",
+          "Asking profound questions: Why do objects fall? How does the monarch butterfly migrate?",
+          "Recognizing that the predictability of sunrise, boiling points, and gravity proves divine design"
         ],
-        "keyTakeaway": "Ví dụ: Học sinh dùng kính lúp quan sát gân lá hoặc cánh bướm trên tranh bìa sách."
+        "textbook_evidence": "Exploring God's World, Pages 1–2; Lesson Plans Homeschool Science and Health 3, Lesson 1",
+        "key_takeaway": "Our universe is not a product of random chance; it operates under consistent, dependable divine laws."
       },
       {
-        "slideNumber": 3,
-        "title": "2. Kỹ năng Cốt lõi (Core Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Nắm vững định nghĩa \"Science is studying God's world\"; hiểu rằng vũ trụ vận hành theo trật tự hoàn hảo (Order) do Đấng Tạo Hóa thiết lập; nhớ đúng 4 bước của Phương pháp khoa học (The Scientific Method)."
+        "slide_number": 3,
+        "title": "The Scientific Method: A Step-by-Step Pathway to Discovery",
+        "category": "Scientific Procedure",
+        "bullet_points": [
+          "Step 1: Observe closely and formulate clear, inquisitive questions",
+          "Step 2: Form a hypothesis (a sensible, educated guess based on evidence)",
+          "Step 3: Design controlled experiments, test variables, and gather objective data",
+          "Step 4: Analyze recorded observations and draw sound, truthful conclusions"
         ],
-        "keyTakeaway": "Ví dụ: Giải thích được giả thuyết (hypothesis) là một \"dự đoán hợp lý\" (sensible guess) chứ không phải đoán mò."
+        "textbook_evidence": "Exploring God's World, Pages 2–4; Lesson Plans Homeschool Science and Health 3, Lesson 1",
+        "key_takeaway": "The scientific method provides a disciplined, structured framework for discovering truth in nature."
       },
       {
-        "slideNumber": 4,
-        "title": "3. Kỹ năng Ứng dụng (Applied Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Áp dụng 4 bước của Phương pháp khoa học vào các tình huống khám phá đơn giản: Quan sát hiện tượng -> Đặt câu hỏi -> Nêu giả thuyết -> Làm thí nghiệm thu thập dữ liệu -> Rút ra kết luận."
+        "slide_number": 4,
+        "title": "God-Given Tools: The Five Senses and the Intellect",
+        "category": "Observational Tools",
+        "bullet_points": [
+          "Sight: Examining cellular details or gazing across astronomical distances",
+          "Hearing: Discerning the melodies of birds, the hum of insects, and rushing waters",
+          "Touch: Detecting the smoothness of river stones or rough bark of cedar trees",
+          "Smell: Identifying floral scents and recognizing warning odors in nature",
+          "Intellect: The supreme gift to think critically, analyze data, and solve problems"
         ],
-        "keyTakeaway": "Ví dụ: Tự thiết kế thí nghiệm nhỏ quan sát hạt mầm đậu nảy mầm trong điều kiện có nước và không có nước."
+        "textbook_evidence": "Exploring God's World, Pages 4–5; Lesson Plans Homeschool Science and Health 3, Lesson 1",
+        "key_takeaway": "Our senses and cognitive reasoning are divinely crafted instruments for investigating our surroundings."
       },
       {
-        "slideNumber": 5,
-        "title": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Ý thức được rằng trí tò mò khám phá là món quà Chúa ban tặng; tự rà soát dữ liệu thu thập được để kiểm chứng xem giả thuyết ban đầu của mình đúng hay sai mà không thiên vị."
+        "slide_number": 5,
+        "title": "Scientific Equipment: Extending Human Capabilities",
+        "category": "Tools & Instruments",
+        "bullet_points": [
+          "Magnifying lenses: The young detective's most indispensable tool for close inspection",
+          "Microscopes and telescopes: Revealing the microscopic realm and deep celestial space",
+          "Aquariums, terrariums, and insect collection nets for responsible specimen study",
+          "Field guides and range maps: Documenting continental distribution and species traits"
         ],
-        "keyTakeaway": "Ví dụ: Sẵn sàng điều chỉnh kết luận khi số liệu thực tế khác với dự đoán ban đầu."
+        "textbook_evidence": "Exploring God's World, Page 5; Lesson Plans Homeschool Science and Health 3, Lesson 1",
+        "key_takeaway": "Scientific instruments enhance human perception, allowing us to observe previously invisible marvels."
       },
       {
-        "slideNumber": 6,
-        "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
-        "tag": "Core Knowledge",
-        "bulletPoints": [
-          "Bản chất của Khoa học: Khoa học là việc học hỏi và nghiên cứu về thế giới kỳ diệu do Đức Chúa Trời tạo dựng (Studying God's world).",
-          "Vũ trụ có trật tự (Order): Đức Chúa Trời đã thiết lập các quy luật trật tự hoàn hảo và bất biến trong vũ trụ, giúp các nhà khoa học có thể quan sát, đo lường và khám phá.",
-          "Phương pháp khoa học 4 bước: Quy trình chuẩn mực để khám phá thế giới gồm: (1) Quan sát và đặt câu hỏi, (2) Đưa ra giả thuyết hợp lý, (3) Làm thí nghiệm thu thập dữ liệu, (4) Nghiên cứu dữ liệu và rút ra kết luận."
+        "slide_number": 6,
+        "title": "Safety Protocols for Young Outdoor Investigators",
+        "category": "Health & Safety Practice",
+        "bullet_points": [
+          "Always secure adult permission before venturing into fields, woods, or water bodies",
+          "Never use the sense of taste in nature—many berries, leaves, and fungi are highly toxic",
+          "Identify and avoid hazardous plants: Poison Ivy, Poison Oak, and Poison Sumac ('Leaves of three, let it be!')",
+          "Leave natural habitats intact, treating all living creatures with respect and stewardship"
         ],
-        "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
+        "textbook_evidence": "Exploring God's World, Pages 3–4; Lesson Plans Homeschool Science and Health 3, Lesson 1",
+        "key_takeaway": "Safety and environmental stewardship are the hallmarks of a true, responsible scientist."
       }
     ],
     "quizData": [
       {
         "id": "q1",
-        "question": "According to Chapter 1 of Exploring God's World, how is 'Science' fundamentally defined?",
+        "question": "According to Exploring God's World, what is the core definition of science?",
         "options": [
-          "A. The creation of artificial technologies in a factory",
-          "B. The study of God's world and the wonders of His creation",
-          "C. Memorizing chemical formulas without observation",
-          "D. Only the study of rocks and prehistoric fossils"
+          "A. The art of painting landscapes and sculpting clay models",
+          "B. A search for the laws of nature and for ways to use them for the benefit of mankind",
+          "C. The manufacturing of industrial computers and robotic engines",
+          "D. A collection of fictional theories about outer space"
         ],
         "correct": "B",
-        "explanation": "Exploring God's World page 1 defines science as studying God's world, recognizing God as the Creator.",
-        "textbook_page_reference": ""
+        "explanation": "Exploring God's World (Page 1) defines science as: 'a search for the laws of nature and for ways to use them for the benefit of mankind.'",
+        "textbook_page_reference": "Exploring God's World, Page 1; Lesson Plans Homeschool Science and Health 3, p. 1"
       },
       {
         "id": "q2",
-        "question": "What core characteristic of the universe reflects God's wisdom, as established in Genesis 1:1-2 and page 1 of the text?",
+        "question": "In what way is a scientist compared to a detective?",
         "options": [
-          "A. Constant chaos and unpredictable randomness",
-          "B. Perfect divine order and reliable natural laws",
-          "C. An accidental formation with no specific purpose",
-          "D. A decaying system without any biological balance"
+          "A. Both carry handcuffs and enforce city traffic ordinances",
+          "B. Both search for clues, law, and order as they investigate mysteries",
+          "C. Both operate exclusively at night in dark rooms",
+          "D. Both rely on guesswork without conducting any tests"
         ],
         "correct": "B",
-        "explanation": "Page 1 highlights that God created a universe of order, establishing dependable laws that make scientific study possible.",
-        "textbook_page_reference": ""
+        "explanation": "Exploring God's World (Page 1) explains that a scientist is like a detective searching for law and order as he investigates the mysteries of God's creation.",
+        "textbook_page_reference": "Exploring God's World, Page 1; Lesson Plans Homeschool Science and Health 3, p. 1"
       },
       {
         "id": "q3",
-        "question": "In the Scientific Method (pp. 3-4), what is a 'hypothesis' precisely defined as?",
+        "question": "What is a 'hypothesis' in scientific investigation?",
         "options": [
-          "A. A proven universal scientific law",
-          "B. A sensible guess based on observation and questions",
-          "C. The final numerical conclusion of an experiment",
-          "D. An unchangeable rule of physics"
+          "A. A confirmed, unchangeable scientific law",
+          "B. A sensible guess that can be tested through experimentation",
+          "C. An expensive piece of laboratory equipment",
+          "D. A mathematical formula written in Latin"
         ],
         "correct": "B",
-        "explanation": "Miss Boyd and page 3 define a hypothesis as a 'sensible guess' that can be tested through experimentation.",
-        "textbook_page_reference": ""
+        "explanation": "Exploring God's World (Page 2) defines a hypothesis as a 'sensible guess' that scientists formulate to explain an observation and then test through experiments.",
+        "textbook_page_reference": "Exploring God's World, Page 2; Lesson Plans Homeschool Science and Health 3, p. 2"
       },
       {
         "id": "q4",
-        "question": "What is the correct sequential order of the four steps of the Scientific Method taught in Lesson 1?",
+        "question": "Why should student investigators NEVER use the sense of taste while studying outdoor nature?",
         "options": [
-          "A. Experiment -> Hypothesis -> Conclusion -> Observation",
-          "B. Observe and ask questions -> Form a hypothesis -> Experiment and gather data -> Study data and reach conclusions",
-          "C. Study data -> Experiment -> Guess -> Question",
-          "D. Reach conclusions -> Form hypothesis -> Observe -> Record data"
+          "A. Because tasting things dulls the sense of smell permanently",
+          "B. Because many common wild plants and berries are poisonous or carry disease",
+          "C. Because taste buds function only when sitting indoors at a table",
+          "D. Because scientists are forbidden from eating any vegetables"
         ],
         "correct": "B",
-        "explanation": "The 4 steps taught on pages 3-4 are: (1) Observe and ask questions, (2) Form a hypothesis, (3) Experiment and gather data, (4) Study data and reach conclusions.",
-        "textbook_page_reference": ""
+        "explanation": "Exploring God's World (Page 4) warns: 'To be safe, you should usually not use your other sense, your sense of taste, while you are investigating nature. Too many common things are poisonous if tasted, and others carry diseases.'",
+        "textbook_page_reference": "Exploring God's World, Page 4; Lesson Plans Homeschool Science and Health 3, p. 2"
       },
       {
         "id": "q5",
-        "question": "What tool does a scientist use to make careful observations, as highlighted on the front cover and page 2?",
+        "question": "What do 'range maps' in a nature field guide show to an investigator?",
         "options": [
-          "A. Only complex supercomputers",
-          "B. The five senses God gave us, often aided by tools like magnifying glasses",
-          "C. Guesswork without looking closely",
-          "D. Only historical books from libraries"
+          "A. The price of buying the animal at a local pet store",
+          "B. Where on the continent a specific plant or animal is naturally found",
+          "C. The speed at which a wild animal can run over mountains",
+          "D. The recipe for cooking healthy campfire meals"
         ],
         "correct": "B",
-        "explanation": "Scientists observe God's world using their five senses, often assisted by scientific tools like magnifying glasses.",
-        "textbook_page_reference": ""
+        "explanation": "Exploring God's World (Page 5) notes that range maps in field guides 'show the range of a plant or animal, or where on the continent it is found.'",
+        "textbook_page_reference": "Exploring God's World, Page 5; Lesson Plans Homeschool Science and Health 3, p. 2"
+      },
+      {
+        "id": "q6",
+        "question": "What is the primary tool recommended for a beginning third-grade detective of nature?",
+        "options": [
+          "A. An electron microscope",
+          "B. A magnifying lens",
+          "C. A radio telescope",
+          "D. A deep-sea submarine"
+        ],
+        "correct": "B",
+        "explanation": "Exploring God's World (Page 5) specifies: 'For now, the tool that would help most is a magnifying lens. No good detective would be without one!'",
+        "textbook_page_reference": "Exploring God's World, Page 5; Lesson Plans Homeschool Science and Health 3, p. 2"
       }
     ]
   },
@@ -35666,174 +35927,226 @@ export const LESSONS_DATA = {
     },
     "flashcards": [
       {
-        "term": "1. Kỹ năng Nền tảng (Foundation Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Đếm cách 10 đến 100, đếm cách 5 đến 60; phản xạ nhanh bảng cộng trừ trong phạm vi 18 qua thẻ Flashcard; nhận biết kim ngắn (giờ) và kim dài (phút).",
-        "memoryTip": "Ví dụ: Đứng lên trả lời nhanh phép tính 9 + 8 = 17 trong trò chơi Popcorn Flashcard."
+        "id": 1,
+        "term": "Place Value Order (Base-10)",
+        "category": "Number Sense",
+        "definition": "The system where the position of each digit in a whole number determines its mathematical value, progressing from right to left as Ones, Tens, Hundreds, and Thousands.",
+        "textbook_citation": "Arithmetic 3 Work-text, Page 1; Lesson Plans Homeschool Arithmetic 3, Lesson 1, p. 2",
+        "exact_textbook_quote": "The first place is called the ones place... The next place is called the tens place... The hundreds place... The thousands place.",
+        "memory_trick": "Reading right to left: Ones, Tens, Hundreds, Thousands!"
       },
       {
-        "term": "2. Kỹ năng Cốt lõi (Core Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Nắm vững 4 hàng giá trị vị trí chữ số: Hàng đơn vị (Ones), Hàng chục (Tens), Hàng trăm (Hundreds), Hàng nghìn (Thousands); hiểu quy tắc đặt dấu phẩy (\"The comma says thousand\"); chuyển đổi thành thạo từ dạng tổng khai triển (Expanded form) sang dạng số chuẩn (Standard form); thuộc bảng quy đổi thời gian.",
-        "memoryTip": "Ví dụ: Hiểu rằng chữ số 0 trong số 4,000 đóng vai trò giữ chỗ (place holder) cho hàng trăm, chục và đơn vị."
+        "id": 2,
+        "term": "Thousands Comma Rule",
+        "category": "Orthography of Numbers",
+        "definition": "The punctuation rule requiring a comma after every three digits counting from the right-hand side, separating thousands from hundreds, where 'the comma says thousand'.",
+        "textbook_citation": "Arithmetic 3 Work-text, Page 1; Lesson Plans Homeschool Arithmetic 3, Lesson 1, p. 3",
+        "exact_textbook_quote": "When we put commas in a number, we start at the right-hand side of the number and place a comma after every third number. The word and is read only in place of a decimal point, never in place of a comma.",
+        "memory_trick": "Count 1, 2, 3 from the right, insert comma, and say 'thousand'!"
       },
       {
-        "term": "3. Kỹ năng Ứng dụng (Applied Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Đọc chính xác giờ trên đồng hồ kim đến từng khoảng 5 phút; phân biệt hoạt động diễn ra vào giờ AM (sáng) và PM (chiều/tối); giải quyết các bài tập phân tích chữ số khoanh tròn trong sách Arithmetic 3 trang 1-2.",
-        "memoryTip": "Ví dụ: Xác định đúng thời điểm 9:05 trên mặt đồng hồ lớp học."
+        "id": 3,
+        "term": "Zero as a Place Holder",
+        "category": "Place Value Concept",
+        "definition": "The essential role of the digit '0' in holding an empty column position in standard form numbers (such as 3,003 or 4,000) so that other digits retain their correct positional value.",
+        "textbook_citation": "Arithmetic 3 Work-text, Page 1, Section 2; Lesson Plans Homeschool Arithmetic 3, Lesson 1, p. 3",
+        "exact_textbook_quote": "Zero acts as a place holder to ensure each digit remains in its proper value column.",
+        "memory_trick": "Zero holds the fort so other numbers don't slide into the wrong spot!"
       },
       {
-        "term": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Tự rà soát tính hợp lý của số chữ số khi viết số có chứa số 0 giữ chỗ; tự kiểm tra thứ tự kim giờ và kim phút khi xem đồng hồ để tránh nhầm lẫn.",
-        "memoryTip": "Ví dụ: Khi viết \"ba nghìn linh ba\", học sinh tự đếm lại xem đã đủ 4 chữ số (3,003) chưa thay vì viết vội 33."
+        "id": 4,
+        "term": "Expanded Form vs. Standard Form",
+        "category": "Numerical Representation",
+        "definition": "Standard form presents numbers as compact digits (e.g., 5,738), whereas expanded form displays the explicit sum of each digit's value (e.g., 5,000 + 700 + 30 + 8).",
+        "textbook_citation": "Arithmetic 3 Work-text, Page 1, Section 1; Lesson Plans Homeschool Arithmetic 3, Lesson 1, p. 3",
+        "exact_textbook_quote": "5 thousands + 7 hundreds + 3 tens + 8 ones = 5,738.",
+        "memory_trick": "Expanded stretches it out; Standard snaps it together!"
       },
       {
-        "term": "Hệ giá trị vị trí đến hàng nghìn",
-        "category": "Key Takeaway",
-        "definition": "Số có 4 chữ số gồm các hàng tính từ phải sang trái: Đơn vị (Ones) -> Chục (Tens) -> Trăm (Hundreds) -> Nghìn (Thousands).",
-        "memoryTip": "Trọng tâm bài học UbD"
+        "id": 5,
+        "term": "Anatomy of the Analog Clock",
+        "category": "Measurement of Time",
+        "definition": "A 12-hour circular dial divided into 60 minute increments, where the short hand points to the hours and the long hand indicates minutes elapsed.",
+        "textbook_citation": "Arithmetic 3 Work-text, Page 1; Lesson Plans Homeschool Arithmetic 3, Lesson 1, p. 2",
+        "exact_textbook_quote": "The clock has two hands. The short hand shows the hours, and the long hand shows the minutes.",
+        "memory_trick": "Short word = hour = short hand; Long word = minute = long hand!"
       },
       {
-        "term": "Quy tắc dấu phẩy hàng nghìn",
-        "category": "Key Takeaway",
-        "definition": "Đếm 3 chữ số từ phải sang trái rồi đặt dấu phẩy. Khi đọc số, vị trí dấu phẩy được phát âm là \"thousand\" (nghìn).",
-        "memoryTip": "Trọng tâm bài học UbD"
+        "id": 6,
+        "term": "Time Equivalencies",
+        "category": "Mathematical Units",
+        "definition": "The standard metric conversions of time: 1 day = 24 hours; 1 hour = 60 minutes; 1 minute = 60 seconds.",
+        "textbook_citation": "Arithmetic 3 Work-text, Page 1; Lesson Plans Homeschool Arithmetic 3, Lesson 1, p. 2",
+        "exact_textbook_quote": "In every day, there are 24 hours... There are 60 minutes in each hour.",
+        "memory_trick": "60 seconds make a minute, 60 minutes make an hour, 24 hours make a day!"
       },
       {
-        "term": "Đơn vị đo thời gian & Xem đồng hồ",
-        "category": "Key Takeaway",
-        "definition": "1 phút = 60 giây, 1 giờ = 60 phút, 1 ngày = 24 giờ. Kim ngắn chỉ giờ, kim dài chỉ phút; mỗi số lớn trên mặt đồng hồ ứng với 5 phút trôi qua.",
-        "memoryTip": "Trọng tâm bài học UbD"
+        "id": 7,
+        "term": "A.M. versus P.M.",
+        "category": "Temporal Classification",
+        "definition": "A.M. (ante meridiem) designates the 12 hours from midnight to noon; P.M. (post meridiem) designates the 12 hours from noon to midnight.",
+        "textbook_citation": "Arithmetic 3 Work-text, Page 1; Lesson Plans Homeschool Arithmetic 3, Lesson 1, p. 2",
+        "exact_textbook_quote": "The hours from midnight until noon are called a.m., and the hours from noon until midnight are p.m.",
+        "memory_trick": "A.M. = At Morning; P.M. = Past Midday!"
       }
     ],
     "slides": [
       {
-        "slideNumber": 1,
-        "title": "Tổng Quan Bài Học Arithmetic 3 (Bài 001)",
-        "tag": "Grade 3 Overview",
-        "bulletPoints": [
-          "Giáo viên: Miss Boyd",
-          "Sách giáo khoa: Arithmetic 3 Work-text (Trang 1 – 2)",
-          "Tài liệu hướng dẫn: Addition/Subtraction Flashcards, Teaching Clock, Teacher Key, Lesson Plans Homeschool Arithmetic 3",
-          "Thời lượng bài giảng: 42 phút 30 giây"
+        "slide_number": 1,
+        "title": "Welcome to Arithmetic 3: Numerical Order and Mastery",
+        "category": "Course Overview",
+        "bullet_points": [
+          "Transitioning to Grade 3 mathematics: building speed, precision, and conceptual depth",
+          "Daily instructional routine: oral counting drills, flashcard sprint games ('Popcorn'), and work-text practice",
+          "Maintaining clean workspaces: sharpened pencils, orderly workbooks, and disciplined scratch paper use"
         ],
-        "keyTakeaway": "Dụng cụ cần thiết: Sách Arithmetic 3 Work-text, bút chì gọt sẵn, giấy nháp"
+        "textbook_evidence": "Arithmetic 3 Work-text, Pages 1–2; Lesson Plans Homeschool Arithmetic 3, Lesson 1",
+        "key_takeaway": "God is a God of exact order, precision, and truth, reflected perfectly in the laws of mathematics."
       },
       {
-        "slideNumber": 2,
-        "title": "1. Kỹ năng Nền tảng (Foundation Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Đếm cách 10 đến 100, đếm cách 5 đến 60; phản xạ nhanh bảng cộng trừ trong phạm vi 18 qua thẻ Flashcard; nhận biết kim ngắn (giờ) và kim dài (phút)."
+        "slide_number": 2,
+        "title": "The Base-10 Place Value System: Ones through Thousands",
+        "category": "Number Sense",
+        "bullet_points": [
+          "Understanding that each digit's value depends strictly on its positional column",
+          "Analyzing 4-digit numbers: Ones (1), Tens (10), Hundreds (100), Thousands (1,000)",
+          "Examining example 2,583: 2 thousands (2,000), 5 hundreds (500), 8 tens (80), 3 ones (3)",
+          "Practicing identification of underlined or circled target digits across multiple exercises"
         ],
-        "keyTakeaway": "Ví dụ: Đứng lên trả lời nhanh phép tính 9 + 8 = 17 trong trò chơi Popcorn Flashcard."
+        "textbook_evidence": "Arithmetic 3 Work-text, Page 1, Section 1; Lesson Plans Homeschool Arithmetic 3, Lesson 1",
+        "key_takeaway": "Positional notation allows nine digits and zero to express infinite numerical quantities."
       },
       {
-        "slideNumber": 3,
-        "title": "2. Kỹ năng Cốt lõi (Core Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Nắm vững 4 hàng giá trị vị trí chữ số: Hàng đơn vị (Ones), Hàng chục (Tens), Hàng trăm (Hundreds), Hàng nghìn (Thousands); hiểu quy tắc đặt dấu phẩy (\"The comma says thousand\"); chuyển đổi thành thạo từ dạng tổng khai triển (Expanded form) sang dạng số chuẩn (Standard form); thuộc bảng quy đổi thời gian."
+        "slide_number": 3,
+        "title": "The Comma Rule and Zero as a Place Holder",
+        "category": "Numerical Conventions",
+        "bullet_points": [
+          "Punctuation rule: counting three digits from the right to place the comma ('one, two, three, comma')",
+          "Verbalizing large numbers: 'The comma says thousand' (e.g., 5,492 = five thousand, four hundred ninety-two)",
+          "Strict verbal discipline: never insert the word 'and' in whole numbers (reserved exclusively for decimals)",
+          "Handling internal zeros: writing 3,003 or 4,000 correctly without dropping empty place-value columns"
         ],
-        "keyTakeaway": "Ví dụ: Hiểu rằng chữ số 0 trong số 4,000 đóng vai trò giữ chỗ (place holder) cho hàng trăm, chục và đơn vị."
+        "textbook_evidence": "Arithmetic 3 Work-text, Page 1, Section 2; Lesson Plans Homeschool Arithmetic 3, Lesson 1, p. 3",
+        "key_takeaway": "Commas facilitate readability; place-holding zeros preserve the structural integrity of large numbers."
       },
       {
-        "slideNumber": 4,
-        "title": "3. Kỹ năng Ứng dụng (Applied Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Đọc chính xác giờ trên đồng hồ kim đến từng khoảng 5 phút; phân biệt hoạt động diễn ra vào giờ AM (sáng) và PM (chiều/tối); giải quyết các bài tập phân tích chữ số khoanh tròn trong sách Arithmetic 3 trang 1-2."
+        "slide_number": 4,
+        "title": "Anatomy of the Clock: Hours and Minutes",
+        "category": "Measurement Concepts",
+        "bullet_points": [
+          "Recognizing the 12 dial numerals and understanding the 24-hour day divided into two 12-hour cycles",
+          "The hour hand: short, moves slowly, takes 60 minutes to travel between adjacent numbers",
+          "The minute hand: long, travels swiftly around the complete 60-minute circumference every hour",
+          "Identifying exact top-of-the-hour positions: minute hand on 12 signifies ':00' (o'clock)"
         ],
-        "keyTakeaway": "Ví dụ: Xác định đúng thời điểm 9:05 trên mặt đồng hồ lớp học."
+        "textbook_evidence": "Arithmetic 3 Work-text, Page 1; Lesson Plans Homeschool Arithmetic 3, Lesson 1, p. 2",
+        "key_takeaway": "Accurate time-telling requires distinguishing the distinct functions of the hour and minute hands."
       },
       {
-        "slideNumber": 5,
-        "title": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Tự rà soát tính hợp lý của số chữ số khi viết số có chứa số 0 giữ chỗ; tự kiểm tra thứ tự kim giờ và kim phút khi xem đồng hồ để tránh nhầm lẫn."
+        "slide_number": 5,
+        "title": "Reading Clock Minutes by 5s and Telling Exact Time",
+        "category": "Applied Measurement",
+        "bullet_points": [
+          "Each large number on the clock face represents 5 elapsed minutes",
+          "Skip-counting by 5s around the dial: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60",
+          "Reading demonstration clock times: 3:00, 10:00, 6:00, 5:20, 7:45, and 9:05",
+          "Distinguishing single-digit minute notations: writing '05' for five minutes past the hour"
         ],
-        "keyTakeaway": "Ví dụ: Khi viết \"ba nghìn linh ba\", học sinh tự đếm lại xem đã đủ 4 chữ số (3,003) chưa thay vì viết vội 33."
+        "textbook_evidence": "Arithmetic 3 Work-text, Page 1; Lesson Plans Homeschool Arithmetic 3, Lesson 1, p. 2",
+        "key_takeaway": "Skip-counting by 5s provides rapid, accurate translation of minute-hand positions."
       },
       {
-        "slideNumber": 6,
-        "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
-        "tag": "Core Knowledge",
-        "bulletPoints": [
-          "Hệ giá trị vị trí đến hàng nghìn: Số có 4 chữ số gồm các hàng tính từ phải sang trái: Đơn vị (Ones) -> Chục (Tens) -> Trăm (Hundreds) -> Nghìn (Thousands).",
-          "Quy tắc dấu phẩy hàng nghìn: Đếm 3 chữ số từ phải sang trái rồi đặt dấu phẩy. Khi đọc số, vị trí dấu phẩy được phát âm là \"thousand\" (nghìn).",
-          "Đơn vị đo thời gian & Xem đồng hồ: 1 phút = 60 giây, 1 giờ = 60 phút, 1 ngày = 24 giờ. Kim ngắn chỉ giờ, kim dài chỉ phút; mỗi số lớn trên mặt đồng hồ ứng với 5 phút trôi qua."
+        "slide_number": 6,
+        "title": "Clarifying Daily Time: Distinguishing A.M. and P.M.",
+        "category": "Temporal Classification",
+        "bullet_points": [
+          "A.M. covers the twelve nocturnal and morning hours from midnight (12:00 midnight) to midday (12:00 noon)",
+          "P.M. covers the twelve afternoon and evening hours from midday (12:00 noon) to midnight (12:00 midnight)",
+          "Contextual categorization: eating breakfast at 7:00 a.m. vs. eating dinner at 7:00 p.m.",
+          "Completing Seatwork exercises on Page 2 with precision and neat handwriting"
         ],
-        "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
+        "textbook_evidence": "Arithmetic 3 Work-text, Pages 1–2; Lesson Plans Homeschool Arithmetic 3, Lesson 1, p. 2",
+        "key_takeaway": "A.M. and P.M. designations eliminate ambiguity in scheduling and recording daily events."
       }
     ],
     "quizData": [
       {
         "id": "q1",
-        "question": "What is the proper mathematical role of the comma in a four-digit number such as 5,738?",
+        "question": "In the four-digit number 2,583, which digit is in the hundreds place and what is its value?",
         "options": [
-          "A. It indicates a decimal fraction",
-          "B. It separates the thousands place from the hundreds place and is pronounced 'thousand'",
-          "C. It is purely decorative and has no mathematical meaning",
-          "D. It indicates that the number should be divided by ten"
+          "A. Digit 2 with a value of 2,000",
+          "B. Digit 5 with a value of 500",
+          "C. Digit 8 with a value of 80",
+          "D. Digit 3 with a value of 3"
         ],
         "correct": "B",
-        "explanation": "Miss Boyd teaches the Comma Rule: count 3 digits from the right; the comma separates the thousands period and is spoken as 'thousand'.",
-        "textbook_page_reference": ""
+        "explanation": "In 2,583, counting from right to left: 3 is ones, 8 is tens, 5 is hundreds (value = 500), and 2 is thousands (value = 2,000).",
+        "textbook_page_reference": "Arithmetic 3 Work-text, Page 1, Section 1; Lesson Plans, p. 2"
       },
       {
         "id": "q2",
-        "question": "How is the expanded form '3 thousands + 0 hundreds + 0 tens + 3 ones' correctly written in standard form?",
+        "question": "What is the proper method for inserting commas into large whole numbers?",
         "options": [
-          "A. 33",
-          "B. 303",
-          "C. 3,003",
-          "D. 30,003"
+          "A. Place a comma after every two digits starting from the left",
+          "B. Start at the right-hand side and insert a comma after every third digit",
+          "C. Place a comma only before the last digit of any number",
+          "D. Put a comma wherever the speaker pauses to take a breath"
         ],
-        "correct": "C",
-        "explanation": "Zeroes act as essential place holders for the hundreds and tens positions, yielding 3,003.",
-        "textbook_page_reference": ""
+        "correct": "B",
+        "explanation": "Arithmetic 3 (Page 1) teaches that to place commas, we start at the right-hand side and insert a comma after every third digit (e.g., 1,238).",
+        "textbook_page_reference": "Arithmetic 3 Work-text, Page 1; Lesson Plans Homeschool Arithmetic 3, p. 3"
       },
       {
         "id": "q3",
-        "question": "In the number 6,482, what is the specific place value of the underlined digit 4?",
+        "question": "Why is the word 'and' forbidden when reading the whole number 5,492?",
         "options": [
-          "A. Thousands place (value 4,000)",
-          "B. Hundreds place (value 400)",
-          "C. Tens place (value 40)",
-          "D. Ones place (value 4)"
+          "A. Because 'and' is a conjunction used only in English grammar books",
+          "B. Because 'and' is said only in place of a decimal point, never in place of a comma",
+          "C. Because 'and' takes too much time to pronounce during oral math drills",
+          "D. Because 'and' can only be used when adding numbers greater than 10,000"
         ],
         "correct": "B",
-        "explanation": "In 6,482, the digit 4 is in the third position from the right, which represents 4 hundreds (400).",
-        "textbook_page_reference": ""
+        "explanation": "Lesson Plans Homeschool Arithmetic 3 (p. 3) instructs: 'The word and is read or said in a number only in place of a decimal point, never in place of a comma.' The number is read: 'five thousand, four hundred ninety-two.'",
+        "textbook_page_reference": "Arithmetic 3 Work-text, Page 1; Lesson Plans Homeschool Arithmetic 3, p. 3"
       },
       {
         "id": "q4",
-        "question": "When reading an analog clock, how many minutes are represented when the minute hand moves from one number to the next consecutive number?",
+        "question": "Which statement correctly describes the hands on an analog clock?",
         "options": [
-          "A. 1 minute",
-          "B. 5 minutes",
-          "C. 10 minutes",
-          "D. 15 minutes"
+          "A. The short hand shows the minutes, and the long hand shows the hours",
+          "B. The short hand shows the hours, and the long hand shows the minutes",
+          "C. Both hands move at exactly the same speed around the clock face",
+          "D. The hour hand moves counterclockwise while the minute hand moves clockwise"
         ],
         "correct": "B",
-        "explanation": "Each large number on the clock face represents a 5-minute interval for the long minute hand.",
-        "textbook_page_reference": ""
+        "explanation": "Arithmetic 3 Work-text (Page 1) states: 'The clock has two hands. The short hand shows the hours, and the long hand shows the minutes.'",
+        "textbook_page_reference": "Arithmetic 3 Work-text, Page 1; Lesson Plans Homeschool Arithmetic 3, p. 2"
       },
       {
         "id": "q5",
-        "question": "Which of the following correctly pairs the standard time measurement conversions?",
+        "question": "If the minute hand points directly at the numeral 7 on a clock face, how many minutes past the hour does it indicate?",
         "options": [
-          "A. 1 minute = 100 seconds; 1 hour = 100 minutes",
-          "B. 1 minute = 60 seconds; 1 hour = 60 minutes; 1 day = 24 hours",
-          "C. 1 hour = 24 minutes; 1 day = 60 hours",
-          "D. 1 minute = 30 seconds; 1 hour = 60 minutes"
+          "A. 7 minutes",
+          "B. 25 minutes",
+          "C. 35 minutes",
+          "D. 42 minutes"
         ],
-        "correct": "B",
-        "explanation": "Standard time units: 1 minute = 60 seconds, 1 hour = 60 minutes, 1 day = 24 hours.",
-        "textbook_page_reference": ""
+        "correct": "C",
+        "explanation": "Each numeral on the clock face represents 5 minutes. Multiplying 7 by 5 yields 35 minutes past the hour.",
+        "textbook_page_reference": "Arithmetic 3 Work-text, Page 1; Lesson Plans Homeschool Arithmetic 3, p. 2"
+      },
+      {
+        "id": "q6",
+        "question": "Which of the following time windows is accurately designated as P.M.?",
+        "options": [
+          "A. From midnight until 6:00 a.m. in the morning",
+          "B. From midnight until noon",
+          "C. From noon until midnight",
+          "D. Only between 12:00 midnight and 1:00 a.m."
+        ],
+        "correct": "C",
+        "explanation": "Arithmetic 3 (Page 1) and Lesson Plans (p. 2) state: 'The hours from midnight until noon are called a.m., and the hours from noon until midnight are p.m.'",
+        "textbook_page_reference": "Arithmetic 3 Work-text, Page 1; Lesson Plans Homeschool Arithmetic 3, p. 2"
       }
     ]
   },
@@ -39004,174 +39317,226 @@ export const LESSONS_DATA = {
     },
     "flashcards": [
       {
-        "term": "1. Kỹ năng Nền tảng (Foundation Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Nhận diện và gọi tên chính xác 7 châu lục (North America, South America, Europe, Africa, Asia, Australia, Antarctica) và 5 đại dương (Pacific, Atlantic, Indian, Arctic, Southern Ocean) trên quả địa cầu và bản đồ phẳng; giữ đúng tư thế mở và lật sách nhẹ nhàng.",
-        "memoryTip": "Ví dụ: Học sinh chỉ đúng vị trí châu Úc (\"Land Down Under\") trên quả địa cầu."
+        "id": 1,
+        "term": "History",
+        "category": "Core Discipline Definition",
+        "definition": "The written record of what mankind has done with the time that God has graciously given him, often referred to as 'His story' (God's story).",
+        "textbook_citation": "Our American Heritage, Page 1; Lesson Plans Homeschool History 3, Lesson 1, p. 18",
+        "exact_textbook_quote": "What is history? History is the written record of what man has done with the time God has given him.",
+        "memory_trick": "History is literally 'His-Story'—God working through time and people!"
       },
       {
-        "term": "2. Kỹ năng Cốt lõi (Core Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Hiểu bản chất của \"Di sản\" (Heritage là những ý tưởng, tự do, phong tục quý báu được trao truyền lại); định nghĩa môn Lịch sử là \"His-Story\" (câu chuyện ghi lại những gì con người làm với thời gian Chúa ban); nắm cách đọc trục thời gian (Timeline).",
-        "memoryTip": "Ví dụ: Giải thích được vì sao nước Mỹ ngày nay được thừa hưởng nền tự do từ các nhà lập quốc."
+        "id": 2,
+        "term": "Heritage",
+        "category": "Cultural & Political Legacy",
+        "definition": "The rich collection of ideals, traditions, customs, and constitutional freedoms that were formulated, developed, and defended before we were born.",
+        "textbook_citation": "Our American Heritage, Page 1; Lesson Plans Homeschool History 3, Lesson 1, p. 18",
+        "exact_textbook_quote": "A heritage includes the ideas, traditions, and freedoms that were developed and defended before we were born.",
+        "memory_trick": "Heritage is an inherited treasure chest of liberty passed down to us!"
       },
       {
-        "term": "3. Kỹ năng Ứng dụng (Applied Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Khai thác Mục lục (Contents) để định vị 3 thời kỳ lịch sử lớn (Founding, Expansion, Modernization); áp dụng công cụ Timeline để sắp xếp các sự kiện theo đúng thứ tự thời gian; hoàn thành phiếu thực hành kỹ năng bản đồ (Map Skill Sheet 32).",
-        "memoryTip": "Ví dụ: Đặt sự kiện thành lập nước Mỹ trước thời kỳ mở rộng bờ cõi trên trục thời gian."
+        "id": 3,
+        "term": "Timeline",
+        "category": "Chronological Tool",
+        "definition": "A visual diagram showing the chronological sequence of when people lived and events occurred in past history, where each block traditionally represents 100 years (a century).",
+        "textbook_citation": "Our American Heritage, Page 2; Lesson Plans Homeschool History 3, Lesson 1, p. 19",
+        "exact_textbook_quote": "A timeline shows us when in history people lived and events happened. Each block on the timeline represents 100 years.",
+        "memory_trick": "1 block = 100 years; follow the line to travel through time!"
       },
       {
-        "term": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Nhận thức rõ ràng trách nhiệm của bản thân thế hệ học sinh hôm nay trong việc giữ gìn và phát huy di sản của cha ông; tự rà soát xem mình đang sử dụng quỹ thời gian mỗi ngày có ích lợi như thế nào.",
-        "memoryTip": "Ví dụ: Học sinh tự liên hệ: \"Mình đang viết tiếp trang sử của gia đình và đất nước bằng việc học chăm chỉ mỗi ngày.\""
+        "id": 4,
+        "term": "Continent",
+        "category": "Physical Geography",
+        "definition": "One of the seven massive, contiguous landmasses on Earth: North America, South America, Europe, Asia, Africa, Australia, and Antarctica.",
+        "textbook_citation": "Our American Heritage, Page xi; Lesson Plans Homeschool History 3, Lesson 1, p. 18",
+        "exact_textbook_quote": "A continent is a very large body of land. There are seven continents in our world.",
+        "memory_trick": "7 Continents: Big continuous landmasses hosting diverse nations!"
       },
       {
-        "term": "Bức tranh địa lý toàn cầu",
-        "category": "Key Takeaway",
-        "definition": "Thế giới gồm 7 châu lục lớn và 5 đại dương bao la. Nước Mỹ nằm ở lục địa Bắc Mỹ, được bao bọc bởi Đại Tây Dương và Thái Bình Dương.",
-        "memoryTip": "Trọng tâm bài học UbD"
+        "id": 5,
+        "term": "Ocean",
+        "category": "Physical Geography",
+        "definition": "One of the five vast expanses of saltwater that cover nearly three-fourths of the Earth's surface: Pacific, Atlantic, Indian, Arctic, and Southern.",
+        "textbook_citation": "Our American Heritage, Page xi; Lesson Plans Homeschool History 3, Lesson 1, p. 18",
+        "exact_textbook_quote": "An ocean is a very large body of salt water. There are five oceans on the globe.",
+        "memory_trick": "5 Oceans: Vast saltwater highways connecting all continents!"
       },
       {
-        "term": "Giá trị của Di sản (Heritage)",
-        "category": "Key Takeaway",
-        "definition": "Di sản là những món quà tuyệt vời về tự do, cơ hội, luật pháp và truyền thống tốt đẹp mà các thế hệ đi trước đã cống hiến để trao lại cho chúng ta hôm nay.",
-        "memoryTip": "Trọng tâm bài học UbD"
+        "id": 6,
+        "term": "Christopher Columbus (1492)",
+        "category": "Historical Milestone",
+        "definition": "The intrepid Italian navigator sailing under the Spanish flag whose 1492 voyage across the Atlantic Ocean opened the New World to European exploration and settlement.",
+        "textbook_citation": "Our American Heritage, Page 2; Lesson Plans Homeschool History 3, Lesson 1, p. 19",
+        "exact_textbook_quote": "In 1492, Christopher Columbus sailed across the Atlantic Ocean and discovered the New World.",
+        "memory_trick": "In 1492, Columbus sailed the ocean blue!"
       },
       {
-        "term": "Ý nghĩa của Lịch sử (His-Story) và Dòng thời gian",
-        "category": "Key Takeaway",
-        "definition": "Lịch sử là câu chuyện Chúa dẫn dắt con người qua dòng thời gian; Trục thời gian (Timeline) giúp ta sắp xếp các sự kiện theo trình tự logic và có hệ thống.",
-        "memoryTip": "Trọng tâm bài học UbD"
+        "id": 7,
+        "term": "Amerigo Vespucci",
+        "category": "Historical Figure",
+        "definition": "The Italian explorer and cartographer who recognized that the lands reached by Columbus were distinct, newly discovered continents, leading mapmakers to name America in his honor.",
+        "textbook_citation": "Our American Heritage, Page 2; Lesson Plans Homeschool History 3, Lesson 1, p. 19",
+        "exact_textbook_quote": "The New World was called America to honor Amerigo Vespucci, who realized that Columbus had found new continents.",
+        "memory_trick": "Amerigo realized the land was brand new, so America took his name too!"
       }
     ],
     "slides": [
       {
-        "slideNumber": 1,
-        "title": "Tổng Quan Bài Học History 3 (Bài 001)",
-        "tag": "Grade 3 Overview",
-        "bulletPoints": [
-          "Giáo viên: Miss Boyd",
-          "Sách giáo khoa: Our American Heritage (Trang xi–xiv, 1–3)",
-          "Tài liệu hướng dẫn: Our American Heritage: Map Skills 3 (Map Skill Sheet 32, p. 65), Answer Key to Text Questions, Lesson Plans Homeschool History 3",
-          "Thời lượng bài giảng: 19 phút 12 giây"
+        "slide_number": 1,
+        "title": "Welcome to Our American Heritage: Grade 3 History",
+        "category": "Course Introduction",
+        "bullet_points": [
+          "Embarking on a biographical journey through the lives of 56 influential American men and women",
+          "Surveying three grand historical eras: The Founding, The Expansion, and The Modernization of America",
+          "Cultivating patriotic gratitude and understanding God's providential hand in shaping the nation"
         ],
-        "keyTakeaway": "Dụng cụ cần thiết: Sách Our American Heritage, bút chì, quả địa cầu / bản đồ thế giới phẳng"
+        "textbook_evidence": "Our American Heritage, Pages xi–xiv; Lesson Plans Homeschool History 3, Lesson 1",
+        "key_takeaway": "American history tells the inspiring story of courageous people guided by faith to build a free nation."
       },
       {
-        "slideNumber": 2,
-        "title": "1. Kỹ năng Nền tảng (Foundation Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Nhận diện và gọi tên chính xác 7 châu lục (North America, South America, Europe, Africa, Asia, Australia, Antarctica) và 5 đại dương (Pacific, Atlantic, Indian, Arctic, Southern Ocean) trên quả địa cầu và bản đồ phẳng; giữ đúng tư thế mở và lật sách nhẹ nhàng."
+        "slide_number": 2,
+        "title": "Geographic Foundations: The Globe and World Map",
+        "category": "Geography Essentials",
+        "bullet_points": [
+          "Distinguishing between a 3-dimensional spherical globe and a 2-dimensional flat map",
+          "Locating the seven continents: North America, South America, Europe, Asia, Africa, Australia, Antarctica",
+          "Identifying the five great oceans: Pacific, Atlantic, Indian, Arctic, Southern",
+          "Pinpointing the United States within our home continent of North America"
         ],
-        "keyTakeaway": "Ví dụ: Học sinh chỉ đúng vị trí châu Úc (\"Land Down Under\") trên quả địa cầu."
+        "textbook_evidence": "Our American Heritage Map Skills, Map Skill Sheet 32, p. 65; Lesson Plans, p. 18",
+        "key_takeaway": "Sound historical understanding requires a firm grasp of physical geography and spatial orientation."
       },
       {
-        "slideNumber": 3,
-        "title": "2. Kỹ năng Cốt lõi (Core Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Hiểu bản chất của \"Di sản\" (Heritage là những ý tưởng, tự do, phong tục quý báu được trao truyền lại); định nghĩa môn Lịch sử là \"His-Story\" (câu chuyện ghi lại những gì con người làm với thời gian Chúa ban); nắm cách đọc trục thời gian (Timeline)."
+        "slide_number": 3,
+        "title": "Defining History: Man's Stewardship of Time",
+        "category": "Philosophical Foundations",
+        "bullet_points": [
+          "Defining history as the written record of what mankind has done with God-given time",
+          "Recognizing history as 'His-Story'—God sovereignly working through human events and nations",
+          "Investigating written historical artifacts, documents, and eyewitness biographies",
+          "Learning from past achievements and errors to make wise decisions for the future"
         ],
-        "keyTakeaway": "Ví dụ: Giải thích được vì sao nước Mỹ ngày nay được thừa hưởng nền tự do từ các nhà lập quốc."
+        "textbook_evidence": "Our American Heritage, Page 1; Lesson Plans Homeschool History 3, Lesson 1, p. 18",
+        "key_takeaway": "History is not mere random facts; it is the purposeful unfolding of God's plan through time."
       },
       {
-        "slideNumber": 4,
-        "title": "3. Kỹ năng Ứng dụng (Applied Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Khai thác Mục lục (Contents) để định vị 3 thời kỳ lịch sử lớn (Founding, Expansion, Modernization); áp dụng công cụ Timeline để sắp xếp các sự kiện theo đúng thứ tự thời gian; hoàn thành phiếu thực hành kỹ năng bản đồ (Map Skill Sheet 32)."
+        "slide_number": 4,
+        "title": "What Is a Heritage? Preserving Our Inherited Freedoms",
+        "category": "Civics & National Identity",
+        "bullet_points": [
+          "A heritage includes ideas, traditions, laws, and liberties established before our birth",
+          "Recognizing the tremendous cost paid by early pioneers, leaders, and defenders of liberty",
+          "Understanding that the United States grew from small colonial settlements to over 325 million citizens",
+          "Acknowledging our personal responsibility to preserve and defend our biblical heritage"
         ],
-        "keyTakeaway": "Ví dụ: Đặt sự kiện thành lập nước Mỹ trước thời kỳ mở rộng bờ cõi trên trục thời gian."
+        "textbook_evidence": "Our American Heritage, Pages 1–2; Lesson Plans Homeschool History 3, Lesson 1, p. 18",
+        "key_takeaway": "Freedom is never free; it is a precious inheritance that must be understood and faithfully stewarded."
       },
       {
-        "slideNumber": 5,
-        "title": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Nhận thức rõ ràng trách nhiệm của bản thân thế hệ học sinh hôm nay trong việc giữ gìn và phát huy di sản của cha ông; tự rà soát xem mình đang sử dụng quỹ thời gian mỗi ngày có ích lợi như thế nào."
+        "slide_number": 5,
+        "title": "Chronological Mastery: How to Read a Timeline",
+        "category": "Historical Methodology",
+        "bullet_points": [
+          "Understanding that a timeline visually displays events from the past in chronological order",
+          "Learning that each standard block on our textbook timeline corresponds to 100 years (a century)",
+          "Tracking historical developments from left to right along the temporal continuum",
+          "Correlating personal life timelines with major historical benchmarks"
         ],
-        "keyTakeaway": "Ví dụ: Học sinh tự liên hệ: \"Mình đang viết tiếp trang sử của gia đình và đất nước bằng việc học chăm chỉ mỗi ngày.\""
+        "textbook_evidence": "Our American Heritage, Pages 2–3; Lesson Plans Homeschool History 3, Lesson 1, p. 19",
+        "key_takeaway": "Timelines provide sequential clarity, illustrating how cause and effect link events across centuries."
       },
       {
-        "slideNumber": 6,
-        "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
-        "tag": "Core Knowledge",
-        "bulletPoints": [
-          "Bức tranh địa lý toàn cầu: Thế giới gồm 7 châu lục lớn và 5 đại dương bao la. Nước Mỹ nằm ở lục địa Bắc Mỹ, được bao bọc bởi Đại Tây Dương và Thái Bình Dương.",
-          "Giá trị của Di sản (Heritage): Di sản là những món quà tuyệt vời về tự do, cơ hội, luật pháp và truyền thống tốt đẹp mà các thế hệ đi trước đã cống hiến để trao lại cho chúng ta hôm nay.",
-          "Ý nghĩa của Lịch sử (His-Story) và Dòng thời gian: Lịch sử là câu chuyện Chúa dẫn dắt con người qua dòng thời gian; Trục thời gian (Timeline) giúp ta sắp xếp các sự kiện theo trình tự logic và có hệ thống."
+        "slide_number": 6,
+        "title": "The Dawn of American History: Columbus and Vespucci",
+        "category": "Early Exploration",
+        "bullet_points": [
+          "The historic 1492 transatlantic voyage of Christopher Columbus in search of the Indies",
+          "The realization by Amerigo Vespucci that a vast new continent had been encountered",
+          "The naming of America in honor of Vespucci's geographical insights",
+          "Preparing for next lesson's deep dive into the lives of Native Americans and early explorers"
         ],
-        "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
+        "textbook_evidence": "Our American Heritage, Pages 2–3; Lesson Plans Homeschool History 3, Lesson 1, p. 19",
+        "key_takeaway": "Courageous exploration and accurate observation laid the initial groundwork for the New World."
       }
     ],
     "quizData": [
       {
         "id": "q1",
-        "question": "How does the textbook Our American Heritage define the core concept of a 'heritage'?",
+        "question": "What is the complete textbook definition of history according to Our American Heritage?",
         "options": [
-          "A. The financial debt passed down from ancestors",
-          "B. The ideas, customs, traditions, and freedoms passed down from previous generations",
-          "C. A collection of physical artifacts found in an archaeological museum",
-          "D. Only the physical geographical boundaries of a nation"
+          "A. A collection of fictional folklore and legends created by early settlers",
+          "B. The written record of what man has done with the time God has given him",
+          "C. A scientific catalog describing rocks, weather, and plant species",
+          "D. A mathematical log detailing commercial trade balances between countries"
         ],
         "correct": "B",
-        "explanation": "Our American Heritage defines heritage as the valuable ideas, customs, and freedoms handed down to us by forefathers, leaders, and pioneers.",
-        "textbook_page_reference": ""
+        "explanation": "Our American Heritage (Page 1) explicitly teaches: 'History is the written record of what man has done with the time God has given him.' Some also call it 'His story—God's story.'",
+        "textbook_page_reference": "Our American Heritage, Page 1; Lesson Plans Homeschool History 3, p. 18"
       },
       {
         "id": "q2",
-        "question": "From the pedagogical worldview of the Abeka curriculum, what is the ultimate definition of 'History'?",
+        "question": "What elements are included in a nation's 'heritage'?",
         "options": [
-          "A. A random collection of human conflicts and dates",
-          "B. His-Story: the continuous story of what mankind has done with the time God has given",
-          "C. Only the study of ancient European civilizations",
-          "D. Political agreements negotiated by international leaders"
+          "A. Only the modern skyscrapers and paved highways built this year",
+          "B. Ideas, traditions, and freedoms developed and defended before we were born",
+          "C. Personal opinions expressed in daily newspapers",
+          "D. Commercial retail products imported from overseas"
         ],
         "correct": "B",
-        "explanation": "The text explains that history is literally 'His-Story'—the account of what mankind has accomplished with the time and resources God provided.",
-        "textbook_page_reference": ""
+        "explanation": "Our American Heritage (Page 1) defines a heritage as including the ideas, traditions, and freedoms that were developed and defended by previous generations before we were born.",
+        "textbook_page_reference": "Our American Heritage, Page 1; Lesson Plans Homeschool History 3, p. 18"
       },
       {
         "id": "q3",
-        "question": "How many continents and oceans are recognized in Grade 3 Geography, and what is the key difference between them?",
+        "question": "On the historical timeline featured in Our American Heritage, how many years does each block represent?",
         "options": [
-          "A. 5 continents and 7 oceans; continents are ice and oceans are water",
-          "B. 7 continents and 5 oceans; continents are vast landmasses and oceans are vast bodies of water",
-          "C. 6 continents and 4 oceans; continents have people and oceans have none",
-          "D. 8 continents and 6 oceans; they are categorized by climate zones"
+          "A. 10 years (a decade)",
+          "B. 50 years (a half-century)",
+          "C. 100 years (a century)",
+          "D. 1,000 years (a millennium)"
         ],
-        "correct": "B",
-        "explanation": "The curriculum identifies 7 continents (vast landmasses) and 5 oceans (vast salt water bodies).",
-        "textbook_page_reference": ""
+        "correct": "C",
+        "explanation": "As noted in Lesson Plans Homeschool History 3 (p. 19), each block on the textbook timeline represents 100 years (one century), with events marked along that span.",
+        "textbook_page_reference": "Our American Heritage, Page 2; Lesson Plans Homeschool History 3, p. 19"
       },
       {
         "id": "q4",
-        "question": "What is the primary visual function of a 'Timeline' as introduced on pages 2-3 of Our American Heritage?",
+        "question": "Which continent do we live on when residing in the United States?",
         "options": [
-          "A. To calculate mathematical interest over centuries",
-          "B. To show the order in which historical events occurred in chronological sequence",
-          "C. To measure the physical distance between two geographical points",
-          "D. To predict future weather patterns across states"
+          "A. South America",
+          "B. Europe",
+          "C. North America",
+          "D. Australia"
         ],
-        "correct": "B",
-        "explanation": "A timeline is an essential chronological tool that shows the exact sequential order of historical events across time.",
-        "textbook_page_reference": ""
+        "correct": "C",
+        "explanation": "The United States is located on the continent of North America, between Canada to the north and Mexico to the south.",
+        "textbook_page_reference": "Our American Heritage, Page xi; Map Skill Sheet 32, p. 65"
       },
       {
         "id": "q5",
-        "question": "Which continent is uniquely referred to by Miss Boyd as the 'Land Down Under'?",
+        "question": "In what year did Christopher Columbus make his historic voyage across the Atlantic Ocean to the New World?",
         "options": [
-          "A. Antarctica",
-          "B. South America",
-          "C. Australia",
-          "D. Africa"
+          "A. 1492",
+          "B. 1620",
+          "C. 1776",
+          "D. 1865"
         ],
-        "correct": "C",
-        "explanation": "Miss Boyd points out on the globe that Australia is affectionately known as the 'Land Down Under' because it lies entirely in the Southern Hemisphere.",
-        "textbook_page_reference": ""
+        "correct": "A",
+        "explanation": "Christopher Columbus sailed across the Atlantic Ocean in 1492 under the flag of Spain, discovering the lands of the Americas.",
+        "textbook_page_reference": "Our American Heritage, Page 2; Lesson Plans Homeschool History 3, p. 19"
+      },
+      {
+        "id": "q6",
+        "question": "Why was the New World named 'America' rather than 'Columbia'?",
+        "options": [
+          "A. To honor Queen Isabella of Spain",
+          "B. To honor Amerigo Vespucci, who recognized it as newly discovered continents",
+          "C. Because an ancient Native American chief suggested the name",
+          "D. It was randomly chosen by a printer in England"
+        ],
+        "correct": "B",
+        "explanation": "Our American Heritage (Page 2) explains that the continents were named America in honor of Amerigo Vespucci, the Italian navigator who recognized Columbus had found new continents.",
+        "textbook_page_reference": "Our American Heritage, Page 2; Lesson Plans Homeschool History 3, p. 19"
       }
     ]
   },
