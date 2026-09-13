@@ -1,4 +1,4 @@
-// Build timestamp: 1789291780.0607755
+// Build timestamp: 1789306809.776807
 export const LESSONS_DATA = {
   "g5-d001-spelling-5": {
     "id": "g5-d001-spelling-5",
@@ -10406,14 +10406,129 @@ export const LESSONS_DATA = {
     "grade": "Grade 5",
     "day": "Ngày 003",
     "subject": "Bible 5 (Bài 003)",
-    "teacher": "",
+    "teacher": "Miss Anne Spaugh",
     "videoUrl": "",
     "driveEmbedUrl": "",
-    "bookTitle": "",
-    "bookPages": "",
-    "manualRef": "",
-    "bookIdentification": {},
-    "timestampMap": [],
+    "bookTitle": "Authorized King James Version (KJV) Holy Bible & Bible 5 Journal",
+    "bookPages": "Phi-líp (Philippians) 2:4–11; Mác 4:35–41, 5:35–43, 6:34–44; Lu-ca 2:11–20, 52; Giăng 5:5–9, 11:32–45, 18:28–40; Bible 5 Journal tr. 3–7, 231",
+    "manualRef": "Homeschool Grade 5 Video Manual (Lesson 3, pp. 6–7), Bible 5 Curriculum",
+    "bookIdentification": {
+      "subject": "Bible 5",
+      "day": "Bài 003",
+      "teacher": "Miss Anne Spaugh",
+      "primary_textbook": "Authorized King James Version (KJV) Holy Bible & Bible 5 Journal",
+      "textbook_pages": "Phi-líp (Philippians) 2:4–11; Mác 4:35–41, 5:35–43, 6:34–44; Lu-ca 2:11–20, 52; Giăng 5:5–9, 11:32–45, 18:28–40; Bible 5 Journal tr. 3–7, 231",
+      "supplementary_materials": "Homeschool Grade 5 Video Manual (Lesson 3, pp. 6–7), Bible 5 Curriculum",
+      "required_supplies": "Kinh Thánh KJV, sách Bible 5 Journal, bút viết",
+      "video_duration": "28 phút 36 giây"
+    },
+    "timestampMap": [
+      {
+        "startTime": 0,
+        "endTime": 60,
+        "title": "Chào lớp học sinh đang xem, mời cả lớp đứng lên.",
+        "desc": "Good morning students watching. Welcome to Bible today. We will begin with a pledge...",
+        "bookRef": "Grade 5 Video Manual — Phần chuẩn bị đầu giờ"
+      },
+      {
+        "startTime": 60,
+        "endTime": 165,
+        "title": "Nghi thức chào cờ và hát thánh ca mở đầu.",
+        "desc": "Lời cam kết trung thành với lá cờ Mỹ (\"I pledge allegiance...\"), hát \"My Country 'Tis of Thee\" và \"In the Garden\".",
+        "bookRef": "Bài hát quốc ca/thánh ca trong chương trình Abeka"
+      },
+      {
+        "startTime": 165,
+        "endTime": 270,
+        "title": "Ôn tập câu gốc tháng: Philippians 2:4–11.",
+        "desc": "Giáo viên dẫn dắt đọc từng câu: \"Look not every man on his own things... Let this mind be in you, which was also in Christ Jesus.\"",
+        "bookRef": "Kinh Thánh KJV: Phi-líp 2:4–5"
+      },
+      {
+        "startTime": 270,
+        "endTime": 390,
+        "title": "Luyện tập đọc đồng thanh câu gốc đoạn tiếp theo.",
+        "desc": "Phân tích sự hạ mình của Đấng Christ: \"Who, being in the form of God, thought it not robbery to be equal with God...\"",
+        "bookRef": "Kinh Thánh KJV: Phi-líp 2:6–8"
+      },
+      {
+        "startTime": 390,
+        "endTime": 510,
+        "title": "Khẳng định sự tôn cao và vinh hiển của Danh Chúa. Cầu nguyện đầu giờ.",
+        "desc": "\"Wherefore God also hath highly exalted him... every knee should bow... Lord, I pray that you bless our day.\"",
+        "bookRef": "Kinh Thánh KJV: Phi-líp 2:9–11"
+      },
+      {
+        "startTime": 510,
+        "endTime": 630,
+        "title": "Kiểm tra trí nhớ cá nhân học sinh tại lớp.",
+        "desc": "Giáo viên gọi học sinh đứng dậy đọc thuộc lòng từng phần của phân đoạn Phi-líp 2:4–11.",
+        "bookRef": "Video Manual p. 6 — Memorization Check"
+      },
+      {
+        "startTime": 630,
+        "endTime": 750,
+        "title": "Ôn tập cuộc đời Chúa Giê-xu từ lúc giáng sinh.",
+        "desc": "Nhắc lại sự kiện Chúa sinh ra tại Bết-lê-hem, các thiên sứ báo tin cho người chăn chiên.",
+        "bookRef": "Kinh Thánh: Lu-ca (Luke) 2:11–20"
+      },
+      {
+        "startTime": 750,
+        "endTime": 870,
+        "title": "Sự trưởng thành và chức vụ ban đầu của Chúa.",
+        "desc": "\"He grew in wisdom and stature...\" Chúa lớn lên, vâng phục cha mẹ và đầy dẫy sự khôn ngoan của Đức Chúa Trời.",
+        "bookRef": "Kinh Thánh: Lu-ca 2:52"
+      },
+      {
+        "startTime": 870,
+        "endTime": 990,
+        "title": "Quyền năng trên thiên nhiên: Dẹp yên bão biển.",
+        "desc": "Các môn đồ kinh hãi trên thuyền giữa sóng to gió lớn; Chúa Giê-xu phán: \"Hãy êm đi, lặng đi!\", gió và biển liền yên lặng.",
+        "bookRef": "Kinh Thánh: Mác (Mark) 4:35–41"
+      },
+      {
+        "startTime": 990,
+        "endTime": 1110,
+        "title": "Quyền năng chữa lành bệnh tật: Người bất toại bên hồ Bê-tết-đa.",
+        "desc": "Người đau ốm 38 năm bên hồ; Chúa truyền lệnh: \"Hãy đứng dậy, vác giường ngươi và đi.\"",
+        "bookRef": "Kinh Thánh: Giăng (John) 5:5–9"
+      },
+      {
+        "startTime": 1110,
+        "endTime": 1230,
+        "title": "Quyền năng tiếp trợ: Hóa bánh cho 5.000 người ăn.",
+        "desc": "Cậu bé dâng 5 chiếc bánh và 2 con cá; Chúa tạ ơn, bẻ ra và nuôi sống hơn 5.000 người, thu lại 12 giỏ đầy.",
+        "bookRef": "Kinh Thánh: Mác (Mark) 6:34–44"
+      },
+      {
+        "startTime": 1230,
+        "endTime": 1350,
+        "title": "Quyền năng trên sự chết: Kêu La-xa-rơ sống lại.",
+        "desc": "La-xa-rơ đã chôn trong mộ 4 ngày; Chúa phán lớn tiếng: \"Hỡi La-xa-rơ, hãy ra!\" và người chết bước ra khỏi mộ.",
+        "bookRef": "Kinh Thánh: Giăng (John) 11:32–45"
+      },
+      {
+        "startTime": 1350,
+        "endTime": 1470,
+        "title": "Ý nghĩa tối thượng của quyền năng Chúa: Con đường Thập tự giá.",
+        "desc": "Chúa Giê-xu không chỉ là Đấng làm phép lạ, mà Ngài chính là Đấng Cứu Thế đến để gánh thay tội lỗi của nhân loại trên cây gỗ.",
+        "bookRef": "Kinh Thánh: Mác 14:55–61; Lu-ca 23"
+      },
+      {
+        "startTime": 1470,
+        "endTime": 1590,
+        "title": "Áp dụng bài học thực tế vào đời sống học sinh.",
+        "desc": "Học sinh học cách đặt niềm tin tuyệt đối nơi Chúa trước mọi nan đề và khó khăn trong cuộc sống hằng ngày.",
+        "bookRef": "Bible 5 Journal — Mục suy ngẫm"
+      },
+      {
+        "startTime": 1590,
+        "endTime": 1716,
+        "title": "Dặn dò bài tập nhật ký và nhiệm vụ đọc tiếp theo.",
+        "desc": "\"If you will read John chapter 18 verses 28 through 40... prepare for our upcoming Bible journal entry.\"",
+        "bookRef": "Kinh Thánh: Giăng 18:28–40 & Bible 5 Journal"
+      }
+    ],
     "ubdReport": {},
     "flashcards": [],
     "slides": [],
@@ -39932,96 +40047,2304 @@ export const LESSONS_DATA = {
         "bookRef": "Our American Heritage - Tr. 8 (Comprehension Check)"
       }
     ],
-    "ubdReport": {},
-    "flashcards": [],
-    "slides": [],
-    "quizData": []
+    "ubdReport": {
+      "subject_name": "History 3",
+      "folder_url": "https://drive.google.com/drive/folders/15ipn7EP3FUF8fh1JFD2spbe64k72gKhm",
+      "meta": {
+        "subject": "History 3",
+        "lesson_day": "Bài 002",
+        "teacher": "Đội ngũ giáo viên Abeka Academy Grade 3",
+        "textbook": "Our American Heritage (Chương 1, tr. 4–8)",
+        "supplementary": "Teaching Charts 1A/1B, 23–25, 33, Lesson Plans Homeschool History 3, Our American Heritage Answer Key",
+        "duration": "22 phút 03 giây",
+        "supplies": "Sách Our American Heritage, Quả địa cầu (Globe), bút, vở ghi"
+      },
+      "stage1_desired_results": {
+        "skill_taxonomy": [
+          {
+            "level_name": "1. Kỹ năng Nền tảng (Foundation Skills)",
+            "competency_desc": "Nhận diện hình cầu (sphere), quả địa cầu (globe), đường xích đạo (equator) và 4 hướng chính trên la bàn hoa tiêu (Compass Rose: North, South, East, West).",
+            "lesson_illustration": "Học sinh chỉ đúng trục Bắc - Nam trên quả địa cầu, xác định xích đạo là đường phân đôi Trái Đất thành Bắc và Nam bán cầu [00:00 - 02:45]."
+          },
+          {
+            "level_name": "2. Kỹ năng Cốt lõi (Core Skills)",
+            "competency_desc": "Đọc hiểu trục thời gian (Timeline); phân biệt Đông / Tây bán cầu; giải thích bối cảnh lịch sử thế kỷ 15 và ước mơ thám hiểm của Columbus; nắm vững các thuật ngữ pirates, caravans, voyage.",
+            "lesson_illustration": "Đọc trục thời gian tr. 4 xác định năm sinh 1451 và chuyến hải hành 1492; giải thích vì sao Columbus tin rằng đi về hướng Tây sẽ tới được phương Đông [08:45 - 15:15]."
+          },
+          {
+            "level_name": "3. Kỹ năng Ứng dụng (Applied Skills)",
+            "competency_desc": "Sử dụng la bàn hoa tiêu định vị các lục địa và đại dương trên bản đồ phẳng; giải bài tập Comprehension Check tr. 8; đối chiếu khó khăn giữa đường bộ (caravans) và đường biển (voyage).",
+            "lesson_illustration": "Xác định vị trí nước Mỹ thuộc Bắc Bán cầu và Tây Bán cầu; hoàn thành câu hỏi kiểm tra đọc hiểu đầu trang 8 [17:50 - 22:03]."
+          },
+          {
+            "level_name": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+            "competency_desc": "Nhận diện sự bóp méo hình học khi trải phẳng quả địa cầu lên bản đồ 2D; đánh giá tầm nhìn vượt qua định kiến và nỗi sợ hãi ('Biển Tối' - Sea of Darkness) của Columbus.",
+            "lesson_illustration": "Học sinh tự giải thích vì sao đại dương bị tách đôi trên mép bản đồ phẳng; liên hệ lòng dũng cảm của Columbus với việc vượt qua nỗi sợ điều chưa biết trong học tập."
+          }
+        ],
+        "clos": [
+          "CLO 1: Xác định chính xác các yếu tố địa lý trên quả địa cầu và bản đồ: Xích đạo (Equator), 4 bán cầu (Bắc, Nam, Đông, Tây) và 4 hướng chính theo la bàn hoa tiêu (Compass Rose).",
+          "CLO 2: Trình bày bối cảnh thiếu thời của Columbus tại Genoa, ước mơ đi biển và lập luận khoa học về Trái Đất hình cầu để tìm đường sang Indies.",
+          "CLO 3: Đọc và phân tích chính xác trục niên biểu lịch sử (Timeline) trang 4 SGK từ mốc 1451 đến 1492.",
+          "CLO 4: Vận dụng chuẩn xác 3 thuật ngữ lịch sử pirates, caravans, voyage vào việc trả lời các câu hỏi đọc hiểu trang 8."
+        ]
+      },
+      "stage3_learning_plan": {
+        "jit_tools": [
+          {
+            "tool_name": "Ôn tập quả địa cầu, hình cầu, xích đạo, Bắc/Nam bán cầu (00:00 - 02:45)",
+            "description": "Nguồn: Globe, Teaching Charts 1A/1B | Ý đồ sư phạm: Củng cố khái niệm không gian 3 chiều trước khi chuyển sang bản đồ phẳng."
+          },
+          {
+            "tool_name": "La bàn hoa tiêu (Compass Rose) & mẹo nhớ 4 hướng chính (02:45 - 05:30)",
+            "description": "Nguồn: Teaching Chart 33 | Ý đồ sư phạm: Cung cấp công cụ định hướng (North up, South down, East right, West left)."
+          },
+          {
+            "tool_name": "Đông / Tây bán cầu, vị trí Bắc Mỹ và nước Mỹ (05:30 - 08:45)",
+            "description": "Nguồn: World Map Charts 1A/1B | Ý đồ sư phạm: Xác lập vị trí quê hương học sinh trên bản đồ thế giới."
+          },
+          {
+            "tool_name": "Đọc Timeline tr. 4, giới thiệu cuộc đời Columbus (08:45 - 12:30)",
+            "description": "Nguồn: Our American Heritage tr. 4 | Ý đồ sư phạm: Hướng dẫn kỹ năng đọc niên biểu theo trình tự thời gian từ trái sang phải."
+          },
+          {
+            "tool_name": "Tuổi thơ tại Genoa, học vẽ bản đồ & khát vọng vượt biển (12:30 - 15:15)",
+            "description": "Nguồn: SGK tr. 5 | Ý đồ sư phạm: Xây dựng hình tượng nhân vật lịch sử gắn liền với tính kiên trì và đam mê."
+          },
+          {
+            "tool_name": "Bóc tách từ vựng: Pirates, Caravans, Voyage (15:15 - 17:50)",
+            "description": "Nguồn: SGK tr. 5 (Khung từ vựng) | Ý đồ sư phạm: Cung cấp thuật ngữ công cụ giải thích vì sao cần tìm hải trình mới."
+          },
+          {
+            "tool_name": "Nỗi sợ 'Sea of Darkness' & niềm tin Trái Đất hình cầu (17:50 - 20:40)",
+            "description": "Nguồn: SGK tr. 6–7 | Ý đồ sư phạm: Phân tích sự đối lập giữa mê tín thời trung đại và tư duy khoa học dũng cảm."
+          },
+          {
+            "tool_name": "Tổng kết & hướng dẫn Comprehension Check tr. 8 (20:40 - 22:03)",
+            "description": "Nguồn: SGK tr. 8 | Ý đồ sư phạm: Chuyển giao nhiệm vụ đánh giá đọc hiểu cho phụ huynh / giáo viên tại chỗ."
+          }
+        ]
+      },
+      "pitfalls": [
+        {
+          "trap_name": "Bẫy 1: Nhầm lẫn hướng Đông và hướng Tây trên bản đồ",
+          "situation": "Học sinh nhìn vào la bàn hoa tiêu và ghi nhầm West ở bên phải, East ở bên trái.",
+          "common_error": "Không nhớ thứ tự vòng tròn theo chiều kim đồng hồ.",
+          "solution": "Dạy câu khẩu quyết tiếng Anh 'Never Eat Soggy Waffles' (N - E - S - W) theo chiều kim đồng hồ, ngón tay chỉ từ trên đỉnh sang phải xuống dưới rồi sang trái."
+        },
+        {
+          "trap_name": "Bẫy 2: Hiểu lầm Columbus muốn chứng minh Trái Đất hình cầu để khám phá châu Mỹ",
+          "situation": "Học sinh cho rằng Columbus ra khơi với mục tiêu tìm ra nước Mỹ.",
+          "common_error": "Đánh đồng kết quả ngẫu nhiên với mục tiêu ban đầu.",
+          "solution": "Nhấn mạnh Columbus hoàn toàn không biết có sự tồn tại của châu Mỹ; mục tiêu thực sự của ông là tìm đường ngắn hơn sang phương Đông (Indies) để buôn bán tơ lụa và gia vị."
+        },
+        {
+          "trap_name": "Bẫy 3: Đọc ngược trục thời gian (Timeline)",
+          "situation": "Học sinh nhìn thấy năm 1492 trước rồi đọc ngược về năm 1451.",
+          "common_error": "Chưa nắm quy ước trục thời gian tăng dần từ quá khứ đến hiện tại.",
+          "solution": "Hướng dẫn quy tắc mũi tên: luôn đọc từ trái sang phải, mốc bên trái xảy ra trước (năm sinh 1451), mốc bên phải xảy ra sau (chuyến thám hiểm 1492)."
+        }
+      ],
+      "key_takeaways": [
+        {
+          "title": "Công cụ định hướng bản đồ",
+          "content": "Xích đạo (Equator) chia đôi Trái Đất thành Bắc và Nam bán cầu; la bàn hoa tiêu (Compass Rose) xác định 4 hướng chính (Bắc - Nam - Đông - Tây) giúp con người định vị chính xác vị trí trên biển và đất liền."
+        },
+        {
+          "title": "Tầm nhìn vượt biển của Columbus",
+          "content": "Khác với nỗi sợ hãi mơ hồ của người châu Âu về quái vật biển ở 'Vùng biển Tối' (Sea of Darkness), Columbus tin tưởng Trái Đất hình cầu và kiên trì theo đuổi hải trình sang hướng Tây để tiếp cận vùng Indies giàu có."
+        },
+        {
+          "title": "Động lực tìm kiếm hải trình mới",
+          "content": "Các đoàn lữ hành trên bộ (Caravans) gặp vô vàn hiểm nguy từ cướp bóc (Pirates/Bandits) và chi phí đắt đỏ, thôi thúc các quốc gia châu Âu tài trợ cho những chuyến hải hành vượt đại dương (Voyages)."
+        }
+      ],
+      "formative_quiz": [
+        {
+          "question": "A student looking at a world map asserts that traveling directly North from any point on Earth will eventually lead back to the exact same starting position without turning around. How does the spherical coordinate system taught in Lesson 2 refute this claim?",
+          "options": [
+            "A. The equator acts as an impassable physical wall preventing continuous northern travel.",
+            "B. Traveling North leads directly to the North Pole, after which any continued movement in the same direction becomes South.",
+            "C. Earth is shaped like a flat cylinder where northern travel exits into outer space.",
+            "D. Lines of longitude converge at the equator, forcing travelers to move eastward."
+          ],
+          "correct_answer": "B",
+          "explanation": "Page 4 and Teaching Charts 1A/1B explain that the North Pole is the northernmost point on the globe. Once a traveler reaches the North Pole, every direction away from it is South; one cannot continue traveling North past the North Pole."
+        },
+        {
+          "question": "While examining an antique 15th-century maritime map, Julian notices sea monsters illustrated in the Atlantic Ocean and the label 'Sea of Darkness'. Why did Europeans prior to Columbus's 1492 voyage hold this widespread belief?",
+          "options": [
+            "A. Ancient sailors had verified the existence of giant serpents capable of swallowing entire fleets.",
+            "B. Unexplored waters beyond familiar coastal horizons generated intense mythological fears of boiling waters, monsters, and endless falling.",
+            "C. European monarchs intentionally published fraudulent maps to discourage common merchants from private trade.",
+            "D. The Atlantic Ocean was permanently obscured by dense volcanic smoke and total darkness."
+          ],
+          "correct_answer": "B",
+          "explanation": "Pages 6–7 of Our American Heritage highlight that medieval Europeans called the unknown Atlantic the 'Sea of Darkness' due to lack of exploration, fearing boiling water at the equator, ship-destroying sea monsters, and falling off the edge of a flat earth."
+        },
+        {
+          "question": "Christopher Columbus proposed sailing westward across the Atlantic Ocean to reach the rich trade markets of the Indies. Upon what geographic premise did he base his bold navigational plan?",
+          "options": [
+            "A. He believed the Atlantic Ocean was merely a narrow river connecting Spain directly to China.",
+            "B. He understood the Earth to be a sphere, reasoning that sailing West would eventually bring him to the East.",
+            "C. He possessed secret Viking maps accurately depicting the exact width of the North American continent.",
+            "D. He intended to discover an uninhabited new continent rather than reaching Asia."
+          ],
+          "correct_answer": "B",
+          "explanation": "Page 6 explains that Columbus firmly believed the Earth was round (a sphere). Therefore, he deduced that sailing West across the ocean would eventually lead directly to the eastern shores of Asia and the Indies, although he underestimated Earth's circumference and was unaware of the Americas."
+        },
+        {
+          "question": "A 3rd-grade student reads a historical timeline with events dated 1451 and 1492. How does the timeline structure in Our American Heritage guide the reader to interpret these dates correctly?",
+          "options": [
+            "A. Timelines arrange events randomly based on the personal preference of the author.",
+            "B. Timelines organize events in chronological order from left to right, showing 1451 (Columbus's birth) preceding 1492 (his historic voyage).",
+            "C. Later events are placed on the left margin, moving backward in time toward the right.",
+            "D. Numbers on a timeline represent distance in nautical miles rather than calendar years."
+          ],
+          "correct_answer": "B",
+          "explanation": "Page 4 introduces the 'Timeline of Important Events' for Columbus. Standard historical timelines display chronological progression from left to right, demonstrating that Columbus was born in 1451 in Genoa, Italy, and later made his historic voyage in 1492."
+        },
+        {
+          "question": "In Lesson 2, students learn the specialized vocabulary terms 'caravans', 'pirates', and 'voyage'. How did overland caravans influence the European search for an all-water sea route to the Indies?",
+          "options": [
+            "A. Caravans traveled so quickly that European merchants saw no economic need for ships.",
+            "B. Overland caravan journeys were extremely long, exhausting, expensive, and constantly threatened by bandits and hostile territories.",
+            "C. Caravans operated exclusively on oceans using primitive steam-powered barges.",
+            "D. European kings outlawed camels and wagons, forcing merchants to build sailing ships."
+          ],
+          "correct_answer": "B",
+          "explanation": "Page 5 (Words to Remember) defines caravans as groups of merchants traveling together for safety across deserts. Because land routes were perilous, heavily taxed, and slow, explorers sought an all-water maritime route ('voyage') to transport spices and silks safely."
+        },
+        {
+          "question": "When orienting a standard classroom map using a Compass Rose, which rule accurately determines the cardinal directions?",
+          "options": [
+            "A. North is always toward the right margin, South is left, East is top, and West is bottom.",
+            "B. North is toward the top of the map, South is toward the bottom, East is to the right, and West is to the left.",
+            "C. East and West switch places whenever a map depicts the Southern Hemisphere.",
+            "D. Cardinal directions depend entirely on which direction the classroom teacher is facing."
+          ],
+          "correct_answer": "B",
+          "explanation": "Teaching Chart 33 and the lesson transcript establish that on a standard map: North points toward the top, South toward the bottom, East is to the right, and West is to the left (often remembered by the clockwise mnemonic 'Never Eat Soggy Waffles')."
+        }
+      ],
+      "stage2_bloom_assessment": {
+        "scenario": "Học sinh đóng vai một Nhà hàng hải trẻ tuổi (Young Navigator) tại cảng biển Genoa vào thế kỷ 15, chuẩn bị hành trang bản đồ và kiến thức địa lý để tham gia đoàn thám hiểm vượt đại dương cùng Christopher Columbus.",
+        "levels": [
+          {
+            "level": "Cấp độ 1: Remember (Nhớ)",
+            "sub_heading": "Tái hiện sự kiện và thuật ngữ lịch sử",
+            "task": "Nêu năm sinh của Columbus, tên thành phố cảng nơi ông sinh ra và định nghĩa thuật ngữ caravans.",
+            "solution": "Sinh năm 1451 tại Genoa, Ý. Caravans là các đoàn thương buôn đi lữ hành cùng nhau qua sa mạc để buôn bán và bảo vệ lẫn nhau.",
+            "pedagogical_rationale": "Tái hiện chính xác dữ kiện sách giáo khoa tr. 4-5."
+          },
+          {
+            "level": "Cấp độ 2: Understand (Hiểu)",
+            "sub_heading": "Lý giải bối cảnh và tâm lý thời đại",
+            "task": "Giải thích vì sao người châu Âu thời bấy giờ lại gọi Đại Tây Dương là 'Biển Tối' (Sea of Darkness) và Columbus có đồng tình với nỗi sợ đó không?",
+            "solution": "Vì chưa ai từng vượt qua đại dương này nên họ tưởng tượng ra quái vật và vực thẳm. Columbus không sợ vì ông tin Trái Đất hình cầu và Chúa sẽ dẫn dắt ông đến bờ bên kia.",
+            "pedagogical_rationale": "Thấu hiểu tâm lý thời đại và tư tưởng khoa học."
+          },
+          {
+            "level": "Cấp độ 3: Apply (Vận dụng)",
+            "sub_heading": "Định hướng hải trình bằng la bàn",
+            "task": "Sử dụng la bàn hoa tiêu, hãy chỉ đường cho một con thuyền xuất phát từ Tây Ban Nha muốn đến bờ biển châu Mỹ thì phải lái thuyền theo hướng chính nào?",
+            "solution": "Thuyền phải lái về hướng Tây (West) trên bản đồ.",
+            "pedagogical_rationale": "Ứng dụng quy tắc 4 hướng la bàn hoa tiêu vào hành trình thực tế."
+          },
+          {
+            "level": "Cấp độ 4: Analyze (Phân tích)",
+            "sub_heading": "So sánh phương thức vận tải thế kỷ 15",
+            "task": "So sánh ưu điểm và nhược điểm giữa việc vận chuyển hàng hóa bằng đường bộ (caravan) và bằng đường biển (voyage) trong thế kỷ 15.",
+            "solution": "Đường bộ: Chở được ít hàng, đi rất chậm, chi phí cao, dễ bị cướp. Đường biển: Chở được khối lượng lớn hơn nhiều, đi thẳng, nhưng đối mặt với bão tố và rủi ro đắm tàu.",
+            "pedagogical_rationale": "Rèn luyện tư duy kinh tế - địa lý so sánh."
+          },
+          {
+            "level": "Cấp độ 5: Evaluate (Đánh giá)",
+            "sub_heading": "Thẩm định chiến lược hải hành",
+            "task": "Một thủy thủ khuyên Columbus: 'Chúng ta nên bám sát bờ biển châu Phi như người Bồ Đào Nha thay vì mạo hiểm ra biển khơi hướng Tây'. Em hãy đánh giá lời khuyên này dựa trên lập luận của Columbus.",
+            "solution": "Lời khuyên an toàn theo lối mòn nhưng hải trình vòng qua châu Phi quá dài; Columbus chọn hướng Tây vì lập luận Trái Đất hình tròn sẽ tạo ra con đường ngắn hơn vượt bậc.",
+            "pedagogical_rationale": "Đánh giá quyết định chiến lược trong điều kiện bất định."
+          },
+          {
+            "level": "Cấp độ 6: Create (Sáng tạo)",
+            "sub_heading": "Thiết kế la bàn hoa tiêu & Nhật ký vượt biển",
+            "task": "Em hãy vẽ phác thảo một chiếc la bàn hoa tiêu (Compass Rose) cổ điển và viết một đoạn nhật ký ngắn (3-4 câu) của Columbus trước đêm nhổ neo rời cảng.",
+            "solution": "Rubric chấm điểm (Thang 10 điểm):\n- Đúng 4 hướng North, South, East, West trên la bàn: 4 điểm.\n- Nhật ký thể hiện được đức tin, lòng can đảm và niềm tin Trái Đất hình cầu: 4 điểm.\n- Trình bày thẩm mỹ, giàu cảm xúc văn học: 2 điểm.",
+            "pedagogical_rationale": "Phát triển năng lực sáng tạo kết hợp giữa mỹ thuật bản đồ và nhập vai lịch sử."
+          }
+        ]
+      }
+    },
+    "flashcards": [
+      {
+        "term": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Nhận diện hình cầu (sphere), quả địa cầu (globe), đường xích đạo (equator) và 4 hướng chính trên la bàn hoa tiêu (Compass Rose: North, South, East, West).",
+        "memoryTip": "Học sinh chỉ đúng trục Bắc - Nam trên quả địa cầu, xác định xích đạo là đường phân đôi Trái Đất thành Bắc và Nam bán cầu [00:00 - 02:45]."
+      },
+      {
+        "term": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Đọc hiểu trục thời gian (Timeline); phân biệt Đông / Tây bán cầu; giải thích bối cảnh lịch sử thế kỷ 15 và ước mơ thám hiểm của Columbus; nắm vững các thuật ngữ pirates, caravans, voyage.",
+        "memoryTip": "Đọc trục thời gian tr. 4 xác định năm sinh 1451 và chuyến hải hành 1492; giải thích vì sao Columbus tin rằng đi về hướng Tây sẽ tới được phương Đông [08:45 - 15:15]."
+      },
+      {
+        "term": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Sử dụng la bàn hoa tiêu định vị các lục địa và đại dương trên bản đồ phẳng; giải bài tập Comprehension Check tr. 8; đối chiếu khó khăn giữa đường bộ (caravans) và đường biển (voyage).",
+        "memoryTip": "Xác định vị trí nước Mỹ thuộc Bắc Bán cầu và Tây Bán cầu; hoàn thành câu hỏi kiểm tra đọc hiểu đầu trang 8 [17:50 - 22:03]."
+      },
+      {
+        "term": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Nhận diện sự bóp méo hình học khi trải phẳng quả địa cầu lên bản đồ 2D; đánh giá tầm nhìn vượt qua định kiến và nỗi sợ hãi ('Biển Tối' - Sea of Darkness) của Columbus.",
+        "memoryTip": "Học sinh tự giải thích vì sao đại dương bị tách đôi trên mép bản đồ phẳng; liên hệ lòng dũng cảm của Columbus với việc vượt qua nỗi sợ điều chưa biết trong học tập."
+      },
+      {
+        "term": "Công cụ định hướng bản đồ",
+        "category": "Key Takeaway",
+        "definition": "Xích đạo (Equator) chia đôi Trái Đất thành Bắc và Nam bán cầu; la bàn hoa tiêu (Compass Rose) xác định 4 hướng chính (Bắc - Nam - Đông - Tây) giúp con người định vị chính xác vị trí trên biển và đất liền.",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Tầm nhìn vượt biển của Columbus",
+        "category": "Key Takeaway",
+        "definition": "Khác với nỗi sợ hãi mơ hồ của người châu Âu về quái vật biển ở 'Vùng biển Tối' (Sea of Darkness), Columbus tin tưởng Trái Đất hình cầu và kiên trì theo đuổi hải trình sang hướng Tây để tiếp cận vùng Indies giàu có.",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Động lực tìm kiếm hải trình mới",
+        "category": "Key Takeaway",
+        "definition": "Các đoàn lữ hành trên bộ (Caravans) gặp vô vàn hiểm nguy từ cướp bóc (Pirates/Bandits) và chi phí đắt đỏ, thôi thúc các quốc gia châu Âu tài trợ cho những chuyến hải hành vượt đại dương (Voyages).",
+        "memoryTip": "Trọng tâm bài học UbD"
+      }
+    ],
+    "slides": [
+      {
+        "slideNumber": 1,
+        "title": "Tổng Quan Bài Học History 3 (Bài 002)",
+        "tag": "Grade 3 Overview",
+        "bulletPoints": [
+          "Giáo viên: Đội ngũ giáo viên Abeka Academy Grade 3",
+          "Sách giáo khoa: Our American Heritage (Chương 1, tr. 4–8)",
+          "Tài liệu hướng dẫn: Teaching Charts 1A/1B, 23–25, 33, Lesson Plans Homeschool History 3, Our American Heritage Answer Key",
+          "Thời lượng bài giảng: 22 phút 03 giây"
+        ],
+        "keyTakeaway": "Dụng cụ cần thiết: Sách Our American Heritage, Quả địa cầu (Globe), bút, vở ghi"
+      },
+      {
+        "slideNumber": 2,
+        "title": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Nhận diện hình cầu (sphere), quả địa cầu (globe), đường xích đạo (equator) và 4 hướng chính trên la bàn hoa tiêu (Compass Rose: North, South, East, West)."
+        ],
+        "keyTakeaway": "Học sinh chỉ đúng trục Bắc - Nam trên quả địa cầu, xác định xích đạo là đường phân đôi Trái Đất thành Bắc và Nam bán cầu [00:00 - 02:45]."
+      },
+      {
+        "slideNumber": 3,
+        "title": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Đọc hiểu trục thời gian (Timeline); phân biệt Đông / Tây bán cầu; giải thích bối cảnh lịch sử thế kỷ 15 và ước mơ thám hiểm của Columbus; nắm vững các thuật ngữ pirates, caravans, voyage."
+        ],
+        "keyTakeaway": "Đọc trục thời gian tr. 4 xác định năm sinh 1451 và chuyến hải hành 1492; giải thích vì sao Columbus tin rằng đi về hướng Tây sẽ tới được phương Đông [08:45 - 15:15]."
+      },
+      {
+        "slideNumber": 4,
+        "title": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Sử dụng la bàn hoa tiêu định vị các lục địa và đại dương trên bản đồ phẳng; giải bài tập Comprehension Check tr. 8; đối chiếu khó khăn giữa đường bộ (caravans) và đường biển (voyage)."
+        ],
+        "keyTakeaway": "Xác định vị trí nước Mỹ thuộc Bắc Bán cầu và Tây Bán cầu; hoàn thành câu hỏi kiểm tra đọc hiểu đầu trang 8 [17:50 - 22:03]."
+      },
+      {
+        "slideNumber": 5,
+        "title": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Nhận diện sự bóp méo hình học khi trải phẳng quả địa cầu lên bản đồ 2D; đánh giá tầm nhìn vượt qua định kiến và nỗi sợ hãi ('Biển Tối' - Sea of Darkness) của Columbus."
+        ],
+        "keyTakeaway": "Học sinh tự giải thích vì sao đại dương bị tách đôi trên mép bản đồ phẳng; liên hệ lòng dũng cảm của Columbus với việc vượt qua nỗi sợ điều chưa biết trong học tập."
+      },
+      {
+        "slideNumber": 6,
+        "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
+        "tag": "Core Knowledge",
+        "bulletPoints": [
+          "Công cụ định hướng bản đồ: Xích đạo (Equator) chia đôi Trái Đất thành Bắc và Nam bán cầu; la bàn hoa tiêu (Compass Rose) xác định 4 hướng chính (Bắc - Nam - Đông - Tây) giúp con người định vị chính xác vị trí trên biển và đất liền.",
+          "Tầm nhìn vượt biển của Columbus: Khác với nỗi sợ hãi mơ hồ của người châu Âu về quái vật biển ở 'Vùng biển Tối' (Sea of Darkness), Columbus tin tưởng Trái Đất hình cầu và kiên trì theo đuổi hải trình sang hướng Tây để tiếp cận vùng Indies giàu có.",
+          "Động lực tìm kiếm hải trình mới: Các đoàn lữ hành trên bộ (Caravans) gặp vô vàn hiểm nguy từ cướp bóc (Pirates/Bandits) và chi phí đắt đỏ, thôi thúc các quốc gia châu Âu tài trợ cho những chuyến hải hành vượt đại dương (Voyages)."
+        ],
+        "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
+      }
+    ],
+    "quizData": [
+      {
+        "id": "q1",
+        "question": "A student looking at a world map asserts that traveling directly North from any point on Earth will eventually lead back to the exact same starting position without turning around. How does the spherical coordinate system taught in Lesson 2 refute this claim?",
+        "options": [
+          "A. The equator acts as an impassable physical wall preventing continuous northern travel.",
+          "B. Traveling North leads directly to the North Pole, after which any continued movement in the same direction becomes South.",
+          "C. Earth is shaped like a flat cylinder where northern travel exits into outer space.",
+          "D. Lines of longitude converge at the equator, forcing travelers to move eastward."
+        ],
+        "correct": "B",
+        "explanation": "Page 4 and Teaching Charts 1A/1B explain that the North Pole is the northernmost point on the globe. Once a traveler reaches the North Pole, every direction away from it is South; one cannot continue traveling North past the North Pole.",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q2",
+        "question": "While examining an antique 15th-century maritime map, Julian notices sea monsters illustrated in the Atlantic Ocean and the label 'Sea of Darkness'. Why did Europeans prior to Columbus's 1492 voyage hold this widespread belief?",
+        "options": [
+          "A. Ancient sailors had verified the existence of giant serpents capable of swallowing entire fleets.",
+          "B. Unexplored waters beyond familiar coastal horizons generated intense mythological fears of boiling waters, monsters, and endless falling.",
+          "C. European monarchs intentionally published fraudulent maps to discourage common merchants from private trade.",
+          "D. The Atlantic Ocean was permanently obscured by dense volcanic smoke and total darkness."
+        ],
+        "correct": "B",
+        "explanation": "Pages 6–7 of Our American Heritage highlight that medieval Europeans called the unknown Atlantic the 'Sea of Darkness' due to lack of exploration, fearing boiling water at the equator, ship-destroying sea monsters, and falling off the edge of a flat earth.",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q3",
+        "question": "Christopher Columbus proposed sailing westward across the Atlantic Ocean to reach the rich trade markets of the Indies. Upon what geographic premise did he base his bold navigational plan?",
+        "options": [
+          "A. He believed the Atlantic Ocean was merely a narrow river connecting Spain directly to China.",
+          "B. He understood the Earth to be a sphere, reasoning that sailing West would eventually bring him to the East.",
+          "C. He possessed secret Viking maps accurately depicting the exact width of the North American continent.",
+          "D. He intended to discover an uninhabited new continent rather than reaching Asia."
+        ],
+        "correct": "B",
+        "explanation": "Page 6 explains that Columbus firmly believed the Earth was round (a sphere). Therefore, he deduced that sailing West across the ocean would eventually lead directly to the eastern shores of Asia and the Indies, although he underestimated Earth's circumference and was unaware of the Americas.",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q4",
+        "question": "A 3rd-grade student reads a historical timeline with events dated 1451 and 1492. How does the timeline structure in Our American Heritage guide the reader to interpret these dates correctly?",
+        "options": [
+          "A. Timelines arrange events randomly based on the personal preference of the author.",
+          "B. Timelines organize events in chronological order from left to right, showing 1451 (Columbus's birth) preceding 1492 (his historic voyage).",
+          "C. Later events are placed on the left margin, moving backward in time toward the right.",
+          "D. Numbers on a timeline represent distance in nautical miles rather than calendar years."
+        ],
+        "correct": "B",
+        "explanation": "Page 4 introduces the 'Timeline of Important Events' for Columbus. Standard historical timelines display chronological progression from left to right, demonstrating that Columbus was born in 1451 in Genoa, Italy, and later made his historic voyage in 1492.",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q5",
+        "question": "In Lesson 2, students learn the specialized vocabulary terms 'caravans', 'pirates', and 'voyage'. How did overland caravans influence the European search for an all-water sea route to the Indies?",
+        "options": [
+          "A. Caravans traveled so quickly that European merchants saw no economic need for ships.",
+          "B. Overland caravan journeys were extremely long, exhausting, expensive, and constantly threatened by bandits and hostile territories.",
+          "C. Caravans operated exclusively on oceans using primitive steam-powered barges.",
+          "D. European kings outlawed camels and wagons, forcing merchants to build sailing ships."
+        ],
+        "correct": "B",
+        "explanation": "Page 5 (Words to Remember) defines caravans as groups of merchants traveling together for safety across deserts. Because land routes were perilous, heavily taxed, and slow, explorers sought an all-water maritime route ('voyage') to transport spices and silks safely.",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q6",
+        "question": "When orienting a standard classroom map using a Compass Rose, which rule accurately determines the cardinal directions?",
+        "options": [
+          "A. North is always toward the right margin, South is left, East is top, and West is bottom.",
+          "B. North is toward the top of the map, South is toward the bottom, East is to the right, and West is to the left.",
+          "C. East and West switch places whenever a map depicts the Southern Hemisphere.",
+          "D. Cardinal directions depend entirely on which direction the classroom teacher is facing."
+        ],
+        "correct": "B",
+        "explanation": "Teaching Chart 33 and the lesson transcript establish that on a standard map: North points toward the top, South toward the bottom, East is to the right, and West is to the left (often remembered by the clockwise mnemonic 'Never Eat Soggy Waffles').",
+        "textbook_page_reference": ""
+      }
+    ]
   },
   "g3-d002-bible-3": {
     "id": "g3-d002-bible-3",
     "grade": "Grade 3",
     "day": "Ngày 002",
     "subject": "Bible 3 (Bài 002)",
-    "teacher": "",
+    "teacher": "Mrs. Quito",
     "videoUrl": "",
     "driveEmbedUrl": "",
-    "bookTitle": "",
-    "bookPages": "",
-    "manualRef": "",
-    "bookIdentification": {},
-    "timestampMap": [],
-    "ubdReport": {},
-    "flashcards": [],
-    "slides": [],
-    "quizData": []
+    "bookTitle": "Kinh Thánh (Holy Bible - KJV / Genesis 1–3, Hebrews 11:1–6)",
+    "bookPages": "Sáng thế ký 1–3; Hê-bơ-rơ 11:1–6; Thi thiên 119:160",
+    "manualRef": "Abeka Grade 3 Bible Curriculum / Flash-a-Cards: Salvation Series (Lesson 2), Songs We Enjoy Series 3",
+    "bookIdentification": {
+      "subject": "Bible 3",
+      "day": "Bài 002",
+      "teacher": "Mrs. Quito",
+      "primary_textbook": "Kinh Thánh (Holy Bible - KJV / Genesis 1–3, Hebrews 11:1–6)",
+      "textbook_pages": "Sáng thế ký 1–3; Hê-bơ-rơ 11:1–6; Thi thiên 119:160",
+      "supplementary_materials": "Abeka Grade 3 Bible Curriculum / Flash-a-Cards: Salvation Series (Lesson 2), Songs We Enjoy Series 3",
+      "required_supplies": "Kinh Thánh KJV có kẹp trang, tập bài hát Songs We Enjoy 3, cờ Mỹ cho nghi thức chào cờ, sổ tay ghi câu gốc",
+      "video_duration": "30 phút 30 giây"
+    },
+    "timestampMap": [
+      {
+        "startTime": 0,
+        "endTime": 195,
+        "title": "Mrs. Quito chào mừng học sinh vào tiết Kinh Thánh; gọi học sinh lên rước cờ và hướng dẫn cả lớp đứng nghiêm trang chào cờ Mỹ (Pledge of Allegiance), hát vang bài hát \"America the Beautiful\" (Verse 1).",
+        "desc": "Khởi động lớp học, nghi thức chào cờ & Lòng yêu nước",
+        "bookRef": "Songs We Enjoy 3 - Tr. America"
+      },
+      {
+        "startTime": 195,
+        "endTime": 405,
+        "title": "Dạy thái độ cầu nguyện tôn kính: Cầu nguyện là sự trò chuyện trực tiếp với Đức Chúa Trời; cô giáo dâng lời cầu nguyện cảm tạ Chúa vì mái ấm gia đình, trường học và xin Chúa ban phước cho tiết học.",
+        "desc": "Kỷ luật tâm linh: Thái độ và tấm lòng khi cầu nguyện",
+        "bookRef": "Thực hành tâm linh lớp học Abeka"
+      },
+      {
+        "startTime": 405,
+        "endTime": 570,
+        "title": "Cả lớp đứng dậy vận động và hòa giọng hát các bài thánh ca vui tươi: \"This Little Light of Mine\" và điệp khúc \"He Owns the Cattle on a Thousand Hills\".",
+        "desc": "Âm nhạc thánh ca: Ngợi khen quyền năng và sự tể trị của Chúa",
+        "bookRef": "Songs We Enjoy 3"
+      },
+      {
+        "startTime": 570,
+        "endTime": 885,
+        "title": "Mở Kinh Thánh phân đoạn Hê-bơ-rơ chương 11; cả lớp cùng đọc thuộc lòng câu gốc Hê-bơ-rơ 11:1–6 (Memory Verse Passage); phân tích định nghĩa về đức tin và tấm gương của Hê-nóc (Enoch) làm đẹp lòng Chúa.",
+        "desc": "Ôn tập và ghi nhớ câu gốc: Hê-bơ-rơ 11:1–6 (Hebrews 11:1–6)",
+        "bookRef": "Holy Bible: Hebrews 11:1–6"
+      },
+      {
+        "startTime": 885,
+        "endTime": 1200,
+        "title": "Bắt đầu bài giảng giáo lý qua tranh Flash-a-Cards: Đức Chúa Trời sáng tạo thế giới hoàn hảo; tạo dựng A-đam và Ê-va theo hình ảnh Ngài để sống đời đời, tràn ngập tình yêu và tương giao mật thiết với Chúa trong vườn Ê-đen.",
+        "desc": "Bài học Sáng Tạo: A-đam, Ê-va và mục đích Chúa tạo dựng con người",
+        "bookRef": "Salvation Series Flash-a-Cards: Lesson 2 (Gen. 1–2)"
+      },
+      {
+        "startTime": 1200,
+        "endTime": 1530,
+        "title": "Phân tích biến cố Sa ngã: Satan (Kẻ lừa dối / The Deceiver) xuất hiện dưới lốt con rắn, nói dối và dụ dỗ Ê-va ăn trái cấm; sự bất tuân của A-đam và Ê-va khiến tội lỗi bước vào thế gian.",
+        "desc": "Sự Sa ngã của loài người & Bản chất lừa dối của tội lỗi",
+        "bookRef": "Salvation Series Flash-a-Cards: Lesson 2 (Gen. 3:1–6)"
+      },
+      {
+        "startTime": 1530,
+        "endTime": 1730,
+        "title": "Hậu quả nghiêm trọng của tội lỗi: Mối quan hệ với Chúa bị đổ vỡ, sự xấu hổ và cái chết tâm linh; tuy nhiên, Đức Chúa Trời ban lời hứa cứu chuộc đầu tiên rằng Đấng Cứu Thế sẽ đến để đánh bại Satan.",
+        "desc": "Hậu quả của tội lỗi & Lời hứa Đấng Cứu Thế (Genesis 3:15)",
+        "bookRef": "Salvation Series Flash-a-Cards: Lesson 2 (Gen. 3:7–24)"
+      },
+      {
+        "startTime": 1730,
+        "endTime": 1830,
+        "title": "Mrs. Quito cầu nguyện kết thúc bài học, tạ ơn Chúa vì kế hoạch cứu rỗi kỳ diệu; nhắc nhở học sinh tiếp tục ôn luyện câu gốc Hê-bơ-rơ 11:1–6 cùng gia đình.",
+        "desc": "Cầu nguyện kết thúc bài học & Dặn dò tự học",
+        "bookRef": "Lớp học trực tuyến Abeka Bible 3"
+      }
+    ],
+    "ubdReport": {
+      "subject_name": "Bible 3",
+      "folder_url": "https://drive.google.com/drive/folders/1jU0TqPbXN0efMQe7NZAAQfjzlYHvxXBQ",
+      "meta": {
+        "subject": "Bible 3",
+        "lesson_day": "Bài 002",
+        "teacher": "Mrs. Quito",
+        "textbook": "Kinh Thánh (Holy Bible - KJV / Genesis 1–3, Hebrews 11:1–6)",
+        "supplementary": "Abeka Bible 3 Curriculum / Flash-a-Cards: Salvation Series (Lesson 2), Songs We Enjoy 3",
+        "duration": "30 phút 30 giây",
+        "supplies": "Kinh Thánh KJV có kẹp trang, tập bài hát Songs We Enjoy 3, cờ Mỹ cho nghi thức chào cờ, sổ tay ghi câu gốc"
+      },
+      "stage1_desired_results": {
+        "skill_taxonomy": [
+          {
+            "level_name": "1. Kỹ năng Nền tảng (Foundation Skills)",
+            "competency_desc": "Duy trì nề nếp chào cờ nghiêm trang, hát thánh ca tôn vinh Chúa và tư thế cầu nguyện cung kính (nhắm mắt, cúi đầu). Đọc thuộc lòng Hê-bơ-rơ 11:1-6.",
+            "lesson_illustration": "Học sinh đứng nghiêm trang chào cờ Mỹ, hát bài 'America the Beautiful' và đọc vanh vách câu gốc Hê-bơ-rơ 11:1-6 [00:00 - 05:40]."
+          },
+          {
+            "level_name": "2. Kỹ năng Cốt lõi (Core Skills)",
+            "competency_desc": "Hiểu rõ nguồn gốc tội lỗi qua sự sa ngã của A-đam và Ê-va (Sáng thế ký 3); nhận diện thủ đoạn của Kẻ lừa dối (Satan); nắm vững định nghĩa Đức tin (Hebrews 11:1) và tấm gương A-bên, Hê-nóc.",
+            "lesson_illustration": "Phân tích thủ đoạn gieo rắc nghi ngờ 'Có thật Đức Chúa Trời đã phán?'; giải thích vì sao của lễ huyết của A-bên được Chúa nhậm [10:30 - 22:15]."
+          },
+          {
+            "level_name": "3. Kỹ năng Ứng dụng (Applied Skills)",
+            "competency_desc": "Nhận diện sự cám dỗ trong đời sống thường ngày; áp dụng Lời Chúa để chống lại sự lừa dối; hiểu ý nghĩa Lời hứa Cứu rỗi (Sáng thế ký 3:15 - Đấng Cứu Thế đắc thắng Satan).",
+            "lesson_illustration": "Học sinh nhận biết khi bị cám dỗ làm điều sai trái (nói dối, không vâng lời cha mẹ) thì cần cầu nguyện và nương cậy sự tha thứ của Chúa Jesus."
+          },
+          {
+            "level_name": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+            "competency_desc": "Tự soi chiếu động cơ tấm lòng khi dâng hiến hoặc làm việc tốt (như A-bên với đức tin vâng phục vs. Ca-in với sự kiêu ngạo hình thức); xây dựng nếp sống đồng đi cùng Chúa như Hê-nóc.",
+            "lesson_illustration": "Học sinh tự đặt câu hỏi: 'Mình vâng lời cha mẹ vì thật lòng yêu kính Chúa hay chỉ vì sợ bị phạt?', từ đó tự điều chỉnh thái độ tấm lòng."
+          }
+        ],
+        "clos": [
+          "CLO 1: Đọc thuộc lòng và giải nghĩa chính xác phân đoạn Kinh Thánh nền tảng Hê-bơ-rơ 11:1–6, nêu bật định nghĩa về Đức tin.",
+          "CLO 2: Tóm tắt mạch lạc diễn biến câu chuyện Sự Sa Ngã của loài người trong Sáng thế ký 3 và vạch trần thủ đoạn cám dỗ của Satan.",
+          "CLO 3: Trình bày ý nghĩa Lời hứa cứu rỗi đầu tiên (Sáng thế ký 3:15) và sự hy sinh của Chiên Con thay thế cho tội lỗi loài người.",
+          "CLO 4: So sánh sự khác biệt bản chất giữa của lễ đức tin của A-bên và của lễ hình thức của Ca-in trong Hê-bơ-rơ 11:4."
+        ]
+      },
+      "stage3_learning_plan": {
+        "jit_tools": [
+          {
+            "tool_name": "Nghi thức chào cờ & hát 'America the Beautiful' (00:00 - 02:30)",
+            "description": "Nguồn: Songs We Enjoy 3 | Ý đồ sư phạm: Giáo dục tinh thần công dân và lòng biết ơn tổ quốc."
+          },
+          {
+            "tool_name": "Hát 'This Little Light of Mine' & Cầu nguyện khai giảng (02:30 - 05:40)",
+            "description": "Nguồn: Songs We Enjoy 3 | Ý đồ sư phạm: Tạo không khí hân hoan và hướng lòng về Chúa."
+          },
+          {
+            "tool_name": "Mở Kinh Thánh ôn câu gốc Hê-bơ-rơ 11:1–6 (05:40 - 10:30)",
+            "description": "Nguồn: Holy Bible: Hebrews 11:1-6 | Ý đồ sư phạm: Khắc sâu định nghĩa đức tin và tấm gương A-bên, Hê-nóc."
+          },
+          {
+            "tool_name": "Bài giảng: Công cuộc sáng tạo & Vườn Ê-đen hoàn hảo (10:30 - 15:45)",
+            "description": "Nguồn: Salvation Series: Card 2.1 | Ý đồ sư phạm: Khắc họa trạng thái thánh khiết nguyên thủy trước khi có tội lỗi."
+          },
+          {
+            "tool_name": "Kẻ cám dỗ xuất hiện & Sự bất tuân của A-đam, Ê-va (15:45 - 22:15)",
+            "description": "Nguồn: Salvation Series: Card 2.2 | Ý đồ sư phạm: Phân tích cơ chế sa ngã: Nghi ngờ Lời Chúa -> Ham muốn -> Phạm tội."
+          },
+          {
+            "tool_name": "Hậu quả tội lỗi & Lời hứa Đấng Cứu Chuộc (Sáng 3:15) (22:15 - 27:30)",
+            "description": "Nguồn: Salvation Series: Card 2.3 | Ý đồ sư phạm: Mở ra niềm hy vọng cứu rỗi qua Chúa Jesus Christ."
+          },
+          {
+            "tool_name": "Cầu nguyện kết thúc & Dặn dò ôn câu gốc tại nhà (27:30 - 30:30)",
+            "description": "Nguồn: Lớp học trực tuyến | Ý đồ sư phạm: Chuyển giao việc rèn luyện tâm linh hàng ngày cho gia đình."
+          }
+        ]
+      },
+      "pitfalls": [
+        {
+          "trap_name": "Bẫy 1: Nghĩ rằng Đức tin chỉ là một cảm xúc mơ hồ",
+          "situation": "Học sinh cho rằng có đức tin nghĩa là cảm thấy vui vẻ hoặc hy vọng may rủi.",
+          "common_error": "Nhầm lẫn giữa cảm xúc chủ quan và đức tin đặt nền tảng trên Lời hứa của Chúa.",
+          "solution": "Đối chiếu Hê-bơ-rơ 11:1: Đức tin là 'sự biết chắc vững vàng' và 'bằng cớ' của những điều mắt thường chưa thấy."
+        },
+        {
+          "trap_name": "Bẫy 2: Đổ lỗi hoàn toàn cho con rắn mà quên trách nhiệm bản thân",
+          "situation": "Học sinh cho rằng A-đam và Ê-va vô tội vì bị con rắn ép buộc.",
+          "common_error": "Không nhận thức được quyền tự do ý chí và trách nhiệm cá nhân trước Chúa.",
+          "solution": "Giáo viên phân tích: Satan chỉ cám dỗ, chính con người đã chủ động chọn bất tuân mệnh lệnh của Chúa."
+        },
+        {
+          "trap_name": "Bẫy 3: Hiểu lầm của lễ của Ca-in bị từ chối vì rau củ không ngon",
+          "situation": "Học sinh nghĩ Chúa thích thịt chiên hơn hoa quả.",
+          "common_error": "Đánh giá trên vật phẩm bề ngoài thay vì tấm lòng đức tin và nguyên tắc chuộc tội bằng huyết.",
+          "solution": "Nhấn mạnh Hê-bơ-rơ 11:4: A-bên dâng của lễ 'bởi đức tin' và tuân theo chỉ dẫn của Chúa về sinh tế chuộc tội."
+        }
+      ],
+      "key_takeaways": [
+        {
+          "title": "Bản chất của Đức tin",
+          "content": "Đức tin thật không đòi hỏi phải thấy phép lạ trước mắt mới tin, mà là sự tin cậy tuyệt đối nơi thành tín của Đức Chúa Trời như gương A-bên và Hê-nóc."
+        },
+        {
+          "title": "Bản chất của Tội lỗi",
+          "content": "Tội lỗi bắt đầu từ việc nghi ngờ Lời Chúa, dẫn đến sự bất tuân và phá vỡ mối tương giao thiêng liêng giữa con người với Đấng Tạo Hóa."
+        },
+        {
+          "title": "Ân điển cứu chuộc đầu tiên",
+          "content": "Ngay khi con người sa ngã, Đức Chúa Trời đã chuẩn bị kế hoạch cứu rỗi qua dòng dõi người nữ (Chúa Jesus Christ) để chiến thắng tội lỗi và sự chết (Sáng thế ký 3:15)."
+        }
+      ],
+      "formative_quiz": [
+        {
+          "question": "In Genesis 3, Satan approached Eve in the Garden of Eden in the form of a serpent. What primary psychological and spiritual tactic did the Deceiver employ to initiate the temptation?",
+          "options": [
+            "A. He physically forced Adam and Eve to consume the fruit through violent coercion.",
+            "B. He planted subtle doubt regarding God's spoken word and divine benevolence by asking: 'Yea, hath God said?'",
+            "C. He promised to construct a magnificent stone palace for them outside of Eden.",
+            "D. He offered to teach them how to sail ships across the Mediterranean Sea."
+          ],
+          "correct_answer": "B",
+          "explanation": "Lesson 2 highlights Satan's strategy in Genesis 3:1. Instead of open violence, the Deceiver questioned God's truthfulness and goodness by asking 'Yea, hath God said?', leading Eve to doubt God's clear prohibition and moral authority."
+        },
+        {
+          "question": "According to Hebrews 11:1, how does biblical faith fundamentally function in the spiritual life of a believer?",
+          "options": [
+            "A. Faith is an unstable emotional impulse that requires immediate physical confirmation.",
+            "B. Faith is the substance of things hoped for, the evidence of things not seen with physical eyes.",
+            "C. Faith is a human tradition invented to explain natural scientific phenomena.",
+            "D. Faith is only exercised when a person sees a visible miracle before obeying."
+          ],
+          "correct_answer": "B",
+          "explanation": "The memory verse Hebrews 11:1 explicitly teaches that faith is 'the substance of things hoped for, the evidence of things not seen.' It provides spiritual certainty and dependable reality regarding God's promises even before physical sight confirms them."
+        },
+        {
+          "question": "Immediately following Adam and Eve's disobedience in Genesis 3, God pronounced judgment but also gave the first promise of a Savior (Genesis 3:15, known as the Protoevangelium). What does this divine promise guarantee?",
+          "options": [
+            "A. Humanity would eventually build a high tower to reach Heaven by their own works.",
+            "B. The Seed of the woman (Jesus Christ) would decisively crush the serpent's head (defeat Satan and sin).",
+            "C. Adam and Eve would immediately regain access to the physical Tree of Life in Eden.",
+            "D. The earth would no longer produce thorns, thistles, or physical toil."
+          ],
+          "correct_answer": "B",
+          "explanation": "Genesis 3:15 reveals God's gracious redemption plan: although Satan would bruise Christ's heel on the cross, the Seed of the woman (Christ) would crush Satan's head, overcoming the penalty of sin and restoring spiritual fellowship for all who believe."
+        },
+        {
+          "question": "In Hebrews 11:4, Abel is commended for offering a more excellent sacrifice than Cain. Why was Abel's offering accepted by God while Cain's was rejected?",
+          "options": [
+            "A. Abel possessed greater financial wealth and purchased imported animals.",
+            "B. Abel offered an innocent blood sacrifice in humble faith and obedience to God's instruction, pointing forward to the Lamb of God.",
+            "C. Cain brought spoiled and rotten agricultural produce from his field.",
+            "D. Abel built an elaborate stone temple adorned with gold and silver."
+          ],
+          "correct_answer": "B",
+          "explanation": "Hebrews 11:4 and Genesis 4 teach that Abel came in faith, presenting a blood sacrifice representing the substitutionary atonement required for sin. Cain brought the works of his own hands from the ground, rejecting God's ordained way of repentance and faith."
+        },
+        {
+          "question": "What remarkable spiritual testimony is recorded about the patriarch Enoch in Hebrews 11:5 and Genesis 5?",
+          "options": [
+            "A. He accumulated great political power as the king of Babylon.",
+            "B. He walked faithfully with God, pleased Him by faith, and was translated directly to Heaven without experiencing physical death.",
+            "C. He constructed a massive wooden ark to escape a worldwide flood.",
+            "D. He wrote the entire text of the Old Testament during his lifetime."
+          ],
+          "correct_answer": "B",
+          "explanation": "Hebrews 11:5 records that 'by faith Enoch was translated that he should not see death... for before his translation he had this testimony, that he pleased God.' His life exemplifies intimate daily fellowship with God through obedient faith."
+        },
+        {
+          "question": "During the opening classroom routine of Bible class, students stand at attention for the Pledge of Allegiance and bow their heads for prayer. What pedagogical virtue does Mrs. Quito emphasize through these rituals?",
+          "options": [
+            "A. Strict athletic endurance and military regimentation.",
+            "B. Cultivating a reverent posture of the heart, honoring civic duties, and approaching God with humility and solemn respect.",
+            "C. Passing standardized government civics tests without understanding the words.",
+            "D. Demonstrating physical superiority over students who are not standing."
+          ],
+          "correct_answer": "B",
+          "explanation": "Mrs. Quito explains that bowing heads, closing eyes, and standing reverently are external postures reflecting an inward attitude of deep respect, humility, and earnest devotion when communicating with the holy Creator and honoring one's country."
+        }
+      ],
+      "stage2_bloom_assessment": {
+        "scenario": "Học sinh đóng vai một Người kể chuyện Kinh Thánh nhỏ tuổi (Junior Bible Storyteller) chuẩn bị bài chia sẻ cho các em nhỏ lớp dưới về bài học Vườn Ê-đen và bí quyết gìn giữ lòng tin kính Chúa.",
+        "levels": [
+          {
+            "level": "Cấp độ 1: Remember (Nhớ)",
+            "sub_heading": "Thuộc lòng câu gốc & Ghi nhớ nhân vật",
+            "task": "Đọc thuộc lòng câu Kinh Thánh Hê-bơ-rơ 11:1 và nêu tên hai nhân vật đức tin đầu tiên được nhắc đến trong Hê-bơ-rơ 11.",
+            "solution": "Hê-bơ-rơ 11:1. Hai nhân vật là A-bên (Abel) và Hê-nóc (Enoch).",
+            "pedagogical_rationale": "Ghi nhớ chuẩn xác câu gốc và dữ kiện Kinh Thánh."
+          },
+          {
+            "level": "Cấp độ 2: Understand (Hiểu)",
+            "sub_heading": "Bản chất thủ đoạn cám dỗ",
+            "task": "Giải thích vì sao con rắn lại hỏi Ê-va: 'Có thật Đức Chúa Trời đã phán...?'. Mục đích của câu hỏi này là gì?",
+            "solution": "Satan muốn gieo sự nghi ngờ vào tâm trí Ê-va, khiến bà nghĩ Chúa đang giấu giếm điều tốt lành và Lời Chúa không đáng tin.",
+            "pedagogical_rationale": "Hiểu thấu bản chất tâm lý của sự cám dỗ."
+          },
+          {
+            "level": "Cấp độ 3: Apply (Vận dụng)",
+            "sub_heading": "Vận dụng Lời Chúa chống lại cám dỗ",
+            "task": "Khi một người bạn rủ em giấu đồ chơi của bạn khác và nói: 'Không ai nhìn thấy đâu, đừng lo!', em sẽ vận dụng bài học Sáng thế ký 3 như thế nào để từ chối?",
+            "solution": "Nhận biết đây là lời dối gạt giống như con rắn; nhớ rằng Đức Chúa Trời nhìn thấy mọi sự và sự không vâng lời luôn đem lại hậu quả đau buồn; kiên quyết từ chối.",
+            "pedagogical_rationale": "Ứng dụng bài học đạo đức vào tình huống đời thường."
+          },
+          {
+            "level": "Cấp độ 4: Analyze (Phân tích)",
+            "sub_heading": "Phân tích tâm lý sa ngã vs. Ăn năn",
+            "task": "Phân tích sự khác nhau giữa phản ứng của A-đam sau khi phạm tội (trốn tránh, đổ lỗi cho vợ) và thái độ ăn năn thật lòng.",
+            "solution": "A-đam sợ hãi trốn Chúa và đổ lỗi cho Ê-va (và gián tiếp trách Chúa). Thái độ ăn năn thật lòng là nhận lỗi, xin tha thứ và không đổ trách nhiệm cho người khác.",
+            "pedagogical_rationale": "Phân tích tâm lý tự vệ sai lầm của con người sa ngã."
+          },
+          {
+            "level": "Cấp độ 5: Evaluate (Đánh giá)",
+            "sub_heading": "Thẩm định nền tảng sự cứu rỗi",
+            "task": "Đánh giá quan điểm: 'Chỉ cần làm nhiều việc từ thiện thì không cần có đức tin nơi Chúa vẫn được cứu rỗi'. Quan điểm này mâu thuẫn thế nào với Hê-bơ-rơ 11:6?",
+            "solution": "Mâu thuẫn hoàn toàn, vì Hê-bơ-rơ 11:6 khẳng định: 'Không có đức tin thì không thể nào làm đẹp lòng Đức Chúa Trời'. Việc thiện xuất phát từ sức người không thể xóa bỏ tội lỗi nếu không có đức tin nơi Chúa.",
+            "pedagogical_rationale": "Phản biện tư tưởng tự cứu rỗi theo chuẩn mực Thần học."
+          },
+          {
+            "level": "Cấp độ 6: Create (Sáng tạo)",
+            "sub_heading": "Soạn lời cầu nguyện đức tin",
+            "task": "Em hãy viết một lời cầu nguyện ngắn (3-5 câu) bày tỏ đức tin nơi Chúa và xin Ngài ban cho sức mạnh để chiến thắng các cám dỗ trong ngày hôm nay.",
+            "solution": "Rubric chấm điểm (Thang 10 điểm):\n- Lời lẽ tôn kính, xưng hô cung kính đúng mực: 3 điểm.\n- Thể hiện lòng tin cậy nơi Đấng Cứu Chuộc: 4 điểm.\n- Cầu xin cụ thể sự giúp đỡ để sống vâng phục đẹp lòng Chúa: 3 điểm.",
+            "pedagogical_rationale": "Phát triển năng lực diễn đạt đức tin và hình thành nếp sống tâm linh cá nhân."
+          }
+        ]
+      }
+    },
+    "flashcards": [
+      {
+        "term": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Duy trì nề nếp chào cờ nghiêm trang, hát thánh ca tôn vinh Chúa và tư thế cầu nguyện cung kính (nhắm mắt, cúi đầu). Đọc thuộc lòng Hê-bơ-rơ 11:1-6.",
+        "memoryTip": "Học sinh đứng nghiêm trang chào cờ Mỹ, hát bài 'America the Beautiful' và đọc vanh vách câu gốc Hê-bơ-rơ 11:1-6 [00:00 - 05:40]."
+      },
+      {
+        "term": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Hiểu rõ nguồn gốc tội lỗi qua sự sa ngã của A-đam và Ê-va (Sáng thế ký 3); nhận diện thủ đoạn của Kẻ lừa dối (Satan); nắm vững định nghĩa Đức tin (Hebrews 11:1) và tấm gương A-bên, Hê-nóc.",
+        "memoryTip": "Phân tích thủ đoạn gieo rắc nghi ngờ 'Có thật Đức Chúa Trời đã phán?'; giải thích vì sao của lễ huyết của A-bên được Chúa nhậm [10:30 - 22:15]."
+      },
+      {
+        "term": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Nhận diện sự cám dỗ trong đời sống thường ngày; áp dụng Lời Chúa để chống lại sự lừa dối; hiểu ý nghĩa Lời hứa Cứu rỗi (Sáng thế ký 3:15 - Đấng Cứu Thế đắc thắng Satan).",
+        "memoryTip": "Học sinh nhận biết khi bị cám dỗ làm điều sai trái (nói dối, không vâng lời cha mẹ) thì cần cầu nguyện và nương cậy sự tha thứ của Chúa Jesus."
+      },
+      {
+        "term": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Tự soi chiếu động cơ tấm lòng khi dâng hiến hoặc làm việc tốt (như A-bên với đức tin vâng phục vs. Ca-in với sự kiêu ngạo hình thức); xây dựng nếp sống đồng đi cùng Chúa như Hê-nóc.",
+        "memoryTip": "Học sinh tự đặt câu hỏi: 'Mình vâng lời cha mẹ vì thật lòng yêu kính Chúa hay chỉ vì sợ bị phạt?', từ đó tự điều chỉnh thái độ tấm lòng."
+      },
+      {
+        "term": "Bản chất của Đức tin",
+        "category": "Key Takeaway",
+        "definition": "Đức tin thật không đòi hỏi phải thấy phép lạ trước mắt mới tin, mà là sự tin cậy tuyệt đối nơi thành tín của Đức Chúa Trời như gương A-bên và Hê-nóc.",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Bản chất của Tội lỗi",
+        "category": "Key Takeaway",
+        "definition": "Tội lỗi bắt đầu từ việc nghi ngờ Lời Chúa, dẫn đến sự bất tuân và phá vỡ mối tương giao thiêng liêng giữa con người với Đấng Tạo Hóa.",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Ân điển cứu chuộc đầu tiên",
+        "category": "Key Takeaway",
+        "definition": "Ngay khi con người sa ngã, Đức Chúa Trời đã chuẩn bị kế hoạch cứu rỗi qua dòng dõi người nữ (Chúa Jesus Christ) để chiến thắng tội lỗi và sự chết (Sáng thế ký 3:15).",
+        "memoryTip": "Trọng tâm bài học UbD"
+      }
+    ],
+    "slides": [
+      {
+        "slideNumber": 1,
+        "title": "Tổng Quan Bài Học Bible 3 (Bài 002)",
+        "tag": "Grade 3 Overview",
+        "bulletPoints": [
+          "Giáo viên: Mrs. Quito",
+          "Sách giáo khoa: Kinh Thánh (Holy Bible - KJV / Genesis 1–3, Hebrews 11:1–6)",
+          "Tài liệu hướng dẫn: Abeka Bible 3 Curriculum / Flash-a-Cards: Salvation Series (Lesson 2), Songs We Enjoy 3",
+          "Thời lượng bài giảng: 30 phút 30 giây"
+        ],
+        "keyTakeaway": "Dụng cụ cần thiết: Kinh Thánh KJV có kẹp trang, tập bài hát Songs We Enjoy 3, cờ Mỹ cho nghi thức chào cờ, sổ tay ghi câu gốc"
+      },
+      {
+        "slideNumber": 2,
+        "title": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Duy trì nề nếp chào cờ nghiêm trang, hát thánh ca tôn vinh Chúa và tư thế cầu nguyện cung kính (nhắm mắt, cúi đầu). Đọc thuộc lòng Hê-bơ-rơ 11:1-6."
+        ],
+        "keyTakeaway": "Học sinh đứng nghiêm trang chào cờ Mỹ, hát bài 'America the Beautiful' và đọc vanh vách câu gốc Hê-bơ-rơ 11:1-6 [00:00 - 05:40]."
+      },
+      {
+        "slideNumber": 3,
+        "title": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Hiểu rõ nguồn gốc tội lỗi qua sự sa ngã của A-đam và Ê-va (Sáng thế ký 3); nhận diện thủ đoạn của Kẻ lừa dối (Satan); nắm vững định nghĩa Đức tin (Hebrews 11:1) và tấm gương A-bên, Hê-nóc."
+        ],
+        "keyTakeaway": "Phân tích thủ đoạn gieo rắc nghi ngờ 'Có thật Đức Chúa Trời đã phán?'; giải thích vì sao của lễ huyết của A-bên được Chúa nhậm [10:30 - 22:15]."
+      },
+      {
+        "slideNumber": 4,
+        "title": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Nhận diện sự cám dỗ trong đời sống thường ngày; áp dụng Lời Chúa để chống lại sự lừa dối; hiểu ý nghĩa Lời hứa Cứu rỗi (Sáng thế ký 3:15 - Đấng Cứu Thế đắc thắng Satan)."
+        ],
+        "keyTakeaway": "Học sinh nhận biết khi bị cám dỗ làm điều sai trái (nói dối, không vâng lời cha mẹ) thì cần cầu nguyện và nương cậy sự tha thứ của Chúa Jesus."
+      },
+      {
+        "slideNumber": 5,
+        "title": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Tự soi chiếu động cơ tấm lòng khi dâng hiến hoặc làm việc tốt (như A-bên với đức tin vâng phục vs. Ca-in với sự kiêu ngạo hình thức); xây dựng nếp sống đồng đi cùng Chúa như Hê-nóc."
+        ],
+        "keyTakeaway": "Học sinh tự đặt câu hỏi: 'Mình vâng lời cha mẹ vì thật lòng yêu kính Chúa hay chỉ vì sợ bị phạt?', từ đó tự điều chỉnh thái độ tấm lòng."
+      },
+      {
+        "slideNumber": 6,
+        "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
+        "tag": "Core Knowledge",
+        "bulletPoints": [
+          "Bản chất của Đức tin: Đức tin thật không đòi hỏi phải thấy phép lạ trước mắt mới tin, mà là sự tin cậy tuyệt đối nơi thành tín của Đức Chúa Trời như gương A-bên và Hê-nóc.",
+          "Bản chất của Tội lỗi: Tội lỗi bắt đầu từ việc nghi ngờ Lời Chúa, dẫn đến sự bất tuân và phá vỡ mối tương giao thiêng liêng giữa con người với Đấng Tạo Hóa.",
+          "Ân điển cứu chuộc đầu tiên: Ngay khi con người sa ngã, Đức Chúa Trời đã chuẩn bị kế hoạch cứu rỗi qua dòng dõi người nữ (Chúa Jesus Christ) để chiến thắng tội lỗi và sự chết (Sáng thế ký 3:15)."
+        ],
+        "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
+      }
+    ],
+    "quizData": [
+      {
+        "id": "q1",
+        "question": "In Genesis 3, Satan approached Eve in the Garden of Eden in the form of a serpent. What primary psychological and spiritual tactic did the Deceiver employ to initiate the temptation?",
+        "options": [
+          "A. He physically forced Adam and Eve to consume the fruit through violent coercion.",
+          "B. He planted subtle doubt regarding God's spoken word and divine benevolence by asking: 'Yea, hath God said?'",
+          "C. He promised to construct a magnificent stone palace for them outside of Eden.",
+          "D. He offered to teach them how to sail ships across the Mediterranean Sea."
+        ],
+        "correct": "B",
+        "explanation": "Lesson 2 highlights Satan's strategy in Genesis 3:1. Instead of open violence, the Deceiver questioned God's truthfulness and goodness by asking 'Yea, hath God said?', leading Eve to doubt God's clear prohibition and moral authority.",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q2",
+        "question": "According to Hebrews 11:1, how does biblical faith fundamentally function in the spiritual life of a believer?",
+        "options": [
+          "A. Faith is an unstable emotional impulse that requires immediate physical confirmation.",
+          "B. Faith is the substance of things hoped for, the evidence of things not seen with physical eyes.",
+          "C. Faith is a human tradition invented to explain natural scientific phenomena.",
+          "D. Faith is only exercised when a person sees a visible miracle before obeying."
+        ],
+        "correct": "B",
+        "explanation": "The memory verse Hebrews 11:1 explicitly teaches that faith is 'the substance of things hoped for, the evidence of things not seen.' It provides spiritual certainty and dependable reality regarding God's promises even before physical sight confirms them.",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q3",
+        "question": "Immediately following Adam and Eve's disobedience in Genesis 3, God pronounced judgment but also gave the first promise of a Savior (Genesis 3:15, known as the Protoevangelium). What does this divine promise guarantee?",
+        "options": [
+          "A. Humanity would eventually build a high tower to reach Heaven by their own works.",
+          "B. The Seed of the woman (Jesus Christ) would decisively crush the serpent's head (defeat Satan and sin).",
+          "C. Adam and Eve would immediately regain access to the physical Tree of Life in Eden.",
+          "D. The earth would no longer produce thorns, thistles, or physical toil."
+        ],
+        "correct": "B",
+        "explanation": "Genesis 3:15 reveals God's gracious redemption plan: although Satan would bruise Christ's heel on the cross, the Seed of the woman (Christ) would crush Satan's head, overcoming the penalty of sin and restoring spiritual fellowship for all who believe.",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q4",
+        "question": "In Hebrews 11:4, Abel is commended for offering a more excellent sacrifice than Cain. Why was Abel's offering accepted by God while Cain's was rejected?",
+        "options": [
+          "A. Abel possessed greater financial wealth and purchased imported animals.",
+          "B. Abel offered an innocent blood sacrifice in humble faith and obedience to God's instruction, pointing forward to the Lamb of God.",
+          "C. Cain brought spoiled and rotten agricultural produce from his field.",
+          "D. Abel built an elaborate stone temple adorned with gold and silver."
+        ],
+        "correct": "B",
+        "explanation": "Hebrews 11:4 and Genesis 4 teach that Abel came in faith, presenting a blood sacrifice representing the substitutionary atonement required for sin. Cain brought the works of his own hands from the ground, rejecting God's ordained way of repentance and faith.",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q5",
+        "question": "What remarkable spiritual testimony is recorded about the patriarch Enoch in Hebrews 11:5 and Genesis 5?",
+        "options": [
+          "A. He accumulated great political power as the king of Babylon.",
+          "B. He walked faithfully with God, pleased Him by faith, and was translated directly to Heaven without experiencing physical death.",
+          "C. He constructed a massive wooden ark to escape a worldwide flood.",
+          "D. He wrote the entire text of the Old Testament during his lifetime."
+        ],
+        "correct": "B",
+        "explanation": "Hebrews 11:5 records that 'by faith Enoch was translated that he should not see death... for before his translation he had this testimony, that he pleased God.' His life exemplifies intimate daily fellowship with God through obedient faith.",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q6",
+        "question": "During the opening classroom routine of Bible class, students stand at attention for the Pledge of Allegiance and bow their heads for prayer. What pedagogical virtue does Mrs. Quito emphasize through these rituals?",
+        "options": [
+          "A. Strict athletic endurance and military regimentation.",
+          "B. Cultivating a reverent posture of the heart, honoring civic duties, and approaching God with humility and solemn respect.",
+          "C. Passing standardized government civics tests without understanding the words.",
+          "D. Demonstrating physical superiority over students who are not standing."
+        ],
+        "correct": "B",
+        "explanation": "Mrs. Quito explains that bowing heads, closing eyes, and standing reverently are external postures reflecting an inward attitude of deep respect, humility, and earnest devotion when communicating with the holy Creator and honoring one's country.",
+        "textbook_page_reference": ""
+      }
+    ]
   },
   "g3-d002-writing-3": {
     "id": "g3-d002-writing-3",
     "grade": "Grade 3",
     "day": "Ngày 002",
     "subject": "Writing 3 (Bài 002)",
-    "teacher": "",
+    "teacher": "Đội ngũ giáo viên Abeka Academy Grade 3",
     "videoUrl": "",
     "driveEmbedUrl": "",
-    "bookTitle": "",
-    "bookPages": "",
-    "manualRef": "",
-    "bookIdentification": {},
-    "timestampMap": [],
-    "ubdReport": {},
-    "flashcards": [],
-    "slides": [],
-    "quizData": []
+    "bookTitle": "Writing with Purpose 3 (Student Cursive Work-text)",
+    "bookPages": "Trang 2",
+    "manualRef": "10.1. Lesson Plans Homeschool Language Arts 3 (Handwriting/Writing 3), Cursive Formation Guide / Slant Guide",
+    "bookIdentification": {
+      "subject": "Writing 3",
+      "day": "Bài 002",
+      "teacher": "Đội ngũ giáo viên Abeka Academy Grade 3",
+      "primary_textbook": "Writing with Purpose 3 (Student Cursive Work-text)",
+      "textbook_pages": "Trang 2",
+      "supplementary_materials": "10.1. Lesson Plans Homeschool Language Arts 3 (Handwriting/Writing 3), Cursive Formation Guide / Slant Guide",
+      "required_supplies": "Vở Writing with Purpose 3, bút chì gọt nhọn, thước kẻ, tẩy",
+      "video_duration": "10 phút 40 giây"
+    },
+    "timestampMap": [
+      {
+        "startTime": 0,
+        "endTime": 140,
+        "title": "Chào mừng học sinh vào tiết Tập viết; kiểm tra tư thế ngồi chuẩn (lưng thẳng, ngực không tì vào bàn) và cách cầm bút bằng ngón cái và ngón trỏ tựa trên ngón giữa; điều chỉnh độ nghiêng của trang giấy.",
+        "desc": "Khởi động & Rèn nề nếp tư thế ngồi viết, cách cầm bút và độ nghiêng của vở",
+        "bookRef": "Writing with Purpose 3 - Cursive Formation Guide"
+      },
+      {
+        "startTime": 140,
+        "endTime": 285,
+        "title": "Cô giáo hướng dẫn kỹ thuật viết chữ hoa B trên bảng: Điểm đặt bút từ đường kẻ phụ trên, đưa nét lượn xuống đường cơ sở (baseline), nhấc bút tạo nét cong trên nhỏ hơn nét cong dưới.",
+        "desc": "Kỹ thuật viết chữ hoa cursive B (Capital B formation & proportion)",
+        "bookRef": "Writing with Purpose 3 - Tr. 2 (Mục 1)"
+      },
+      {
+        "startTime": 285,
+        "endTime": 435,
+        "title": "Hướng dẫn kỹ thuật viết chữ thường b: Nét khuyết trên vươn cao chạm đường kẻ trên, lượn xuống baseline và tạo vòng thắt nối sang chữ cái tiếp theo. Cả lớp quan sát cách viết từ \"Bible\" với chữ B viết hoa trang trọng.",
+        "desc": "Kỹ thuật viết chữ thường b & Thực hành viết từ \"Bible\"",
+        "bookRef": "Writing with Purpose 3 - Tr. 2 (Mục 1)"
+      },
+      {
+        "startTime": 435,
+        "endTime": 570,
+        "title": "Mở rộng viết câu hoàn chỉnh: Phân tích câu ngạn ngữ \"Never put off til tomorrow what you can do today.\" và câu ứng dụng \"Brenna did her chores right away.\". Nhắc nhở khoảng cách giữa các từ bằng độ rộng của chữ 'o'.",
+        "desc": "Thực hành viết câu văn hoàn chỉnh, giữ khoảng cách chữ và dấu câu",
+        "bookRef": "Writing with Purpose 3 - Tr. 2 (Mục 2)"
+      },
+      {
+        "startTime": 570,
+        "endTime": 640,
+        "title": "Cô giáo tóm kết bài học: Sự kiên trì rèn luyện nắn nót mỗi ngày giúp chữ viết ngày càng điêu luyện; dặn dò học sinh hoàn thành nốt trang 2 cùng giáo viên tại chỗ.",
+        "desc": "Tổng kết tiết học & Giao nhiệm vụ hoàn thành trang 2",
+        "bookRef": "Writing with Purpose 3 - Tr. 2"
+      }
+    ],
+    "ubdReport": {
+      "subject_name": "Writing 3",
+      "folder_url": "https://drive.google.com/drive/folders/1uCX0HtGUSoFul399vOu1mOgFWhNjVtwb",
+      "meta": {
+        "subject": "Writing 3",
+        "lesson_day": "Bài 002",
+        "teacher": "Đội ngũ giáo viên Abeka Academy Grade 3",
+        "textbook": "Writing with Purpose 3 (Lesson 2, tr. 2)",
+        "supplementary": "Slant Guide & Cursive Formation Charts, 10.1. Lesson Plans Homeschool Language Arts 3",
+        "duration": "10 phút 40 giây",
+        "supplies": "Vở Writing with Purpose 3, bút chì gọt nhọn, thước kẻ, tẩy"
+      },
+      "stage1_desired_results": {
+        "skill_taxonomy": [
+          {
+            "level_name": "1. Kỹ năng Nền tảng (Foundation Skills)",
+            "competency_desc": "Công thái học viết chữ: Tư thế ngồi thẳng lưng, 2 chân chạm sàn, cách cầm bút 3 điểm tựa (Dynamic Tripod Grip) và độ nghiêng vở chuẩn xác.",
+            "lesson_illustration": "Học sinh chỉnh độ nghiêng vở sang trái (thuận tay phải) hoặc sang phải (thuận tay trái); thả lỏng cổ tay [00:00 - 02:20]."
+          },
+          {
+            "level_name": "2. Kỹ năng Cốt lõi (Core Skills)",
+            "competency_desc": "Tạo hình chữ hoa B và chữ thường b theo chuẩn chữ thảo Abeka: Điểm đặt bút, nét đè (retrace), nét cong trên nhỏ hơn cong dưới, nét thắt đón (smile exit / bucket notch).",
+            "lesson_illustration": "Viết chữ hoa B với 2 bụng cong cân đối; chữ thường b chạm đỉnh kẻ trên và kết thúc bằng nét thắt lưng lửng ở midline [02:20 - 07:15]."
+          },
+          {
+            "level_name": "3. Kỹ năng Ứng dụng (Applied Skills)",
+            "competency_desc": "Nối chữ hoa B sang chữ thường trong từ trang trọng 'Bible'; viết câu tục ngữ hoàn chỉnh giữ đều khoảng cách chữ bằng độ rộng chữ 'o'.",
+            "lesson_illustration": "Viết câu mẫu: 'Never put off til tomorrow what you can do today.' và 'Brenna did her chores right away.' [07:15 - 09:30]."
+          },
+          {
+            "level_name": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+            "competency_desc": "Năng lực tự rà soát độ nghiêng (slant) và tỷ lệ chữ cái; rèn luyện đức tính kiên nhẫn, cẩn trọng và không trì hoãn công việc theo thông điệp bài viết.",
+            "lesson_illustration": "Học sinh tự đặt thước kiểm tra độ nghiêng các nét sổ; tự đối chiếu xem các con chữ có bám chắc trên đường cơ sở (baseline) hay bị trôi nổi."
+          }
+        ],
+        "clos": [
+          "CLO 1: Thiết lập chính xác tư thế ngồi viết, cách cầm bút 3 ngón tay và độ nghiêng trang vở theo tay thuận.",
+          "CLO 2: Tạo hình chuẩn xác chữ hoa B và chữ thường b theo đúng tỷ lệ dòng kẻ và nét nối chữ thảo Abeka.",
+          "CLO 3: Viết hoàn chỉnh danh từ riêng 'Bible' với sự trang trọng, liên kết mượt mà và chấm dấu chữ i đúng vị trí.",
+          "CLO 4: Hoàn thành 100% các dòng luyện viết câu tục ngữ trang 2, đảm bảo khoảng cách giữa các từ bằng độ rộng chữ 'o'."
+        ]
+      },
+      "stage3_learning_plan": {
+        "jit_tools": [
+          {
+            "tool_name": "Kiểm tra tư thế, cầm bút 3 điểm tựa, độ nghiêng giấy (00:00 - 02:20)",
+            "description": "Nguồn: Cursive Guide | Ý đồ sư phạm: Chuẩn hóa công thái học trước khi đặt ngòi bút xuống giấy."
+          },
+          {
+            "tool_name": "Kỹ thuật viết chữ hoa cursive B (đỉnh, baseline, 2 bụng cong) (02:20 - 04:45)",
+            "description": "Nguồn: SGK tr. 2 (Mục 1) | Ý đồ sư phạm: Thị phạm từng nét tạo hình chữ hoa cân đối, thẩm mỹ."
+          },
+          {
+            "tool_name": "Kỹ thuật viết chữ thường b & nét nối từ 'Bible' (04:45 - 07:15)",
+            "description": "Nguồn: SGK tr. 2 (Mục 1) | Ý đồ sư phạm: Hướng dẫn nét thắt đặc trưng của chữ b để nối sang chữ kế tiếp."
+          },
+          {
+            "tool_name": "Viết câu ứng dụng & rèn khoảng cách chữ bằng độ rộng 'o' (07:15 - 09:30)",
+            "description": "Nguồn: SGK tr. 2 (Mục 2) | Ý đồ sư phạm: Chuyển từ viết từ đơn lẻ sang viết câu văn có nhịp điệu liên tục."
+          },
+          {
+            "tool_name": "Tổng kết & bài học kiên trì, không trì hoãn (09:30 - 10:40)",
+            "description": "Nguồn: SGK tr. 2 | Ý đồ sư phạm: Lồng ghép giáo dục nhân cách qua câu tục ngữ rèn luyện."
+          }
+        ]
+      },
+      "pitfalls": [
+        {
+          "trap_name": "Bẫy 1: Nét thắt của chữ thường b bị kéo tụt xuống baseline",
+          "situation": "Học sinh kéo nét kết thúc của chữ b chạm xuống đường kẻ dưới rồi mới nối chữ tiếp theo.",
+          "common_error": "Làm biến dạng chữ b thành chữ l hoặc làm dính nét nối.",
+          "solution": "Nhắc nhở nét đón của chữ b giống như 'chiếc gàu nhỏ' (little bucket) nằm lưng lửng ở đường giữa (midline)."
+        },
+        {
+          "trap_name": "Bẫy 2: Chữ hoa B bị mất nét đè (retrace) ở sống lưng",
+          "situation": "Học sinh vẽ hai bụng cong rời rạc không đè lên nét sổ thẳng ban đầu.",
+          "common_error": "Chữ B bị rỗng bụng hoặc nghiêng ngả thiếu vững chãi.",
+          "solution": "Hướng dẫn lia bút từ baseline đè ngược lên thân sống lưng rồi mới lượn vòng cung trên."
+        },
+        {
+          "trap_name": "Bẫy 3: Khoảng cách các từ không đều (quá sát hoặc quá xa)",
+          "situation": "Các từ trong câu dính chùm vào nhau hoặc cách nhau cả gang tay.",
+          "common_error": "Không có vật chuẩn đo lường khoảng cách.",
+          "solution": "Dùng đầu ngón tay út hoặc ước lượng độ rộng của một chữ cái 'o' thường làm thước đo giữa hai từ."
+        }
+      ],
+      "key_takeaways": [
+        {
+          "title": "Tỷ lệ chữ hoa B",
+          "content": "Bụng trên nhỏ gọn hơn bụng dưới giúp con chữ thanh thoát, vững vàng tựa trên đường cơ sở."
+        },
+        {
+          "title": "Nét đón chữ thường b",
+          "content": "Kết thúc ở đường giữa (midline) giúp liên kết tự nhiên sang các chữ cái nguyên âm mà không gãy nét."
+        },
+        {
+          "title": "Quy chuẩn khoảng cách",
+          "content": "Luôn duy trì khoảng cách đều đặn bằng độ rộng chữ 'o' giữa các từ để bài viết thoáng đãng, dễ đọc."
+        }
+      ],
+      "formative_quiz": [
+        {
+          "question": "In Lesson 2 of Writing 3, students practice the cursive letter 'B'. What is the correct anatomical procedure for forming a capital cursive 'B' according to Abeka penmanship standards?",
+          "options": [
+            "A. Start at the bottom baseline, draw a vertical line upward, and make three equal loops.",
+            "B. Begin slightly below the top line, curve downward to the baseline, retrace up the stem, and form two rounded loops where the top loop is slightly smaller than the bottom loop.",
+            "C. Draw a completely straight vertical stick and leave two disconnected semicircles on the right side.",
+            "D. Form a continuous circle without touching either the baseline or the headline."
+          ],
+          "correct_answer": "B",
+          "explanation": "Writing with Purpose 3 (p. 2) and teacher demonstration show that capital cursive B begins near the top line, drops to the baseline, retraces upward, and forms two proportionate rounded curves, with the upper loop being slightly more compact than the lower curve to maintain visual balance."
+        },
+        {
+          "question": "When writing the lowercase cursive letter 'b', what critical feature at the end of the letter facilitates a smooth connection to subsequent letters?",
+          "options": [
+            "A. A sharp downward drop below the baseline into the lower margin.",
+            "B. A tiny notch or bucket (smile exit) that stays at the midline rather than dropping back down to the baseline.",
+            "C. A complete full stop where the pencil must be lifted from the paper.",
+            "D. An oversized open loop that intersects the left margin."
+          ],
+          "correct_answer": "B",
+          "explanation": "Lowercase cursive 'b' rises to the headline, loops back down to the baseline, and finishes with a small notch/bucket exit at the midline ('little bucket' or wave) that directly connects to the next letter without returning to the baseline."
+        },
+        {
+          "question": "When transcribing the proper noun 'Bible' in cursive handwriting, what rule regarding capitalization and letter-joining must students observe?",
+          "options": [
+            "A. The word 'bible' should always begin with a lowercase letter in classroom practice.",
+            "B. Capital 'B' is capitalized out of reverence as a sacred title, and the writer connects or positions the lowercase 'i' smoothly alongside its base.",
+            "C. Every single letter in the word 'B-I-B-L-E' must be written in capital letters.",
+            "D. Punctuation periods must be placed between each individual cursive letter."
+          ],
+          "correct_answer": "B",
+          "explanation": "As practiced on page 2, 'Bible' is a sacred proper noun requiring a formal capital 'B'. Students practice forming capital B and then joining the subsequent cursive letters 'i-b-l-e' in a continuous, flowing stroke, dotting the 'i' only after completing the word."
+        },
+        {
+          "question": "What is the recommended rule of thumb taught by the instructor for maintaining consistent spacing between words in a cursive sentence?",
+          "options": [
+            "A. Words should touch each other continuously across the line without any gaps.",
+            "B. Leave a space approximately equal to the width of a lowercase cursive 'o' between words.",
+            "C. Leave a wide gap equal to the length of a wooden ruler between each word.",
+            "D. Word spacing is unimportant as long as all letters are slanted toward the left."
+          ],
+          "correct_answer": "B",
+          "explanation": "Standard penmanship instruction specifies that inter-word spacing should be uniform, approximately the width of a standard lowercase 'o' (or the writer's pencil tip width), preventing crowded or excessively scattered handwriting."
+        },
+        {
+          "question": "Why does the instructor emphasize adjusting the slant of the workbook paper (turning the top right corner for left-handers or top left for right-handers)?",
+          "options": [
+            "A. It allows students to hide their work from neighboring classmates.",
+            "B. Paper slant aligns naturally with the natural arc of arm and wrist movement, producing consistent cursive slant without wrist strain.",
+            "C. Paper must remain strictly parallel to the desk edge at all times.",
+            "D. It prevents pencils from becoming dull during writing drills."
+          ],
+          "correct_answer": "B",
+          "explanation": "Slanting the paper properly enables the writing hand to pull strokes naturally toward the body. Right-handed writers slant paper with the top tilted left, while left-handed writers tilt the top right, preventing awkward wrist hooking and maintaining uniform cursive slant."
+        }
+      ],
+      "stage2_bloom_assessment": {
+        "scenario": "Học sinh đóng vai một Chuyên viên Thư pháp Nhí (Junior Calligrapher) nhận nhiệm vụ viết nắn nót tấm thiệp chúc mừng sinh nhật tặng ông bà với câu danh ngôn ý nghĩa.",
+        "levels": [
+          {
+            "level": "Cấp độ 1: Remember (Nhớ)",
+            "sub_heading": "Công thái học & Kích thước chữ cái",
+            "task": "Nêu 3 điểm tựa ngón tay khi cầm bút chuẩn (Dynamic Tripod Grip) và chiều cao chuẩn của chữ hoa B so với dòng kẻ.",
+            "solution": "Ngón cái và ngón trỏ kẹp thân bút, ngón giữa đỡ bên dưới. Chữ hoa B cao chạm dòng kẻ phụ trên cùng.",
+            "pedagogical_rationale": "Ghi nhớ công thái học và kích thước chữ."
+          },
+          {
+            "level": "Cấp độ 2: Understand (Hiểu)",
+            "sub_heading": "Nguyên lý tỷ lệ thị giác",
+            "task": "Vì sao bụng trên của chữ hoa B lại được thiết kế hơi nhỏ hơn bụng dưới thay vì làm hai bụng bằng nhau chằn chặn?",
+            "solution": "Theo quy luật thẩm mỹ thị giác, bụng dưới lớn hơn giúp con chữ có cảm giác vững chãi, thăng bằng, không bị đổ nhào về phía trước.",
+            "pedagogical_rationale": "Thấu hiểu nguyên lý mỹ thuật trong chữ viết."
+          },
+          {
+            "level": "Cấp độ 3: Apply (Vận dụng)",
+            "sub_heading": "Dòng mực liên tục (Continuous Stroke Flow)",
+            "task": "Hãy viết từ 'Bible' trên dòng kẻ tập viết, chú ý nét nối từ chữ 'B' sang 'i' và thao tác chấm dấu chữ 'i'.",
+            "solution": "Viết chữ B hoa, tiếp tục viết liền mạch 'i-b-l-e', nhấc bút sau khi viết xong chữ e cuối cùng để quay lại chấm dấu chữ i.",
+            "pedagogical_rationale": "Thực hành nguyên tắc dòng mực liên tục."
+          },
+          {
+            "level": "Cấp độ 4: Analyze (Phân tích)",
+            "sub_heading": "Phân tích nguyên nhân nét chữ lệch lạc",
+            "task": "Quan sát một bài viết mẫu bị lỗi: chữ cái nghiêng sang trái, cái nghiêng sang phải, cái thẳng đứng. Em hãy phân tích nguyên nhân gây ra lỗi này.",
+            "solution": "Nguyên nhân chính do học sinh liên tục xoay vở trong khi viết hoặc không cố định góc nghiêng của cánh tay so với mép bàn.",
+            "pedagogical_rationale": "Phát hiện nguyên nhân gốc rễ của sự mất đồng nhất nét chữ."
+          },
+          {
+            "level": "Cấp độ 5: Evaluate (Đánh giá)",
+            "sub_heading": "Kiểm toán lỗi chữ viết trên bản thảo",
+            "task": "Em hãy đóng vai người chấm bài, nhận xét và khoanh tròn 2 lỗi sai trong câu: 'Brenna did her chores.' nếu chữ B bị hở bụng và khoảng cách chữ quá dính.",
+            "solution": "Chỉ rõ: Lỗi 1 - Bụng chữ B không đè nét retrace; Lỗi 2 - Khoảng cách giữa các từ hẹp hơn độ rộng chữ 'o'. Đưa ra lời khuyên sửa chữa.",
+            "pedagogical_rationale": "Phát triển năng lực kiểm toán lỗi chữ viết."
+          },
+          {
+            "level": "Cấp độ 6: Create (Sáng tạo)",
+            "sub_heading": "Trình bày danh ngôn thư pháp",
+            "task": "Viết lại câu tục ngữ: 'Never put off til tomorrow what you can do today.' lên một khung giấy hoa văn thật nắn nót, đúng độ nghiêng và đều khoảng cách.",
+            "solution": "Rubric chấm điểm (Thang 10 điểm):\n- Đúng kỹ thuật tạo hình chữ cái: 4 điểm.\n- Độ nghiêng và khoảng cách chữ đồng đều: 4 điểm.\n- Bài viết sạch đẹp, không lem nhem tẩy xóa: 2 điểm.",
+            "pedagogical_rationale": "Rèn luyện phẩm chất kiên trì và khiếu thẩm mỹ qua ứng dụng viết chữ nghệ thuật."
+          }
+        ]
+      }
+    },
+    "flashcards": [
+      {
+        "term": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Công thái học viết chữ: Tư thế ngồi thẳng lưng, 2 chân chạm sàn, cách cầm bút 3 điểm tựa (Dynamic Tripod Grip) và độ nghiêng vở chuẩn xác.",
+        "memoryTip": "Học sinh chỉnh độ nghiêng vở sang trái (thuận tay phải) hoặc sang phải (thuận tay trái); thả lỏng cổ tay [00:00 - 02:20]."
+      },
+      {
+        "term": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Tạo hình chữ hoa B và chữ thường b theo chuẩn chữ thảo Abeka: Điểm đặt bút, nét đè (retrace), nét cong trên nhỏ hơn cong dưới, nét thắt đón (smile exit / bucket notch).",
+        "memoryTip": "Viết chữ hoa B với 2 bụng cong cân đối; chữ thường b chạm đỉnh kẻ trên và kết thúc bằng nét thắt lưng lửng ở midline [02:20 - 07:15]."
+      },
+      {
+        "term": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Nối chữ hoa B sang chữ thường trong từ trang trọng 'Bible'; viết câu tục ngữ hoàn chỉnh giữ đều khoảng cách chữ bằng độ rộng chữ 'o'.",
+        "memoryTip": "Viết câu mẫu: 'Never put off til tomorrow what you can do today.' và 'Brenna did her chores right away.' [07:15 - 09:30]."
+      },
+      {
+        "term": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Năng lực tự rà soát độ nghiêng (slant) và tỷ lệ chữ cái; rèn luyện đức tính kiên nhẫn, cẩn trọng và không trì hoãn công việc theo thông điệp bài viết.",
+        "memoryTip": "Học sinh tự đặt thước kiểm tra độ nghiêng các nét sổ; tự đối chiếu xem các con chữ có bám chắc trên đường cơ sở (baseline) hay bị trôi nổi."
+      },
+      {
+        "term": "Tỷ lệ chữ hoa B",
+        "category": "Key Takeaway",
+        "definition": "Bụng trên nhỏ gọn hơn bụng dưới giúp con chữ thanh thoát, vững vàng tựa trên đường cơ sở.",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Nét đón chữ thường b",
+        "category": "Key Takeaway",
+        "definition": "Kết thúc ở đường giữa (midline) giúp liên kết tự nhiên sang các chữ cái nguyên âm mà không gãy nét.",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Quy chuẩn khoảng cách",
+        "category": "Key Takeaway",
+        "definition": "Luôn duy trì khoảng cách đều đặn bằng độ rộng chữ 'o' giữa các từ để bài viết thoáng đãng, dễ đọc.",
+        "memoryTip": "Trọng tâm bài học UbD"
+      }
+    ],
+    "slides": [
+      {
+        "slideNumber": 1,
+        "title": "Tổng Quan Bài Học Writing 3 (Bài 002)",
+        "tag": "Grade 3 Overview",
+        "bulletPoints": [
+          "Giáo viên: Đội ngũ giáo viên Abeka Academy Grade 3",
+          "Sách giáo khoa: Writing with Purpose 3 (Lesson 2, tr. 2)",
+          "Tài liệu hướng dẫn: Slant Guide & Cursive Formation Charts, 10.1. Lesson Plans Homeschool Language Arts 3",
+          "Thời lượng bài giảng: 10 phút 40 giây"
+        ],
+        "keyTakeaway": "Dụng cụ cần thiết: Vở Writing with Purpose 3, bút chì gọt nhọn, thước kẻ, tẩy"
+      },
+      {
+        "slideNumber": 2,
+        "title": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Công thái học viết chữ: Tư thế ngồi thẳng lưng, 2 chân chạm sàn, cách cầm bút 3 điểm tựa (Dynamic Tripod Grip) và độ nghiêng vở chuẩn xác."
+        ],
+        "keyTakeaway": "Học sinh chỉnh độ nghiêng vở sang trái (thuận tay phải) hoặc sang phải (thuận tay trái); thả lỏng cổ tay [00:00 - 02:20]."
+      },
+      {
+        "slideNumber": 3,
+        "title": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Tạo hình chữ hoa B và chữ thường b theo chuẩn chữ thảo Abeka: Điểm đặt bút, nét đè (retrace), nét cong trên nhỏ hơn cong dưới, nét thắt đón (smile exit / bucket notch)."
+        ],
+        "keyTakeaway": "Viết chữ hoa B với 2 bụng cong cân đối; chữ thường b chạm đỉnh kẻ trên và kết thúc bằng nét thắt lưng lửng ở midline [02:20 - 07:15]."
+      },
+      {
+        "slideNumber": 4,
+        "title": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Nối chữ hoa B sang chữ thường trong từ trang trọng 'Bible'; viết câu tục ngữ hoàn chỉnh giữ đều khoảng cách chữ bằng độ rộng chữ 'o'."
+        ],
+        "keyTakeaway": "Viết câu mẫu: 'Never put off til tomorrow what you can do today.' và 'Brenna did her chores right away.' [07:15 - 09:30]."
+      },
+      {
+        "slideNumber": 5,
+        "title": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Năng lực tự rà soát độ nghiêng (slant) và tỷ lệ chữ cái; rèn luyện đức tính kiên nhẫn, cẩn trọng và không trì hoãn công việc theo thông điệp bài viết."
+        ],
+        "keyTakeaway": "Học sinh tự đặt thước kiểm tra độ nghiêng các nét sổ; tự đối chiếu xem các con chữ có bám chắc trên đường cơ sở (baseline) hay bị trôi nổi."
+      },
+      {
+        "slideNumber": 6,
+        "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
+        "tag": "Core Knowledge",
+        "bulletPoints": [
+          "Tỷ lệ chữ hoa B: Bụng trên nhỏ gọn hơn bụng dưới giúp con chữ thanh thoát, vững vàng tựa trên đường cơ sở.",
+          "Nét đón chữ thường b: Kết thúc ở đường giữa (midline) giúp liên kết tự nhiên sang các chữ cái nguyên âm mà không gãy nét.",
+          "Quy chuẩn khoảng cách: Luôn duy trì khoảng cách đều đặn bằng độ rộng chữ 'o' giữa các từ để bài viết thoáng đãng, dễ đọc."
+        ],
+        "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
+      }
+    ],
+    "quizData": [
+      {
+        "id": "q1",
+        "question": "In Lesson 2 of Writing 3, students practice the cursive letter 'B'. What is the correct anatomical procedure for forming a capital cursive 'B' according to Abeka penmanship standards?",
+        "options": [
+          "A. Start at the bottom baseline, draw a vertical line upward, and make three equal loops.",
+          "B. Begin slightly below the top line, curve downward to the baseline, retrace up the stem, and form two rounded loops where the top loop is slightly smaller than the bottom loop.",
+          "C. Draw a completely straight vertical stick and leave two disconnected semicircles on the right side.",
+          "D. Form a continuous circle without touching either the baseline or the headline."
+        ],
+        "correct": "B",
+        "explanation": "Writing with Purpose 3 (p. 2) and teacher demonstration show that capital cursive B begins near the top line, drops to the baseline, retraces upward, and forms two proportionate rounded curves, with the upper loop being slightly more compact than the lower curve to maintain visual balance.",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q2",
+        "question": "When writing the lowercase cursive letter 'b', what critical feature at the end of the letter facilitates a smooth connection to subsequent letters?",
+        "options": [
+          "A. A sharp downward drop below the baseline into the lower margin.",
+          "B. A tiny notch or bucket (smile exit) that stays at the midline rather than dropping back down to the baseline.",
+          "C. A complete full stop where the pencil must be lifted from the paper.",
+          "D. An oversized open loop that intersects the left margin."
+        ],
+        "correct": "B",
+        "explanation": "Lowercase cursive 'b' rises to the headline, loops back down to the baseline, and finishes with a small notch/bucket exit at the midline ('little bucket' or wave) that directly connects to the next letter without returning to the baseline.",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q3",
+        "question": "When transcribing the proper noun 'Bible' in cursive handwriting, what rule regarding capitalization and letter-joining must students observe?",
+        "options": [
+          "A. The word 'bible' should always begin with a lowercase letter in classroom practice.",
+          "B. Capital 'B' is capitalized out of reverence as a sacred title, and the writer connects or positions the lowercase 'i' smoothly alongside its base.",
+          "C. Every single letter in the word 'B-I-B-L-E' must be written in capital letters.",
+          "D. Punctuation periods must be placed between each individual cursive letter."
+        ],
+        "correct": "B",
+        "explanation": "As practiced on page 2, 'Bible' is a sacred proper noun requiring a formal capital 'B'. Students practice forming capital B and then joining the subsequent cursive letters 'i-b-l-e' in a continuous, flowing stroke, dotting the 'i' only after completing the word.",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q4",
+        "question": "What is the recommended rule of thumb taught by the instructor for maintaining consistent spacing between words in a cursive sentence?",
+        "options": [
+          "A. Words should touch each other continuously across the line without any gaps.",
+          "B. Leave a space approximately equal to the width of a lowercase cursive 'o' between words.",
+          "C. Leave a wide gap equal to the length of a wooden ruler between each word.",
+          "D. Word spacing is unimportant as long as all letters are slanted toward the left."
+        ],
+        "correct": "B",
+        "explanation": "Standard penmanship instruction specifies that inter-word spacing should be uniform, approximately the width of a standard lowercase 'o' (or the writer's pencil tip width), preventing crowded or excessively scattered handwriting.",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q5",
+        "question": "Why does the instructor emphasize adjusting the slant of the workbook paper (turning the top right corner for left-handers or top left for right-handers)?",
+        "options": [
+          "A. It allows students to hide their work from neighboring classmates.",
+          "B. Paper slant aligns naturally with the natural arc of arm and wrist movement, producing consistent cursive slant without wrist strain.",
+          "C. Paper must remain strictly parallel to the desk edge at all times.",
+          "D. It prevents pencils from becoming dull during writing drills."
+        ],
+        "correct": "B",
+        "explanation": "Slanting the paper properly enables the writing hand to pull strokes naturally toward the body. Right-handed writers slant paper with the top tilted left, while left-handed writers tilt the top right, preventing awkward wrist hooking and maintaining uniform cursive slant.",
+        "textbook_page_reference": ""
+      }
+    ]
   },
   "g3-d002-spelling-3": {
     "id": "g3-d002-spelling-3",
     "grade": "Grade 3",
     "day": "Ngày 002",
     "subject": "Spelling 3 (Bài 002)",
-    "teacher": "",
+    "teacher": "Đội ngũ giáo viên Abeka Academy Grade 3",
     "videoUrl": "",
     "driveEmbedUrl": "",
-    "bookTitle": "",
-    "bookPages": "",
-    "manualRef": "",
-    "bookIdentification": {},
-    "timestampMap": [],
-    "ubdReport": {},
-    "flashcards": [],
-    "slides": [],
-    "quizData": []
+    "bookTitle": "Spelling and Poetry 3 (Student Edition)",
+    "bookPages": "Trang 2 – 3, 71",
+    "manualRef": "10.1. Lesson Plans Homeschool Language Arts 3 (Spelling & Poetry 3)",
+    "bookIdentification": {
+      "subject": "Spelling 3",
+      "day": "Bài 002",
+      "teacher": "Đội ngũ giáo viên Abeka Academy Grade 3",
+      "primary_textbook": "Spelling and Poetry 3 (Student Edition)",
+      "textbook_pages": "Trang 2 – 3, 71",
+      "supplementary_materials": "10.1. Lesson Plans Homeschool Language Arts 3 (Spelling & Poetry 3)",
+      "required_supplies": "Sách Spelling and Poetry 3, vở bài tập chép chính tả, bút chì",
+      "video_duration": "17 phút 50 giây"
+    },
+    "timestampMap": [
+      {
+        "startTime": 0,
+        "endTime": 200,
+        "title": "Chào mừng học sinh vào lớp Chính tả 3; nhắc nhở học sinh mở sách trang 2, đứng cạnh bàn trong tư thế đọc chuẩn và đọc to toàn bộ danh sách Spelling List 1 chuẩn bị cho bài kiểm tra ở Lesson 8.",
+        "desc": "Khởi động & Đọc tổng thể danh sách Spelling List 1",
+        "bookRef": "Spelling and Poetry 3 - Tr. 2"
+      },
+      {
+        "startTime": 200,
+        "endTime": 405,
+        "title": "Phân tích âm nguyên âm dài /ā/: Cả hai nhóm chữ cái ai và ay đều tạo ra âm /ā/ dài; chỉ ra các từ bắt đầu bằng chữ hoa (August, October); phân tích từ ghép (compound word: airplane).",
+        "desc": "Quy tắc ngữ âm: Âm /ā/ dài (ai/ay), chữ hoa chỉ tháng và từ ghép",
+        "bookRef": "Spelling and Poetry 3 - Tr. 2–3"
+      },
+      {
+        "startTime": 405,
+        "endTime": 675,
+        "title": "Luyện tập đánh vần tương tác: Hướng dẫn kỹ thuật gõ nhịp ngón tay khi gặp nguyên âm (vowel tapping); cả lớp cùng đồng thanh đánh vần (Say - Spell - Say) các từ: frail, proclaim, plain, faith, tray, spray, delay...",
+        "desc": "Luyện tập đánh vần nhịp điệu (Say - Spell - Say & Vowel Tapping)",
+        "bookRef": "Spelling and Poetry 3 - Tr. 2–3"
+      },
+      {
+        "startTime": 675,
+        "endTime": 900,
+        "title": "Chuyển sang phần Thơ: Mở sách trang 71; cô giáo định nghĩa thơ là nhóm từ giàu vần điệu (rhyme & rhythm); đọc mẫu bài thơ \"A Poem in Your Pocket\" của tác giả Beatrice Schenk de Regniers.",
+        "desc": "Đọc diễn cảm bài thơ \"A Poem in Your Pocket\" của Beatrice Schenk de Regniers",
+        "bookRef": "Spelling and Poetry 3 - Tr. 71"
+      },
+      {
+        "startTime": 900,
+        "endTime": 1070,
+        "title": "Phân tích các cặp từ bắt vần trong bài thơ; giải thích thông điệp nuôi dưỡng niềm vui văn học; dặn dò bài tập về nhà: chép lại List 1 một lần thật nắn nót vào vở và học nghĩa từ vựng.",
+        "desc": "Phân tích vần thơ & Dặn dò bài tập về nhà (Spelling Homework)",
+        "bookRef": "Spelling and Poetry 3 - Tr. 71 & Tr. 2"
+      }
+    ],
+    "ubdReport": {
+      "subject_name": "Spelling 3",
+      "folder_url": "https://drive.google.com/drive/folders/1EdvAWuuOy6z9ku1MqDl49MOJ6Nw99k7l",
+      "meta": {
+        "subject": "Spelling 3",
+        "lesson_day": "Bài 002",
+        "teacher": "Đội ngũ giáo viên Abeka Academy Grade 3",
+        "textbook": "Spelling and Poetry 3 (Trang 2–3, 71)",
+        "supplementary": "10.1. Lesson Plans Homeschool Language Arts 3 (Spelling & Poetry 3)",
+        "duration": "17 phút 50 giây",
+        "supplies": "Sách Spelling and Poetry 3, vở bài tập chép chính tả, bút chì"
+      },
+      "stage1_desired_results": {
+        "skill_taxonomy": [
+          {
+            "level_name": "1. Kỹ năng Nền tảng (Foundation Skills)",
+            "competency_desc": "Quy trình đánh vần chuẩn mực: Tư thế đứng đọc (reading position), phương pháp Say - Spell - Say và kỹ thuật gõ nhịp ngón tay khi gặp nguyên âm (vowel tapping).",
+            "lesson_illustration": "Học sinh đứng thẳng giữ sách 2 bên mép, đọc to từ, đánh vần từng chữ cái và nhắc lại từ (Say - Spell - Say) [00:00 - 03:20]."
+          },
+          {
+            "level_name": "2. Kỹ năng Cốt lõi (Core Skills)",
+            "competency_desc": "Quy tắc ngữ âm âm /ā/ dài: Nhận diện 'ai' ở giữa từ (frail, plain, faith) và 'ay' ở cuối từ (spray, tray, delay); nhận diện từ viết hoa (August, October); phân tích từ ghép (airplane).",
+            "lesson_illustration": "Đánh vần chính xác các từ khó: P-R-O-C-L-A-I-M, A-I-R-P-L-A-N-E; giải thích vì sao August phải viết hoa chữ A [03:20 - 11:15]."
+          },
+          {
+            "level_name": "3. Kỹ năng Ứng dụng (Applied Skills)",
+            "competency_desc": "Vận dụng từ vựng vào ngữ cảnh câu; giải nghĩa từ học thuật (proclaim = declare, frail = weak); cảm thụ nhịp thơ và các từ bắt vần trong bài thơ 'A Poem in Your Pocket'.",
+            "lesson_illustration": "Đặt câu với từ 'proclaim'; đọc diễn cảm bài thơ trang 71 và chỉ ra cặp từ bắt vần pocket - lock it [11:15 - 17:50]."
+          },
+          {
+            "level_name": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+            "competency_desc": "Năng lực tự kiểm tra chính tả (Self-Correction): Nhận diện điểm mù dễ sai (nhầm ai/ay, quên viết hoa tên tháng); trân trọng giá trị nuôi dưỡng tâm hồn của thơ ca.",
+            "lesson_illustration": "Học sinh tự rà soát xem mình có nhầm giữa 'plain' và 'plane' không; tự giác học thuộc nghĩa từ vựng để làm chủ vốn từ."
+          }
+        ],
+        "clos": [
+          "CLO 1: Đánh vần và viết chính xác 100% các từ trong Spelling List 1 theo phương pháp Say - Spell - Say.",
+          "CLO 2: Phân biệt và giải thích được quy tắc sử dụng 'ai' (giữa từ) và 'ay' (cuối từ) để tạo âm /ā/ dài.",
+          "CLO 3: Trình bày đúng định nghĩa của các từ vựng học thuật trong danh sách (proclaim, frail, plain).",
+          "CLO 4: Đọc diễn cảm bài thơ 'A Poem in Your Pocket' trang 71, xác định đúng các cặp từ gieo vần và nhịp điệu."
+        ]
+      },
+      "stage3_learning_plan": {
+        "jit_tools": [
+          {
+            "tool_name": "Đọc tổng thể List 1, tư thế cầm sách chuẩn (00:00 - 03:20)",
+            "description": "Nguồn: SGK tr. 2 | Ý đồ sư phạm: Kích hoạt phản xạ phát âm chuẩn xác toàn bộ danh sách từ."
+          },
+          {
+            "tool_name": "Phân tích âm /ā/ dài (ai/ay), từ viết hoa, từ ghép (03:20 - 06:45)",
+            "description": "Nguồn: SGK tr. 2–3 | Ý đồ sư phạm: Trang bị quy tắc ngữ âm và hình thái học từ vựng."
+          },
+          {
+            "tool_name": "Luyện đánh vần Say - Spell - Say & Vowel Tapping (06:45 - 11:15)",
+            "description": "Nguồn: SGK tr. 2–3 | Ý đồ sư phạm: Khắc sâu trí nhớ cơ bắp và phản xạ thị giác - thính giác."
+          },
+          {
+            "tool_name": "Đọc thơ 'A Poem in Your Pocket' của Beatrice de Regniers (11:15 - 15:00)",
+            "description": "Nguồn: SGK tr. 71 | Ý đồ sư phạm: Kết nối kỹ năng ngôn ngữ với cảm thụ văn học nghệ thuật."
+          },
+          {
+            "tool_name": "Phân tích vần thơ & giao bài tập chép chính tả về nhà (15:00 - 17:50)",
+            "description": "Nguồn: SGK tr. 2 & 71 | Ý đồ sư phạm: Hướng dẫn bài tập tự luyện củng cố (Spelling Homework)."
+          }
+        ]
+      },
+      "pitfalls": [
+        {
+          "trap_name": "Bẫy 1: Nhầm vị trí giữa 'ai' và 'ay'",
+          "situation": "Học sinh viết 'delaie' thay vì 'delay', hoặc 'frayl' thay vì 'frail'.",
+          "common_error": "Không nắm quy tắc vị trí âm vị trong âm tiết.",
+          "solution": "Khắc sâu quy tắc: 'ai' nằm ở bụng chữ (giữa từ), 'ay' nằm ở đuôi chữ (cuối từ/âm tiết)."
+        },
+        {
+          "trap_name": "Bẫy 2: Quên viết hoa tên tháng August và October",
+          "situation": "Viết thường 'august' và 'october' khi làm bài kiểm tra.",
+          "common_error": "Xem tên tháng như danh từ chung thông thường.",
+          "solution": "Nhấn mạnh đây là Proper Nouns (danh từ riêng chỉ tháng), luôn phải bắt đầu bằng chữ hoa trang trọng."
+        },
+        {
+          "trap_name": "Bẫy 3: Đánh vần vẹt không hiểu nghĩa từ",
+          "situation": "Học sinh nhớ mặt chữ P-R-O-C-L-A-I-M nhưng không biết 'proclaim' có nghĩa là gì.",
+          "common_error": "Tách rời kỹ năng chính tả khỏi năng lực từ vựng và đọc hiểu.",
+          "solution": "Sau khi đánh vần xong, luôn yêu cầu học sinh nói nghĩa: 'Proclaim means to declare publicly'."
+        }
+      ],
+      "key_takeaways": [
+        {
+          "title": "Quy tắc âm /ā/ dài",
+          "content": "Cả 'ai' và 'ay' đều phát âm là /ā/ dài, trong đó 'ai' dùng ở giữa từ (plain, frail) và 'ay' dùng ở cuối từ (delay, spray)."
+        },
+        {
+          "title": "Danh từ riêng tên tháng",
+          "content": "August và October luôn luôn phải viết hoa chữ cái đầu tiên trong mọi trường hợp."
+        },
+        {
+          "title": "Sức mạnh của thi ca",
+          "content": "Một bài thơ hay mang theo trong trí nhớ sẽ sưởi ấm tâm hồn và mang lại niềm vui suốt cả ngày dài."
+        }
+      ],
+      "formative_quiz": [
+        {
+          "question": "In Spelling List 1, students analyze words containing the long /ā/ sound spelled with 'ai' (as in frail, proclaim, plain, faith) and 'ay' (as in spray, tray, delay). What general phonics rule governs the positional distribution of 'ai' versus 'ay'?",
+          "options": [
+            "A. The spelling 'ay' is used exclusively at the very beginning of words, while 'ai' appears only at the end.",
+            "B. The digraph 'ai' typically represents long /ā/ in the middle of a syllable, while 'ay' usually represents long /ā/ at the end of a root word or syllable.",
+            "C. 'ai' is used only in words borrowed from French, whereas 'ay' is reserved for compound words.",
+            "D. 'ai' and 'ay' can be interchanged freely in any word without changing standard spelling."
+          ],
+          "correct_answer": "B",
+          "explanation": "Spelling and Poetry 3 (pp. 2–3) highlights the standard orthographic rule: 'ai' represents the long /ā/ sound within the interior (middle) of a syllable/root word (e.g., frail, plain, faith), whereas 'ay' appears predominantly at the end of a syllable or base word (e.g., spray, tray, delay)."
+        },
+        {
+          "question": "Why do the vocabulary words 'August' and 'October' in Spelling List 1 strictly require capital letters in all contexts?",
+          "options": [
+            "A. They are compound words composed of two separate nouns.",
+            "B. They are proper nouns designating specific months of the calendar year.",
+            "C. They contain more than two syllables and end with consonants.",
+            "D. Capitalization is optional and only applied at the start of a sentence."
+          ],
+          "correct_answer": "B",
+          "explanation": "Proper nouns naming specific entities—including days of the week, months of the year, and holidays—always begin with a capital letter. Both August and October are proper nouns naming specific calendar months."
+        },
+        {
+          "question": "The word 'airplane' appears in Spelling List 1. Morphologically and structurally, how is 'airplane' categorized, and how should a student analyze its spelling?",
+          "options": [
+            "A. It is a contracted word formed by omitting several letters with an apostrophe.",
+            "B. It is a compound word formed by joining two distinct base words ('air' + 'plane') into a single integrated term.",
+            "C. It is an irregular past-tense verb requiring a silent final consonant.",
+            "D. It is an acronym derived from modern aviation terminology."
+          ],
+          "correct_answer": "B",
+          "explanation": "Page 2 demonstrates that 'airplane' is a compound word formed by combining 'air' (containing digraph 'ai') and 'plane' (containing silent 'e'). Breaking compound words into their constituent roots simplifies accurate spelling."
+        },
+        {
+          "question": "During spelling drills, the teacher uses the 'Say - Spell - Say' methodology accompanied by rhythmic 'vowel tapping'. What pedagogical purpose does this multi-sensory routine serve?",
+          "options": [
+            "A. It serves merely as an athletic classroom warm-up to expend excess energy.",
+            "B. It reinforces phoneme-grapheme mapping by engaging auditory, vocal, tactile, and visual cognitive pathways simultaneously.",
+            "C. It allows the teacher to grade tests silently without looking at students' papers.",
+            "D. It replaces the necessity of writing the spelling list during independent study."
+          ],
+          "correct_answer": "B",
+          "explanation": "Saying the word, chanting the individual letters, and saying the word again while physically tapping fingers on vowel letters activates auditory, kinesthetic, and visual memory networks, significantly improving long-term spelling retention."
+        },
+        {
+          "question": "In the poem 'A Poem in Your Pocket' by Beatrice Schenk de Regniers (p. 71), what core figurative message does the poet convey to young readers?",
+          "options": [
+            "A. Pocket clothing is mandatory for attending third-grade literature classes.",
+            "B. Carrying poetry in one's mind and heart provides emotional warmth, joyful imagination, and comforting companionship throughout the day.",
+            "C. Poems should only be read outdoors during winter snowstorms.",
+            "D. Memorizing poems is solely intended for achieving high marks on recitation exams."
+          ],
+          "correct_answer": "B",
+          "explanation": "Page 71 introduces poetry appreciation: a poem in your pocket (or memorized in memory) serves as an internal source of comfort, wonder, and joy, 'keeping you warm when the cold wind blows' through the power of literary imagination."
+        }
+      ],
+      "stage2_bloom_assessment": {
+        "scenario": "Học sinh đóng vai một Biên tập viên Nhí (Junior Editor) của tờ báo tường trường học, phụ trách rà soát chính tả và biên tập góc thơ thiếu nhi cho số báo tháng Tám.",
+        "levels": [
+          {
+            "level": "Cấp độ 1: Remember (Nhớ)",
+            "sub_heading": "Phân loại từ theo mô thức ngữ âm",
+            "task": "Liệt kê 4 từ trong List 1 có chứa 'ai' và 4 từ có chứa 'ay'.",
+            "solution": "'ai': frail, plain, faith, proclaim. 'ay': spray, tray, delay, day.",
+            "pedagogical_rationale": "Tái hiện trí nhớ từ vựng chính tả."
+          },
+          {
+            "level": "Cấp độ 2: Understand (Hiểu)",
+            "sub_heading": "Cấu trúc từ ghép & Âm /ā/ dài",
+            "task": "Giải thích vì sao từ 'airplane' lại có hai âm /ā/ dài nhưng cách viết lại khác nhau ở hai âm tiết?",
+            "solution": "Âm tiết 1 dùng 'ai' (air); âm tiết 2 dùng cấu trúc a-consonant-e (plane) với chữ e câm ở cuối làm nguyên âm a đọc dài.",
+            "pedagogical_rationale": "Hiểu sâu các mô thức phát âm chữ cái."
+          },
+          {
+            "level": "Cấp độ 3: Apply (Vận dụng)",
+            "sub_heading": "Quy tắc vị trí âm vị trong điền từ",
+            "task": "Điền 'ai' hoặc 'ay' vào chỗ trống để hoàn thành từ đúng: tr___n (tàu hỏa), spr___ (phun xịt), pr___ (cầu nguyện), f___th (đức tin).",
+            "solution": "train, spray, pray, faith.",
+            "pedagogical_rationale": "Ứng dụng quy tắc vị trí âm vị vào bài tập điền từ."
+          },
+          {
+            "level": "Cấp độ 4: Analyze (Phân tích)",
+            "sub_heading": "Phân tích cấu trúc vần thơ",
+            "task": "Phân tích cấu trúc vần trong khổ thơ đầu của bài 'A Poem in Your Pocket' trang 71. Chỉ ra các từ bắt vần với nhau.",
+            "solution": "Phân tích vần cuối dòng (end rhyme): pocket bắt vần với lock it; cold bắt vần với hold.",
+            "pedagogical_rationale": "Năng lực phân tích thi pháp cơ bản."
+          },
+          {
+            "level": "Cấp độ 5: Evaluate (Đánh giá)",
+            "sub_heading": "Kiểm toán lỗi chính tả văn bản",
+            "task": "Phát hiện và sửa 3 lỗi chính tả trong đoạn văn: 'In august, we rode on an aerplane and saw a frayl bird in the sky.'",
+            "solution": "Lỗi 1: august -> August; Lỗi 2: aerplane -> airplane; Lỗi 3: frayl -> frail.",
+            "pedagogical_rationale": "Kiểm toán lỗi chính tả trong văn bản hoàn chỉnh."
+          },
+          {
+            "level": "Cấp độ 6: Create (Sáng tạo)",
+            "sub_heading": "Sáng tác thơ gieo vần",
+            "task": "Sáng tác một bài thơ ngắn 4 dòng (có gieo vần cuối) sử dụng ít nhất 2 từ trong Spelling List 1 (ví dụ: day, play, stay, rain...).",
+            "solution": "Rubric chấm điểm (Thang 10 điểm):\n- Đúng thể thức thơ 4 dòng có gieo vần: 4 điểm.\n- Sử dụng đúng chính tả 2 từ trong List 1: 4 điểm.\n- Ý thơ trong sáng, giàu hình ảnh: 2 điểm.",
+            "pedagogical_rationale": "Phát triển tư duy ngôn ngữ sáng tạo và cảm thụ văn học."
+          }
+        ]
+      }
+    },
+    "flashcards": [
+      {
+        "term": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Quy trình đánh vần chuẩn mực: Tư thế đứng đọc (reading position), phương pháp Say - Spell - Say và kỹ thuật gõ nhịp ngón tay khi gặp nguyên âm (vowel tapping).",
+        "memoryTip": "Học sinh đứng thẳng giữ sách 2 bên mép, đọc to từ, đánh vần từng chữ cái và nhắc lại từ (Say - Spell - Say) [00:00 - 03:20]."
+      },
+      {
+        "term": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Quy tắc ngữ âm âm /ā/ dài: Nhận diện 'ai' ở giữa từ (frail, plain, faith) và 'ay' ở cuối từ (spray, tray, delay); nhận diện từ viết hoa (August, October); phân tích từ ghép (airplane).",
+        "memoryTip": "Đánh vần chính xác các từ khó: P-R-O-C-L-A-I-M, A-I-R-P-L-A-N-E; giải thích vì sao August phải viết hoa chữ A [03:20 - 11:15]."
+      },
+      {
+        "term": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Vận dụng từ vựng vào ngữ cảnh câu; giải nghĩa từ học thuật (proclaim = declare, frail = weak); cảm thụ nhịp thơ và các từ bắt vần trong bài thơ 'A Poem in Your Pocket'.",
+        "memoryTip": "Đặt câu với từ 'proclaim'; đọc diễn cảm bài thơ trang 71 và chỉ ra cặp từ bắt vần pocket - lock it [11:15 - 17:50]."
+      },
+      {
+        "term": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Năng lực tự kiểm tra chính tả (Self-Correction): Nhận diện điểm mù dễ sai (nhầm ai/ay, quên viết hoa tên tháng); trân trọng giá trị nuôi dưỡng tâm hồn của thơ ca.",
+        "memoryTip": "Học sinh tự rà soát xem mình có nhầm giữa 'plain' và 'plane' không; tự giác học thuộc nghĩa từ vựng để làm chủ vốn từ."
+      },
+      {
+        "term": "Quy tắc âm /ā/ dài",
+        "category": "Key Takeaway",
+        "definition": "Cả 'ai' và 'ay' đều phát âm là /ā/ dài, trong đó 'ai' dùng ở giữa từ (plain, frail) và 'ay' dùng ở cuối từ (delay, spray).",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Danh từ riêng tên tháng",
+        "category": "Key Takeaway",
+        "definition": "August và October luôn luôn phải viết hoa chữ cái đầu tiên trong mọi trường hợp.",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Sức mạnh của thi ca",
+        "category": "Key Takeaway",
+        "definition": "Một bài thơ hay mang theo trong trí nhớ sẽ sưởi ấm tâm hồn và mang lại niềm vui suốt cả ngày dài.",
+        "memoryTip": "Trọng tâm bài học UbD"
+      }
+    ],
+    "slides": [
+      {
+        "slideNumber": 1,
+        "title": "Tổng Quan Bài Học Spelling 3 (Bài 002)",
+        "tag": "Grade 3 Overview",
+        "bulletPoints": [
+          "Giáo viên: Đội ngũ giáo viên Abeka Academy Grade 3",
+          "Sách giáo khoa: Spelling and Poetry 3 (Trang 2–3, 71)",
+          "Tài liệu hướng dẫn: 10.1. Lesson Plans Homeschool Language Arts 3 (Spelling & Poetry 3)",
+          "Thời lượng bài giảng: 17 phút 50 giây"
+        ],
+        "keyTakeaway": "Dụng cụ cần thiết: Sách Spelling and Poetry 3, vở bài tập chép chính tả, bút chì"
+      },
+      {
+        "slideNumber": 2,
+        "title": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Quy trình đánh vần chuẩn mực: Tư thế đứng đọc (reading position), phương pháp Say - Spell - Say và kỹ thuật gõ nhịp ngón tay khi gặp nguyên âm (vowel tapping)."
+        ],
+        "keyTakeaway": "Học sinh đứng thẳng giữ sách 2 bên mép, đọc to từ, đánh vần từng chữ cái và nhắc lại từ (Say - Spell - Say) [00:00 - 03:20]."
+      },
+      {
+        "slideNumber": 3,
+        "title": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Quy tắc ngữ âm âm /ā/ dài: Nhận diện 'ai' ở giữa từ (frail, plain, faith) và 'ay' ở cuối từ (spray, tray, delay); nhận diện từ viết hoa (August, October); phân tích từ ghép (airplane)."
+        ],
+        "keyTakeaway": "Đánh vần chính xác các từ khó: P-R-O-C-L-A-I-M, A-I-R-P-L-A-N-E; giải thích vì sao August phải viết hoa chữ A [03:20 - 11:15]."
+      },
+      {
+        "slideNumber": 4,
+        "title": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Vận dụng từ vựng vào ngữ cảnh câu; giải nghĩa từ học thuật (proclaim = declare, frail = weak); cảm thụ nhịp thơ và các từ bắt vần trong bài thơ 'A Poem in Your Pocket'."
+        ],
+        "keyTakeaway": "Đặt câu với từ 'proclaim'; đọc diễn cảm bài thơ trang 71 và chỉ ra cặp từ bắt vần pocket - lock it [11:15 - 17:50]."
+      },
+      {
+        "slideNumber": 5,
+        "title": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Năng lực tự kiểm tra chính tả (Self-Correction): Nhận diện điểm mù dễ sai (nhầm ai/ay, quên viết hoa tên tháng); trân trọng giá trị nuôi dưỡng tâm hồn của thơ ca."
+        ],
+        "keyTakeaway": "Học sinh tự rà soát xem mình có nhầm giữa 'plain' và 'plane' không; tự giác học thuộc nghĩa từ vựng để làm chủ vốn từ."
+      },
+      {
+        "slideNumber": 6,
+        "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
+        "tag": "Core Knowledge",
+        "bulletPoints": [
+          "Quy tắc âm /ā/ dài: Cả 'ai' và 'ay' đều phát âm là /ā/ dài, trong đó 'ai' dùng ở giữa từ (plain, frail) và 'ay' dùng ở cuối từ (delay, spray).",
+          "Danh từ riêng tên tháng: August và October luôn luôn phải viết hoa chữ cái đầu tiên trong mọi trường hợp.",
+          "Sức mạnh của thi ca: Một bài thơ hay mang theo trong trí nhớ sẽ sưởi ấm tâm hồn và mang lại niềm vui suốt cả ngày dài."
+        ],
+        "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
+      }
+    ],
+    "quizData": [
+      {
+        "id": "q1",
+        "question": "In Spelling List 1, students analyze words containing the long /ā/ sound spelled with 'ai' (as in frail, proclaim, plain, faith) and 'ay' (as in spray, tray, delay). What general phonics rule governs the positional distribution of 'ai' versus 'ay'?",
+        "options": [
+          "A. The spelling 'ay' is used exclusively at the very beginning of words, while 'ai' appears only at the end.",
+          "B. The digraph 'ai' typically represents long /ā/ in the middle of a syllable, while 'ay' usually represents long /ā/ at the end of a root word or syllable.",
+          "C. 'ai' is used only in words borrowed from French, whereas 'ay' is reserved for compound words.",
+          "D. 'ai' and 'ay' can be interchanged freely in any word without changing standard spelling."
+        ],
+        "correct": "B",
+        "explanation": "Spelling and Poetry 3 (pp. 2–3) highlights the standard orthographic rule: 'ai' represents the long /ā/ sound within the interior (middle) of a syllable/root word (e.g., frail, plain, faith), whereas 'ay' appears predominantly at the end of a syllable or base word (e.g., spray, tray, delay).",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q2",
+        "question": "Why do the vocabulary words 'August' and 'October' in Spelling List 1 strictly require capital letters in all contexts?",
+        "options": [
+          "A. They are compound words composed of two separate nouns.",
+          "B. They are proper nouns designating specific months of the calendar year.",
+          "C. They contain more than two syllables and end with consonants.",
+          "D. Capitalization is optional and only applied at the start of a sentence."
+        ],
+        "correct": "B",
+        "explanation": "Proper nouns naming specific entities—including days of the week, months of the year, and holidays—always begin with a capital letter. Both August and October are proper nouns naming specific calendar months.",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q3",
+        "question": "The word 'airplane' appears in Spelling List 1. Morphologically and structurally, how is 'airplane' categorized, and how should a student analyze its spelling?",
+        "options": [
+          "A. It is a contracted word formed by omitting several letters with an apostrophe.",
+          "B. It is a compound word formed by joining two distinct base words ('air' + 'plane') into a single integrated term.",
+          "C. It is an irregular past-tense verb requiring a silent final consonant.",
+          "D. It is an acronym derived from modern aviation terminology."
+        ],
+        "correct": "B",
+        "explanation": "Page 2 demonstrates that 'airplane' is a compound word formed by combining 'air' (containing digraph 'ai') and 'plane' (containing silent 'e'). Breaking compound words into their constituent roots simplifies accurate spelling.",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q4",
+        "question": "During spelling drills, the teacher uses the 'Say - Spell - Say' methodology accompanied by rhythmic 'vowel tapping'. What pedagogical purpose does this multi-sensory routine serve?",
+        "options": [
+          "A. It serves merely as an athletic classroom warm-up to expend excess energy.",
+          "B. It reinforces phoneme-grapheme mapping by engaging auditory, vocal, tactile, and visual cognitive pathways simultaneously.",
+          "C. It allows the teacher to grade tests silently without looking at students' papers.",
+          "D. It replaces the necessity of writing the spelling list during independent study."
+        ],
+        "correct": "B",
+        "explanation": "Saying the word, chanting the individual letters, and saying the word again while physically tapping fingers on vowel letters activates auditory, kinesthetic, and visual memory networks, significantly improving long-term spelling retention.",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q5",
+        "question": "In the poem 'A Poem in Your Pocket' by Beatrice Schenk de Regniers (p. 71), what core figurative message does the poet convey to young readers?",
+        "options": [
+          "A. Pocket clothing is mandatory for attending third-grade literature classes.",
+          "B. Carrying poetry in one's mind and heart provides emotional warmth, joyful imagination, and comforting companionship throughout the day.",
+          "C. Poems should only be read outdoors during winter snowstorms.",
+          "D. Memorizing poems is solely intended for achieving high marks on recitation exams."
+        ],
+        "correct": "B",
+        "explanation": "Page 71 introduces poetry appreciation: a poem in your pocket (or memorized in memory) serves as an internal source of comfort, wonder, and joy, 'keeping you warm when the cold wind blows' through the power of literary imagination.",
+        "textbook_page_reference": ""
+      }
+    ]
   },
   "g3-d002-seatwork-3": {
     "id": "g3-d002-seatwork-3",
     "grade": "Grade 3",
     "day": "Ngày 002",
     "subject": "Seatwork 3 (Bài 002)",
-    "teacher": "",
+    "teacher": "Hướng dẫn tự học / Khối bài tập Seatwork độc lập",
     "videoUrl": "",
     "driveEmbedUrl": "",
-    "bookTitle": "",
-    "bookPages": "",
-    "manualRef": "",
-    "bookIdentification": {},
-    "timestampMap": [],
-    "ubdReport": {},
-    "flashcards": [],
-    "slides": [],
-    "quizData": []
+    "bookTitle": "Bộ 5 sách bài tập Abeka Grade 3 (Arithmetic 3, Language 3, Writing with Purpose 3, Spelling and Poetry 3, From Shore to Shore)",
+    "bookPages": "Arithmetic 3 tr. 4; Language 3 tr. 4; Writing with Purpose 3 tr. 2; Spelling and Poetry 3 tr. 2–3, 71; From Shore to Shore tr. 8–13",
+    "manualRef": "Seatwork Assignment Chart, 10.1. Lesson Plans Homeschool Language Arts 3, 10.2. Lesson Plans Homeschool Arithmetic 3",
+    "bookIdentification": {
+      "subject": "Seatwork 3",
+      "day": "Bài 002",
+      "teacher": "Hướng dẫn tự học / Khối bài tập Seatwork độc lập",
+      "primary_textbook": "Bộ 5 sách bài tập Abeka Grade 3 (Arithmetic 3, Language 3, Writing with Purpose 3, Spelling and Poetry 3, From Shore to Shore)",
+      "textbook_pages": "Arithmetic 3 tr. 4; Language 3 tr. 4; Writing with Purpose 3 tr. 2; Spelling and Poetry 3 tr. 2–3, 71; From Shore to Shore tr. 8–13",
+      "supplementary_materials": "Seatwork Assignment Chart, 10.1. Lesson Plans Homeschool Language Arts 3, 10.2. Lesson Plans Homeschool Arithmetic 3",
+      "required_supplies": "5 cuốn sách bài tập, bút chì gọt nhọn, thước kẻ, tẩy sạch, đồng hồ canh giờ",
+      "video_duration": "55 phút 00 giây"
+    },
+    "timestampMap": [
+      {
+        "startTime": 0,
+        "endTime": 300,
+        "title": "Học sinh quan sát bảng phân công bài tập Seatwork Lesson 2 hiển thị trên màn hình; chuẩn bị đầy đủ 5 đầu sách thực hành, gọt sẵn bút chì, chuẩn bị thước kẻ và đặt đồng hồ canh giờ trên góc bàn.",
+        "desc": "Khởi động & Sắp xếp tài liệu, dụng cụ học tập khoa học",
+        "bookRef": "Seatwork Assignment Chart"
+      },
+      {
+        "startTime": 300,
+        "endTime": 900,
+        "title": "Học sinh hoàn thành bài tập Toán trong sách Arithmetic 3 Work-text trang 4: Luyện tập độc lập về giá trị vị trí hàng nghìn, viết số có dấu phẩy, thực hiện các phép cộng có nhớ và xem giờ đồng hồ.",
+        "desc": "Thực hành Toán độc lập: Arithmetic 3 trang 4",
+        "bookRef": "Arithmetic 3 Work-text - Tr. 4"
+      },
+      {
+        "startTime": 900,
+        "endTime": 1500,
+        "title": "Học sinh hoàn thành bài tập Tiếng Anh trong sách Language 3 trang 4: Nhận diện câu hoàn chỉnh, sử dụng 3 gạch dưới để sửa chữ hoa và khoanh tròn thêm dấu chấm câu, hoàn thành bài tập Thinking Cap.",
+        "desc": "Thực hành Ngữ pháp: Language 3 trang 4",
+        "bookRef": "Language 3 - Tr. 4"
+      },
+      {
+        "startTime": 1500,
+        "endTime": 2100,
+        "title": "Học sinh hoàn thành bài tập Tập viết trong sách Writing with Purpose 3 trang 2: Nắn nót viết chữ hoa B, thường b, từ \"Bible\" và câu danh ngôn về sự chăm chỉ không trì hoãn.",
+        "desc": "Thực hành Viết chữ đẹp: Writing 3 trang 2",
+        "bookRef": "Writing with Purpose 3 - Tr. 2"
+      },
+      {
+        "startTime": 2100,
+        "endTime": 2700,
+        "title": "Học sinh chép lại danh sách Spelling List 1 (trang 2 sách Spelling and Poetry 3) đúng một lần vào vở bài tập; học thuộc lòng nghĩa từ vựng và đọc nhẩm bài thơ trang 71.",
+        "desc": "Thực hành Chính tả: Viết Spelling List 1 & Ôn thơ",
+        "bookRef": "Spelling and Poetry 3 - Tr. 2–3, 71"
+      },
+      {
+        "startTime": 2700,
+        "endTime": 3000,
+        "title": "Học sinh mở sách tập đọc From Shore to Shore đọc tiếp câu chuyện \"The Prisoner and the Shipwreck\" từ trang 8 đến trang 13; chuẩn bị câu trả lời cho các câu hỏi đọc hiểu.",
+        "desc": "Luyện đọc độc lập: From Shore to Shore",
+        "bookRef": "From Shore to Shore - Tr. 8–13"
+      },
+      {
+        "startTime": 3000,
+        "endTime": 3300,
+        "title": "Học sinh tự rà soát lại toàn bộ 5 bài tập đã làm (Self-Check & Audit), tẩy xóa sạch sẽ các vết lem bẩn, xếp gọn gàng 5 cuốn sách và nộp cho phụ huynh/giáo viên tại chỗ chấm điểm.",
+        "desc": "Tự kiểm tra (Self-Check) & Nộp bài hoàn thành",
+        "bookRef": "Quy trình tự rà soát độc lập"
+      }
+    ],
+    "ubdReport": {
+      "subject_name": "Seatwork 3",
+      "folder_url": "https://drive.google.com/drive/folders/18h6Nb8aG4GpbOZIvxGUXX05-I9KY-4os",
+      "meta": {
+        "subject": "Seatwork 3",
+        "lesson_day": "Bài 002",
+        "teacher": "Hướng dẫn tự học / Khối bài tập Seatwork độc lập",
+        "textbook": "Bộ 5 sách bài tập Abeka Grade 3 (Arithmetic 3 tr. 4, Language 3 tr. 4, Writing with Purpose 3 tr. 2, Spelling and Poetry 3 tr. 2–3 & 71, From Shore to Shore tr. 8–13)",
+        "supplementary": "Seatwork Assignment Chart, Lesson Plans Language Arts 3 & Arithmetic 3",
+        "duration": "55 phút 00 giây",
+        "supplies": "5 cuốn sách bài tập, bút chì gọt nhọn, thước kẻ, tẩy sạch, đồng hồ canh giờ"
+      },
+      "stage1_desired_results": {
+        "skill_taxonomy": [
+          {
+            "level_name": "1. Kỹ năng Nền tảng (Foundation Skills)",
+            "competency_desc": "Chuẩn bị không gian học tập độc lập: Đặt bảng Seatwork Chart trước mặt, chuẩn bị sẵn sàng 5 đầu sách, bút chì gọt nhọn, thước kẻ và tẩy sạch.",
+            "lesson_illustration": "Học sinh tự sắp xếp sách vở ngay ngắn trên bàn trong 5 phút đầu giờ, kiểm tra đủ tài liệu trước khi bắt tay làm bài."
+          },
+          {
+            "level_name": "2. Kỹ năng Cốt lõi (Core Skills)",
+            "competency_desc": "Thực hiện chính xác các yêu cầu học thuật của 5 môn: Toán trang 4 (giá trị vị trí, xem giờ); Ngữ pháp trang 4 (sửa câu bằng proofreader's marks); Tập viết trang 2; Chính tả chép List 1; Tập đọc trang 8-13.",
+            "lesson_illustration": "Tự giác hoàn thành lần lượt từng bài tập trong sách theo đúng thứ tự phân công, không bỏ sót phần nào."
+          },
+          {
+            "level_name": "3. Kỹ năng Ứng dụng (Applied Skills)",
+            "competency_desc": "Quản lý thời gian cá nhân (Time Management): Phân bổ hợp lý ~10-12 phút cho mỗi môn học trong tổng quỹ thời gian 50-55 phút; duy trì nhịp độ làm bài liên tục.",
+            "lesson_illustration": "Biết nhìn đồng hồ để chuyển môn đúng lúc, không sa đà quá lâu vào một môn khiến các môn sau bị trễ hạn."
+          },
+          {
+            "level_name": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+            "competency_desc": "Quy trình tự kiểm toán (Self-Audit Routine): Dành 5 phút cuối giờ rà soát lại toàn bộ bài làm, phát hiện dấu câu thiếu, phép tính sai, nét chữ lem nhem trước khi nộp bài.",
+            "lesson_illustration": "Học sinh tự đặt câu hỏi: 'Mình đã chấm câu ở bài Language chưa? Phép cộng hàng nghìn đã có dấu phẩy chưa?' và tự sửa lỗi trước khi nộp cho phụ huynh."
+          }
+        ],
+        "clos": [
+          "CLO 1: Thiết lập quy trình tự học độc lập, hoàn thành trọn vẹn 5 nhiệm vụ học tập trên Seatwork Chart mà không cần người lớn nhắc nhở liên tục.",
+          "CLO 2: Phân bổ và quản lý thời gian làm bài hiệu quả trong khung thời gian 50–55 phút (~10–12 phút/môn).",
+          "CLO 3: Vận dụng đúng các kỹ năng bộ môn đã học trên video vào sách bài tập (dấu phẩy hàng nghìn, proofreader's marks, cursive baseline).",
+          "CLO 4: Thực hiện quy trình tự kiểm tra bài làm (Self-Audit) trước khi bàn giao cho giáo viên tại chỗ chấm điểm."
+        ]
+      },
+      "stage3_learning_plan": {
+        "jit_tools": [
+          {
+            "tool_name": "Quan sát Seatwork Chart, chuẩn bị 5 đầu sách và dụng cụ (00:00 - 05:00)",
+            "description": "Nguồn: Seatwork Assignment Chart | Ý đồ sư phạm: Tạo thói quen sẵn sàng và tổ chức công việc khoa học."
+          },
+          {
+            "tool_name": "Làm Toán độc lập: Arithmetic 3 trang 4 (05:00 - 15:00)",
+            "description": "Nguồn: Arithmetic 3 Work-text | Ý đồ sư phạm: Rèn luyện kỹ năng tính toán độc lập và củng cố giá trị vị trí."
+          },
+          {
+            "tool_name": "Làm Ngữ pháp độc lập: Language 3 trang 4 (15:00 - 25:00)",
+            "description": "Nguồn: Language 3 Work-text | Ý đồ sư phạm: Vận dụng ký hiệu hiệu đính sửa lỗi câu hoàn chỉnh."
+          },
+          {
+            "tool_name": "Tập viết nắn nót: Writing with Purpose 3 trang 2 (25:00 - 35:00)",
+            "description": "Nguồn: Writing with Purpose 3 | Ý đồ sư phạm: Rèn tính kiên nhẫn, cẩn thận qua nét chữ thảo cursive Bb."
+          },
+          {
+            "tool_name": "Chép chính tả List 1 vào vở & đọc nhẩm thơ tr. 71 (35:00 - 45:00)",
+            "description": "Nguồn: Spelling and Poetry 3 | Ý đồ sư phạm: Củng cố quy tắc chính tả ai/ay qua vận động viết tay."
+          },
+          {
+            "tool_name": "Đọc tiếp truyện 'The Prisoner and the Shipwreck' (45:00 - 50:00)",
+            "description": "Nguồn: From Shore to Shore tr. 8–13 | Ý đồ sư phạm: Phát triển năng lực đọc thầm và tư duy đọc hiểu độc lập."
+          },
+          {
+            "tool_name": "Tự rà soát toàn bộ bài tập (Self-Audit) & Nộp bài (50:00 - 55:00)",
+            "description": "Nguồn: Quy trình tự kiểm toán | Ý đồ sư phạm: Khắc sâu tinh thần trách nhiệm và tính trung thực học thuật."
+          }
+        ]
+      },
+      "pitfalls": [
+        {
+          "trap_name": "Bẫy 1: Sa đà quá lâu vào một môn khó",
+          "situation": "Học sinh ngồi ngẫm nghĩ một bài toán khó suốt 30 phút, bỏ quên 4 môn còn lại.",
+          "common_error": "Thiếu kỹ năng quản lý thời gian và đánh giá ưu tiên.",
+          "solution": "Quy tắc 'Đánh dấu và chuyển tiếp': Nếu vướng quá 3 phút, hãy đánh dấu sao để hỏi phụ huynh sau, chuyển sang môn tiếp theo để đảm bảo tiến độ chung."
+        },
+        {
+          "trap_name": "Bẫy 2: Làm ẩu để nộp bài sớm đi chơi",
+          "situation": "Học sinh làm vội vàng trong 20 phút, chữ viết cẩu thả, tẩy xóa rách giấy.",
+          "common_error": "Tâm lý chạy theo tốc độ thay vì chất lượng học tập.",
+          "solution": "Thiết lập tiêu chí chấm điểm: Bài làm ẩu sẽ phải làm lại từ đầu vào giờ giải lao; khen thưởng những bài viết nắn nót, sạch đẹp."
+        },
+        {
+          "trap_name": "Bẫy 3: Quên bước kiểm tra lại bài (Self-Audit)",
+          "situation": "Vừa làm xong bài cuối cùng liền gấp sách lại ngay.",
+          "common_error": "Để sót các lỗi cơ bản như quên chấm câu, quên viết hoa, cộng nhầm hàng đơn vị.",
+          "solution": "Đặt chuông báo 5 phút trước khi hết giờ để bắt buộc thực hiện quy trình kiểm tra kép."
+        }
+      ],
+      "key_takeaways": [
+        {
+          "title": "Tính tự chủ học tập",
+          "content": "Tiết Seatwork là cơ hội vàng rèn luyện tính tự giác và kỷ luật cá nhân, học sinh tự làm chủ tiến độ mà không ỷ lại người khác."
+        },
+        {
+          "title": "Kỹ năng quản trị thời gian",
+          "content": "Biết chia nhỏ thời lượng hợp lý cho từng môn học và giữ vững sự tập trung cao độ."
+        },
+        {
+          "title": "Tinh thần tận tụy, trách nhiệm",
+          "content": "Mọi bài tập nộp đi đều phải phản ánh sự nỗ lực cao nhất của bản thân qua nét chữ sạch đẹp và sự chính xác."
+        }
+      ],
+      "formative_quiz": [
+        {
+          "question": "In the Abeka Grade 3 curriculum, what is the primary structural and pedagogical role of the independent 'Seatwork' period in the daily schedule?",
+          "options": [
+            "A. It functions as an unguided free-play recess period where students socialize freely.",
+            "B. It provides structured, autonomous practice reinforcing concepts taught during direct video instruction across Math, English, Writing, Spelling, and Reading.",
+            "C. It serves exclusively as a disciplinary detention block for unfinished homework.",
+            "D. It replaces teacher instruction by requiring students to teach new concepts to themselves."
+          ],
+          "correct_answer": "B",
+          "explanation": "Lesson Plans Homeschool Language Arts & Arithmetic establish Seatwork as an essential self-directed study period. It trains students to apply and solidify skills introduced in video lectures across multiple subjects without continuous adult prompting."
+        },
+        {
+          "question": "A student begins Seatwork Lesson 2 with approximately 50–55 minutes allocated for five distinct assignments: Arithmetic p. 4, Language p. 4, Writing p. 2, Spelling List 1, and Reading pp. 8–13. What time management strategy represents optimal self-regulation?",
+          "options": [
+            "A. Spending 45 minutes on the first assignment and rushing through the remaining four in 5 minutes.",
+            "B. Allocating approximately 10–12 minutes per subject, maintaining a steady pacing routine, and reserving the final 5 minutes for comprehensive self-checking.",
+            "C. Completing only the easiest subject and skipping all analytical writing tasks.",
+            "D. Waiting for the parent/on-site teacher to dictate every answer step-by-step."
+          ],
+          "correct_answer": "B",
+          "explanation": "Effective independent seatwork requires paced time allocation: dividing the 50-minute block into ~10-minute segments per subject ensures all tasks are completed with high quality, while leaving a buffer for self-auditing."
+        },
+        {
+          "question": "While working on Language 3 (p. 4) during Seatwork, a student encounters the unpunctuated group of words: 'the brave sailors repaired the damaged mast'. How should the student apply proofreader's marks according to Lesson 2 guidelines?",
+          "options": [
+            "A. Erase all words and rewrite the sentence in all capital letters.",
+            "B. Place a triple underline (≡) beneath lowercase 't' in 'the' to indicate capitalization, and insert a circled period (⊙) after 'mast'.",
+            "C. Draw a heavy black X across the entire line and label it FRAGMENT.",
+            "D. Insert question marks between every word in the sentence."
+          ],
+          "correct_answer": "B",
+          "explanation": "Lesson 2 teaches two foundational proofreader's marks: triple underline beneath a letter to command capitalization (≡), and a period inside a circle (⊙) to insert a missing end mark cleanly without messy erasing."
+        },
+        {
+          "question": "In Arithmetic 3 (p. 4), the seatwork assignment requires students to write 'seven thousand, forty-two' in standard numeral format. What common error must students actively avoid?",
+          "options": [
+            "A. Placing a dollar sign before the numeral.",
+            "B. Omitting the zero placeholder in the hundreds column and incorrectly writing '742' instead of '7,042'.",
+            "C. Writing digits using Roman numerals instead of Arabic numerals.",
+            "D. Separating every single digit with hyphens."
+          ],
+          "correct_answer": "B",
+          "explanation": "When a place value period lacks a stated digit (e.g., no hundreds mentioned in 'seven thousand, forty-two'), students must insert '0' as a vital placeholder. Forgetting '0' collapses the number to 742 rather than 7,042."
+        },
+        {
+          "question": "Prior to submitting the completed Seatwork folder to the on-site supervisor or homeschool parent, what final procedure embodies mature academic stewardship?",
+          "options": [
+            "A. Immediately closing all workbooks and running outside without reviewing.",
+            "B. Performing a systematic 'Self-Audit' (checking all lines for missing punctuation, verified math carrying, neat cursive baseline adherence, and clean eraser smudges).",
+            "C. Tearing out all pages and discarding them in the wastebasket.",
+            "D. Asking an older sibling to rewrite all answers in their handwriting."
+          ],
+          "correct_answer": "B",
+          "explanation": "A core objective of Seatwork is cultivating personal responsibility (stewardship). Taking 3–5 minutes to review work, verify accuracy, clean stray pencil marks, and ensure neatness instills lifelong diligence."
+        }
+      ],
+      "stage2_bloom_assessment": {
+        "scenario": "Học sinh đóng vai một Trưởng nhóm Học tập Tự quản (Student Study Leader) xây dựng bảng kế hoạch tự học mẫu và hướng dẫn các bạn trong lớp thực hiện hiệu quả giờ Seatwork.",
+        "levels": [
+          {
+            "level": "Cấp độ 1: Remember (Nhớ)",
+            "sub_heading": "Ghi nhớ danh mục tài liệu phân công",
+            "task": "Kể tên 5 đầu sách bài tập cần hoàn thành trong giờ Seatwork Lesson 2 theo bảng phân công.",
+            "solution": "Arithmetic 3, Language 3, Writing with Purpose 3, Spelling and Poetry 3, From Shore to Shore.",
+            "pedagogical_rationale": "Ghi nhớ danh mục tài liệu học tập."
+          },
+          {
+            "level": "Cấp độ 2: Understand (Hiểu)",
+            "sub_heading": "Nguyên lý phân bổ năng lượng học tập",
+            "task": "Giải thích vì sao học sinh cần hoàn thành bài tập viết (Writing) trước khi đọc sách (Reading) thay vì làm ngược lại?",
+            "solution": "Vì bài viết đòi hỏi sự tập trung cơ tay và thị giác cao khi đầu óc còn minh mẫn; đọc sách ở phần sau giúp thư giãn tinh thần và chuyển trạng thái nhẹ nhàng hơn.",
+            "pedagogical_rationale": "Hiểu nguyên lý phân bổ năng lượng sinh học."
+          },
+          {
+            "level": "Cấp độ 3: Apply (Vận dụng)",
+            "sub_heading": "Lập thời gian biểu chi tiết",
+            "task": "Giả sử đồng hồ chỉ 9:00 sáng khi em bắt đầu Seatwork. Hãy lập bảng mốc thời gian kết thúc cho từng môn học để hoàn thành đúng 9:55.",
+            "solution": "9:00-9:12: Toán; 9:12-9:24: Ngữ pháp; 9:24-9:34: Tập viết; 9:34-9:44: Chính tả; 9:44-9:50: Đọc sách; 9:50-9:55: Soát bài.",
+            "pedagogical_rationale": "Ứng dụng toán học xem giờ vào lập thời gian biểu."
+          },
+          {
+            "level": "Cấp độ 4: Analyze (Phân tích)",
+            "sub_heading": "Phân tích tác động của sự xao nhãng",
+            "task": "So sánh hiệu quả học tập giữa một học sinh liên tục nhìn điện thoại/hỏi han người lớn và một học sinh tập trung 100% trong 50 phút Seatwork.",
+            "solution": "Học sinh mất tập trung mất gấp đôi thời gian, dễ sai sót do đứt đoạn mạch tư duy; học sinh tập trung rèn được tính tự lập, bài làm chuẩn xác và có nhiều thời gian nghỉ ngơi.",
+            "pedagogical_rationale": "Phân tích tác động của sự xao nhãng."
+          },
+          {
+            "level": "Cấp độ 5: Evaluate (Đánh giá)",
+            "sub_heading": "Đánh giá chất lượng bài làm đa chiều",
+            "task": "Đánh giá một trang bài làm của bạn: các câu trả lời đúng hết nhưng chữ viết nguệch ngoạc và có 3 vết lem tẩy xóa. Em sẽ cho điểm thế nào và góp ý gì?",
+            "solution": "Đánh giá cao kiến thức đúng, nhưng trừ điểm hình thức trình bày; nhắc bạn cần gọt bút chì, tẩy nhẹ tay và rèn lại tư thế ngồi viết nắn nót.",
+            "pedagogical_rationale": "Đánh giá đa chiều giữa nội dung và hình thức."
+          },
+          {
+            "level": "Cấp độ 6: Create (Sáng tạo)",
+            "sub_heading": "Thiết kế Bảng Cam Kết Tự Học",
+            "task": "Thiết kế một 'Bảng Cam Kết Tự Học' (Personal Seatwork Checklist) trang trí đẹp mắt gồm 5 bước tự kiểm tra trước khi nộp bài.",
+            "solution": "Rubric chấm điểm (Thang 10 điểm):\n- Đủ 5 bước kiểm tra thiết thực (dấu câu, toán, chữ viết, tên tháng, sạch sẽ): 4 điểm.\n- Trình bày sáng tạo, dễ theo dõi: 4 điểm.\n- Có chữ ký cam kết nghiêm túc: 2 điểm.",
+            "pedagogical_rationale": "Hình thành tính tự chủ và năng lực tự quản lý bản thân."
+          }
+        ]
+      }
+    },
+    "flashcards": [
+      {
+        "term": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Chuẩn bị không gian học tập độc lập: Đặt bảng Seatwork Chart trước mặt, chuẩn bị sẵn sàng 5 đầu sách, bút chì gọt nhọn, thước kẻ và tẩy sạch.",
+        "memoryTip": "Học sinh tự sắp xếp sách vở ngay ngắn trên bàn trong 5 phút đầu giờ, kiểm tra đủ tài liệu trước khi bắt tay làm bài."
+      },
+      {
+        "term": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Thực hiện chính xác các yêu cầu học thuật của 5 môn: Toán trang 4 (giá trị vị trí, xem giờ); Ngữ pháp trang 4 (sửa câu bằng proofreader's marks); Tập viết trang 2; Chính tả chép List 1; Tập đọc trang 8-13.",
+        "memoryTip": "Tự giác hoàn thành lần lượt từng bài tập trong sách theo đúng thứ tự phân công, không bỏ sót phần nào."
+      },
+      {
+        "term": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Quản lý thời gian cá nhân (Time Management): Phân bổ hợp lý ~10-12 phút cho mỗi môn học trong tổng quỹ thời gian 50-55 phút; duy trì nhịp độ làm bài liên tục.",
+        "memoryTip": "Biết nhìn đồng hồ để chuyển môn đúng lúc, không sa đà quá lâu vào một môn khiến các môn sau bị trễ hạn."
+      },
+      {
+        "term": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "category": "Skill Taxonomy",
+        "definition": "Quy trình tự kiểm toán (Self-Audit Routine): Dành 5 phút cuối giờ rà soát lại toàn bộ bài làm, phát hiện dấu câu thiếu, phép tính sai, nét chữ lem nhem trước khi nộp bài.",
+        "memoryTip": "Học sinh tự đặt câu hỏi: 'Mình đã chấm câu ở bài Language chưa? Phép cộng hàng nghìn đã có dấu phẩy chưa?' và tự sửa lỗi trước khi nộp cho phụ huynh."
+      },
+      {
+        "term": "Tính tự chủ học tập",
+        "category": "Key Takeaway",
+        "definition": "Tiết Seatwork là cơ hội vàng rèn luyện tính tự giác và kỷ luật cá nhân, học sinh tự làm chủ tiến độ mà không ỷ lại người khác.",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Kỹ năng quản trị thời gian",
+        "category": "Key Takeaway",
+        "definition": "Biết chia nhỏ thời lượng hợp lý cho từng môn học và giữ vững sự tập trung cao độ.",
+        "memoryTip": "Trọng tâm bài học UbD"
+      },
+      {
+        "term": "Tinh thần tận tụy, trách nhiệm",
+        "category": "Key Takeaway",
+        "definition": "Mọi bài tập nộp đi đều phải phản ánh sự nỗ lực cao nhất của bản thân qua nét chữ sạch đẹp và sự chính xác.",
+        "memoryTip": "Trọng tâm bài học UbD"
+      }
+    ],
+    "slides": [
+      {
+        "slideNumber": 1,
+        "title": "Tổng Quan Bài Học Seatwork 3 (Bài 002)",
+        "tag": "Grade 3 Overview",
+        "bulletPoints": [
+          "Giáo viên: Hướng dẫn tự học / Khối bài tập Seatwork độc lập",
+          "Sách giáo khoa: Bộ 5 sách bài tập Abeka Grade 3 (Arithmetic 3 tr. 4, Language 3 tr. 4, Writing with Purpose 3 tr. 2, Spelling and Poetry 3 tr. 2–3 & 71, From Shore to Shore tr. 8–13)",
+          "Tài liệu hướng dẫn: Seatwork Assignment Chart, Lesson Plans Language Arts 3 & Arithmetic 3",
+          "Thời lượng bài giảng: 55 phút 00 giây"
+        ],
+        "keyTakeaway": "Dụng cụ cần thiết: 5 cuốn sách bài tập, bút chì gọt nhọn, thước kẻ, tẩy sạch, đồng hồ canh giờ"
+      },
+      {
+        "slideNumber": 2,
+        "title": "1. Kỹ năng Nền tảng (Foundation Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Chuẩn bị không gian học tập độc lập: Đặt bảng Seatwork Chart trước mặt, chuẩn bị sẵn sàng 5 đầu sách, bút chì gọt nhọn, thước kẻ và tẩy sạch."
+        ],
+        "keyTakeaway": "Học sinh tự sắp xếp sách vở ngay ngắn trên bàn trong 5 phút đầu giờ, kiểm tra đủ tài liệu trước khi bắt tay làm bài."
+      },
+      {
+        "slideNumber": 3,
+        "title": "2. Kỹ năng Cốt lõi (Core Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Thực hiện chính xác các yêu cầu học thuật của 5 môn: Toán trang 4 (giá trị vị trí, xem giờ); Ngữ pháp trang 4 (sửa câu bằng proofreader's marks); Tập viết trang 2; Chính tả chép List 1; Tập đọc trang 8-13."
+        ],
+        "keyTakeaway": "Tự giác hoàn thành lần lượt từng bài tập trong sách theo đúng thứ tự phân công, không bỏ sót phần nào."
+      },
+      {
+        "slideNumber": 4,
+        "title": "3. Kỹ năng Ứng dụng (Applied Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Quản lý thời gian cá nhân (Time Management): Phân bổ hợp lý ~10-12 phút cho mỗi môn học trong tổng quỹ thời gian 50-55 phút; duy trì nhịp độ làm bài liên tục."
+        ],
+        "keyTakeaway": "Biết nhìn đồng hồ để chuyển môn đúng lúc, không sa đà quá lâu vào một môn khiến các môn sau bị trễ hạn."
+      },
+      {
+        "slideNumber": 5,
+        "title": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
+        "tag": "Skill Taxonomy",
+        "bulletPoints": [
+          "Quy trình tự kiểm toán (Self-Audit Routine): Dành 5 phút cuối giờ rà soát lại toàn bộ bài làm, phát hiện dấu câu thiếu, phép tính sai, nét chữ lem nhem trước khi nộp bài."
+        ],
+        "keyTakeaway": "Học sinh tự đặt câu hỏi: 'Mình đã chấm câu ở bài Language chưa? Phép cộng hàng nghìn đã có dấu phẩy chưa?' và tự sửa lỗi trước khi nộp cho phụ huynh."
+      },
+      {
+        "slideNumber": 6,
+        "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
+        "tag": "Core Knowledge",
+        "bulletPoints": [
+          "Tính tự chủ học tập: Tiết Seatwork là cơ hội vàng rèn luyện tính tự giác và kỷ luật cá nhân, học sinh tự làm chủ tiến độ mà không ỷ lại người khác.",
+          "Kỹ năng quản trị thời gian: Biết chia nhỏ thời lượng hợp lý cho từng môn học và giữ vững sự tập trung cao độ.",
+          "Tinh thần tận tụy, trách nhiệm: Mọi bài tập nộp đi đều phải phản ánh sự nỗ lực cao nhất của bản thân qua nét chữ sạch đẹp và sự chính xác."
+        ],
+        "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
+      }
+    ],
+    "quizData": [
+      {
+        "id": "q1",
+        "question": "In the Abeka Grade 3 curriculum, what is the primary structural and pedagogical role of the independent 'Seatwork' period in the daily schedule?",
+        "options": [
+          "A. It functions as an unguided free-play recess period where students socialize freely.",
+          "B. It provides structured, autonomous practice reinforcing concepts taught during direct video instruction across Math, English, Writing, Spelling, and Reading.",
+          "C. It serves exclusively as a disciplinary detention block for unfinished homework.",
+          "D. It replaces teacher instruction by requiring students to teach new concepts to themselves."
+        ],
+        "correct": "B",
+        "explanation": "Lesson Plans Homeschool Language Arts & Arithmetic establish Seatwork as an essential self-directed study period. It trains students to apply and solidify skills introduced in video lectures across multiple subjects without continuous adult prompting.",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q2",
+        "question": "A student begins Seatwork Lesson 2 with approximately 50–55 minutes allocated for five distinct assignments: Arithmetic p. 4, Language p. 4, Writing p. 2, Spelling List 1, and Reading pp. 8–13. What time management strategy represents optimal self-regulation?",
+        "options": [
+          "A. Spending 45 minutes on the first assignment and rushing through the remaining four in 5 minutes.",
+          "B. Allocating approximately 10–12 minutes per subject, maintaining a steady pacing routine, and reserving the final 5 minutes for comprehensive self-checking.",
+          "C. Completing only the easiest subject and skipping all analytical writing tasks.",
+          "D. Waiting for the parent/on-site teacher to dictate every answer step-by-step."
+        ],
+        "correct": "B",
+        "explanation": "Effective independent seatwork requires paced time allocation: dividing the 50-minute block into ~10-minute segments per subject ensures all tasks are completed with high quality, while leaving a buffer for self-auditing.",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q3",
+        "question": "While working on Language 3 (p. 4) during Seatwork, a student encounters the unpunctuated group of words: 'the brave sailors repaired the damaged mast'. How should the student apply proofreader's marks according to Lesson 2 guidelines?",
+        "options": [
+          "A. Erase all words and rewrite the sentence in all capital letters.",
+          "B. Place a triple underline (≡) beneath lowercase 't' in 'the' to indicate capitalization, and insert a circled period (⊙) after 'mast'.",
+          "C. Draw a heavy black X across the entire line and label it FRAGMENT.",
+          "D. Insert question marks between every word in the sentence."
+        ],
+        "correct": "B",
+        "explanation": "Lesson 2 teaches two foundational proofreader's marks: triple underline beneath a letter to command capitalization (≡), and a period inside a circle (⊙) to insert a missing end mark cleanly without messy erasing.",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q4",
+        "question": "In Arithmetic 3 (p. 4), the seatwork assignment requires students to write 'seven thousand, forty-two' in standard numeral format. What common error must students actively avoid?",
+        "options": [
+          "A. Placing a dollar sign before the numeral.",
+          "B. Omitting the zero placeholder in the hundreds column and incorrectly writing '742' instead of '7,042'.",
+          "C. Writing digits using Roman numerals instead of Arabic numerals.",
+          "D. Separating every single digit with hyphens."
+        ],
+        "correct": "B",
+        "explanation": "When a place value period lacks a stated digit (e.g., no hundreds mentioned in 'seven thousand, forty-two'), students must insert '0' as a vital placeholder. Forgetting '0' collapses the number to 742 rather than 7,042.",
+        "textbook_page_reference": ""
+      },
+      {
+        "id": "q5",
+        "question": "Prior to submitting the completed Seatwork folder to the on-site supervisor or homeschool parent, what final procedure embodies mature academic stewardship?",
+        "options": [
+          "A. Immediately closing all workbooks and running outside without reviewing.",
+          "B. Performing a systematic 'Self-Audit' (checking all lines for missing punctuation, verified math carrying, neat cursive baseline adherence, and clean eraser smudges).",
+          "C. Tearing out all pages and discarding them in the wastebasket.",
+          "D. Asking an older sibling to rewrite all answers in their handwriting."
+        ],
+        "correct": "B",
+        "explanation": "A core objective of Seatwork is cultivating personal responsibility (stewardship). Taking 3–5 minutes to review work, verify accuracy, clean stray pencil marks, and ensure neatness instills lifelong diligence.",
+        "textbook_page_reference": ""
+      }
+    ]
   },
   "g3-d002-science-health-3": {
     "id": "g3-d002-science-health-3",
     "grade": "Grade 3",
     "day": "Ngày 002",
     "subject": "Science-Health 3 (Bài 002)",
-    "teacher": "",
+    "teacher": "Đội ngũ giáo viên Abeka Academy Grade 3",
     "videoUrl": "",
     "driveEmbedUrl": "",
-    "bookTitle": "",
-    "bookPages": "",
-    "manualRef": "",
-    "bookIdentification": {},
-    "timestampMap": [],
+    "bookTitle": "Exploring God's World (Student Edition)",
+    "bookPages": "Trang 5 – 10",
+    "manualRef": "10.3. Lesson Plans Homeschool Science and Health 3 (Lesson 2, pp. 5–10), Teaching Charts 1 (Scientific Method), Teaching Charts 5 (Blank Line Graph), Exploring God's World Answer Key",
+    "bookIdentification": {
+      "subject": "Science-Health 3",
+      "day": "Bài 002",
+      "teacher": "Đội ngũ giáo viên Abeka Academy Grade 3",
+      "primary_textbook": "Exploring God's World (Student Edition)",
+      "textbook_pages": "Trang 5 – 10",
+      "supplementary_materials": "10.3. Lesson Plans Homeschool Science and Health 3 (Lesson 2, pp. 5–10), Teaching Charts 1 (Scientific Method), Teaching Charts 5 (Blank Line Graph), Exploring God's World Answer Key",
+      "required_supplies": "Sách Exploring God's World, Kính hiển vi (microscope), kính lúp (hand lens), thước kẻ centimet (ruler), ống đong (graduated cylinder), nhiệt kế (thermometer), cân đĩa (balance scale)",
+      "video_duration": "22 phút 39 giây"
+    },
+    "timestampMap": [
+      {
+        "startTime": 0,
+        "endTime": 210,
+        "title": "Chào mừng học sinh trở lại lớp Khoa học; ôn lại các bước của Phương pháp khoa học (Scientific Method): Đặt câu hỏi, Giả thuyết (hypothesis), Thử nghiệm (experiment), Thu thập dữ liệu và Rút ra kết luận (data & conclusions).",
+        "desc": "Khởi động & Ôn tập 4 bước của Scientific Method",
+        "bookRef": "Homeschool Science/Health 3 Teaching Charts 1"
+      },
+      {
+        "startTime": 210,
+        "endTime": 405,
+        "title": "Mở sách Exploring God's World trang 5: Khái niệm phòng thí nghiệm (laboratory) - nơi làm việc của các nhà khoa học; nhấn mạnh đức tính cẩn trọng, ngăn nắp và an toàn trong phòng thí nghiệm.",
+        "desc": "Khái niệm Phòng thí nghiệm (Laboratory) & Tính trật tự trong khoa học",
+        "bookRef": "Exploring God's World - Tr. 5"
+      },
+      {
+        "startTime": 405,
+        "endTime": 690,
+        "title": "Giới thiệu các dụng cụ khoa học chuyên dụng: Kính hiển vi (microscope) phóng đại vật siêu nhỏ mà mắt thường không thấy; Kính viễn vọng (telescope) quan sát các hành tinh và vì sao; Ống đong (beaker / graduated cylinder), Nhiệt kế (thermometer) và Cân đĩa (balance scale).",
+        "desc": "Dụng cụ khoa học chuyên dụng: Microscope, Telescope, Thermometer, Scale",
+        "bookRef": "Exploring God's World - Tr. 6–7"
+      },
+      {
+        "startTime": 690,
+        "endTime": 945,
+        "title": "Đọc trang 8: Kỹ năng đo lường (Measurement); giới thiệu thước kẻ với 2 hệ đo: inch và centimet (cm); hướng dẫn học sinh cách căn lề vạch số 0 trên thước kẻ để đo chính xác.",
+        "desc": "Kỹ năng đo lường: Sử dụng thước đo centimet (cm) và inch",
+        "bookRef": "Exploring God's World - Tr. 8"
+      },
+      {
+        "startTime": 945,
+        "endTime": 1215,
+        "title": "Thực hành trang 9 'Something to try!': Đo chiều cao các cây trong hình vẽ bằng centimet; hướng dẫn biểu diễn kết quả lên biểu đồ đường (Line graph) qua mẹo 'look across, count up' để chấm điểm tọa độ và nối đường biểu diễn.",
+        "desc": "Thực hành 'Something to try!': Đo centimet & Vẽ biểu đồ đường (Line graph)",
+        "bookRef": "Exploring God's World - Tr. 9 & Teaching Chart 5"
+      },
+      {
+        "startTime": 1215,
+        "endTime": 1359,
+        "title": "Tổng kết bài học: Nhắc lại tầm quan trọng của việc thu thập dữ liệu chính xác; cô giáo dặn dò học sinh hoàn thành bài tập Comprehension Check trang 10 cùng giáo viên tại chỗ.",
+        "desc": "Tổng kết bài học & Giao bài Comprehension Check trang 10",
+        "bookRef": "Exploring God's World - Tr. 10"
+      }
+    ],
     "ubdReport": {},
     "flashcards": [],
     "slides": [],
@@ -40032,14 +42355,59 @@ export const LESSONS_DATA = {
     "grade": "Grade 3",
     "day": "Ngày 002",
     "subject": "Reading 3 (Bài 002)",
-    "teacher": "",
+    "teacher": "Đội ngũ giáo viên Abeka Academy Grade 3",
     "videoUrl": "",
     "driveEmbedUrl": "",
-    "bookTitle": "",
-    "bookPages": "",
-    "manualRef": "",
-    "bookIdentification": {},
-    "timestampMap": [],
+    "bookTitle": "From Shore to Shore (Abeka Grade 3 Reader 1)",
+    "bookPages": "Trang 8 – 13",
+    "manualRef": "4.13. Reading 3 - Answer Key, 10.1. Lesson Plans Homeschool Language Arts 3 (Reading)",
+    "bookIdentification": {
+      "subject": "Reading 3",
+      "day": "Bài 002",
+      "teacher": "Đội ngũ giáo viên Abeka Academy Grade 3",
+      "primary_textbook": "From Shore to Shore (Abeka Grade 3 Reader 1)",
+      "textbook_pages": "Trang 8 – 13",
+      "supplementary_materials": "4.13. Reading 3 - Answer Key, 10.1. Lesson Plans Homeschool Language Arts 3 (Reading)",
+      "required_supplies": "Sách From Shore to Shore, bút đánh dấu hoặc bookmark, vở ghi chép",
+      "video_duration": "09 phút 40 giây"
+    },
+    "timestampMap": [
+      {
+        "startTime": 0,
+        "endTime": 160,
+        "title": "Chào mừng học sinh vào giờ Tập đọc; kiểm tra tư thế ngồi chuẩn, đặt sách trên bàn; chia sẻ thông điệp Kinh Thánh: Chúa là nơi nương náu và sức mạnh, luôn sẵn giúp đỡ trong cơn gian truân (Thi thiên 46:1).",
+        "desc": "Khởi động & Định hướng tư tưởng bài học: Nương cậy Chúa trong thử thách",
+        "bookRef": "From Shore to Shore - Quy định đọc sách"
+      },
+      {
+        "startTime": 160,
+        "endTime": 270,
+        "title": "Mở sách From Shore to Shore trang 8: Giới thiệu câu chuyện \"The Prisoner and the Shipwreck\" (retold from Scripture); giới thiệu nhân vật Sứ đồ Phao-lô (Apostle Paul) và bối cảnh con tàu căng buồm ra khơi.",
+        "desc": "Giới thiệu câu chuyện \"The Prisoner and the Shipwreck\" (Trang 8)",
+        "bookRef": "From Shore to Shore - Tr. 8"
+      },
+      {
+        "startTime": 270,
+        "endTime": 405,
+        "title": "Hướng dẫn đọc tiêu đề và câu mở đầu: \"All aboard! cried the captain of the sailing vessel...\"; phân tích từ vựng vessel, wharf; hướng dẫn học sinh đọc diễn cảm giọng hô to của viên thuyền trưởng.",
+        "desc": "Kỹ năng đọc diễn cảm câu đối thoại & Từ vựng hàng hải (vessel, wharf)",
+        "bookRef": "From Shore to Shore - Tr. 8"
+      },
+      {
+        "startTime": 405,
+        "endTime": 510,
+        "title": "Học sinh thực hành đọc nối tiếp (oral reading); cô giáo uốn nắn cách phát âm rõ ràng từng từ, ngắt nghỉ đúng dấu chấm dấu phẩy, thể hiện tâm trạng hồi hộp của chuyến đi.",
+        "desc": "Thực hành đọc thành tiếng nối tiếp & Uốn nắn phát âm, nhịp thở",
+        "bookRef": "From Shore to Shore - Tr. 8–9"
+      },
+      {
+        "startTime": 510,
+        "endTime": 580,
+        "title": "Cô giáo hướng dẫn học sinh tiếp tục đọc câu chuyện cho đến trang 13 và trả lời các câu hỏi đọc hiểu cùng giáo viên tại chỗ.",
+        "desc": "Dặn dò đọc độc lập từ trang 9 đến 13 & Trả lời câu hỏi đọc hiểu",
+        "bookRef": "From Shore to Shore - Tr. 9–13"
+      }
+    ],
     "ubdReport": {},
     "flashcards": [],
     "slides": [],
@@ -40050,14 +42418,80 @@ export const LESSONS_DATA = {
     "grade": "Grade 3",
     "day": "Ngày 002",
     "subject": "Arithmetic 3 (Bài 002)",
-    "teacher": "",
+    "teacher": "Đội ngũ giáo viên Abeka Academy Grade 3",
     "videoUrl": "",
     "driveEmbedUrl": "",
-    "bookTitle": "",
-    "bookPages": "",
-    "manualRef": "",
-    "bookIdentification": {},
-    "timestampMap": [],
+    "bookTitle": "Arithmetic 3 Work-text (Student Edition)",
+    "bookPages": "Trang 3 – 4",
+    "manualRef": "10.2. Lesson Plans Homeschool Arithmetic 3 (Lesson 2), Arithmetic 3 Teacher Key, Homeschool Arithmetic 3–6 Tables and Facts Charts (1–8 Families), Homeschool Arithmetic 3 Teaching Charts (ATC) 8A/8B, Concept Cards",
+    "bookIdentification": {
+      "subject": "Arithmetic 3",
+      "day": "Bài 002",
+      "teacher": "Đội ngũ giáo viên Abeka Academy Grade 3",
+      "primary_textbook": "Arithmetic 3 Work-text (Student Edition)",
+      "textbook_pages": "Trang 3 – 4",
+      "supplementary_materials": "10.2. Lesson Plans Homeschool Arithmetic 3 (Lesson 2), Arithmetic 3 Teacher Key, Homeschool Arithmetic 3–6 Tables and Facts Charts (1–8 Families), Homeschool Arithmetic 3 Teaching Charts (ATC) 8A/8B, Concept Cards",
+      "required_supplies": "Sách Arithmetic 3 Work-text, bút chì, thước kẻ, mô hình đồng hồ kim (Demonstration Clock)",
+      "video_duration": "39 phút 06 giây"
+    },
+    "timestampMap": [
+      {
+        "startTime": 0,
+        "endTime": 255,
+        "title": "Chào mừng cả lớp vào tiết Số học; hướng dẫn học sinh đứng dậy vươn vai thư giãn; bắt đầu phần tính nhẩm nhanh (Rapid Calculation Practice / Flashcards) họ phép cộng/trừ 1–8.",
+        "desc": "Khởi động & Luyện tập tính nhẩm nhanh Flashcards họ 1–8",
+        "bookRef": "Arithmetic 3-6 Tables & Facts Charts"
+      },
+      {
+        "startTime": 255,
+        "endTime": 530,
+        "title": "Trò chơi tính nhanh trên bảng: Ôn tập tính chất giao hoán của phép cộng (Commutative property: 3 + 4 = 4 + 3 = 7); học sinh thi đua tìm tổng và hiệu nhanh.",
+        "desc": "Tính chất giao hoán của phép cộng & Phép trừ nghịch đảo",
+        "bookRef": "Bảng lớp / Manipulatives"
+      },
+      {
+        "startTime": 530,
+        "endTime": 930,
+        "title": "Giảng bài mới về Giá trị vị trí (Place Value): Phân tích số có 4 chữ số trên biểu đồ ATC 8A/8B; xác định hàng đơn vị (ones), chục (tens), trăm (hundreds), nghìn (thousands); quy tắc đặt dấu phẩy (comma).",
+        "desc": "Hệ thống giá trị vị trí đến hàng nghìn & Đặt dấu phẩy phân tách",
+        "bookRef": "Homeschool Arithmetic 3 Teaching Charts 8A/8B"
+      },
+      {
+        "startTime": 930,
+        "endTime": 1305,
+        "title": "Kỹ năng cộng 2 chữ số: Nhận diện các số hạng (addends) và kết quả gọi là tổng (sum); thực hành cộng cột dọc từ phải sang trái (bắt đầu từ hàng đơn vị rồi sang hàng chục).",
+        "desc": "Kỹ thuật thực hiện phép cộng nhiều chữ số (Addends & Sum)",
+        "bookRef": "Bảng giảng dạy & Ví dụ mẫu"
+      },
+      {
+        "startTime": 1305,
+        "endTime": 1680,
+        "title": "Học xem giờ trên mô hình đồng hồ kim (Demonstration Clock): Nhận diện kim ngắn chỉ giờ (hour hand) và kim dài chỉ phút (minute hand); đếm bước nhảy 5 phút quanh mặt đồng hồ; phân biệt giờ đúng (:00) và giờ rưỡi (:30).",
+        "desc": "Kỹ năng xem giờ trên đồng hồ kim (Telling time by 5-minute intervals)",
+        "bookRef": "Mô hình đồng hồ lớp học"
+      },
+      {
+        "startTime": 1680,
+        "endTime": 2055,
+        "title": "Mở sách Arithmetic 3 trang 3: Cô giáo hướng dẫn giải chi tiết Section 1 (viết giá trị vị trí), Section 2 (thực hiện phép cộng cột dọc), và Section 3 (vẽ kim đồng hồ theo giờ cho trước).",
+        "desc": "Thực hành sách bài tập trang 3: Section 1, 2, 3",
+        "bookRef": "Arithmetic 3 Work-text - Tr. 3"
+      },
+      {
+        "startTime": 2055,
+        "endTime": 2265,
+        "title": "Phân tích bài toán có lời văn (Story problem) và bài tập tư duy thử thách Brain Booster: Đổi đơn vị thời gian (1 giờ = 60 phút) và so sánh khoảng thời gian.",
+        "desc": "Giải bài toán có lời văn & Bài tập tư duy Brain Booster",
+        "bookRef": "Arithmetic 3 Work-text - Tr. 3 (Section 4)"
+      },
+      {
+        "startTime": 2265,
+        "endTime": 2346,
+        "title": "Tổng kết bài học: Khen ngợi tinh thần học tập của cả lớp; dặn dò học sinh tiếp tục hoàn thành các bài toán trang 3 và làm tiếp trang 4 trong giờ Seatwork cùng giáo viên tại chỗ.",
+        "desc": "Tổng kết tiết học & Giao nhiệm vụ trang 3–4",
+        "bookRef": "Arithmetic 3 Work-text - Tr. 3–4"
+      }
+    ],
     "ubdReport": {},
     "flashcards": [],
     "slides": [],
@@ -40068,14 +42502,66 @@ export const LESSONS_DATA = {
     "grade": "Grade 3",
     "day": "Ngày 002",
     "subject": "Language 3 (Bài 002)",
-    "teacher": "",
+    "teacher": "Đội ngũ giáo viên Abeka Academy Grade 3",
     "videoUrl": "",
     "driveEmbedUrl": "",
-    "bookTitle": "",
-    "bookPages": "",
-    "manualRef": "",
-    "bookIdentification": {},
-    "timestampMap": [],
+    "bookTitle": "Language 3 Work-text (Student Edition)",
+    "bookPages": "Trang 3 – 4",
+    "manualRef": "1.3. Language 3 Teacher Key, 10.1. Lesson Plans Homeschool Language Arts 3, 12. Homeschool Language 3 Teaching Charts (Chart 1 - Sentences, Proofreader's Marks)",
+    "bookIdentification": {
+      "subject": "Language 3",
+      "day": "Bài 002",
+      "teacher": "Đội ngũ giáo viên Abeka Academy Grade 3",
+      "primary_textbook": "Language 3 Work-text (Student Edition)",
+      "textbook_pages": "Trang 3 – 4",
+      "supplementary_materials": "1.3. Language 3 Teacher Key, 10.1. Lesson Plans Homeschool Language Arts 3, 12. Homeschool Language 3 Teaching Charts (Chart 1 - Sentences, Proofreader's Marks)",
+      "required_supplies": "Sách Language 3 Work-text, bút chì, tẩy, thước kẻ",
+      "video_duration": "24 phút 46 giây"
+    },
+    "timestampMap": [
+      {
+        "startTime": 0,
+        "endTime": 225,
+        "title": "Chào mừng học sinh vào lớp Ngữ pháp 3; ôn lại bài học số 1: Nhắc lại định nghĩa câu chuẩn Abeka: \"A sentence is a group of words that expresses a complete thought.\". Đặt câu hỏi gợi mở kiểm tra trí nhớ học sinh.",
+        "desc": "Khởi động & Ôn tập định nghĩa Câu hoàn chỉnh (Complete Thought)",
+        "bookRef": "Language 3 - Khung Remember"
+      },
+      {
+        "startTime": 225,
+        "endTime": 495,
+        "title": "Trò chơi nhận diện tương tác: Cô giáo đọc to các nhóm từ trên bảng; học sinh đứng lên nếu đó là câu hoàn chỉnh hoặc ngồi xuống nếu là cụm từ chưa trọn ý (fragment). Phân tích vì sao các cụm từ bị bỏ lửng gây khó hiểu.",
+        "desc": "Luyện tập phân biệt Câu hoàn chỉnh vs. Cụm từ bỏ lửng (Fragments)",
+        "bookRef": "Homeschool Language 3 Teaching Chart 1"
+      },
+      {
+        "startTime": 495,
+        "endTime": 750,
+        "title": "Khắc sâu 2 đặc điểm nhận biết bắt buộc của câu: (1) Bắt đầu bằng một chữ cái viết hoa (Capital letter), (2) Kết thúc bằng một dấu câu phù hợp (Punctuation mark: period, question mark, exclamation point).",
+        "desc": "Hai quy tắc vàng của hình thức câu: Chữ hoa đầu câu & Dấu câu cuối câu",
+        "bookRef": "Language 3 - Tr. 3 (Khung Remember)"
+      },
+      {
+        "startTime": 750,
+        "endTime": 1035,
+        "title": "Giới thiệu các ký hiệu hiệu đính (Proofreader's Marks): Ký hiệu 3 gạch dưới để viết hoa chữ cái (triple underline for capitalize); ký hiệu vòng tròn thêm dấu chấm câu (circle with period inside); thực hành sửa mẫu trên bảng lớp.",
+        "desc": "Kỹ năng hiệu đính: Giới thiệu và vận dụng Proofreader's Marks",
+        "bookRef": "Language 3 - Tr. 3 (Proofreader's Marks)"
+      },
+      {
+        "startTime": 1035,
+        "endTime": 1305,
+        "title": "Mở sách Language 3 trang 3: Cô giáo hướng dẫn giải bài tập Section 1 và Section 2; học sinh dùng bút chì gạch 3 vạch dưới các chữ cái cần viết hoa và khoanh tròn thêm dấu chấm câu cho các câu chưa hoàn thiện.",
+        "desc": "Thực hành sách bài tập trang 3: Section 1 & Section 2",
+        "bookRef": "Language 3 Work-text - Tr. 3"
+      },
+      {
+        "startTime": 1305,
+        "endTime": 1486,
+        "title": "Phân tích phần bài tập thử thách Thinking Cap; cô giáo tổng kết bài học và dặn dò học sinh tiếp tục hoàn thiện trang 3 và làm tiếp trang 4 trong tiết Seatwork cùng giáo viên tại chỗ.",
+        "desc": "Tổng kết bài học & Hướng dẫn làm bài tập trang 4",
+        "bookRef": "Language 3 Work-text - Tr. 3–4"
+      }
+    ],
     "ubdReport": {},
     "flashcards": [],
     "slides": [],

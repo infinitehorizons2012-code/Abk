@@ -7,6 +7,8 @@ import {
 export default function UbDReportViewer({ lesson }) {
   if (!lesson) return null;
 
+  console.log('UbDReportViewer received lesson:', lesson ? lesson.id : 'null', lesson ? lesson.ubdReport : 'no ubd');
+
   const ubd = lesson.ubdReport || {};
   const meta = ubd.meta || {};
   const stage1 = ubd.stage1_desired_results || {};
@@ -24,6 +26,8 @@ export default function UbDReportViewer({ lesson }) {
     ubd.stage3_learning_plan ||
     ubd.pitfalls
   );
+
+
 
   if (!hasUbDData) {
     return (

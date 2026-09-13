@@ -56,13 +56,23 @@ export default function App() {
 
   // State level 3: Selected Subject Key
   const [selectedSubjectKey, setSelectedSubjectKey] = useState(() => {
-    return availableSubjects[0]?.key || 'arithmetic-5';
+    return availableSubjects[0]?.key || 'g5-d002-language-5';
   });
+
+  // Auto-sync selectedSubjectKey if current selectedSubjectKey is invalid for selectedGrade & selectedDay
+  React.useEffect(() => {
+    if (availableSubjects.length > 0) {
+      const isValid = availableSubjects.some((sub) => sub.key === selectedSubjectKey);
+      if (!isValid) {
+        setSelectedSubjectKey(availableSubjects[0].key);
+      }
+    }
+  }, [selectedGrade, selectedDay, availableSubjects, selectedSubjectKey]);
 
   const [activeTab, setActiveTab] = useState('ubd-report');
   const [activeTimestamp, setActiveTimestamp] = useState(null);
 
-  const currentLesson = LESSONS_DATA[selectedSubjectKey] || LESSONS_DATA['arithmetic-5'];
+  const currentLesson = LESSONS_DATA[selectedSubjectKey] || availableSubjects[0] || LESSONS_DATA['g5-d002-language-5'];
 
   const handleSelectTimestamp = (seconds) => {
     setActiveTimestamp(seconds);
@@ -90,7 +100,9 @@ export default function App() {
       const l = LESSONS_DATA[key];
       return l.grade === newGrade && l.day === nextDay;
     });
-    setSelectedSubjectKey(subjectsForGradeDay[0] || 'arithmetic-5');
+    if (subjectsForGradeDay.length > 0) {
+      setSelectedSubjectKey(subjectsForGradeDay[0]);
+    }
   };
 
   const handleDayChange = (newDay) => {
@@ -99,8 +111,12 @@ export default function App() {
       const l = LESSONS_DATA[key];
       return l.grade === selectedGrade && l.day === newDay;
     });
-    setSelectedSubjectKey(subjectsForGradeDay[0] || 'arithmetic-5');
+    if (subjectsForGradeDay.length > 0) {
+      setSelectedSubjectKey(subjectsForGradeDay[0]);
+    }
   };
+
+  console.log("App render -> selectedSubjectKey:", selectedSubjectKey, "currentLesson:", currentLesson ? currentLesson.id : 'null', "ubdKeys:", currentLesson && currentLesson.ubdReport ? Object.keys(currentLesson.ubdReport) : 'NO_UBD');
 
   return (
     <div className="app-container">

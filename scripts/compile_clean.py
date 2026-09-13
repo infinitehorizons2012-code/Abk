@@ -312,10 +312,11 @@ def main():
     print(f"Total compiled lessons: {len(all_lessons)}")
 
     # Print statistics for Grade 3 Day 1 Arithmetic 3 & Grade 5 Day 1, 2, 3
-    for k in ['arithmetic-5', 'g3-d001-arithmetic-3', 'g5-d001-spelling-5', 'g5-d002-spelling-5', 'g5-d003-arithmetic-5']:
+    for k in ['arithmetic-5', 'g3-d001-arithmetic-3', 'g5-d001-spelling-5', 'g5-d002-language-5', 'g5-d002-spelling-5', 'g5-d003-arithmetic-5']:
         if k in all_lessons:
             item = all_lessons[k]
-            print(f"Key: {k:25s} | Subj: {item['subject']:22s} | TS: {len(item['timestampMap']):2d} | Quiz: {len(item['quizData']):2d} | Flash: {len(item['flashcards']):2d} | Slides: {len(item['slides']):2d}")
+            ubd_keys_count = len(item.get('ubdReport', {}))
+            print(f"Key: {k:25s} | Subj: {item['subject']:22s} | UBD Keys: {ubd_keys_count:2d} | TS: {len(item['timestampMap']):2d} | Quiz: {len(item['quizData']):2d} | Flash: {len(item['flashcards']):2d} | Slides: {len(item['slides']):2d}")
 
     import time
     ts_now = time.time()
