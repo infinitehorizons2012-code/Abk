@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide Deck: Old World History &amp; Geography (Trang 1 &amp; 2)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background: #0f172a;
+      font-family: 'Quicksand', 'Comic Sans MS', sans-serif;
+      color: #1e293b;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .presentation-container {
+      width: 100%;
+      max-width: 960px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Slide Stage */
+    .slide-viewport {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: linear-gradient(135deg, #f8fafc 0%, #fffde7 50%, #f0fdf4 100%);
+      border-radius: 24px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+      position: relative;
+      overflow: hidden;
+      border: 4px solid #38bdf8;
+      display: flex;
+      flex-direction: column;
+      padding: 40px 50px;
+      justify-content: space-between;
+      transition: all 0.3s ease;
+    }
+    .slide-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .slide-badge {
+      background: #e0f2fe;
+      color: #0369a1;
+      font-weight: 700;
+      font-size: 14px;
+      padding: 6px 16px;
+      border-radius: 30px;
+    }
+    .slide-number-indicator {
+      font-size: 15px;
+      font-weight: 800;
+      color: #64748b;
+    }
+    .slide-body {
+      text-align: center;
+      margin: auto 0;
+    }
+    .slide-title {
+      font-size: 30px;
+      font-weight: 800;
+      color: #1e3a8a;
+      margin-bottom: 6px;
+      line-height: 1.3;
+    }
+    .slide-subtitle {
+      font-size: 18px;
+      font-weight: 600;
+      color: #059669;
+      margin-bottom: 22px;
+    }
+    .slide-content {
+      width: 100%;
+    }
+    .slide-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      color: #94a3b8;
+      font-weight: 600;
+    }
+
+    /* Controls Bar */
+    .control-bar {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+      background: rgba(30, 41, 59, 0.8);
+      backdrop-filter: blur(10px);
+      padding: 14px 25px;
+      border-radius: 20px;
+      border: 1px solid #334155;
+    }
+    .nav-buttons {
+      display: flex;
+      gap: 12px;
+    }
+    .btn {
+      background: #ffffff;
+      color: #0f172a;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s;
+      font-family: inherit;
+    }
+    .btn:hover {
+      background: #38bdf8;
+      color: #ffffff;
+      transform: translateY(-2px);
+    }
+    .btn:active {
+      transform: scale(0.96);
+    }
+    .progress-text {
+      color: #f8fafc;
+      font-weight: 700;
+      font-size: 16px;
+    }
+    .dots-container {
+      display: flex;
+      gap: 8px;
+    }
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #475569;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .dot.active {
+      background: #38bdf8;
+      width: 26px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="presentation-container">
+    <div class="slide-viewport" id="slide-viewport">
+      <div class="slide-header">
+        <span class="slide-badge" id="s-badge">Trang bìa</span>
+        <span class="slide-number-indicator" id="s-num">Slide 1 / 10</span>
+      </div>
+
+      <div class="slide-body">
+        <div class="slide-title" id="s-title">OLD WORLD HISTORY &amp; GEOGRAPHY</div>
+        <div class="slide-subtitle" id="s-subtitle">IN CHRISTIAN PERSPECTIVE</div>
+        <div class="slide-content" id="s-content"></div>
+      </div>
+
+      <div class="slide-footer">
+        <span>📖 Abeka History Series • Grade 5</span>
+        <span>Phím mũi tên ⬅️ ➡️ hoặc Phím cách để chuyển slide</span>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="control-bar">
+      <div class="nav-buttons">
+        <button class="btn" onclick="prevSlide()">⬅️ Trước</button>
+        <button class="btn" onclick="nextSlide()">Tiếp ➡️</button>
+      </div>
+
+      <div class="dots-container" id="dots-container"></div>
+
+      <div class="progress-text" id="progress-indicator">1 / 10</div>
+    </div>
+  </div>
+
+  <script>
+    const slides = [{"slide_number": 1, "badge": "Trang b\u00eca \u2022 Introduction", "title": "OLD WORLD HISTORY & GEOGRAPHY", "subtitle": "IN CHRISTIAN PERSPECTIVE (Fourth Edition)", "emoji": "\ud83c\udf0d", "type": "title", "content_html": "\n            <div style=\"font-size: 22px; font-weight: 700; color: #0284c7; margin-bottom: 15px;\">\ud83d\udcda Abeka Grade 5 History Series</div>\n            <div style=\"font-size: 20px; line-height: 1.8; color: #475569; max-width: 600px; margin: 0 auto;\">\n                T\u1ed5ng h\u1ee3p b\u00e0i gi\u1ea3ng tr\u00ecnh chi\u1ebfu t\u00f3m l\u01b0\u1ee3c c\u00e1c kh\u00e1i ni\u1ec7m v\u00e0 ki\u1ebfn th\u1ee9c tr\u1ecdng t\u00e2m t\u1eeb <strong>Trang 1 &amp; 2</strong>\n            </div>\n            <div style=\"margin-top: 30px; display: inline-flex; gap: 15px;\">\n                <span style=\"background: #e0f2fe; color: #0369a1; padding: 8px 18px; border-radius: 25px; font-weight: 700; font-size: 15px;\">\ud83e\udded Tim the Traveler</span>\n                <span style=\"background: #fef3c7; color: #b45309; padding: 8px 18px; border-radius: 25px; font-weight: 700; font-size: 15px;\">\ud83d\udcdc History &amp; Geography</span>\n                <span style=\"background: #dcfce7; color: #15803d; padding: 8px 18px; border-radius: 25px; font-weight: 700; font-size: 15px;\">\u23f3 B.C. &amp; A.D.</span>\n            </div>\n        "}, {"slide_number": 2, "badge": "Nh\u00e2n v\u1eadt \u0111\u1ed3ng h\u00e0nh \u2022 Slide 2", "title": "\ud83e\udded TIM THE TRAVELER", "subtitle": "Kh\u00e1m ph\u00e1 \u0110\u00f4ng B\u00e1n C\u1ea7u (Eastern Hemisphere)", "emoji": "\ud83e\udded", "type": "content", "content_html": "\n            <p style=\"font-size: 21px; margin-bottom: 20px; color: #334155;\"><em>\"Join Tim as he travels to interesting places across the Eastern Hemisphere.\"</em></p>\n            <div style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; text-align: left;\">\n                <div style=\"background: #f0f9ff; border: 2px solid #bae6fd; border-radius: 15px; padding: 15px;\">\n                    <div style=\"font-size: 28px; margin-bottom: 6px;\">\ud83d\uddfc</div>\n                    <strong style=\"color: #0369a1; font-size: 18px;\">Leaning Tower of Pisa</strong>\n                    <div style=\"color: #64748b; font-size: 15px;\">Italy (N\u01b0\u1edbc \u00dd)</div>\n                </div>\n                <div style=\"background: #f0fdf4; border: 2px solid #bbf7d0; border-radius: 15px; padding: 15px;\">\n                    <div style=\"font-size: 28px; margin-bottom: 6px;\">\ud83d\udc3c</div>\n                    <strong style=\"color: #15803d; font-size: 18px;\">Panda in China</strong>\n                    <div style=\"color: #64748b; font-size: 15px;\">Trung Qu\u1ed1c</div>\n                </div>\n                <div style=\"background: #fffbeb; border: 2px solid #fde68a; border-radius: 15px; padding: 15px;\">\n                    <div style=\"font-size: 28px; margin-bottom: 6px;\">\ud83d\udc18</div>\n                    <strong style=\"color: #b45309; font-size: 18px;\">African Elephant</strong>\n                    <div style=\"color: #64748b; font-size: 15px;\">Voi Ch\u00e2u Phi</div>\n                </div>\n                <div style=\"background: #faf5ff; border: 2px solid #e9d5ff; border-radius: 15px; padding: 15px;\">\n                    <div style=\"font-size: 28px; margin-bottom: 6px;\">\ud83e\uddf1</div>\n                    <strong style=\"color: #7e22ce; font-size: 18px;\">Great Wall of China</strong>\n                    <div style=\"color: #64748b; font-size: 15px;\">V\u1ea1n L\u00fd Tr\u01b0\u1eddng Th\u00e0nh</div>\n                </div>\n                <div style=\"background: #fff1f2; border: 2px solid #fecdd3; border-radius: 15px; padding: 15px; grid-column: span 2;\">\n                    <div style=\"font-size: 28px; margin-bottom: 6px;\">\ud83c\udfad</div>\n                    <strong style=\"color: #be123c; font-size: 18px;\">Sydney Opera House, Australia</strong>\n                    <div style=\"color: #64748b; font-size: 15px;\">Nh\u00e0 h\u00e1t Con S\u00f2 Sydney (N\u01b0\u1edbc \u00dac)</div>\n                </div>\n            </div>\n        "}, {"slide_number": 3, "badge": "Kh\u00e1i ni\u1ec7m c\u1ed1t l\u00f5i \u2022 Slide 3", "title": "\ud83d\udcdc L\u1ecaCH S\u1eec L\u00c0 G\u00cc? (WHAT IS HISTORY?)", "subtitle": "B\u1ea3n ghi ch\u00e9p v\u0103n t\u1ef1 c\u1ee7a nh\u00e2n lo\u1ea1i qua c\u00e1c th\u1eddi k\u1ef3", "emoji": "\ud83d\udcdc", "type": "content", "content_html": "\n            <div style=\"background: #f8fafc; border-left: 6px solid #3b82f6; border-radius: 16px; padding: 22px; margin-bottom: 20px; text-align: left;\">\n                <p style=\"font-size: 21px; line-height: 1.7; color: #1e3a8a; font-weight: 600; margin-bottom: 10px;\">\n                    <em>\"History is the written record of mankind. It is a story\u2014the true story of what man has done with the time God has given him. Some have called history His story.\"</em>\n                </p>\n                <div style=\"font-size: 17px; color: #0284c7; font-weight: 600;\">\n                    \ud83d\udc49 L\u1ecbch s\u1eed l\u00e0 b\u1ea3n ghi ch\u00e9p c\u1ee7a nh\u00e2n lo\u1ea1i; c\u00e2u chuy\u1ec7n c\u00f3 th\u1eadt v\u1ec1 nh\u1eefng g\u00ec con ng\u01b0\u1eddi \u0111\u00e3 th\u1ef1c hi\u1ec7n v\u1edbi th\u1eddi gian Ch\u00faa ban cho.\n                </div>\n            </div>\n            <div style=\"display: grid; grid-template-columns: 1fr 1fr; gap: 15px; text-align: left;\">\n                <div style=\"background: #eff6ff; padding: 16px; border-radius: 14px;\">\n                    <strong style=\"color: #1d4ed8; font-size: 17px;\">\ud83c\udfaf \u0110i\u1ec3m m\u1ea5u ch\u1ed1t:</strong>\n                    <p style=\"color: #334155; font-size: 15px; margin-top: 6px;\">L\u1ecbch s\u1eed kh\u00f4ng ph\u1ea3i l\u00e0 huy\u1ec1n tho\u1ea1i t\u01b0\u1edfng t\u01b0\u1ee3ng, m\u00e0 l\u00e0 <strong>c\u00e2u chuy\u1ec7n c\u00f3 th\u1eadt (true story)</strong>.</p>\n                </div>\n                <div style=\"background: #f0fdf4; padding: 16px; border-radius: 14px;\">\n                    <strong style=\"color: #15803d; font-size: 17px;\">\u271d\ufe0f G\u00f3c nh\u00ecn C\u01a1 \u0110\u1ed1c:</strong>\n                    <p style=\"color: #334155; font-size: 15px; margin-top: 6px;\">L\u1ecbch s\u1eed ph\u1ea3n \u00e1nh c\u00f4ng cu\u1ed9c Ch\u00faa t\u1ec3 tr\u1ecb v\u00e0 \u0111\u1ed3ng h\u00e0nh c\u00f9ng nh\u00e2n lo\u1ea1i (<em>His story</em>).</p>\n                </div>\n            </div>\n        "}, {"slide_number": 4, "badge": "Kh\u00e1i ni\u1ec7m c\u1ed1t l\u00f5i \u2022 Slide 4", "title": "\ud83c\udf0d \u0110\u1ecaA L\u00dd L\u00c0 G\u00cc? (WHAT IS GEOGRAPHY?)", "subtitle": "M\u00f4n h\u1ecdc kh\u00e1m ph\u00e1 b\u1ec1 m\u1eb7t Tr\u00e1i \u0110\u1ea5t", "emoji": "\ud83c\udf0d", "type": "content", "content_html": "\n            <div style=\"background: #ecfdf5; border-left: 6px solid #10b981; border-radius: 16px; padding: 22px; margin-bottom: 20px; text-align: left;\">\n                <p style=\"font-size: 21px; line-height: 1.7; color: #065f46; font-weight: 600; margin-bottom: 10px;\">\n                    <em>\"Geography is the study of the earth's surface\u2014the continents, oceans, rivers, mountains, islands, and other features that are God's gift to mankind.\"</em>\n                </p>\n                <div style=\"font-size: 17px; color: #047857; font-weight: 600;\">\n                    \ud83d\udc49 \u0110\u1ecba l\u00fd l\u00e0 m\u00f4n h\u1ecdc nghi\u00ean c\u1ee9u b\u1ec1 m\u1eb7t tr\u00e1i \u0111\u1ea5t \u2014 c\u00e1c ch\u00e2u l\u1ee5c, \u0111\u1ea1i d\u01b0\u01a1ng, s\u00f4ng ng\u00f2i, n\u00fai non, h\u1ea3i \u0111\u1ea3o \u2014 m\u00f3n qu\u00e0 Ch\u00faa ban cho lo\u00e0i ng\u01b0\u1eddi.\n                </div>\n            </div>\n            <div style=\"background: #fffbeb; border: 2px dashed #f59e0b; border-radius: 14px; padding: 15px; text-align: left;\">\n                <strong style=\"color: #b45309; font-size: 17px;\">\ud83c\udf92 S\u1ed5 tay \u0110\u1ecba l\u00fd (Geography Handbook):</strong>\n                <p style=\"color: #451a03; font-size: 15px; margin-top: 6px;\">\n                    \u0110\u01b0\u1ee3c \u0111\u00ednh k\u00e8m \u1edf ph\u1ea7n cu\u1ed1i s\u00e1ch \u0111\u1ec3 gi\u00fap h\u1ecdc sinh tra c\u1ee9u c\u00e1c ch\u00e2u l\u1ee5c, qu\u1ed1c gia, kh\u00ed h\u1eadu v\u00e0 \u0111\u1eb7c tr\u01b0ng \u0111\u1ecba l\u00fd song h\u00e0nh c\u00f9ng l\u1ecbch s\u1eed.\n                </p>\n            </div>\n        "}, {"slide_number": 5, "badge": "Ph\u00e2n chia \u0111\u1ecba l\u00fd \u2022 Slide 5", "title": "\ud83d\uddfa\ufe0f C\u1ef0U TH\u1ebe GI\u1edaI & T\u00c2N TH\u1ebe GI\u1edaI", "subtitle": "The Old World vs. The New World", "emoji": "\ud83d\uddfa\ufe0f", "type": "content", "content_html": "\n            <div style=\"display: grid; grid-template-columns: 1fr 1fr; gap: 20px; text-align: left;\">\n                <div style=\"background: #fffdf0; border: 2px solid #fef08a; border-radius: 16px; padding: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.03);\">\n                    <h3 style=\"color: #b45309; margin-bottom: 12px; font-size: 20px;\">\ud83c\udff0 C\u1ef0U TH\u1ebe GI\u1edaI (The Old World)</h3>\n                    <p style=\"font-size: 15px; color: #475569; margin-bottom: 10px;\">Bao g\u1ed3m <strong>5 ch\u00e2u l\u1ee5c</strong>:</p>\n                    <ul style=\"padding-left: 20px; font-size: 16px; line-height: 1.8; color: #1e293b;\">\n                        <li><strong>Asia (Ch\u00e2u \u00c1)</strong> \u2014 N\u01a1i l\u1ecbch s\u1eed b\u1eaft \u0111\u1ea7u!</li>\n                        <li><strong>Africa (Ch\u00e2u Phi)</strong></li>\n                        <li><strong>Europe (Ch\u00e2u \u00c2u)</strong></li>\n                        <li><strong>Australia (Ch\u00e2u \u0110\u1ea1i D\u01b0\u01a1ng / \u00dac)</strong></li>\n                        <li><strong>Antarctica (Ch\u00e2u Nam C\u1ef1c)</strong></li>\n                    </ul>\n                </div>\n                <div style=\"background: #f0fdfa; border: 2px solid #99f6e4; border-radius: 16px; padding: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.03);\">\n                    <h3 style=\"color: #0f766e; margin-bottom: 12px; font-size: 20px;\">\u26f5 T\u00c2N TH\u1ebe GI\u1edaI (The New World)</h3>\n                    <p style=\"font-size: 15px; color: #475569; margin-bottom: 10px;\">Bao g\u1ed3m <strong>2 ch\u00e2u l\u1ee5c</strong>:</p>\n                    <ul style=\"padding-left: 20px; font-size: 16px; line-height: 1.8; color: #1e293b;\">\n                        <li><strong>North America (B\u1eafc M\u1ef9)</strong></li>\n                        <li><strong>South America (Nam M\u1ef9)</strong></li>\n                    </ul>\n                    <div style=\"background: #ccfbf1; padding: 10px 14px; border-radius: 10px; margin-top: 15px; font-size: 14px; color: #115e59;\">\n                        \ud83d\udca1 H\u1ecdc Ch\u00e2u \u00c1 v\u00e0 C\u1ef1u Th\u1ebf Gi\u1edbi tr\u01b0\u1edbc gi\u00fap hi\u1ec3u r\u00f5 nguy\u00ean nh\u00e2n t\u00ecm ra T\u00e2n Th\u1ebf Gi\u1edbi.\n                    </div>\n                </div>\n            </div>\n        "}, {"slide_number": 6, "badge": "\u00dd ngh\u0129a l\u1ecbch s\u1eed \u2022 Slide 6", "title": "\ud83d\udccd V\u00cc SAO \u0110\u1ecaA L\u00dd QUAN TR\u1eccNG V\u1edaI L\u1ecaCH S\u1eec?", "subtitle": "N\u01a1i ch\u1ed1n (Where) quy\u1ebft \u0111\u1ecbnh di\u1ec5n ti\u1ebfn s\u1ef1 ki\u1ec7n", "emoji": "\u2708\ufe0f", "type": "content", "content_html": "\n            <div style=\"background: #fef3c7; border-radius: 14px; padding: 16px 20px; margin-bottom: 20px; text-align: left; font-size: 18px; color: #92400e; font-weight: 700;\">\n                \u2b50 \"Generally, where something happened in history is just as important as when it happened and who was involved.\"\n            </div>\n            <div style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; text-align: left;\">\n                <div style=\"background: #ffffff; border: 2px solid #e2e8f0; border-radius: 14px; padding: 15px;\">\n                    <div style=\"font-size: 24px; margin-bottom: 6px;\">\ud83c\udfdb\ufe0f</div>\n                    <strong style=\"color: #1e3a8a;\">\u0110\u1ea5t n\u01b0\u1edbc Israel:</strong>\n                    <p style=\"font-size: 14px; color: #64748b; margin-top: 4px;\">V\u1ecb tr\u00ed trung t\u00e2m k\u1ebft n\u1ed1i c\u00e1c ch\u00e2u l\u1ee5c gi\u00fap hi\u1ec3u r\u00f5 k\u1ebf ho\u1ea1ch c\u1ee7a Ch\u00faa d\u00e0nh cho ng\u01b0\u1eddi Do Th\u00e1i.</p>\n                </div>\n                <div style=\"background: #ffffff; border: 2px solid #e2e8f0; border-radius: 14px; padding: 15px;\">\n                    <div style=\"font-size: 24px; margin-bottom: 6px;\">\ud83c\udf0a</div>\n                    <strong style=\"color: #0369a1;\">S\u00f4ng Nin (Ai C\u1eadp):</strong>\n                    <p style=\"font-size: 14px; color: #64748b; margin-top: 4px;\">D\u00f2ng s\u00f4ng Nin \u0111\u1ecbnh h\u00ecnh v\u00e0 \u1ea3nh h\u01b0\u1edfng s\u00e2u s\u1eafc \u0111\u1ebfn to\u00e0n b\u1ed9 n\u1ec1n v\u0103n minh &amp; v\u0103n h\u00f3a Ai C\u1eadp c\u1ed5 \u0111\u1ea1i.</p>\n                </div>\n                <div style=\"background: #ffffff; border: 2px solid #e2e8f0; border-radius: 14px; padding: 15px;\">\n                    <div style=\"font-size: 24px; margin-bottom: 6px;\">\ud83d\uded2</div>\n                    <strong style=\"color: #15803d;\">\u0110\u1eddi s\u1ed1ng th\u01b0\u1eddng nh\u1eadt:</strong>\n                    <p style=\"font-size: 14px; color: #64748b; margin-top: 4px;\">H\u00e0ng h\u00f3a trong si\u00eau th\u1ecb \u0111\u01b0\u1ee3c s\u1ea3n xu\u1ea5t t\u1eeb kh\u1eafp n\u01a1i tr\u00ean th\u1ebf gi\u1edbi; tin t\u1ee9c th\u1eddi s\u1ef1 to\u00e0n c\u1ea7u t\u00e1c \u0111\u1ed9ng l\u1eabn nhau.</p>\n                </div>\n            </div>\n        "}, {"slide_number": 7, "badge": "Kh\u1edfi nguy\u00ean \u2022 Slide 7", "title": "\ud83c\udf31 KH\u1edeI \u0110\u1ea6U L\u1ecaCH S\u1eec LO\u00c0I NG\u01af\u1edcI", "subtitle": "S\u1ef1 s\u00e1ng t\u1ea1o c\u1ee7a Thi\u00ean Ch\u00faa & Nh\u1eefng \u0111\u1eb7c \u00e2n cho con ng\u01b0\u1eddi", "emoji": "\ud83c\udf31", "type": "content", "content_html": "\n            <div style=\"background: #f0fdf4; border-left: 6px solid #22c55e; border-radius: 16px; padding: 18px; margin-bottom: 18px; text-align: left;\">\n                <p style=\"font-size: 18px; color: #166534; font-weight: 700; margin-bottom: 6px;\">\n                    S\u1ef1 t\u1ea1o d\u1ef1ng Adam v\u00e0 Eva \u0111\u00e1nh d\u1ea5u \u0111i\u1ec3m kh\u1edfi \u0111\u1ea7u c\u1ee7a l\u1ecbch s\u1eed lo\u00e0i ng\u01b0\u1eddi.\n                </p>\n                <div style=\"font-size: 15px; color: #15803d;\">\n                    M\u1ec7nh l\u1ec7nh s\u00e1ng th\u1ebf (Gen. 1:28): <em>\"Be fruitful, and multiply, and replenish the earth, and subdue it...\"</em>\n                </div>\n            </div>\n            <div style=\"text-align: left; background: #ffffff; border: 2px solid #e2e8f0; border-radius: 16px; padding: 20px;\">\n                <h4 style=\"color: #1e3a8a; font-size: 18px; margin-bottom: 12px;\">\ud83d\udc51 3 Kh\u1ea3 n\u0103ng \u0111\u1eb7c bi\u1ec7t Ch\u00faa ch\u1ec9 ban duy nh\u1ea5t cho con ng\u01b0\u1eddi:</h4>\n                <div style=\"display: flex; flex-direction: column; gap: 10px;\">\n                    <div style=\"display: flex; align-items: center; gap: 12px; background: #f8fafc; padding: 10px 15px; border-radius: 10px;\">\n                        <span style=\"font-size: 22px;\">\ud83d\udde3\ufe0f</span>\n                        <span style=\"font-size: 16px; color: #334155;\"><strong>1. The ability to speak and think:</strong> Kh\u1ea3 n\u0103ng n\u00f3i v\u00e0 t\u01b0 duy suy ngh\u0129.</span>\n                    </div>\n                    <div style=\"display: flex; align-items: center; gap: 12px; background: #f8fafc; padding: 10px 15px; border-radius: 10px;\">\n                        <span style=\"font-size: 22px;\">\u2696\ufe0f</span>\n                        <span style=\"font-size: 16px; color: #334155;\"><strong>2. The ability to choose right from wrong:</strong> Kh\u1ea3 n\u0103ng l\u1ef1a ch\u1ecdn \u0111i\u1ec1u \u0111\u00fang v\u00e0 \u0111i\u1ec1u sai.</span>\n                    </div>\n                    <div style=\"display: flex; align-items: center; gap: 12px; background: #f8fafc; padding: 10px 15px; border-radius: 10px;\">\n                        <span style=\"font-size: 22px;\">\ud83d\udd4a\ufe0f</span>\n                        <span style=\"font-size: 16px; color: #334155;\"><strong>3. The ability to communicate with God:</strong> Kh\u1ea3 n\u0103ng t\u01b0\u01a1ng giao, k\u1ebft n\u1ed1i v\u1edbi Thi\u00ean Ch\u00faa.</span>\n                    </div>\n                </div>\n            </div>\n        "}, {"slide_number": 8, "badge": "Bi\u1ebfn c\u1ed1 l\u1edbn \u2022 Slide 8", "title": "\ud83c\udf0a HAI BI\u1ebeN C\u1ed0 L\u1edaN \u0110\u1ea6U TI\u00caN", "subtitle": "Ngu\u1ed3n g\u1ed1c bi k\u1ecbch v\u00e0 hy v\u1ecdng trong l\u1ecbch s\u1eed nh\u00e2n lo\u1ea1i", "emoji": "\ud83c\udf0a", "type": "content", "content_html": "\n            <div style=\"display: grid; grid-template-columns: 1fr 1fr; gap: 18px; text-align: left;\">\n                <div style=\"background: #fff1f2; border: 2px solid #fecdd3; border-radius: 16px; padding: 18px;\">\n                    <div style=\"font-size: 32px; margin-bottom: 8px;\">\ud83c\udf4e</div>\n                    <h4 style=\"color: #be123c; font-size: 18px; margin-bottom: 8px;\">1. T\u1ed9i l\u1ed7i c\u1ee7a Adam &amp; Eva (Fall of Man)</h4>\n                    <p style=\"font-size: 15px; color: #4c0519; line-height: 1.6;\">\n                        K\u1ec3 t\u1eeb s\u1ef1 sa ng\u00e3, m\u1ed7i con ng\u01b0\u1eddi sinh ra \u0111\u1ec1u mang b\u1ea3n t\u00ednh t\u1ed9i l\u1ed7i. V\u00ec th\u1ebf l\u1ecbch s\u1eed ng\u1eadp tr\u00e0n chi\u1ebfn tranh, b\u1ec7nh t\u1eadt, ngh\u00e8o \u0111\u00f3i v\u00e0 kh\u1ed5 \u0111au.\n                    </p>\n                </div>\n                <div style=\"background: #f0f9ff; border: 2px solid #bae6fd; border-radius: 16px; padding: 18px;\">\n                    <div style=\"font-size: 32px; margin-bottom: 8px;\">\u26f5</div>\n                    <h4 style=\"color: #0369a1; font-size: 18px; margin-bottom: 8px;\">2. Tr\u1eadn \u0110\u1ea1i H\u1ed3ng Th\u1ee7y (The Flood)</h4>\n                    <p style=\"font-size: 15px; color: #0c4a6e; line-height: 1.6;\">\n                        H\u01a1n 1.600 n\u0103m sau, Ch\u00faa gi\u00e1ng tr\u1eadn l\u1ee5t l\u1edbn h\u1ee7y di\u1ec7t nh\u00e2n lo\u1ea1i t\u1ed9i \u00e1c, ch\u1ec9 gi\u1ea3i c\u1ee9u gia \u0111\u00ecnh N\u00f4-\u00ea (Noah) tr\u00ean t\u00e0u \u0111\u1ec3 t\u00e1i l\u1eadp th\u1ebf gi\u1edbi.\n                    </p>\n                </div>\n            </div>\n            <div style=\"background: #fffdf0; border: 2px solid #fef08a; border-radius: 14px; padding: 14px 18px; margin-top: 18px; text-align: left;\">\n                <strong style=\"color: #854d0e;\">\u2728 B\u00e0n tay quan ph\u00f2ng c\u1ee7a Ch\u00faa:</strong>\n                <span style=\"font-size: 15px; color: #713f12;\">\n                    D\u00f9 con ng\u01b0\u1eddi sa ng\u00e3, Ch\u00faa v\u1eabn d\u00f9ng con ng\u01b0\u1eddi x\u00e2y d\u1ef1ng c\u00e1c qu\u1ed1c gia, ch\u1ebf t\u1ea1o m\u00e1y m\u00f3c khoa h\u1ecdc, s\u00e1ng t\u00e1c ngh\u1ec7 thu\u1eadt v\u00e0 \u00e2m nh\u1ea1c tuy\u1ec7t m\u1ef9!\n                </span>\n            </div>\n        "}, {"slide_number": 9, "badge": "H\u1ec7 th\u1ed1ng ni\u00ean \u0111\u1ea1i \u2022 Slide 9", "title": "\u23f3 H\u1ec6 TH\u1ed0NG NI\u00caN \u0110\u1ea0I B.C. & A.D.", "subtitle": "Ch\u00faa Gi\u00ea-su \u2014 T\u00e2m \u0111i\u1ec3m ph\u00e2n chia d\u00f2ng th\u1eddi gian l\u1ecbch s\u1eed", "emoji": "\u23f3", "type": "content", "content_html": "\n            <p style=\"font-size: 18px; color: #334155; margin-bottom: 18px; text-align: left;\">\n                S\u1ef1 ki\u1ec7n Ch\u00faa Gi\u00ea-su gi\u00e1ng sinh mang \u00fd ngh\u0129a b\u01b0\u1edbc ngo\u1eb7t \u0111\u1ebfn m\u1ee9c to\u00e0n b\u1ed9 h\u1ec7 th\u1ed1ng ni\u00ean \u0111\u1ea1i th\u1ebf gi\u1edbi \u0111\u01b0\u1ee3c l\u1ea5y l\u00e0m m\u1ed1c quy chi\u1ebfu:\n            </p>\n            <div style=\"display: grid; grid-template-columns: 1fr 1fr; gap: 20px; text-align: left;\">\n                <div style=\"background: #fef3c7; border: 3px solid #fcd34d; border-radius: 18px; padding: 22px;\">\n                    <div style=\"font-size: 32px; font-weight: 900; color: #92400e; margin-bottom: 6px;\">B. C.</div>\n                    <div style=\"font-size: 18px; font-weight: 700; color: #b45309; margin-bottom: 10px;\">Before Christ</div>\n                    <p style=\"font-size: 15px; color: #78350f; line-height: 1.6;\">\n                        \ud83d\udc49 Ngh\u0129a l\u00e0 <strong>\"Tr\u01b0\u1edbc Ch\u00faa Gi\u00e1ng Sinh\"</strong> (Tr\u01b0\u1edbc C\u00f4ng Nguy\u00ean).<br>\n                        <em>V\u00ed d\u1ee5:</em> 3000 B.C. l\u00e0 3.000 n\u0103m tr\u01b0\u1edbc khi Ch\u00faa Gi\u00e1ng Sinh.\n                    </p>\n                </div>\n                <div style=\"background: #dbeafe; border: 3px solid #93c5fd; border-radius: 18px; padding: 22px;\">\n                    <div style=\"font-size: 32px; font-weight: 900; color: #1e40af; margin-bottom: 6px;\">A. D.</div>\n                    <div style=\"font-size: 18px; font-weight: 700; color: #2563eb; margin-bottom: 10px;\">anno Domini</div>\n                    <p style=\"font-size: 15px; color: #1e3a8a; line-height: 1.6;\">\n                        \ud83d\udc49 Ti\u1ebfng Latinh ngh\u0129a l\u00e0 <strong>\"in the year of our Lord\"</strong> (V\u00e0o n\u0103m c\u1ee7a Ch\u00faa / Sau C\u00f4ng Nguy\u00ean).<br>\n                        <em>V\u00ed d\u1ee5:</em> A.D. 2000 l\u00e0 2.000 n\u0103m sau khi Ch\u00faa ra \u0111\u1eddi.\n                    </p>\n                </div>\n            </div>\n        "}, {"slide_number": 10, "badge": "\u00d4n t\u1eadp t\u1ed5ng k\u1ebft \u2022 Slide 10", "title": "\ud83c\udfaf COMPREHENSION CHECK 1A", "subtitle": "3 C\u00e2u h\u1ecfi then ch\u1ed1t c\u1ea7n ghi nh\u1edb t\u1eeb Trang 1", "emoji": "\u270f\ufe0f", "type": "content", "content_html": "\n            <div style=\"display: flex; flex-direction: column; gap: 14px; text-align: left;\">\n                <div style=\"background: #ffffff; border: 2px solid #bbf7d0; border-radius: 14px; padding: 15px 18px;\">\n                    <strong style=\"color: #15803d; font-size: 17px;\">1. What do we call the written record of mankind?</strong>\n                    <div style=\"color: #0f172a; font-size: 16px; margin-top: 4px;\">\ud83d\udc49 <strong>History</strong> (L\u1ecbch s\u1eed)</div>\n                </div>\n                <div style=\"background: #ffffff; border: 2px solid #bae6fd; border-radius: 14px; padding: 15px 18px;\">\n                    <strong style=\"color: #0369a1; font-size: 17px;\">2. What is the study of the earth called?</strong>\n                    <div style=\"color: #0f172a; font-size: 16px; margin-top: 4px;\">\ud83d\udc49 <strong>Geography</strong> (\u0110\u1ecba l\u00fd)</div>\n                </div>\n                <div style=\"background: #ffffff; border: 2px solid #fde68a; border-radius: 14px; padding: 15px 18px;\">\n                    <strong style=\"color: #b45309; font-size: 17px;\">3. Which continents make up the Old World?</strong>\n                    <div style=\"color: #0f172a; font-size: 16px; margin-top: 4px;\">\ud83d\udc49 <strong>Asia, Africa, Europe, Australia, and Antarctica</strong> (5 ch\u00e2u l\u1ee5c)</div>\n                </div>\n            </div>\n            <div style=\"margin-top: 25px; text-align: center; color: #64748b; font-size: 15px;\">\n                \ud83c\udf1f Ch\u00fac m\u1eebng b\u1ea1n \u0111\u00e3 ho\u00e0n th\u00e0nh b\u00e0i h\u1ecdc tr\u00ecnh chi\u1ebfu Trang 1 &amp; 2! \ud83c\udf1f\n            </div>\n        "}];
+    let currentIndex = 0;
+
+    function renderDots() {
+      const container = document.getElementById('dots-container');
+      container.innerHTML = '';
+      slides.forEach((_, idx) => {
+        const dot = document.createElement('div');
+        dot.className = 'dot' + (idx === currentIndex ? ' active' : '');
+        dot.onclick = () => goToSlide(idx);
+        container.appendChild(dot);
+      });
+    }
+
+    function updateSlide() {
+      const s = slides[currentIndex];
+      document.getElementById('s-badge').textContent = s.badge;
+      document.getElementById('s-num').textContent = `Slide ${currentIndex + 1} / ${slides.length}`;
+      document.getElementById('s-title').textContent = s.title;
+      document.getElementById('s-subtitle').textContent = s.subtitle;
+      document.getElementById('s-content').innerHTML = s.content_html;
+      document.getElementById('progress-indicator').textContent = `${currentIndex + 1} / ${slides.length}`;
+      renderDots();
+    }
+
+    function nextSlide() {
+      if (currentIndex < slides.length - 1) {
+        currentIndex++;
+        updateSlide();
+      }
+    }
+
+    function prevSlide() {
+      if (currentIndex > 0) {
+        currentIndex--;
+        updateSlide();
+      }
+    }
+
+    function goToSlide(index) {
+      currentIndex = index;
+      updateSlide();
+    }
+
+    // Keyboard support
+    document.addEventListener('keydown', (e) => {
+      if (e.code === 'ArrowRight' || e.code === 'Space') {
+        e.preventDefault();
+        nextSlide();
+      } else if (e.code === 'ArrowLeft') {
+        prevSlide();
+      }
+    });
+
+    // Init
+    updateSlide();
+  </script>
+</body>
+</html>
