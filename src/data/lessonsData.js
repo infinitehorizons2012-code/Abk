@@ -1,4 +1,4 @@
-// Build timestamp: 1789291481.016292
+// Build timestamp: 1789291780.0607755
 export const LESSONS_DATA = {
   "g5-d001-spelling-5": {
     "id": "g5-d001-spelling-5",
@@ -39858,14 +39858,80 @@ export const LESSONS_DATA = {
     "grade": "Grade 3",
     "day": "Ngày 002",
     "subject": "History 3 (Bài 002)",
-    "teacher": "",
+    "teacher": "Đội ngũ giáo viên Abeka Academy Grade 3",
     "videoUrl": "",
     "driveEmbedUrl": "",
-    "bookTitle": "",
-    "bookPages": "",
-    "manualRef": "",
-    "bookIdentification": {},
-    "timestampMap": [],
+    "bookTitle": "Our American Heritage (Student Edition)",
+    "bookPages": "Trang 4 – 8",
+    "manualRef": "Homeschool History 3 Curriculum Lesson Plans (Lesson 2, pp. 4–8), Teaching Charts 1A/1B (World Map), Teaching Charts 33 (Compass Rose), Teaching Charts 23–25 (Timeline & Portraits), Our American Heritage Answer Key",
+    "bookIdentification": {
+      "subject": "History 3",
+      "day": "Bài 002",
+      "teacher": "Đội ngũ giáo viên Abeka Academy Grade 3",
+      "primary_textbook": "Our American Heritage (Student Edition)",
+      "textbook_pages": "Trang 4 – 8",
+      "supplementary_materials": "Homeschool History 3 Curriculum Lesson Plans (Lesson 2, pp. 4–8), Teaching Charts 1A/1B (World Map), Teaching Charts 33 (Compass Rose), Teaching Charts 23–25 (Timeline & Portraits), Our American Heritage Answer Key",
+      "required_supplies": "Sách Our American Heritage, Quả địa cầu (Globe), bút, vở ghi",
+      "video_duration": "22 phút 03 giây"
+    },
+    "timestampMap": [
+      {
+        "startTime": 0,
+        "endTime": 165,
+        "title": "Chào mừng học sinh vào lớp Lịch sử 3; cô giáo cầm quả địa cầu (Globe) và ôn lại bài học trước: Trái Đất có hình cầu (sphere), đường xích đạo (equator) chia đôi Trái Đất thành 2 nửa bằng nhau gọi là bán cầu (hemisphere).",
+        "desc": "Khởi động & Ôn tập thuật ngữ Địa lý: Globe, Sphere, Equator, Northern/Southern Hemisphere",
+        "bookRef": "Homeschool History 3 Teaching Charts 1A/1B & Globe"
+      },
+      {
+        "startTime": 165,
+        "endTime": 330,
+        "title": "Phân tích hoa tiêu định hướng (Compass Rose): Hướng Bắc (North - lên trên), Hướng Nam (South - xuống dưới), Hướng Đông (East - bên phải), Hướng Tây (West - bên trái). Hướng dẫn mẹo ghi nhớ chiều kim đồng hồ (Never Eat Soggy Waffles).",
+        "desc": "Kỹ năng đọc bản đồ: Sử dụng la bàn hoa tiêu (Compass Rose) và 4 hướng chính",
+        "bookRef": "Homeschool History 3 Teaching Charts 33 (Compass Rose)"
+      },
+      {
+        "startTime": 330,
+        "endTime": 525,
+        "title": "Giới thiệu cách chia Trái Đất thành Bán cầu Đông (Eastern Hemisphere) và Bán cầu Tây (Western Hemisphere); xác định vị trí châu Mỹ, lục địa Bắc Mỹ và quốc gia Hoa Kỳ.",
+        "desc": "Phân định Đông / Tây Bán cầu; Nhận diện lục địa Bắc Mỹ và nước Mỹ trên bản đồ",
+        "bookRef": "Homeschool History 3 Teaching Charts 1A/1B (World Map)"
+      },
+      {
+        "startTime": 525,
+        "endTime": 750,
+        "title": "Mở sách Our American Heritage trang 4: Bắt đầu Chương 1 \"Christopher Columbus\". Học sinh quan sát dòng thời gian (Timeline of Important Events: 1451 Columbus sinh ra tại Genoa, Ý; 1492 vượt biển khám phá Tân Thế Giới).",
+        "desc": "Chương 1: Giới thiệu cuộc đời Columbus & Dòng thời gian niên biểu lịch sử (Timeline)",
+        "bookRef": "Our American Heritage - Tr. 4"
+      },
+      {
+        "startTime": 750,
+        "endTime": 915,
+        "title": "Đọc trang 5: Tuổi thơ của Columbus tại thành phố cảng Genoa (Ý); ước mơ trở thành thuyền trưởng; niềm say mê học vẽ bản đồ, ngắm nhìn biển cả và những con tàu cập bến.",
+        "desc": "Tuổi thơ Columbus tại cảng Genoa & Niềm đam mê biển cả",
+        "bookRef": "Our American Heritage - Tr. 5"
+      },
+      {
+        "startTime": 915,
+        "endTime": 1070,
+        "title": "Phân tích khung từ vựng ở cuối trang 5: Pirates (cướp biển cướp bóc tàu bè), Caravans (đoàn thương buôn lữ hành qua sa mạc), Voyage (chuyến hải hành dài ngày vượt đại dương).",
+        "desc": "Khung từ vựng học thuật (Words to Remember: Pirates, Caravans, Voyage)",
+        "bookRef": "Our American Heritage - Tr. 5 (Khung từ vựng)"
+      },
+      {
+        "startTime": 1070,
+        "endTime": 1240,
+        "title": "Đọc trang 6–7: Bối cảnh thế giới thế kỷ 15; nỗi sợ của châu Âu về \"Biển Tối\" (Sea of Darkness), quái vật biển; niềm tin của Columbus rằng Trái Đất hình tròn và có thể đến Indies bằng cách giong buồm về hướng Tây.",
+        "desc": "Khái niệm \"Sea of Darkness\" & Tầm nhìn vượt biển tìm đường sang Indies của Columbus",
+        "bookRef": "Our American Heritage - Tr. 6–7"
+      },
+      {
+        "startTime": 1240,
+        "endTime": 1323,
+        "title": "Tổng kết bài học: Columbus chuẩn bị cho chuyến hải hành lịch sử; cô giáo dặn dò học sinh hoàn thành các câu hỏi Comprehension Check đầu trang 8 cùng giáo viên tại chỗ.",
+        "desc": "Dặn dò tự học: Làm Comprehension Check trang 8 & Chuẩn bị tiết học sau",
+        "bookRef": "Our American Heritage - Tr. 8 (Comprehension Check)"
+      }
+    ],
     "ubdReport": {},
     "flashcards": [],
     "slides": [],
