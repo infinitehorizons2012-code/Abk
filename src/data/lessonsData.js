@@ -1,4 +1,4 @@
-// Build timestamp: 1789288402.4821365
+// Build timestamp: 1789289374.673713
 export const LESSONS_DATA = {
   "g5-d001-spelling-5": {
     "id": "g5-d001-spelling-5",
@@ -36984,174 +36984,234 @@ export const LESSONS_DATA = {
     },
     "flashcards": [
       {
-        "term": "1. Kỹ năng Nền tảng (Foundation Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Thực hiện chuẩn xác 3 thói quen viết cơ bản: Tư thế ngồi thẳng lưng, hai chân chạm sàn; góc nghiêng của vở (Paper slant); cách cầm bút đúng quy tắc \"Pinch, tuck, and rest\" (kẹp bút giữa ngón cái và ngón trỏ, tựa nhẹ trên ngón giữa).",
-        "memoryTip": "Ví dụ: Học sinh tự chỉnh vở nghiêng sang phải trước khi đặt bút viết."
+        "id": 1,
+        "term": "Ergonomic Writing Posture",
+        "category": "Physical Mechanics",
+        "definition": "The physical posture required for fluent penmanship: sitting upright with back against chair, feet flat on floor, elbows resting lightly off edge, non-dominant hand anchoring paper.",
+        "textbook_citation": "Writing with Purpose 3, Page 1; Lesson Plans Homeschool Language Arts 3 (Penmanship), p. 1",
+        "exact_textbook_quote": "Sit tall with your back against the chair, feet flat on the floor, and arms resting comfortably.",
+        "memory_trick": "Straight back, flat feet, resting arms make writing neat!"
       },
       {
-        "term": "2. Kỹ năng Cốt lõi (Core Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Nắm vững đặc trưng hình học của chữ Cursive: Luôn có độ nghiêng đều (slant) sang phải và các nét tròn đều có dạng hình elip (oval), không bao giờ viết tròn xoe; nhận biết hệ thống dòng kẻ: Baseline (đường đáy), Dotted midline (đường đứt đoạn giữa) và Top line.",
-        "memoryTip": "Ví dụ: Nhận biết chữ 'a' thường chỉ cao đến đường đứt đoạn giữa và đứng vững trên đường đáy."
+        "id": 2,
+        "term": "Paper Slant Alignment",
+        "category": "Desk Geometry",
+        "definition": "The diagonal angle of the notebook or writing paper on the desk, aligned parallel with the writer's forearm (tilted right for right-handers, tilted left for left-handers).",
+        "textbook_citation": "Writing with Purpose 3, Page 1; Lesson Plans Homeschool Language Arts 3 (Penmanship), p. 1",
+        "exact_textbook_quote": "Slant your paper so that it matches the angle of your writing arm.",
+        "memory_trick": "Slant the sheet with your arm's line to make your letters lean fine!"
       },
       {
-        "term": "3. Kỹ năng Ứng dụng (Applied Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Tô theo nét mẫu (trace) và tự viết độc lập (write) đúng chuẩn chữ hoa cursive A, chữ thường a, tổ hợp nối nét và chữ số 1, 2 trên trang 1 sách Writing with Purpose 3; kiểm soát lực ấn ngòi bút để nét chữ thanh thoát.",
-        "memoryTip": "Ví dụ: Viết một dòng chữ A hoa và a thường đều nét, không bị lem mực."
+        "id": 3,
+        "term": "Tripod Pencil Grip",
+        "category": "Motor Control",
+        "definition": "The ergonomic pencil grip where the pencil is gently pinched between the thumb and index finger, while resting on the middle finger with ring and pinky fingers tucked in.",
+        "textbook_citation": "Writing with Purpose 3, Page 1; Lesson Plans Homeschool Language Arts 3 (Penmanship), p. 1",
+        "exact_textbook_quote": "Pinch the pencil with your thumb and index finger, tuck your other fingers, and let it rest on your middle finger.",
+        "memory_trick": "Pinch, tuck, and rest: tripod grip writes the best!"
       },
       {
-        "term": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Tự so sánh nét chữ của mình với chữ mẫu chuẩn trong sách giáo khoa; tự phát hiện các lỗi như: chữ bị thẳng đứng mất độ nghiêng, đáy chữ không chạm đường kẻ hoặc chữ số 2 bị nghiêng đổ; tự giác nắn nót từng nét bút.",
-        "memoryTip": "Ví dụ: Học sinh tự chọn ra một chữ viết đẹp nhất trong dòng của mình để làm chuẩn mực phấn đấu."
+        "id": 4,
+        "term": "Consistent Cursive Slant",
+        "category": "Penmanship Aesthetic",
+        "definition": "The uniform forward slope (approximately 60 degrees) maintained by all cursive letters, stems, and strokes across the writing page.",
+        "textbook_citation": "Writing with Purpose 3, Page 1; Lesson Plans Homeschool Language Arts 3 (Penmanship), p. 1",
+        "exact_textbook_quote": "All cursive letters must have a consistent forward slant.",
+        "memory_trick": "Letters lean forward like grass in a gentle breeze!"
       },
       {
-        "term": "Ba thói quen vàng khi viết chữ",
-        "category": "Key Takeaway",
-        "definition": "Ngồi thẳng lưng hai chân chạm sàn -> Vở nghiêng theo tay thuận -> Cầm bút theo quy tắc \"Pinch, tuck, and rest\".",
-        "memoryTip": "Trọng tâm bài học UbD"
+        "id": 5,
+        "term": "Oval Warm-up Strokes",
+        "category": "Motor Warm-up",
+        "definition": "Rhythmic, continuous elliptical rotations practiced between the headline and baseline to loosen fingers and establish the fluid oval curves of cursive script.",
+        "textbook_citation": "Writing with Purpose 3, Page 1; Lesson Plans Homeschool Language Arts 3 (Penmanship), p. 1",
+        "exact_textbook_quote": "Practice smooth oval strokes to develop fluid hand movement and proper letter shape.",
+        "memory_trick": "Smooth rolling ovals unlock cursive loops!"
       },
       {
-        "term": "Linh hồn của chữ Cursive",
-        "category": "Key Takeaway",
-        "definition": "Độ nghiêng đều sang phải và cấu trúc hình elip (oval). Chữ viết lớp 3 không chạm đường đỉnh mà tựa chuẩn mực trên đường đáy (baseline) và cao đến đường đứt đoạn (midline).",
-        "memoryTip": "Trọng tâm bài học UbD"
+        "id": 6,
+        "term": "Uppercase Cursive 'A'",
+        "category": "Letter Formation",
+        "definition": "Begins near the top headline with a downward left curve forming an oval, sweeps back up to touch the start, pulls straight down to the baseline, and finishes with a connective undercurve tail.",
+        "textbook_citation": "Writing with Purpose 3, Page 1, Line 2; Lesson Plans Homeschool Language Arts 3 (Penmanship), p. 1",
+        "exact_textbook_quote": "Start at the top headline, form a smooth oval, close it at the top, pull straight down to the baseline, and add a tail.",
+        "memory_trick": "Oval down, touch the top, pull down straight, undercurve hop!"
       },
       {
-        "term": "Chữ A, a và Số 1, 2",
-        "category": "Key Takeaway",
-        "definition": "Chữ hoa A cao từ baseline lên gần dòng đỉnh; chữ a thường nằm trọn vẹn trong khoảng dòng đáy đến đường đứt đoạn; số 1 kéo thẳng nghiêng, số 2 có chân lượn êm ái trên đường đáy.",
-        "memoryTip": "Trọng tâm bài học UbD"
+        "id": 7,
+        "term": "Lowercase Cursive 'a'",
+        "category": "Letter Formation",
+        "definition": "Begins on the baseline with an upward undercurve, forms an oval between the midline and baseline, retraces down to the baseline, and ends with a connective tail.",
+        "textbook_citation": "Writing with Purpose 3, Page 1, Line 3; Lesson Plans Homeschool Language Arts 3 (Penmanship), p. 1",
+        "exact_textbook_quote": "Undercurve to midline, form an oval, pull down straight to baseline, undercurve tail.",
+        "memory_trick": "Up to midline, oval round, down to line, tail rebound!"
+      },
+      {
+        "id": 8,
+        "term": "Numerals 1 and 2",
+        "category": "Number Penmanship",
+        "definition": "Numeral 1 is a clean, single slanted pull-down stroke; Numeral 2 begins with a curved top loop, slants diagonally down to the baseline, and finishes with a horizontal wave resting on the baseline.",
+        "textbook_citation": "Writing with Purpose 3, Page 1, Line 4; Lesson Plans Homeschool Language Arts 3 (Penmanship), p. 1",
+        "exact_textbook_quote": "Write numbers with the same consistent slant, resting firmly on the baseline.",
+        "memory_trick": "Number 1 stands tall and lean; Number 2 rides a wave so clean!"
       }
     ],
     "slides": [
       {
-        "slideNumber": 1,
-        "title": "Tổng Quan Bài Học Writing 3 (Bài 001)",
-        "tag": "Grade 3 Overview",
-        "bulletPoints": [
-          "Giáo viên: Mrs. Quito",
-          "Sách giáo khoa: Writing with Purpose 3 (Trang 1)",
-          "Tài liệu hướng dẫn: 10.1. Lesson Plans Homeschool Language Arts 3 (Penmanship / Writing)",
-          "Thời lượng bài giảng: 12 phút 04 giây"
+        "slide_number": 1,
+        "title": "Welcome to Writing with Purpose 3: The Art of Cursive",
+        "category": "Course Orientation",
+        "bullet_points": [
+          "Transitioning into fluent cursive script as a mature tool for clear written communication",
+          "Understanding that beautiful penmanship reflects order, patience, and diligence",
+          "Establishing daily habits: sharp pencils, smooth writing posture, and unwrinkled workbooks"
         ],
-        "keyTakeaway": "Dụng cụ cần thiết: Sách Writing with Purpose 3, bút chì gọt nhọn"
+        "textbook_evidence": "Writing with Purpose 3, Page 1; Lesson Plans Homeschool Language Arts 3 (Penmanship), Lesson 1",
+        "key_takeaway": "Neat cursive penmanship makes written thought clear, legible, and honorable."
       },
       {
-        "slideNumber": 2,
-        "title": "1. Kỹ năng Nền tảng (Foundation Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Thực hiện chuẩn xác 3 thói quen viết cơ bản: Tư thế ngồi thẳng lưng, hai chân chạm sàn; góc nghiêng của vở (Paper slant); cách cầm bút đúng quy tắc \"Pinch, tuck, and rest\" (kẹp bút giữa ngón cái và ngón trỏ, tựa nhẹ trên ngón giữa)."
+        "slide_number": 2,
+        "title": "The Three Pillars of Physical Ergonomics in Writing",
+        "category": "Physical Setup",
+        "bullet_points": [
+          "Pillar 1 - Posture: Sitting straight, shoulders relaxed, back supported, feet resting flat",
+          "Pillar 2 - Paper Slant: Tilting the paper parallel to the writing arm's natural angle",
+          "Pillar 3 - Non-writing Hand: Anchoring the top or side margin flat to prevent shifting"
         ],
-        "keyTakeaway": "Ví dụ: Học sinh tự chỉnh vở nghiêng sang phải trước khi đặt bút viết."
+        "textbook_evidence": "Writing with Purpose 3, Page 1; Lesson Plans Homeschool Language Arts 3 (Penmanship), Lesson 1",
+        "key_takeaway": "Proper body positioning prevents fatigue and enables consistent, effortless motor control."
       },
       {
-        "slideNumber": 3,
-        "title": "2. Kỹ năng Cốt lõi (Core Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Nắm vững đặc trưng hình học của chữ Cursive: Luôn có độ nghiêng đều (slant) sang phải và các nét tròn đều có dạng hình elip (oval), không bao giờ viết tròn xoe; nhận biết hệ thống dòng kẻ: Baseline (đường đáy), Dotted midline (đường đứt đoạn giữa) và Top line."
+        "slide_number": 3,
+        "title": "The Tripod Pencil Grip: Pinch, Tuck, and Rest",
+        "category": "Motor Mechanics",
+        "bullet_points": [
+          "Step 1 - Pinch: Grasp the pencil lightly between the pads of the thumb and index finger",
+          "Step 2 - Tuck: Gently tuck the fourth (ring) and fifth (pinky) fingers into the palm",
+          "Step 3 - Rest: Allow the shaft of the pencil to rest comfortably on the first knuckle of the middle finger",
+          "Maintaining light pencil pressure to avoid cramped fingers and paper indentations"
         ],
-        "keyTakeaway": "Ví dụ: Nhận biết chữ 'a' thường chỉ cao đến đường đứt đoạn giữa và đứng vững trên đường đáy."
+        "textbook_evidence": "Writing with Purpose 3, Page 1; Lesson Plans Homeschool Language Arts 3 (Penmanship), Lesson 1",
+        "key_takeaway": "A relaxed tripod grip yields maximum stroke flexibility and fluid letter joins."
       },
       {
-        "slideNumber": 4,
-        "title": "3. Kỹ năng Ứng dụng (Applied Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Tô theo nét mẫu (trace) và tự viết độc lập (write) đúng chuẩn chữ hoa cursive A, chữ thường a, tổ hợp nối nét và chữ số 1, 2 trên trang 1 sách Writing with Purpose 3; kiểm soát lực ấn ngòi bút để nét chữ thanh thoát."
+        "slide_number": 4,
+        "title": "Foundational Geometry: Slant and Oval Warm-ups",
+        "category": "Technical Strokes",
+        "bullet_points": [
+          "Mastering uniform rightward slant across all letters and ascending stems",
+          "Recognizing that cursive round letters are true ellipses (ovals), never perfect circles",
+          "Practicing the Page 1 warm-up drill: rotating continuous ovals across guidelines",
+          "Rebounding strokes cleanly off the baseline without dragging below"
         ],
-        "keyTakeaway": "Ví dụ: Viết một dòng chữ A hoa và a thường đều nét, không bị lem mực."
+        "textbook_evidence": "Writing with Purpose 3, Page 1, Line 1; Lesson Plans Homeschool Language Arts 3 (Penmanship), Lesson 1",
+        "key_takeaway": "Consistent slant and smooth oval shapes give cursive script its characteristic elegance."
       },
       {
-        "slideNumber": 5,
-        "title": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Tự so sánh nét chữ của mình với chữ mẫu chuẩn trong sách giáo khoa; tự phát hiện các lỗi như: chữ bị thẳng đứng mất độ nghiêng, đáy chữ không chạm đường kẻ hoặc chữ số 2 bị nghiêng đổ; tự giác nắn nót từng nét bút."
+        "slide_number": 5,
+        "title": "Letter Mastery: Uppercase 'A' and Lowercase 'a'",
+        "category": "Letter Formation",
+        "bullet_points": [
+          "Uppercase 'A': Top headline start, sweeping downward oval, closure at apex, straight pull-down tail",
+          "Lowercase 'a': Undercurve ascent from baseline to midline, oval closure, vertical drop, connective undercurve",
+          "Critiquing common flaws: unclosed oval tops, lack of slant, floating off the baseline",
+          "Practicing smooth transitions from the terminal tail to adjoining letters"
         ],
-        "keyTakeaway": "Ví dụ: Học sinh tự chọn ra một chữ viết đẹp nhất trong dòng của mình để làm chuẩn mực phấn đấu."
+        "textbook_evidence": "Writing with Purpose 3, Page 1, Lines 2–3; Lesson Plans Homeschool Language Arts 3 (Penmanship), Lesson 1",
+        "key_takeaway": "Every cursive letter follows an exact sequence of start points, curves, and baseline landings."
       },
       {
-        "slideNumber": 6,
-        "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
-        "tag": "Core Knowledge",
-        "bulletPoints": [
-          "Ba thói quen vàng khi viết chữ: Ngồi thẳng lưng hai chân chạm sàn -> Vở nghiêng theo tay thuận -> Cầm bút theo quy tắc \"Pinch, tuck, and rest\".",
-          "Linh hồn của chữ Cursive: Độ nghiêng đều sang phải và cấu trúc hình elip (oval). Chữ viết lớp 3 không chạm đường đỉnh mà tựa chuẩn mực trên đường đáy (baseline) và cao đến đường đứt đoạn (midline).",
-          "Chữ A, a và Số 1, 2: Chữ hoa A cao từ baseline lên gần dòng đỉnh; chữ a thường nằm trọn vẹn trong khoảng dòng đáy đến đường đứt đoạn; số 1 kéo thẳng nghiêng, số 2 có chân lượn êm ái trên đường đáy."
+        "slide_number": 6,
+        "title": "Numeral Penmanship: Forming 1 and 2 with Precision",
+        "category": "Numeral Formation",
+        "bullet_points": [
+          "Numeral 1: Clean, slanted pull-down stroke from headline to baseline",
+          "Numeral 2: Curved arch start, diagonal slant downward, crisp baseline wave",
+          "Maintaining uniform digit height corresponding to lowercase ascenders",
+          "Completing Page 1 with steady focus during daily Seatwork time"
         ],
-        "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
+        "textbook_evidence": "Writing with Purpose 3, Page 1, Line 4; Lesson Plans Homeschool Language Arts 3 (Penmanship), Lesson 1",
+        "key_takeaway": "Clear, beautifully formed numerals prevent mathematical errors and enhance presentation."
       }
     ],
     "quizData": [
       {
         "id": "q1",
-        "question": "What is the primary communication purpose of developing neat cursive penmanship as emphasized by Mrs. Quito?",
+        "question": "What is the proper ergonomic paper slant for a right-handed student in cursive writing?",
         "options": [
-          "A. To write as fast as possible without caring about legibility",
-          "B. To transfer thoughts from our mind to paper neatly so others can clearly read and understand them",
-          "C. To replace all digital typing devices permanently",
-          "D. To draw complex geometric figures during class"
+          "A. Perfectly perpendicular to the desk edges with zero tilt",
+          "B. Tilted to the right so it aligns parallel with the writing forearm",
+          "C. Tilted upside down towards the student's chest",
+          "D. Slanted steeply to the left at a 90-degree angle"
         ],
         "correct": "B",
-        "explanation": "Writing with Purpose 3 emphasizes that handwriting is a vital communication tool to transfer thoughts clearly to paper.",
-        "textbook_page_reference": ""
+        "explanation": "Writing with Purpose 3 (Page 1) directs students to slant the paper parallel with their writing forearm (tilted right for right-handers).",
+        "textbook_page_reference": "Writing with Purpose 3, Page 1; Lesson Plans, p. 1"
       },
       {
         "id": "q2",
-        "question": "What are the three essential physical writing habits taught in Lesson 1 for proper cursive handwriting?",
+        "question": "Which fingers form the correct 'tripod grip' when holding a pencil?",
         "options": [
-          "A. Standing up, holding the pen with five fingers, tilting the chair",
-          "B. Proper posture (feet flat, back straight), correct paper slant, and proper pencil grip ('pinch, tuck, and rest')",
-          "C. Lying on the desk, paper completely straight, pressing hard",
-          "D. Fast writing, loose paper, looking away from the desk"
+          "A. Thumb and all four fingers wrapped in a fist",
+          "B. Pinched between thumb and index finger, resting on the middle finger",
+          "C. Clamped between the index finger and pinky finger",
+          "D. Held solely by the thumb against the palm"
         ],
         "correct": "B",
-        "explanation": "The 3 core habits are: Posture (sit straight, feet on floor), Paper Slant (angled to the desk), and Pencil Grip (pinch, tuck, and rest).",
-        "textbook_page_reference": ""
+        "explanation": "The proper tripod pencil grip pinches the pencil between the thumb and index finger while allowing it to rest gently on the middle finger.",
+        "textbook_page_reference": "Writing with Purpose 3, Page 1; Lesson Plans, p. 1"
       },
       {
         "id": "q3",
-        "question": "How should paper be slanted for a right-handed student versus a left-handed student?",
+        "question": "What geometric shape forms the foundation for curved cursive letters such as 'A', 'a', 'O', and 'd'?",
         "options": [
-          "A. Right-handed slants top-right corner up; left-handed slants top-left corner up",
-          "B. Both keep the paper strictly vertical and parallel to the desk",
-          "C. Right-handed slants left; left-handed slants right",
-          "D. Paper should always be positioned horizontally"
+          "A. Perfect geometric squares",
+          "B. Sharp equilateral triangles",
+          "C. Elliptical ovals",
+          "D. Rigid hexagons"
         ],
-        "correct": "A",
-        "explanation": "For right-handed writers, the top-right corner is slanted up; for left-handed writers, the top-left corner is slanted up to ensure a natural cursive slant.",
-        "textbook_page_reference": ""
+        "correct": "C",
+        "explanation": "Cursive script relies on smooth elliptical ovals rather than perfect circles or rigid angles to give letters their fluid, slanted motion.",
+        "textbook_page_reference": "Writing with Purpose 3, Page 1; Lesson Plans, p. 1"
       },
       {
         "id": "q4",
-        "question": "What is the universal geometric shape characteristic of cursive letters in Grade 3 rather than perfect circles?",
+        "question": "Where does the formation of lowercase cursive 'a' begin?",
         "options": [
-          "A. Square shapes with sharp 90-degree corners",
-          "B. Oval (egg-like) shapes with a consistent rightward slant",
-          "C. Triangular shapes pointing downward",
-          "D. Perfectly round circles with no slant"
+          "A. At the top headline",
+          "B. On the baseline with an upward undercurve stroke",
+          "C. Far below the baseline in the descending space",
+          "D. Floating randomly between lines"
         ],
         "correct": "B",
-        "explanation": "Grade 3 cursive letters are built on slanted oval shapes, never round circles.",
-        "textbook_page_reference": ""
+        "explanation": "Lowercase cursive 'a' begins on the baseline with an upward undercurve stroke leading to the midline before sweeping back into its oval.",
+        "textbook_page_reference": "Writing with Purpose 3, Page 1, Line 3"
       },
       {
         "id": "q5",
-        "question": "On the penmanship lines, where must cursive letters like capital 'A' and lowercase 'a' firmly rest?",
+        "question": "What finishing feature must numeral 2 have as it reaches the baseline?",
         "options": [
-          "A. Floating in the middle of the line space",
-          "B. Firmly resting on the baseline (bottom line)",
-          "C. Hanging down below the descending line",
-          "D. Touching only the top headline"
+          "A. A sharp downward needle point digging below the line",
+          "B. A horizontal wave stroke that rests firmly on the baseline",
+          "C. A complete circular loop floating in mid-air",
+          "D. A straight vertical spike extending to the headline"
         ],
         "correct": "B",
-        "explanation": "All letters must stand firmly on the baseline to maintain neatness and alignment.",
-        "textbook_page_reference": ""
+        "explanation": "Numeral 2 concludes with a horizontal wave resting squarely on the baseline, providing visual stability and balance.",
+        "textbook_page_reference": "Writing with Purpose 3, Page 1, Line 4"
+      },
+      {
+        "id": "q6",
+        "question": "What critical duty does the non-dominant (non-writing) hand have during penmanship?",
+        "options": [
+          "A. It should remain tucked in the student's pocket",
+          "B. It rests flat on the paper to anchor it and adjust its position smoothly",
+          "C. It holds a second spare pencil in the air",
+          "D. It taps the desk rhythmically to keep time"
+        ],
+        "correct": "B",
+        "explanation": "Writing with Purpose 3 instructs that the non-writing hand anchors the paper flat on the desk, moving it upward as writing advances down the page.",
+        "textbook_page_reference": "Writing with Purpose 3, Page 1; Lesson Plans, p. 1"
       }
     ]
   },

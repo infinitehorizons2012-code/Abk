@@ -13,7 +13,17 @@ export default function UbDReportViewer({ lesson }) {
   const stage3 = ubd.stage3_learning_plan || {};
   const stage2 = ubd.stage2_bloom_assessment || {};
 
-  const hasUbDData = Object.keys(ubd).length > 0 && (stage1.skill_taxonomy || ubd.skill_taxonomy || stage1.clos || ubd.clos);
+  const hasUbDData = Object.keys(ubd).length > 0 && (
+    stage1.skill_taxonomy || 
+    ubd.skill_taxonomy || 
+    stage1.clos || 
+    ubd.clos ||
+    ubd.meta ||
+    ubd.key_takeaways ||
+    ubd.stage2_bloom_assessment ||
+    ubd.stage3_learning_plan ||
+    ubd.pitfalls
+  );
 
   if (!hasUbDData) {
     return (
