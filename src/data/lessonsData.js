@@ -1,4 +1,4 @@
-// Build timestamp: 1789289374.673713
+// Build timestamp: 1789291481.016292
 export const LESSONS_DATA = {
   "g5-d001-spelling-5": {
     "id": "g5-d001-spelling-5",
@@ -5152,6 +5152,74 @@ export const LESSONS_DATA = {
             "D. Semicolon (;)"
           ],
           "correct_answer": "C",
+          "explanation": "The sentence begins with the auxiliary verb 'Did' and asks a direct question, requiring a question mark at the end (Language B, p. 2, Think A)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Which of the four kinds of sentences makes a factual statement and always concludes with a period?",
+          "options": [
+            "A. Interrogative sentence",
+            "B. Declarative sentence",
+            "C. Exclamatory sentence",
+            "D. Imperative sentence"
+          ],
+          "correct": "B",
+          "explanation": "God's Gift of Language B (page 2) defines a declarative sentence as a sentence that makes a statement. It always begins with a capital letter and ends with a period."
+        },
+        {
+          "question": "What is the understood subject of the imperative sentence: 'Hand me that blue grammar book, please'?",
+          "options": [
+            "A. Book",
+            "B. Me",
+            "C. (You)",
+            "D. Grammar"
+          ],
+          "correct": "C",
+          "explanation": "In imperative sentences (commands or requests), the subject is not explicitly written; it is the understood second-person pronoun (you) (Language B, p. 2)."
+        },
+        {
+          "question": "Which sentence type is exemplified by the sentence: 'How wonderfully the coral reef glitters beneath the sun!'?",
+          "options": [
+            "A. Declarative sentence",
+            "B. Interrogative sentence",
+            "C. Imperative sentence",
+            "D. Exclamatory sentence"
+          ],
+          "correct": "D",
+          "explanation": "As stated on page 2, an exclamatory sentence shows sudden or strong feeling and concludes with an exclamation point."
+        },
+        {
+          "question": "When proofreading a student essay, what standard proofreader's mark is used to indicate that a lowercase letter at the beginning of a sentence must be capitalized?",
+          "options": [
+            "A. Circling the letter with a red pen",
+            "B. Drawing three horizontal lines beneath the letter (triple underline)",
+            "C. Crossing out the letter with an X",
+            "D. Placing a caret symbol above the letter"
+          ],
+          "correct": "B",
+          "explanation": "On page 2 and in the video, Miss Green demonstrates using the triple underline (three small parallel lines beneath the letter) to signify capitalization."
+        },
+        {
+          "question": "Consider the urgent command: 'Watch out for that sharp coral reef!' Why is this sentence classified as Imperative rather than Exclamatory despite its exclamation point?",
+          "options": [
+            "A. Because it contains fewer than eight words.",
+            "B. Because its primary communicative purpose is to issue an urgent command with the understood subject (you).",
+            "C. Because all sentences about coral reefs are classified as commands.",
+            "D. Because it lacks adjectives."
+          ],
+          "correct": "B",
+          "explanation": "Sentence classification depends on communicative purpose, not merely the ending mark. An urgent command remains an imperative sentence with the understood subject (you), even when an exclamation point is used to convey urgency."
+        },
+        {
+          "question": "Which punctuation mark should be inserted using a caret (^) at the end of the sentence: 'Did you remember to bring your research notebook today'?",
+          "options": [
+            "A. Period (.)",
+            "B. Comma (,)",
+            "C. Question mark (?)",
+            "D. Semicolon (;)"
+          ],
+          "correct": "C",
           "explanation": "The sentence begins with the auxiliary verb 'Did' and asks a direct question, requiring a question mark at the end (Language B, p. 2, Think A)."
         }
       ],
@@ -37502,174 +37570,212 @@ export const LESSONS_DATA = {
     },
     "flashcards": [
       {
-        "term": "1. Kỹ năng Nền tảng (Foundation Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Chuẩn bị đầy đủ 5 đầu sách giáo khoa và dụng cụ học tập (bút chì gọt sẵn, thước kẻ, tẩy) trên góc bàn; đọc hiểu và tuân thủ bảng phân công nhiệm vụ (Seatwork Chart) hiển thị trên màn hình.",
-        "memoryTip": "Ví dụ: Học sinh tự xếp ngay ngắn 5 cuốn sách theo đúng thứ tự làm bài trên bàn học."
+        "id": 1,
+        "term": "Independent Seatwork",
+        "category": "Academic Habit",
+        "definition": "The disciplined educational practice where students complete multi-subject workbook tasks independently, neatly, and quietly without direct teacher intervention.",
+        "textbook_citation": "Seatwork Assignment Chart, Lesson 1; Lesson Plans Homeschool Arithmetic 3 & Language Arts 3",
+        "exact_textbook_quote": "Seatwork provides practice in reading and following written directions, working independently, and developing neat, careful habits.",
+        "memory_trick": "Seatwork builds self-reliance, accuracy, and quiet diligence!"
       },
       {
-        "term": "2. Kỹ năng Cốt lõi (Core Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Độc lập vận dụng các kiến thức vừa học trong các tiết video để giải quyết các bài tập củng cố: Làm toán hàng nghìn trang 2; xác định câu hoàn chỉnh trong Language trang 1-2; viết chữ hoa A, thường a trang 1; chép List 1 chính tả; đọc bài thơ \"My Bed Is a Boat\".",
-        "memoryTip": "Ví dụ: Tự giải quyết bài tập toán mà không cần bố mẹ ngồi kè kè chỉ từng câu."
+        "id": 2,
+        "term": "Assignment Chart Navigation",
+        "category": "Organizational Skill",
+        "definition": "The ability to accurately interpret the daily posted seatwork chart to locate specific page numbers, exercises, and submission requirements across five distinct workbooks.",
+        "textbook_citation": "Seatwork Assignment Chart, Lesson 1",
+        "exact_textbook_quote": "Look at the Seatwork chart carefully. Read all assignments before beginning your work.",
+        "memory_trick": "Read the chart, check each book, plan your work with a careful look!"
       },
       {
-        "term": "3. Kỹ năng Ứng dụng (Applied Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Kỹ năng quản lý thời gian (Time Management) và chuyển dịch nhiệm vụ linh hoạt: Phân bổ hợp lý khoảng 10-15 phút cho mỗi môn, hoàn thành trọn vẹn từng phần việc theo đúng tiến độ mà không bỏ dở giữa chừng.",
-        "memoryTip": "Ví dụ: Khi chuông báo 15 phút môn Toán kết thúc, học sinh cất sách Toán và mở ngay sách Language để tiếp tục làm việc."
+        "id": 3,
+        "term": "Following Written Directions",
+        "category": "Cognitive Literacy",
+        "definition": "Reading instruction boxes completely prior to writing, verifying whether tasks require circling, underlining, writing complete sentences, or transcribing words.",
+        "textbook_citation": "Lesson Plans Homeschool Language Arts 3 & Arithmetic 3, Lesson 1",
+        "exact_textbook_quote": "Teach your child to read and follow written directions independently without having to ask what to do next.",
+        "memory_trick": "Read directions once, read them twice, do the work neat and precise!"
       },
       {
-        "term": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Kỹ năng tự kiểm tra (Self-Check & Audit): Dành 5 phút cuối giờ rà soát lại toàn bộ các bài tập đã làm, phát hiện các lỗi tính toán, thiếu dấu câu hay chữ viết ẩu trước khi nộp bài cho phụ huynh/giáo viên tại chỗ chấm điểm.",
-        "memoryTip": "Ví dụ: Tự phát hiện câu 3 bài Language bị thiếu dấu chấm và kịp thời bổ sung trước khi nộp bài."
+        "id": 4,
+        "term": "Workspace Management",
+        "category": "Ergonomic Order",
+        "definition": "Maintaining an organized desk where active textbooks are stacked neatly in work order, pencils are pre-sharpened, and scratch paper is positioned cleanly.",
+        "textbook_citation": "Homeschool Curriculum Overview, Daily Procedures, Lesson 1",
+        "exact_textbook_quote": "Keep your desk orderly. Have only the necessary book and sharpened pencil out for each task.",
+        "memory_trick": "Clean desk, clear mind, best work you will find!"
       },
       {
-        "term": "Tự lập và Kỷ luật học tập",
-        "category": "Key Takeaway",
-        "definition": "Tiết Seatwork là cơ hội vàng để học sinh xây dựng tính tự giác học tập không cần nhắc nhở, làm việc nghiêm túc ngay cả khi không có giáo viên đứng trước mặt.",
-        "memoryTip": "Trọng tâm bài học UbD"
+        "id": 5,
+        "term": "Self-Evaluation Protocol",
+        "category": "Metacognitive Skill",
+        "definition": "Systematically inspecting finished work-text pages for omitted punctuation marks, uncapitalized letters, calculation slips, or missing names prior to teacher grading.",
+        "textbook_citation": "Seatwork Procedures, Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "exact_textbook_quote": "Train your child to check his work carefully before handing it in.",
+        "memory_trick": "Inspect before you submit: check every mark, dot, and digit!"
       },
       {
-        "term": "Kỹ năng quản lý thời gian đa nhiệm",
-        "category": "Key Takeaway",
-        "definition": "Biết chia nhỏ thời gian và hoàn thành tuần tự 5 nhiệm vụ học tập khác nhau một cách khoa học, đúng tiến độ.",
-        "memoryTip": "Trọng tâm bài học UbD"
-      },
-      {
-        "term": "Tiêu chuẩn cẩn thận và Tự chịu trách nhiệm",
-        "category": "Key Takeaway",
-        "definition": "Mọi bài tập nộp đi đều phải đại diện cho nỗ lực cao nhất của bản thân: Chữ viết nắn nót, kết quả chính xác và luôn được rà soát kỹ lưỡng.",
-        "memoryTip": "Trọng tâm bài học UbD"
+        "id": 6,
+        "term": "Multi-Subject Sequence (Lesson 1)",
+        "category": "Curricular Schedule",
+        "definition": "The orderly progression through five core tasks: Arithmetic 3 p. 2; Language 3 pp. 1–2; Writing 3 p. 1; Spelling 3 p. 2; Reading 3 pp. 1–6.",
+        "textbook_citation": "Seatwork Assignment Chart, Lesson 1",
+        "exact_textbook_quote": "Arithmetic p. 2; Language pp. 1-2; Writing p. 1; Spelling p. 2 (copy List 1); Reading pp. 1-6.",
+        "memory_trick": "Math, Grammar, Cursive, Spelling, Reading—5 steps to learning excellence!"
       }
     ],
     "slides": [
       {
-        "slideNumber": 1,
-        "title": "Tổng Quan Bài Học Seatwork 3 (Bài 001)",
-        "tag": "Grade 3 Overview",
-        "bulletPoints": [
-          "Giáo viên: Hướng dẫn tự học độc lập / On-site Parent Guide",
-          "Sách giáo khoa: Seatwork Assignment Chart (Bảng phân công tự học) (Arithmetic 3 tr. 2; Language 3 tr. 1–2; Writing 3 tr. 1; Spelling 3 tr. 2; Reading 3 tr. 1–6)",
-          "Tài liệu hướng dẫn: Lesson Plans Homeschool Language Arts 3 & Arithmetic 3",
-          "Thời lượng bài giảng: 55 phút 00 giây"
+        "slide_number": 1,
+        "title": "Welcome to Independent Seatwork: Purpose and Philosophy",
+        "category": "Orientation",
+        "bullet_points": [
+          "Cultivating independent study habits, personal accountability, and mental stamina",
+          "Applying newly taught classroom concepts directly onto workbook exercise pages",
+          "Developing a quiet, industrious work atmosphere conducive to deep concentration"
         ],
-        "keyTakeaway": "Dụng cụ cần thiết: 5 đầu sách thực hành (Arithmetic 3, Language 3, Writing 3, Spelling 3, From Shore to Shore), bút chì gọt sẵn, thước kẻ, tẩy"
+        "textbook_evidence": "Seatwork Assignment Chart, Lesson 1; Homeschool Curriculum Overview",
+        "key_takeaway": "Seatwork transforms passive classroom listening into active, self-directed competence."
       },
       {
-        "slideNumber": 2,
-        "title": "1. Kỹ năng Nền tảng (Foundation Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Chuẩn bị đầy đủ 5 đầu sách giáo khoa và dụng cụ học tập (bút chì gọt sẵn, thước kẻ, tẩy) trên góc bàn; đọc hiểu và tuân thủ bảng phân công nhiệm vụ (Seatwork Chart) hiển thị trên màn hình."
+        "slide_number": 2,
+        "title": "Deciphering the Daily Seatwork Assignment Chart",
+        "category": "Chart Navigation",
+        "bullet_points": [
+          "Locating the Lesson 1 column and verifying all five subject requirements",
+          "Gathering required texts: Arithmetic 3, Language 3, Writing 3, Spelling 3, From Shore to Shore",
+          "Checking off assignments methodically as each workbook section reaches completion"
         ],
-        "keyTakeaway": "Ví dụ: Học sinh tự xếp ngay ngắn 5 cuốn sách theo đúng thứ tự làm bài trên bàn học."
+        "textbook_evidence": "Seatwork Assignment Chart, Lesson 1",
+        "key_takeaway": "Systematic chart tracking prevents forgotten tasks and builds executive planning skills."
       },
       {
-        "slideNumber": 3,
-        "title": "2. Kỹ năng Cốt lõi (Core Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Độc lập vận dụng các kiến thức vừa học trong các tiết video để giải quyết các bài tập củng cố: Làm toán hàng nghìn trang 2; xác định câu hoàn chỉnh trong Language trang 1-2; viết chữ hoa A, thường a trang 1; chép List 1 chính tả; đọc bài thơ \"My Bed Is a Boat\"."
+        "slide_number": 3,
+        "title": "Task 1 & 2: Arithmetic 3 (p. 2) and Language 3 (pp. 1–2)",
+        "category": "Core Workbook Tasks",
+        "bullet_points": [
+          "Arithmetic 3 Page 2: Practicing place value grids, inserting commas, reading clock hands and A.M./P.M.",
+          "Language 3 Page 1: Identifying complete thoughts vs. fragments; capitalizing first words",
+          "Language 3 Page 2: Supplying missing end punctuation (periods, question marks, exclamation points)"
         ],
-        "keyTakeaway": "Ví dụ: Tự giải quyết bài tập toán mà không cần bố mẹ ngồi kè kè chỉ từng câu."
+        "textbook_evidence": "Arithmetic 3 Work-text, p. 2; Language 3 Work-text, pp. 1–2",
+        "key_takeaway": "Rigorous workbook practice solidifies mathematical concepts and grammatical conventions."
       },
       {
-        "slideNumber": 4,
-        "title": "3. Kỹ năng Ứng dụng (Applied Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Kỹ năng quản lý thời gian (Time Management) và chuyển dịch nhiệm vụ linh hoạt: Phân bổ hợp lý khoảng 10-15 phút cho mỗi môn, hoàn thành trọn vẹn từng phần việc theo đúng tiến độ mà không bỏ dở giữa chừng."
+        "slide_number": 4,
+        "title": "Task 3 & 4: Writing with Purpose 3 (p. 1) & Spelling List 1",
+        "category": "Language Arts Practice",
+        "bullet_points": [
+          "Writing 3 Page 1: Completing warm-up ovals, cursive 'A', 'a', and numerals 1 and 2 with consistent slant",
+          "Spelling 3 Page 2: Transcribing Spelling List 1 into notebooks with pristine cursive legibility",
+          "Memorizing vocabulary definitions: frail, proclaim, plain; reviewing 'ai' and 'ay' patterns"
         ],
-        "keyTakeaway": "Ví dụ: Khi chuông báo 15 phút môn Toán kết thúc, học sinh cất sách Toán và mở ngay sách Language để tiếp tục làm việc."
+        "textbook_evidence": "Writing with Purpose 3, p. 1; Spelling and Poetry 3, p. 2",
+        "key_takeaway": "Combining cursive penmanship with spelling transcription reinforces linguistic memory."
       },
       {
-        "slideNumber": 5,
-        "title": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Kỹ năng tự kiểm tra (Self-Check & Audit): Dành 5 phút cuối giờ rà soát lại toàn bộ các bài tập đã làm, phát hiện các lỗi tính toán, thiếu dấu câu hay chữ viết ẩu trước khi nộp bài cho phụ huynh/giáo viên tại chỗ chấm điểm."
+        "slide_number": 5,
+        "title": "Task 5: Literature & Silent Reading: From Shore to Shore",
+        "category": "Literary Engagement",
+        "bullet_points": [
+          "Revisiting Robert Louis Stevenson's poem 'My Bed Is a Boat' (pp. 1–2) for fluency and rhythm",
+          "Reading ahead into 'The Sandcastle Contest' (pp. 3–6) with focus on story elements",
+          "Formulating answers to comprehension check questions in complete mental thoughts"
         ],
-        "keyTakeaway": "Ví dụ: Tự phát hiện câu 3 bài Language bị thiếu dấu chấm và kịp thời bổ sung trước khi nộp bài."
+        "textbook_evidence": "From Shore to Shore, Pages 1–6; Reading 3 Answer Key",
+        "key_takeaway": "Independent reading expands vocabulary, fuels imagination, and sharpens comprehension."
       },
       {
-        "slideNumber": 6,
-        "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
-        "tag": "Core Knowledge",
-        "bulletPoints": [
-          "Tự lập và Kỷ luật học tập: Tiết Seatwork là cơ hội vàng để học sinh xây dựng tính tự giác học tập không cần nhắc nhở, làm việc nghiêm túc ngay cả khi không có giáo viên đứng trước mặt.",
-          "Kỹ năng quản lý thời gian đa nhiệm: Biết chia nhỏ thời gian và hoàn thành tuần tự 5 nhiệm vụ học tập khác nhau một cách khoa học, đúng tiến độ.",
-          "Tiêu chuẩn cẩn thận và Tự chịu trách nhiệm: Mọi bài tập nộp đi đều phải đại diện cho nỗ lực cao nhất của bản thân: Chữ viết nắn nót, kết quả chính xác và luôn được rà soát kỹ lưỡng."
+        "slide_number": 6,
+        "title": "The Self-Evaluation Protocol and Final Submission",
+        "category": "Quality Control",
+        "bullet_points": [
+          "Conducting a 3-minute self-audit: checking for unpunctuated sentences and blank answers",
+          "Verifying that cursive letters touch the baseline and maintain uniform rightward slant",
+          "Aligning finished workbooks in a neat stack for parent/teacher evaluation"
         ],
-        "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
+        "textbook_evidence": "Homeschool Daily Procedures, Lesson 1; Seatwork Assignment Chart",
+        "key_takeaway": "Disciplined self-checking is the hallmark of an exceptional, self-governing scholar."
       }
     ],
     "quizData": [
       {
         "id": "q1",
-        "question": "What is the primary pedagogical objective of the independent Seatwork period in Grade 3?",
+        "question": "What is the primary educational goal of daily independent Seatwork in Grade 3?",
         "options": [
-          "A. To take an unscheduled free recess break",
-          "B. To cultivate self-discipline, time management, and autonomous mastery across five academic subjects",
-          "C. To replace all formal teacher-led instructional videos",
-          "D. To focus exclusively on drawing and coloring activities"
+          "A. To provide busywork while the teacher cleans the classroom blackboard",
+          "B. To foster self-reliance, reading and following written directions, and neat work habits",
+          "C. To replace all textbook reading with rapid multiple-choice guessing games",
+          "D. To test how quickly students can race through worksheets without reading"
         ],
         "correct": "B",
-        "explanation": "Seatwork 3 trains students in autonomous learning, disciplined pacing, and systematic completion of assigned tasks across subjects.",
-        "textbook_page_reference": ""
+        "explanation": "Abeka curriculum guides explain that seatwork trains students to work independently, read and follow written instructions, and build neat, thorough study habits.",
+        "textbook_page_reference": "Seatwork Assignment Chart, Lesson 1; Homeschool Curriculum Overview"
       },
       {
         "id": "q2",
-        "question": "How many core academic subject textbooks are assigned for completion in the Lesson 1 Seatwork schedule?",
+        "question": "What is the very first step a student must take upon looking at the Seatwork Assignment Chart?",
         "options": [
-          "A. Two textbooks (Math and English)",
-          "B. Five textbooks (Arithmetic, Language, Writing, Spelling, and Reading)",
-          "C. Only one single review worksheet",
-          "D. Seven science laboratory manuals"
+          "A. Immediately start writing on the nearest sheet of paper",
+          "B. Read all assigned tasks across all subjects to gather the necessary books and materials",
+          "C. Close all books and put heads down on desks",
+          "D. Ask the teacher to read every single word out loud"
         ],
         "correct": "B",
-        "explanation": "Seatwork Lesson 1 coordinates 5 textbooks: Arithmetic 3 (p. 2), Language 3 (pp. 1-2), Writing with Purpose 3 (p. 1), Spelling and Poetry 3 (p. 2), and Reading 3 (pp. 1-6).",
-        "textbook_page_reference": ""
+        "explanation": "Students are trained to read the entire assignment chart first so they can organize the required workbooks, tools, and sequence before writing.",
+        "textbook_page_reference": "Seatwork Assignment Chart, Lesson 1"
       },
       {
         "id": "q3",
-        "question": "What should a student do immediately after finishing all assigned items on the Seatwork chart before submitting to the teacher or parent?",
+        "question": "What specific task is assigned in Spelling 3 on the Lesson 1 Seatwork Chart?",
         "options": [
-          "A. Pack up backpack and leave the desk immediately",
-          "B. Conduct a meticulous self-check to review answers, correct errors, and ensure neat handwriting",
-          "C. Erase all written work to do it again",
-          "D. Start reading random library books without checking work"
+          "A. Memorize 50 new Greek roots",
+          "B. Copy Spelling List 1 once into notebook paper and review vocabulary definitions",
+          "C. Write a 10-page creative mystery novel",
+          "D. Take the final Friday spelling examination"
         ],
         "correct": "B",
-        "explanation": "A vital meta-cognitive step in Seatwork is the Self-Check: reviewing work for accuracy, completeness, and neatness prior to submission.",
-        "textbook_page_reference": ""
+        "explanation": "The Lesson 1 Seatwork chart instructs students to copy Spelling List 1 once neatly into their notebook and study the definitions for frail, proclaim, and plain.",
+        "textbook_page_reference": "Seatwork Assignment Chart, Lesson 1; Spelling and Poetry 3, p. 2"
       },
       {
         "id": "q4",
-        "question": "Which specific task is assigned for Spelling 3 during the Lesson 1 Seatwork time?",
+        "question": "Which workbook pages are assigned for Language 3 during Lesson 1 Seatwork?",
         "options": [
-          "A. Write a 500-word creative essay",
-          "B. Copy Spelling List 1 once into the notebook and memorize vocabulary definitions (frail, proclaim, plain)",
-          "C. Take a formal recorded examination",
-          "D. Create a set of handmade flashcards"
+          "A. Pages 50–52",
+          "B. Pages 1–2",
+          "C. Pages 10–12",
+          "D. Page 100 only"
         ],
         "correct": "B",
-        "explanation": "Students write List 1 once neatly and study the definitions of vocabulary words (frail, proclaim, plain).",
-        "textbook_page_reference": ""
+        "explanation": "Language 3 Work-text pages 1 and 2 are assigned on the chart, covering complete thoughts, capitalization, and end punctuation.",
+        "textbook_page_reference": "Seatwork Assignment Chart, Lesson 1; Language 3 Work-text, pp. 1–2"
       },
       {
         "id": "q5",
-        "question": "Why is following the exact sequence of the Seatwork Assignment Chart critical for student success?",
+        "question": "What should a student do immediately after completing all workbook exercises?",
         "options": [
-          "A. It ensures balanced time allocation and prevents rushing or leaving subjects incomplete",
-          "B. It is required by international law",
-          "C. It allows students to skip hard subjects",
-          "D. The chart cannot be modified under any condition"
+          "A. Immediately pack everything away and leave the desk",
+          "B. Review and check all work carefully for missed answers, punctuation, or messy writing",
+          "C. Scribble drawings on the margins of the work-text",
+          "D. Erase all answers and rewrite them in pen"
+        ],
+        "correct": "B",
+        "explanation": "Students are taught the habit of self-checking: reviewing every problem for accuracy, capitalization, punctuation, and neat cursive formation before submission.",
+        "textbook_page_reference": "Homeschool Daily Procedures, Lesson 1; Seatwork Assignment Chart"
+      },
+      {
+        "id": "q6",
+        "question": "Why is an orderly desk essential during independent seatwork time?",
+        "options": [
+          "A. It ensures that students can locate the correct books quickly without clutter or distraction",
+          "B. It is required by local city fire building codes",
+          "C. So the teacher can take photographs of the classroom desks",
+          "D. It prevents pencils from rolling across the cafeteria"
         ],
         "correct": "A",
-        "explanation": "Following the structured chart trains students in sequential focus, preventing procrastination and incomplete assignments.",
-        "textbook_page_reference": ""
+        "explanation": "Maintaining a clean workspace with only the active book and sharpened pencil minimizes distraction, prevents damaged books, and promotes clear thinking.",
+        "textbook_page_reference": "Homeschool Curriculum Overview, Daily Procedures, Lesson 1"
       }
     ]
   },
@@ -37960,174 +38066,217 @@ export const LESSONS_DATA = {
     },
     "flashcards": [
       {
-        "term": "1. Kỹ năng Nền tảng (Foundation Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Nhận biết và đọc thuộc lòng định nghĩa câu chuẩn Abeka: \"A sentence is a group of words that expresses a complete thought\"; nhận diện hai dấu hiệu hình thức bắt buộc: Bắt đầu bằng chữ hoa (Capital letter) và kết thúc bằng dấu câu (Punctuation mark: dấu chấm, dấu hỏi, dấu chấm than).",
-        "memoryTip": "Ví dụ: Nhận biết chữ cái đầu tiên trong câu luôn phải được viết hoa."
+        "id": 1,
+        "term": "Sentence",
+        "category": "Foundational Grammar Definition",
+        "definition": "A grammatically complete group of words that expresses a complete thought, begins with a capital letter, and ends with a punctuation mark.",
+        "textbook_citation": "Language 3 Work-text, Page 1, Remember Box; Teaching Chart 1",
+        "exact_textbook_quote": "A sentence is a group of words that expresses a complete thought.",
+        "memory_trick": "A sentence starts big (Capital), makes complete sense (Thought), and stops tight (Punctuation)!"
       },
       {
-        "term": "2. Kỹ năng Cốt lõi (Core Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Phân biệt chính xác giữa một Câu hoàn chỉnh (Complete sentence) diễn đạt trọn vẹn một ý và một Cụm từ chưa trọn ý (Sentence fragment) bị bỏ lửng nghĩa; xác định được chủ thể thực hiện hành động và hành động diễn ra trong câu.",
-        "memoryTip": "Ví dụ: Xác định \"The big brown bear\" chỉ là cụm từ chưa trọn ý vì thiếu hành động của chú gấu."
+        "id": 2,
+        "term": "Complete Thought",
+        "category": "Syntactic Concept",
+        "definition": "An expression that delivers a full, understandable message without leaving the reader wondering who performed the action or what took place.",
+        "textbook_citation": "Language 3 Work-text, Page 1; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "exact_textbook_quote": "Sentences have complete thoughts and make sense because of the two parts in every sentence: the subject and the predicate.",
+        "memory_trick": "A complete thought never leaves you hanging in the air!"
       },
       {
-        "term": "3. Kỹ năng Ứng dụng (Applied Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Kỹ năng chỉnh sửa văn bản: Bổ sung chữ hoa đầu câu và dấu câu cuối câu thích hợp; phát triển một cụm từ rời rạc thành một câu hoàn chỉnh trọn ý; giải quyết các bài tập thử thách \"Thinking Cap\" trên trang 2 sách Language 3.",
-        "memoryTip": "Ví dụ: Sửa lại cụm \"under the table\" thành câu: \"The kitten is sleeping under the table.\""
+        "id": 3,
+        "term": "Sentence Fragment",
+        "category": "Grammatical Error",
+        "definition": "An incomplete group of words that fails to express a complete thought, missing either who/what the sentence is about or what is happening (e.g., 'In the tall tree').",
+        "textbook_citation": "Language 3 Work-text, Page 1; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "exact_textbook_quote": "A fragment is only a piece of a sentence. It does not express a complete thought.",
+        "memory_trick": "A fragment is a broken puzzle piece—it needs the rest to make sense!"
       },
       {
-        "term": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Tự đọc lại câu văn của mình trước khi đặt dấu chấm để kiểm tra: \"Câu này đã trọn ý chưa? Người đọc có hiểu trọn vẹn ai đang làm gì không?\"; tự giác rà soát lỗi thiếu viết hoa và quên dấu câu trong mọi môn học.",
-        "memoryTip": "Ví dụ: Học sinh tự đọc thầm lại bài viết và tự hỏi: \"Nếu mình dừng ở đây thì bạn mình có hiểu hết ý mình muốn nói không?\""
+        "id": 4,
+        "term": "Capital Letter Rule",
+        "category": "Orthographic Mechanics",
+        "definition": "The universal rule of English writing stating that the very first word of every sentence must begin with an uppercase capital letter.",
+        "textbook_citation": "Language 3 Work-text, Page 1, Remember Box",
+        "exact_textbook_quote": "Every sentence begins with a capital letter.",
+        "memory_trick": "Capital letters stand at the front of every sentence line!"
       },
       {
-        "term": "Định nghĩa chuẩn về Câu",
-        "category": "Key Takeaway",
-        "definition": "Câu là một nhóm từ diễn đạt một ý trọn vẹn (A sentence is a group of words that expresses a complete thought).",
-        "memoryTip": "Trọng tâm bài học UbD"
+        "id": 5,
+        "term": "End Punctuation Marks",
+        "category": "Punctuation Mechanics",
+        "definition": "The terminal symbols placed at the end of a sentence: a period (.) for statements, a question mark (?) for questions, or an exclamation point (!) for strong feelings.",
+        "textbook_citation": "Language 3 Work-text, Page 1, Remember Box; Page 2",
+        "exact_textbook_quote": "Every sentence ends with a punctuation mark: a period, a question mark, or an exclamation point.",
+        "memory_trick": "Period stops, question asks, exclamation shouts with joy!"
       },
       {
-        "term": "Hai quy tắc bất di bất dịch của Câu",
-        "category": "Key Takeaway",
-        "definition": "Luôn luôn bắt đầu bằng một chữ cái viết hoa (Capital letter) và luôn luôn kết thúc bằng một dấu câu thích hợp (Punctuation mark).",
-        "memoryTip": "Trọng tâm bài học UbD"
-      },
-      {
-        "term": "Phân biệt Câu và Cụm từ bỏ lửng",
-        "category": "Key Takeaway",
-        "definition": "Một câu hoàn chỉnh bắt buộc phải có chủ thể và hành động. Cụm từ thiếu một trong hai yếu tố này chỉ là mẩu vụn ý nghĩ (Fragment) cần được viết thêm để thành câu.",
-        "memoryTip": "Trọng tâm bài học UbD"
+        "id": 6,
+        "term": "Proofreading and Editing",
+        "category": "Writing Process",
+        "definition": "The active habit of reviewing written text to identify missing capital letters, unclosed punctuation marks, and fragments, correcting them into complete sentences.",
+        "textbook_citation": "Language 3 Work-text, Pages 1–2; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "exact_textbook_quote": "Always check your sentences. Did you start with a capital? Did you end with a punctuation mark?",
+        "memory_trick": "Proofread twice to make your writing crisp and nice!"
       }
     ],
     "slides": [
       {
-        "slideNumber": 1,
-        "title": "Tổng Quan Bài Học Language 3 (Bài 001)",
-        "tag": "Grade 3 Overview",
-        "bulletPoints": [
-          "Giáo viên: Mrs. Quito",
-          "Sách giáo khoa: Language 3 Work-text (Trang 1 – 2)",
-          "Tài liệu hướng dẫn: Language 3 Teacher Key, Teaching Chart 1 (Sentences), Lesson Plans Homeschool Language Arts 3",
-          "Thời lượng bài giảng: 15 phút 10 giây"
+        "slide_number": 1,
+        "title": "Welcome to Language 3: The Gift of Communication",
+        "category": "Course Orientation",
+        "bullet_points": [
+          "Recognizing that language is a sacred gift from God designed for fellowship and truth",
+          "Transitioning to Grade 3 grammar: mastering sentence mechanics, parts of speech, and composition",
+          "Establishing daily habits: disciplined analysis, careful editing, and neat cursive answers"
         ],
-        "keyTakeaway": "Dụng cụ cần thiết: Sách Language 3 Work-text, bút chì"
+        "textbook_evidence": "Language 3 Work-text, Page 1; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "key_takeaway": "God gave us words to communicate clearly, truthfully, and beautifully."
       },
       {
-        "slideNumber": 2,
-        "title": "1. Kỹ năng Nền tảng (Foundation Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Nhận biết và đọc thuộc lòng định nghĩa câu chuẩn Abeka: \"A sentence is a group of words that expresses a complete thought\"; nhận diện hai dấu hiệu hình thức bắt buộc: Bắt đầu bằng chữ hoa (Capital letter) và kết thúc bằng dấu câu (Punctuation mark: dấu chấm, dấu hỏi, dấu chấm than)."
+        "slide_number": 2,
+        "title": "Defining the Sentence: What Makes a Group of Words Complete?",
+        "category": "Core Concept",
+        "bullet_points": [
+          "Reciting the core definition: 'A sentence is a group of words that expresses a complete thought'",
+          "Contrasting random collections of words with structured, logical complete thoughts",
+          "Recognizing that complete sentences answer both 'Who or what is this about?' and 'What happened?'",
+          "Oral drill practice: discriminating complete thoughts from isolated word clusters"
         ],
-        "keyTakeaway": "Ví dụ: Nhận biết chữ cái đầu tiên trong câu luôn phải được viết hoa."
+        "textbook_evidence": "Language 3 Work-text, Page 1; Teaching Chart 1; Lesson Plans, Lesson 1",
+        "key_takeaway": "A sentence must stand on its own, conveying a full, understandable message."
       },
       {
-        "slideNumber": 3,
-        "title": "2. Kỹ năng Cốt lõi (Core Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Phân biệt chính xác giữa một Câu hoàn chỉnh (Complete sentence) diễn đạt trọn vẹn một ý và một Cụm từ chưa trọn ý (Sentence fragment) bị bỏ lửng nghĩa; xác định được chủ thể thực hiện hành động và hành động diễn ra trong câu."
+        "slide_number": 3,
+        "title": "The Dual Hallmarks: Capital Letters and End Marks",
+        "category": "Mechanics",
+        "bullet_points": [
+          "Hallmark 1: Every sentence MUST begin with an uppercase capital letter",
+          "Hallmark 2: Every sentence MUST conclude with an appropriate terminal punctuation mark",
+          "Surveying the three primary end marks: period (.), question mark (?), exclamation point (!)",
+          "Visual inspection drill: locating missing capitalization and punctuation errors on the board"
         ],
-        "keyTakeaway": "Ví dụ: Xác định \"The big brown bear\" chỉ là cụm từ chưa trọn ý vì thiếu hành động của chú gấu."
+        "textbook_evidence": "Language 3 Work-text, Page 1 (Remember Box); Lesson Plans, Lesson 1",
+        "key_takeaway": "Capital letters and punctuation marks serve as the traffic lights of written language."
       },
       {
-        "slideNumber": 4,
-        "title": "3. Kỹ năng Ứng dụng (Applied Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Kỹ năng chỉnh sửa văn bản: Bổ sung chữ hoa đầu câu và dấu câu cuối câu thích hợp; phát triển một cụm từ rời rạc thành một câu hoàn chỉnh trọn ý; giải quyết các bài tập thử thách \"Thinking Cap\" trên trang 2 sách Language 3."
+        "slide_number": 4,
+        "title": "Sentence versus Fragment: Diagnosing Incomplete Thoughts",
+        "category": "Grammar Diagnostics",
+        "bullet_points": [
+          "Defining a fragment: a broken phrase lacking either a subject or a predicate",
+          "Analyzing examples: 'Under the tall oak tree' (Fragment) vs. 'The deer stood under the tall oak tree' (Sentence)",
+          "Why fragments fail: they leave the listener asking 'Who did it?' or 'What happened next?'",
+          "Techniques for repairing fragments: supplying missing nouns or action verbs to complete the thought"
         ],
-        "keyTakeaway": "Ví dụ: Sửa lại cụm \"under the table\" thành câu: \"The kitten is sleeping under the table.\""
+        "textbook_evidence": "Language 3 Work-text, Page 1, Section 1; Lesson Plans, Lesson 1",
+        "key_takeaway": "Fragments may occur in casual spoken chatter, but formal writing strictly requires complete sentences."
       },
       {
-        "slideNumber": 5,
-        "title": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Tự đọc lại câu văn của mình trước khi đặt dấu chấm để kiểm tra: \"Câu này đã trọn ý chưa? Người đọc có hiểu trọn vẹn ai đang làm gì không?\"; tự giác rà soát lỗi thiếu viết hoa và quên dấu câu trong mọi môn học."
+        "slide_number": 5,
+        "title": "Guided Practice: Work-text Page 1 (Section 1)",
+        "category": "Workbook Application",
+        "bullet_points": [
+          "Reading sample word groups aloud with teacher Mrs. Quito",
+          "Marking complete sentences with a check mark or designated symbol",
+          "Underlining capital letters and circling terminal punctuation marks",
+          "Transforming selected fragments into robust, descriptive complete sentences"
         ],
-        "keyTakeaway": "Ví dụ: Học sinh tự đọc thầm lại bài viết và tự hỏi: \"Nếu mình dừng ở đây thì bạn mình có hiểu hết ý mình muốn nói không?\""
+        "textbook_evidence": "Language 3 Work-text, Page 1; Language 3 Teacher Key, p. 1",
+        "key_takeaway": "Hands-on diagnostic practice sharpens grammatical discernment and writing precision."
       },
       {
-        "slideNumber": 6,
-        "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
-        "tag": "Core Knowledge",
-        "bulletPoints": [
-          "Định nghĩa chuẩn về Câu: Câu là một nhóm từ diễn đạt một ý trọn vẹn (A sentence is a group of words that expresses a complete thought).",
-          "Hai quy tắc bất di bất dịch của Câu: Luôn luôn bắt đầu bằng một chữ cái viết hoa (Capital letter) và luôn luôn kết thúc bằng một dấu câu thích hợp (Punctuation mark).",
-          "Phân biệt Câu và Cụm từ bỏ lửng: Một câu hoàn chỉnh bắt buộc phải có chủ thể và hành động. Cụm từ thiếu một trong hai yếu tố này chỉ là mẩu vụn ý nghĩ (Fragment) cần được viết thêm để thành câu."
+        "slide_number": 6,
+        "title": "Seatwork Application: Completing Pages 1 and 2",
+        "category": "Independent Practice",
+        "bullet_points": [
+          "Transitioning to independent Seatwork on Language 3 Work-text Page 2",
+          "Rewriting unpunctuated sentences with immaculate cursive letter formation",
+          "Applying proofreading marks: triple underline for capital letters, caret for missing words",
+          "Conducting a final self-check before submitting the workbook for grading"
         ],
-        "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
+        "textbook_evidence": "Language 3 Work-text, Page 2; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "key_takeaway": "Consistent editing and pride in neat workmanship produce masterful writers."
       }
     ],
     "quizData": [
       {
         "id": "q1",
-        "question": "What is the complete and precise textbook definition of a 'sentence' according to Language 3 (p. 1)?",
+        "question": "What is the exact definition of a sentence as taught in Language 3?",
         "options": [
-          "A. A collection of rhyming words in a poem",
+          "A. Any list of rhyming words written on a single line",
           "B. A group of words that expresses a complete thought",
-          "C. Any group of words containing at least three vowels",
-          "D. A list of vocabulary words arranged alphabetically"
+          "C. A paragraph containing at least fifty letters",
+          "D. A collection of adjectives describing an animal"
         ],
         "correct": "B",
-        "explanation": "Language 3 Work-text page 1 clearly defines: 'A sentence is a group of words that expresses a complete thought.'",
-        "textbook_page_reference": ""
+        "explanation": "Language 3 Work-text (Page 1) defines a sentence as: 'a group of words that expresses a complete thought.'",
+        "textbook_page_reference": "Language 3 Work-text, Page 1, Remember Box"
       },
       {
         "id": "q2",
-        "question": "What are the two mandatory technical markers required for every complete written sentence in English?",
+        "question": "Which of the following word groups is a complete sentence?",
         "options": [
-          "A. It must contain a comma and an exclamation point",
-          "B. It must begin with a capital letter and end with a proper punctuation mark",
-          "C. It must begin with a pronoun and end with a noun",
-          "D. It must be at least ten words in length"
+          "A. Sailing across the wide blue ocean.",
+          "B. The brave captain steered the ship safely into port.",
+          "C. Behind the red schoolhouse after lunch.",
+          "D. Because the weather was stormy and cold."
         ],
         "correct": "B",
-        "explanation": "Every sentence must strictly begin with a capital letter and end with a punctuation mark (period, question mark, or exclamation point).",
-        "textbook_page_reference": ""
+        "explanation": "'The brave captain steered the ship safely into port' has both a subject (the brave captain) and a predicate (steered the ship safely into port), expressing a complete thought.",
+        "textbook_page_reference": "Language 3 Work-text, Page 1; Language 3 Teacher Key, p. 1"
       },
       {
         "id": "q3",
-        "question": "Which of the following word groups is classified as an incomplete thought (sentence fragment)?",
+        "question": "Every sentence must begin with what kind of letter?",
         "options": [
-          "A. The brown dog barked loudly at the mailman.",
-          "B. Running swiftly through the green forest",
-          "C. God created the universe in six days.",
-          "D. We enjoy studying our history lessons."
+          "A. A lowercase letter",
+          "B. A capital letter",
+          "C. An italicized letter",
+          "D. A bold vowel"
         ],
         "correct": "B",
-        "explanation": "'Running swiftly through the green forest' lacks a main subject and complete predicate, leaving the thought incomplete.",
-        "textbook_page_reference": ""
+        "explanation": "The fundamental capitalization rule states: 'Every sentence begins with a capital letter.'",
+        "textbook_page_reference": "Language 3 Work-text, Page 1, Remember Box"
       },
       {
         "id": "q4",
-        "question": "How should the incomplete thought 'painted a beautiful picture' be revised to form a grammatically complete sentence?",
+        "question": "What is a 'sentence fragment'?",
         "options": [
-          "A. Add a question mark at the end only",
-          "B. Add a clear subject to identify who performed the action, such as 'Sarah painted a beautiful picture.'",
-          "C. Capitalize the word 'picture'",
-          "D. Remove the word 'beautiful'"
+          "A. A sentence that contains more than two nouns",
+          "B. An incomplete piece of a sentence that fails to express a complete thought",
+          "C. A complete sentence translated into Spanish",
+          "D. A question that ends with an exclamation point"
         ],
         "correct": "B",
-        "explanation": "The fragment lacks a subject. Adding 'Sarah' provides the subject who performed the action, making it a complete thought.",
-        "textbook_page_reference": ""
+        "explanation": "A sentence fragment is an incomplete phrase that lacks a subject, predicate, or full meaning, leaving the thought unfinished.",
+        "textbook_page_reference": "Language 3 Work-text, Page 1; Lesson Plans Homeschool Language Arts 3, Lesson 1"
       },
       {
         "id": "q5",
-        "question": "What is the pedagogical purpose of the 'Thinking Cap' section on page 2 of Language 3?",
+        "question": "Which terminal punctuation mark is required for a sentence that asks a question?",
         "options": [
-          "A. To test drawing skills with crayons",
-          "B. To challenge students with higher-order thinking tasks like editing sentence fragments and fixing faulty punctuation",
-          "C. To practice cursive letter ovals only",
-          "D. To memorize historical dates"
+          "A. Period (.)",
+          "B. Comma (,)",
+          "C. Question mark (?)",
+          "D. Quotation marks (\")"
         ],
-        "correct": "B",
-        "explanation": "Thinking Cap sections provide challenging problem-solving exercises where students analyze fragments and edit capitalization/punctuation.",
-        "textbook_page_reference": ""
+        "correct": "C",
+        "explanation": "An interrogative sentence (a question) must conclude with a question mark (?).",
+        "textbook_page_reference": "Language 3 Work-text, Page 1, Remember Box"
+      },
+      {
+        "id": "q6",
+        "question": "What two essential pieces of information are required for a group of words to make complete sense?",
+        "options": [
+          "A. Who or what the sentence is about, and what happened (subject and predicate)",
+          "B. The price of the book and the author's home address",
+          "C. At least three adjectives and a rhyming pair of nouns",
+          "D. A date from the calendar and a geographic map"
+        ],
+        "correct": "A",
+        "explanation": "A complete sentence makes sense because it contains a subject (who or what it is about) and a predicate (what the subject does or is).",
+        "textbook_page_reference": "Language 3 Work-text, Page 1; Lesson Plans Homeschool Language Arts 3, Lesson 1"
       }
     ]
   },
@@ -38396,174 +38545,217 @@ export const LESSONS_DATA = {
     },
     "flashcards": [
       {
-        "term": "1. Kỹ năng Nền tảng (Foundation Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Rèn luyện thói quen đọc sách chuẩn mực lớp 3: Đặt sách ở góc bàn, tư thế ngồi thẳng lưng, mở trang sách nhẹ nhàng bằng mép ngoài không làm gập gáy; rèn kỹ năng đọc thầm bằng mắt, không mấp máy môi và không dùng ngón tay chỉ từng chữ.",
-        "memoryTip": "Ví dụ: Học sinh tự giác để hai tay giữ hai mép trang sách phẳng phiu, mắt lướt theo dòng chữ."
+        "id": 1,
+        "term": "Oral Reading Posture",
+        "category": "Reading Mechanics",
+        "definition": "Holding the reader with both hands resting lightly on the edges, elbows positioned comfortably, sitting upright, projecting the voice so listeners hear clearly.",
+        "textbook_citation": "From Shore to Shore, Reader Guidelines; Lesson Plans Homeschool Language Arts 3 (Reading), p. 1",
+        "exact_textbook_quote": "Hold your book with both hands. Sit up straight and speak clearly so that everyone can enjoy listening.",
+        "memory_trick": "Both hands hold, sit up tall, clear voice heard by all!"
       },
       {
-        "term": "2. Kỹ năng Cốt lõi (Core Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Đọc to diễn cảm (Oral Reading) bài thơ \"My Bed Is a Boat\" của tác giả Robert Louis Stevenson với âm lượng vừa đủ nghe, phát âm chuẩn xác, ngắt nghỉ đúng nhịp thơ và dấu câu; hiểu hình ảnh ẩn dụ trung tâm: Chiếc giường là con thuyền, màn đêm là đại dương bao la đưa em vào giấc ngủ diệu kỳ.",
-        "memoryTip": "Ví dụ: Ngắt giọng êm ái ở cuối mỗi dòng thơ và ngân nga theo vần điệu boat - coat."
+        "id": 2,
+        "term": "Poetic Metaphor: Bed as a Boat",
+        "category": "Literary Device",
+        "definition": "A figurative comparison in 'My Bed Is a Boat' by Robert Louis Stevenson where a child's nightly sleep in bed is envisioned as a ship setting sail on a nighttime voyage.",
+        "textbook_citation": "From Shore to Shore, Pages 1–2; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "exact_textbook_quote": "My bed is like a little boat; Nurse helps me in when I embark; She girds me in my sailor's coat and starts me in the dark.",
+        "memory_trick": "The bed is a ship, dreams are the sea, sailing at night safe and free!"
       },
       {
-        "term": "3. Kỹ năng Ứng dụng (Applied Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Trả lời các câu hỏi đọc hiểu sâu sắc về bài thơ; chuẩn bị đọc nối tiếp truyện \"The Sandcastle Contest\" trên trang 3-6 cùng phụ huynh/giáo viên tại chỗ; liên hệ hình ảnh con thuyền giấc mơ với trải nghiệm giờ đi ngủ bình an của chính mình.",
-        "memoryTip": "Ví dụ: Nhận diện được hành động \"cập bến an toàn\" vào buổi sáng khi thức dậy."
+        "id": 3,
+        "term": "Robert Louis Stevenson",
+        "category": "Literary Author",
+        "definition": "The celebrated 19th-century Scottish author and poet famous for writing classic works including 'A Child's Garden of Verses', 'Treasure Island', and 'Kidnapped'.",
+        "textbook_citation": "From Shore to Shore, Page 1; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "exact_textbook_quote": "Robert Louis Stevenson (1850–1894), beloved author of A Child's Garden of Verses and author of 'My Bed Is a Boat.'",
+        "memory_trick": "Stevenson sailed words across seas of imaginative wonder!"
       },
       {
-        "term": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Tự điều chỉnh tốc độ đọc của bản thân: Không đọc quá nhanh như đọc vẹt, cũng không đọc rời rạc từng từ; tự lắng nghe ngữ điệu của mình để truyền tải cảm xúc êm đềm của bài thơ; nhận biết khi mình bị mất tập trung để chủ động đọc lại.",
-        "memoryTip": "Ví dụ: Học sinh tự nhận thấy mình đọc quá nhanh ở khổ thơ 2 và chủ động hạ tốc độ, đọc chậm rãi và truyền cảm hơn."
+        "id": 4,
+        "term": "Rhyme Scheme and Meter",
+        "category": "Poetic Mechanics",
+        "definition": "The musical pattern of rhyming end words (e.g., boat / coat; embark / dark) combined with rhythmic syllable beats that give poetry its lyrical cadence.",
+        "textbook_citation": "From Shore to Shore, Pages 1–2",
+        "exact_textbook_quote": "At night I go on board and say good-night to all my friends on shore; I shut my eyes and sail away, and see and hear no more.",
+        "memory_trick": "Rhymes ring together like bells in musical weather!"
       },
       {
-        "term": "Kỹ năng và Thói quen đọc sách chuẩn",
-        "category": "Key Takeaway",
-        "definition": "Đọc bằng mắt, không mấp máy môi, không dùng ngón tay chỉ chữ; cầm sách nhẹ nhàng và giữ gìn trang sách phẳng phiu.",
-        "memoryTip": "Trọng tâm bài học UbD"
+        "id": 5,
+        "term": "Narrative Setting: The Coast",
+        "category": "Literary Elements",
+        "definition": "The geographic and environmental backdrop of 'The Sandcastle Contest' (Pages 3–6), set along a sunny coastal ocean beach with dunes, tides, and salty breezes.",
+        "textbook_citation": "From Shore to Shore, Pages 3–6; Reading 3 Answer Key",
+        "exact_textbook_quote": "The warm sun shone brightly over the sand as children gathered for the annual sandcastle contest by the shore.",
+        "memory_trick": "Setting is the WHERE and WHEN where characters live again!"
       },
       {
-        "term": "Hình tượng nghệ thuật trong \"My Bed Is a Boat\"",
-        "category": "Key Takeaway",
-        "definition": "Đại thi hào Robert Louis Stevenson đã ví chiếc giường ngủ như con thuyền buồm êm đềm, đưa em bé chu du vào đại dương giấc mộng đẹp và cập bến bình an vào sáng hôm sau.",
-        "memoryTip": "Trọng tâm bài học UbD"
-      },
-      {
-        "term": "Đọc to diễn cảm & Cảm thụ thi ca",
-        "category": "Key Takeaway",
-        "definition": "Đọc to thành tiếng cần phát âm rõ ràng, ngắt nghỉ đúng dấu câu và gửi gắm cảm xúc phù hợp với nội dung bài thơ.",
-        "memoryTip": "Trọng tâm bài học UbD"
+        "id": 6,
+        "term": "Theme of Perseverance and Kindness",
+        "category": "Moral & Literary Theme",
+        "definition": "The central character lesson in 'The Sandcastle Contest' highlighting creative perseverance, diligent teamwork, and generous encouragement toward fellow competitors.",
+        "textbook_citation": "From Shore to Shore, Pages 3–6; Reading 3 Answer Key",
+        "exact_textbook_quote": "True success is found not merely in winning a trophy, but in doing your best and showing kindness to others.",
+        "memory_trick": "Build castles high, but keep kindness higher!"
       }
     ],
     "slides": [
       {
-        "slideNumber": 1,
-        "title": "Tổng Quan Bài Học Reading 3 (Bài 001)",
-        "tag": "Grade 3 Overview",
-        "bulletPoints": [
-          "Giáo viên: Mrs. Quito",
-          "Sách giáo khoa: From Shore to Shore (Trang 1 – 6)",
-          "Tài liệu hướng dẫn: 4.13. Reading 3 - Answer Key, Lesson Plans Homeschool Language Arts 3 (Reading)",
-          "Thời lượng bài giảng: 6 phút 34 giây"
+        "slide_number": 1,
+        "title": "Welcome to From Shore to Shore: Grade 3 Reading",
+        "category": "Course Orientation",
+        "bullet_points": [
+          "Embarking on our first literature reader: From Shore to Shore",
+          "Exploring classic poetry, historical tales, animal adventures, and character-building stories",
+          "Cultivating expressive oral reading habits: clear enunciation, appropriate pacing, and volume"
         ],
-        "keyTakeaway": "Dụng cụ cần thiết: Sách tập đọc From Shore to Shore"
+        "textbook_evidence": "From Shore to Shore, Title Page & Contents, pp. xi–xiv; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "key_takeaway": "Reading well unlocks history, science, biblical truth, and literary beauty."
       },
       {
-        "slideNumber": 2,
-        "title": "1. Kỹ năng Nền tảng (Foundation Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Rèn luyện thói quen đọc sách chuẩn mực lớp 3: Đặt sách ở góc bàn, tư thế ngồi thẳng lưng, mở trang sách nhẹ nhàng bằng mép ngoài không làm gập gáy; rèn kỹ năng đọc thầm bằng mắt, không mấp máy môi và không dùng ngón tay chỉ từng chữ."
+        "slide_number": 2,
+        "title": "The Mechanics of Expressive Oral Reading",
+        "category": "Reading Skills",
+        "bullet_points": [
+          "Physical posture: sitting erect with book elevated at an optimal 45-degree angle",
+          "Eye-voice span: looking ahead at upcoming words to ensure fluid, unbroken phrasing",
+          "Vocal inflection: adjusting pitch and emotion to reflect dialogue and story moods",
+          "Punctuation pacing: pausing briefly at commas; making complete stops at periods"
         ],
-        "keyTakeaway": "Ví dụ: Học sinh tự giác để hai tay giữ hai mép trang sách phẳng phiu, mắt lướt theo dòng chữ."
+        "textbook_evidence": "From Shore to Shore, Reader Guidelines; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "key_takeaway": "Good oral reading brings printed words to vibrant, living reality for listeners."
       },
       {
-        "slideNumber": 3,
-        "title": "2. Kỹ năng Cốt lõi (Core Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Đọc to diễn cảm (Oral Reading) bài thơ \"My Bed Is a Boat\" của tác giả Robert Louis Stevenson với âm lượng vừa đủ nghe, phát âm chuẩn xác, ngắt nghỉ đúng nhịp thơ và dấu câu; hiểu hình ảnh ẩn dụ trung tâm: Chiếc giường là con thuyền, màn đêm là đại dương bao la đưa em vào giấc ngủ diệu kỳ."
+        "slide_number": 3,
+        "title": "Poetry Study: 'My Bed Is a Boat' by Robert Louis Stevenson",
+        "category": "Poetic Analysis",
+        "bullet_points": [
+          "Biographical sketch: Scottish poet Robert Louis Stevenson and his childhood verses",
+          "The central extended metaphor: falling asleep as an imaginative sea voyage into the dark",
+          "Deconstructing stanza 1: the nurse helping the child embark wearing his warm 'sailor's coat'",
+          "Stanza 2: bidding farewell to shoreside friends and sailing across dreamland waters"
         ],
-        "keyTakeaway": "Ví dụ: Ngắt giọng êm ái ở cuối mỗi dòng thơ và ngân nga theo vần điệu boat - coat."
+        "textbook_evidence": "From Shore to Shore, Pages 1–2; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "key_takeaway": "Stevenson transforms the simple routine of bedtime into a grand nautical adventure."
       },
       {
-        "slideNumber": 4,
-        "title": "3. Kỹ năng Ứng dụng (Applied Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Trả lời các câu hỏi đọc hiểu sâu sắc về bài thơ; chuẩn bị đọc nối tiếp truyện \"The Sandcastle Contest\" trên trang 3-6 cùng phụ huynh/giáo viên tại chỗ; liên hệ hình ảnh con thuyền giấc mơ với trải nghiệm giờ đi ngủ bình an của chính mình."
+        "slide_number": 4,
+        "title": "Rhyme, Rhythm, and Imagery in Stevenson's Verse",
+        "category": "Literary Craft",
+        "bullet_points": [
+          "Identifying end rhymes: boat/coat, embark/dark, shore/more, beside/tide",
+          "Tracking rhythmic meter: consistent alternating 4-beat and 3-beat iambic rhythm",
+          "Sensory imagery: darkness of the nighttime bedroom contrasted with bright morning arrival",
+          "Practicing choral and antiphonal recitation with teacher Mrs. Quito"
         ],
-        "keyTakeaway": "Ví dụ: Nhận diện được hành động \"cập bến an toàn\" vào buổi sáng khi thức dậy."
+        "textbook_evidence": "From Shore to Shore, Pages 1–2",
+        "key_takeaway": "Poetic rhythm and rhyme work together like music to stimulate memory and imagination."
       },
       {
-        "slideNumber": 5,
-        "title": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Tự điều chỉnh tốc độ đọc của bản thân: Không đọc quá nhanh như đọc vẹt, cũng không đọc rời rạc từng từ; tự lắng nghe ngữ điệu của mình để truyền tải cảm xúc êm đềm của bài thơ; nhận biết khi mình bị mất tập trung để chủ động đọc lại."
+        "slide_number": 5,
+        "title": "Narrative Exploration: 'The Sandcastle Contest' (pp. 3–6)",
+        "category": "Story Comprehension",
+        "bullet_points": [
+          "Setting the coastal scene: sunlight, glistening ocean surf, and packed wet sand",
+          "Character motivation: children competing creatively in the annual beach contest",
+          "Conflict and resilience: battling rising ocean tides and collapsing sand turrets",
+          "Themes of camaraderie, diligent craftsmanship, and sportsmanship"
         ],
-        "keyTakeaway": "Ví dụ: Học sinh tự nhận thấy mình đọc quá nhanh ở khổ thơ 2 và chủ động hạ tốc độ, đọc chậm rãi và truyền cảm hơn."
+        "textbook_evidence": "From Shore to Shore, Pages 3–6; Reading 3 Answer Key",
+        "key_takeaway": "Fictional narratives reveal character traits through the choices and actions of their protagonists."
       },
       {
-        "slideNumber": 6,
-        "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
-        "tag": "Core Knowledge",
-        "bulletPoints": [
-          "Kỹ năng và Thói quen đọc sách chuẩn: Đọc bằng mắt, không mấp máy môi, không dùng ngón tay chỉ chữ; cầm sách nhẹ nhàng và giữ gìn trang sách phẳng phiu.",
-          "Hình tượng nghệ thuật trong \"My Bed Is a Boat\": Đại thi hào Robert Louis Stevenson đã ví chiếc giường ngủ như con thuyền buồm êm đềm, đưa em bé chu du vào đại dương giấc mộng đẹp và cập bến bình an vào sáng hôm sau.",
-          "Đọc to diễn cảm & Cảm thụ thi ca: Đọc to thành tiếng cần phát âm rõ ràng, ngắt nghỉ đúng dấu câu và gửi gắm cảm xúc phù hợp với nội dung bài thơ."
+        "slide_number": 6,
+        "title": "Silent Reading Discipline and Comprehension Reflection",
+        "category": "Comprehension Strategies",
+        "bullet_points": [
+          "Transitioning to independent silent reading during afternoon Seatwork time",
+          "Formulating thoughtful responses to story comprehension questions",
+          "Connecting character perseverance on the beach with real-life academic determination",
+          "Maintaining books with care: never turning down page corners or marking text pages"
         ],
-        "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
+        "textbook_evidence": "From Shore to Shore, Pages 1–6; Seatwork Assignment Chart, Lesson 1",
+        "key_takeaway": "Reflective reading trains young minds to extract wisdom, moral virtue, and delight from literature."
       }
     ],
     "quizData": [
       {
         "id": "q1",
-        "question": "What are the proper silent reading habits established by Mrs. Quito on page 1 of From Shore to Shore?",
+        "question": "Who wrote the opening poem 'My Bed Is a Boat' featured on pages 1–2 of From Shore to Shore?",
         "options": [
-          "A. Pointing fingers at every word and moving lips silently",
-          "B. Reading with the eyes only, keeping lips completely still, and avoiding finger-pointing",
-          "C. Reading aloud at the top of one's voice",
-          "D. Turning pages as rapidly as possible without scanning"
+          "A. Beatrice Schenk de Regniers",
+          "B. Robert Louis Stevenson",
+          "C. Henry Wadsworth Longfellow",
+          "D. Amerigo Vespucci"
         ],
         "correct": "B",
-        "explanation": "Grade 3 reading habits require students to read with eyes only, without lip movements or finger-pointing, keeping the book properly positioned on the desk.",
-        "textbook_page_reference": ""
+        "explanation": "Robert Louis Stevenson, the famous Scottish poet and author of 'A Child's Garden of Verses', wrote 'My Bed Is a Boat.'",
+        "textbook_page_reference": "From Shore to Shore, Page 1"
       },
       {
         "id": "q2",
-        "question": "In Robert Louis Stevenson's poem 'My Bed Is a Boat' (pp. 1-2), what central metaphor does the poet develop?",
+        "question": "In the poem 'My Bed Is a Boat', what is the child's nighttime bed compared to?",
         "options": [
-          "A. Going to sleep in bed is compared to sailing out to sea on a nighttime voyage",
-          "B. Building a sandcastle on an ocean beach",
-          "C. Flying an airplane across mountain ranges",
-          "D. Catching fish in a mountain stream"
+          "A. A speeding locomotive train",
+          "B. A little boat sailing out into the dark ocean of sleep",
+          "C. A royal fortress protected by stone walls",
+          "D. A soaring hot air balloon floating over mountains"
         ],
-        "correct": "A",
-        "explanation": "The poem compares going to bed to embarking on a boat voyage into the sea of dreams during the night.",
-        "textbook_page_reference": ""
+        "correct": "B",
+        "explanation": "The poem creates an extended metaphor: 'My bed is like a little boat; Nurse helps me in when I embark... and starts me in the dark.'",
+        "textbook_page_reference": "From Shore to Shore, Page 1"
       },
       {
         "id": "q3",
-        "question": "According to the poem, what does the child 'embark' with upon climbing into bed?",
+        "question": "What is the proper physical posture for oral reading in Grade 3?",
         "options": [
-          "A. A captain's uniform and nautical map",
-          "B. A prudent sailor's equipment: toys and slices of cake beside the bed",
-          "C. A compass and an anchor",
-          "D. Heavy winter boots and an umbrella"
+          "A. Slumping low in the chair with the book laid flat under the desk",
+          "B. Holding the book with both hands, sitting upright, and projecting clearly",
+          "C. Standing on one foot while holding the book above the head",
+          "D. Covering one eye with a hand and whispering"
         ],
         "correct": "B",
-        "explanation": "The poem charmingly mentions that the child embarks with curious gear like toys or slices of cake beside the bed.",
-        "textbook_page_reference": ""
+        "explanation": "Reading guidelines state that students must hold the book with both hands, sit up straight, and speak clearly so that listeners can easily understand.",
+        "textbook_page_reference": "From Shore to Shore, Reader Guidelines; Lesson Plans, p. 1"
       },
       {
         "id": "q4",
-        "question": "What happens when daytime arrives at the conclusion of 'My Bed Is a Boat'?",
+        "question": "Which pair of words from 'My Bed Is a Boat' illustrates an exact end rhyme?",
         "options": [
-          "A. The ship encounters a violent thunderstorm",
-          "B. The boat safely returns to harbor and the child wakes up beside the pier",
-          "C. The boat sinks deep into the ocean",
-          "D. The child remains lost at sea indefinitely"
+          "A. boat / coat",
+          "B. bed / dark",
+          "C. nurse / pier",
+          "D. night / shore"
         ],
-        "correct": "B",
-        "explanation": "In the morning, the boat comes back to harbor and the child wakes safe in their room beside the bed.",
-        "textbook_page_reference": ""
+        "correct": "A",
+        "explanation": "In stanza 1: 'My bed is like a little boat / ... She girds me in my sailor's coat', 'boat' and 'coat' form an exact end rhyme.",
+        "textbook_page_reference": "From Shore to Shore, Page 1"
       },
       {
         "id": "q5",
-        "question": "What story follows 'My Bed Is a Boat' on pages 3-6 of From Shore to Shore for independent on-site reading?",
+        "question": "What is the primary physical setting for the story 'The Sandcastle Contest' (pp. 3–6)?",
         "options": [
-          "A. 'The Sandcastle Contest'",
-          "B. 'The Mountain Climbers'",
-          "C. 'The Secret Cave'",
-          "D. 'A Journey to Mars'"
+          "A. A crowded city skyscraper rooftop",
+          "B. A sunny seashore ocean beach",
+          "C. A deep underground gold mine",
+          "D. A dense pine forest in the mountains"
         ],
-        "correct": "A",
-        "explanation": "The introductory story immediately following the poem is 'The Sandcastle Contest' (pp. 3-6).",
-        "textbook_page_reference": ""
+        "correct": "B",
+        "explanation": "'The Sandcastle Contest' is set along a sunny coastal seashore where children build sandcastles in the wet sand by the ocean.",
+        "textbook_page_reference": "From Shore to Shore, Pages 3–6"
+      },
+      {
+        "id": "q6",
+        "question": "What moral character virtue is exemplified in 'The Sandcastle Contest'?",
+        "options": [
+          "A. Winning at any cost even if you must ruin others' sandcastles",
+          "B. Diligent effort, resilience against obstacles, and encouraging other participants",
+          "C. Giving up immediately when a wave washes away a small wall",
+          "D. Boasting loudly when your sandcastle looks taller than your friend's"
+        ],
+        "correct": "B",
+        "explanation": "The story highlights positive character traits: perseverance when ocean tides challenge their creations, and sportsmanship and kindness among contestants.",
+        "textbook_page_reference": "From Shore to Shore, Pages 3–6; Reading 3 Answer Key"
       }
     ]
   },
