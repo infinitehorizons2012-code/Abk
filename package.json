@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "python scripts/compile_clean.py && vite build",
+    "build": "python -X utf8 scripts/compile_clean.py && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

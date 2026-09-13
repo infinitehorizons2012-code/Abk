@@ -1,4 +1,4 @@
-// Build timestamp: 1789286817.4110806
+// Build timestamp: 1789288402.4821365
 export const LESSONS_DATA = {
   "g5-d001-spelling-5": {
     "id": "g5-d001-spelling-5",
@@ -36465,174 +36465,235 @@ export const LESSONS_DATA = {
     },
     "flashcards": [
       {
-        "term": "1. Kỹ năng Nền tảng (Foundation Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Phát âm chuẩn xác, đánh vần đúng từng chữ cái trong 17 từ của Spelling List 1; giữ sách bằng hai tay, đặt sách đúng góc bàn và thực hiện thao tác mở/úp sách theo hiệu lệnh.",
-        "memoryTip": "Ví dụ: Đọc to rõ ràng: \"Praise, p-r-a-i-s-e, praise\"."
+        "id": 1,
+        "term": "Long /ā/ Spelled 'ai'",
+        "category": "Phonics & Orthography Rule",
+        "definition": "The phonics spelling generalization where the long /ā/ vowel sound is represented by the vowel team 'ai' within the middle of a word or syllable (e.g., praise, braid, claim).",
+        "textbook_citation": "Spelling and Poetry 3, Page 2; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "exact_textbook_quote": "The letters ai usually say long a in the middle of a word or syllable.",
+        "memory_trick": "'ai' in the middle stays safe and dry!"
       },
       {
-        "term": "2. Kỹ năng Cốt lõi (Core Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Nắm vững 2 quy tắc chính tả then chốt của âm /ā/ dài: viết là 'ai' ở giữa từ (praise, braid, frail, plain, stairway) và viết là 'ay' ở cuối từ hoặc âm tiết (today, daydream, maybe, airway); hiểu khái niệm từ ghép (Compound words); thuộc quy tắc viết hoa tên tháng.",
-        "memoryTip": "Ví dụ: Phân biệt vì sao trong từ \"today\" dùng 'ay' còn trong \"braid\" lại dùng 'ai'."
+        "id": 2,
+        "term": "Long /ā/ Spelled 'ay'",
+        "category": "Phonics & Orthography Rule",
+        "definition": "The phonics spelling generalization where the long /ā/ vowel sound is represented by 'ay' at the end of a word or syllable (e.g., today, daydream, portray).",
+        "textbook_citation": "Spelling and Poetry 3, Page 2; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "exact_textbook_quote": "The letters ay usually say long a at the end of a word or syllable.",
+        "memory_trick": "'ay' at the end waves goodbye for the day!"
       },
       {
-        "term": "3. Kỹ năng Ứng dụng (Applied Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Đặt câu đúng ngữ cảnh với các từ vựng mới: frail (yếu ớt), proclaim (tuyên bố), plain (đồng bằng / đơn giản); nhận diện và đếm số khổ thơ (stanzas) trong bài thơ \"Keep a Poem in Your Pocket\" trang 71.",
-        "memoryTip": "Ví dụ: Đặt câu: \"The sick bird was very frail.\""
+        "id": 3,
+        "term": "Frail",
+        "category": "Vocabulary Word",
+        "definition": "Easily broken, delicate, or lacking physical strength; physically weak.",
+        "textbook_citation": "Spelling and Poetry 3, Page 2; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "exact_textbook_quote": "frail: easily broken, weak, or fragile.",
+        "memory_trick": "A frail twig snaps with a pale crack!"
       },
       {
-        "term": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
-        "category": "Skill Taxonomy",
-        "definition": "Tự phát hiện lỗi chính tả khi viết từ có âm /ā/ dài bằng cách tự đặt câu hỏi: \"Âm này nằm ở giữa hay cuối từ?\"; cảm thụ thông điệp của châm ngôn tuần: \"A little praise goes a long way\" để khích lệ người khác.",
-        "memoryTip": "Ví dụ: Tự kiểm tra lại bài viết chính tả trước khi nộp, chủ động khen ngợi một việc tốt của bạn bè."
+        "id": 4,
+        "term": "Proclaim",
+        "category": "Vocabulary Word",
+        "definition": "To state loudly, publicly, or officially; to announce praise or important news to a gathered audience.",
+        "textbook_citation": "Spelling and Poetry 3, Page 2; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "exact_textbook_quote": "proclaim: to declare publicly or announce officially.",
+        "memory_trick": "Proclaim means shouting like a pro herald!"
       },
       {
-        "term": "Quy tắc âm /ā/ dài",
-        "category": "Key Takeaway",
-        "definition": "Âm /ā/ ở giữa từ viết là ai (praise, braid, frail, plain); âm /ā/ ở cuối từ hoặc âm tiết viết là ay (today, daydream, maybe).",
-        "memoryTip": "Trọng tâm bài học UbD"
+        "id": 5,
+        "term": "Plain",
+        "category": "Vocabulary Word (Multiple Meaning)",
+        "definition": "(1) Simple, unadorned, not fancy; (2) Clearly seen or understood; (3) A broad, flat expanse of open land.",
+        "textbook_citation": "Spelling and Poetry 3, Page 2; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "exact_textbook_quote": "plain: simple, without luxury or decoration; also, a broad area of flat land.",
+        "memory_trick": "Plain clothes on an open plain are plain to see!"
       },
       {
-        "term": "Nhận diện Từ ghép & Viết hoa",
-        "category": "Key Takeaway",
-        "definition": "Từ ghép (Compound words) như backpack, bookshelf, lunchbox được viết liền khối. Tên các tháng (August, September, October) luôn bắt buộc viết hoa.",
-        "memoryTip": "Trọng tâm bài học UbD"
+        "id": 6,
+        "term": "Compound Word",
+        "category": "Word Structure",
+        "definition": "A single new word created by joining two distinct smaller base words together without hyphens or spaces (e.g., backpack, homework, bookshelf, lunchbox).",
+        "textbook_citation": "Spelling and Poetry 3, Page 2; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "exact_textbook_quote": "A compound word is made when two smaller words join to make one new word.",
+        "memory_trick": "Word 1 + Word 2 = Brand new compound word!"
       },
       {
-        "term": "Ý nghĩa từ vựng & Thơ ca",
-        "category": "Key Takeaway",
-        "definition": "Frail là yếu ớt, proclaim là tuyên bố công khai. Luôn giữ một bài thơ trong túi áo (Keep a Poem in Your Pocket) để tâm hồn luôn vui vẻ và lạc quan.",
-        "memoryTip": "Trọng tâm bài học UbD"
+        "id": 7,
+        "term": "Capitalization of Calendar Months",
+        "category": "Proper Noun Mechanics",
+        "definition": "The grammatical requirement that names of months (e.g., August, September, October) must always begin with an uppercase capital letter as proper nouns.",
+        "textbook_citation": "Spelling and Poetry 3, Page 2; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "exact_textbook_quote": "The names of months are proper nouns and must always begin with a capital letter.",
+        "memory_trick": "Every month on the calendar wears a capital crown!"
+      },
+      {
+        "id": 8,
+        "term": "Stanza",
+        "category": "Poetic Structure",
+        "definition": "A distinct grouped set of rhyming or rhythmic lines within a poem, separated from other groups by blank line spacing, functioning like a paragraph in prose.",
+        "textbook_citation": "Spelling and Poetry 3, Page 71; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "exact_textbook_quote": "A group of lines in a poem is called a stanza.",
+        "memory_trick": "A stanza is a poem's paragraph!"
       }
     ],
     "slides": [
       {
-        "slideNumber": 1,
-        "title": "Tổng Quan Bài Học Spelling 3 (Bài 001)",
-        "tag": "Grade 3 Overview",
-        "bulletPoints": [
-          "Giáo viên: Mrs. Quito",
-          "Sách giáo khoa: Spelling and Poetry 3 (Trang 2, 71)",
-          "Tài liệu hướng dẫn: Spelling 3 Teacher Edition, Lesson Plans Homeschool Language Arts 3",
-          "Thời lượng bài giảng: 20 phút 21 giây"
+        "slide_number": 1,
+        "title": "Welcome to Spelling & Poetry 3: List 1 Foundations",
+        "category": "Course Introduction",
+        "bullet_points": [
+          "Introducing weekly spelling routines: hear, say, spell, say, and contextual usage",
+          "Weekly inspirational quotation: 'A little praise goes a long way'",
+          "Handling and caring for textbooks: keeping covers flat, pages smooth, and margins neat"
         ],
-        "keyTakeaway": "Dụng cụ cần thiết: Sách Spelling and Poetry 3, bút chì, vở ghi bài tập"
+        "textbook_evidence": "Spelling and Poetry 3, Page 2; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "key_takeaway": "Careful spelling habits foster clear communication and honor God's gift of language."
       },
       {
-        "slideNumber": 2,
-        "title": "1. Kỹ năng Nền tảng (Foundation Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Phát âm chuẩn xác, đánh vần đúng từng chữ cái trong 17 từ của Spelling List 1; giữ sách bằng hai tay, đặt sách đúng góc bàn và thực hiện thao tác mở/úp sách theo hiệu lệnh."
+        "slide_number": 2,
+        "title": "Phonics Mastery: The Long /ā/ Spelling Generalization",
+        "category": "Phonics Mechanics",
+        "bullet_points": [
+          "Auditory discrimination: isolating the long /ā/ vowel sound across List 1 words",
+          "Orthographic pattern 'ai': appears in medial positions (praise, braid, airplane, stairway)",
+          "Orthographic pattern 'ay': appears in terminal positions (today, daydream, Sunday)",
+          "Contrasting minimal pairs: main vs. may; train vs. tray"
         ],
-        "keyTakeaway": "Ví dụ: Đọc to rõ ràng: \"Praise, p-r-a-i-s-e, praise\"."
+        "textbook_evidence": "Spelling and Poetry 3, Page 2; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "key_takeaway": "Position determines spelling: 'ai' in the middle of a syllable, 'ay' at the end."
       },
       {
-        "slideNumber": 3,
-        "title": "2. Kỹ năng Cốt lõi (Core Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Nắm vững 2 quy tắc chính tả then chốt của âm /ā/ dài: viết là 'ai' ở giữa từ (praise, braid, frail, plain, stairway) và viết là 'ay' ở cuối từ hoặc âm tiết (today, daydream, maybe, airway); hiểu khái niệm từ ghép (Compound words); thuộc quy tắc viết hoa tên tháng."
+        "slide_number": 3,
+        "title": "Academic Vocabulary Acquisition: Frail, Proclaim, Plain",
+        "category": "Vocabulary Expansion",
+        "bullet_points": [
+          "Frail: defining delicate physical weakness (e.g., 'The frail robin rested in its nest')",
+          "Proclaim: articulating loud, official declaration (e.g., 'Heralds proclaim the king's decree')",
+          "Plain: analyzing dual definitions—unadorned simplicity vs. vast prairie topography",
+          "Constructing sophisticated original sentences demonstrating semantic nuance"
         ],
-        "keyTakeaway": "Ví dụ: Phân biệt vì sao trong từ \"today\" dùng 'ay' còn trong \"braid\" lại dùng 'ai'."
+        "textbook_evidence": "Spelling and Poetry 3, Page 2; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "key_takeaway": "Precision in vocabulary elevates reading comprehension and written expression."
       },
       {
-        "slideNumber": 4,
-        "title": "3. Kỹ năng Ứng dụng (Applied Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Đặt câu đúng ngữ cảnh với các từ vựng mới: frail (yếu ớt), proclaim (tuyên bố), plain (đồng bằng / đơn giản); nhận diện và đếm số khổ thơ (stanzas) trong bài thơ \"Keep a Poem in Your Pocket\" trang 71."
+        "slide_number": 4,
+        "title": "Morphological Analysis: Compound Words in List 1",
+        "category": "Structural Grammar",
+        "bullet_points": [
+          "Deconstructing compound words into their constituent base roots",
+          "Backpack = back + pack; Homework = home + work; Bookshelf = book + shelf",
+          "Lunchbox = lunch + box; Airway = air + way; Daydream = day + dream",
+          "Recognizing that compound words retain the original spellings of both base components"
         ],
-        "keyTakeaway": "Ví dụ: Đặt câu: \"The sick bird was very frail.\""
+        "textbook_evidence": "Spelling and Poetry 3, Page 2; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "key_takeaway": "Compound words unite two distinct meanings into a single enriched vocabulary term."
       },
       {
-        "slideNumber": 5,
-        "title": "4. Kỹ năng Siêu nhận thức (Meta-cognitive Skills)",
-        "tag": "Skill Taxonomy",
-        "bulletPoints": [
-          "Tự phát hiện lỗi chính tả khi viết từ có âm /ā/ dài bằng cách tự đặt câu hỏi: \"Âm này nằm ở giữa hay cuối từ?\"; cảm thụ thông điệp của châm ngôn tuần: \"A little praise goes a long way\" để khích lệ người khác."
+        "slide_number": 5,
+        "title": "Proper Noun Mechanics: Capitalizing the Months",
+        "category": "Orthography Rules",
+        "bullet_points": [
+          "Mastering the calendar spelling list words: August, September, October",
+          "Enforcing mandatory capitalization: calendar months are proper nouns",
+          "Tracing spelling patterns: '-er' ending in September and October; 'Au-' diphthong in August",
+          "Practicing handwriting alignment on notebook guidelines during Seatwork transcription"
         ],
-        "keyTakeaway": "Ví dụ: Tự kiểm tra lại bài viết chính tả trước khi nộp, chủ động khen ngợi một việc tốt của bạn bè."
+        "textbook_evidence": "Spelling and Poetry 3, Page 2; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "key_takeaway": "Proper nouns signify specific names and must always begin with capital letters."
       },
       {
-        "slideNumber": 6,
-        "title": "Trọng Tâm Kiến Thức (Key Takeaways)",
-        "tag": "Core Knowledge",
-        "bulletPoints": [
-          "Quy tắc âm /ā/ dài: Âm /ā/ ở giữa từ viết là ai (praise, braid, frail, plain); âm /ā/ ở cuối từ hoặc âm tiết viết là ay (today, daydream, maybe).",
-          "Nhận diện Từ ghép & Viết hoa: Từ ghép (Compound words) như backpack, bookshelf, lunchbox được viết liền khối. Tên các tháng (August, September, October) luôn bắt buộc viết hoa.",
-          "Ý nghĩa từ vựng & Thơ ca: Frail là yếu ớt, proclaim là tuyên bố công khai. Luôn giữ một bài thơ trong túi áo (Keep a Poem in Your Pocket) để tâm hồn luôn vui vẻ và lạc quan."
+        "slide_number": 6,
+        "title": "Poetry Appreciation: 'Keep a Poem in Your Pocket'",
+        "category": "Literary Analysis",
+        "bullet_points": [
+          "Author study: Beatrice Schenk de Regniers and her lyrical verse",
+          "Exploring poetic structure: stanzas, line breaks, rhyme schemes, and metrical cadence",
+          "Unpacking the figurative imagery: keeping poetry and joy hidden safely in your heart and pocket",
+          "Practicing expressive oral recitation with proper articulation and vocal inflection"
         ],
-        "keyTakeaway": "Học sinh ghi nhớ và áp dụng vào bài tập"
+        "textbook_evidence": "Spelling and Poetry 3, Page 71; Lesson Plans Homeschool Language Arts 3, Lesson 1",
+        "key_takeaway": "Poetry enriches the mind and soul with rhythm, imaginative metaphor, and memorable joy."
       }
     ],
     "quizData": [
       {
         "id": "q1",
-        "question": "According to the phonics rules taught for Spelling List 1, how is the long /ā/ sound typically spelled in the middle of a word versus at the end of a word/syllable?",
+        "question": "Which spelling pattern for the long /ā/ sound is typically used in the MIDDLE of a word or syllable?",
         "options": [
-          "A. 'ay' in the middle and 'ai' at the end",
-          "B. 'ai' in the middle of a word and 'ay' at the end of a word or syllable",
-          "C. 'ea' in the middle and 'ey' at the end",
-          "D. 'ei' in the middle and 'ai' at the end"
+          "A. ay",
+          "B. ai",
+          "C. ey",
+          "D. ea"
         ],
         "correct": "B",
-        "explanation": "Mrs. Quito teaches: long /ā/ in the middle of a word is usually spelled 'ai' (praise, braid), and at the end of a word/syllable is spelled 'ay' (today, daydream).",
-        "textbook_page_reference": ""
+        "explanation": "In Abeka spelling rules, 'ai' is generally used in the middle of a word or syllable (e.g., praise, braid), while 'ay' is used at the end (e.g., today).",
+        "textbook_page_reference": "Spelling and Poetry 3, Page 2; Lesson Plans Homeschool Language Arts 3, Lesson 1"
       },
       {
         "id": "q2",
-        "question": "Which of the following words from List 1 is classified as a 'compound word' composed of two separate base words?",
+        "question": "What is the exact vocabulary definition of the word 'frail' as presented in Spelling List 1?",
         "options": [
-          "A. Proclaim",
-          "B. Backpack",
-          "C. Stairway",
-          "D. Both B and C"
+          "A. Boisterous and full of loud energy",
+          "B. Easily broken, delicate, or weak",
+          "C. Extremely wealthy and generous",
+          "D. Heavy and difficult to transport"
         ],
-        "correct": "D",
-        "explanation": "Both 'backpack' (back + pack) and 'stairway' (stair + way) are compound words created by joining two independent words.",
-        "textbook_page_reference": ""
+        "correct": "B",
+        "explanation": "Spelling and Poetry 3 (Page 2) defines 'frail' as easily broken, delicate, or weak.",
+        "textbook_page_reference": "Spelling and Poetry 3, Page 2"
       },
       {
         "id": "q3",
-        "question": "What is the precise vocabulary definition of the word 'frail' as featured in List 1?",
+        "question": "Which word is a compound word found in Spelling List 1?",
         "options": [
-          "A. Strong and courageous",
-          "B. Weak or easily broken",
-          "C. Extremely loud",
-          "D. Proud and boastful"
+          "A. proclaim",
+          "B. praise",
+          "C. backpack",
+          "D. today"
         ],
-        "correct": "B",
-        "explanation": "Spelling and Poetry 3 defines 'frail' as weak, delicate, or easily broken.",
-        "textbook_page_reference": ""
+        "correct": "C",
+        "explanation": "Backpack is a compound word formed by joining two distinct base words: 'back' + 'pack'.",
+        "textbook_page_reference": "Spelling and Poetry 3, Page 2"
       },
       {
         "id": "q4",
-        "question": "Why must words like 'August', 'September', and 'October' always begin with a capital letter?",
+        "question": "Why must words like August, September, and October always begin with a capital letter?",
         "options": [
-          "A. They are longer than six letters",
-          "B. They are proper nouns denoting specific names of months",
-          "C. They all contain the long /ā/ sound",
-          "D. They appear at the end of a dictionary"
+          "A. Because they are the longest words in the English dictionary",
+          "B. Because they are proper nouns designating specific months of the year",
+          "C. Because they all contain long vowel combinations",
+          "D. Because they are foreign loanwords borrowed from French"
         ],
         "correct": "B",
-        "explanation": "Names of months are proper nouns and must always be capitalized under standard English grammar rules.",
-        "textbook_page_reference": ""
+        "explanation": "The names of months are proper nouns and must always begin with capital letters.",
+        "textbook_page_reference": "Spelling and Poetry 3, Page 2; Lesson Plans Homeschool Language Arts 3, Lesson 1"
       },
       {
         "id": "q5",
-        "question": "What is the Quotation of the Week featured on page 2 of Spelling and Poetry 3?",
+        "question": "In poetry, what is a distinct group of lines separated by blank space called?",
         "options": [
-          "A. 'Practice makes perfect'",
-          "B. 'A little praise goes a long way'",
-          "C. 'Honesty is the best policy'",
-          "D. 'Early to bed and early to rise'"
+          "A. A sentence",
+          "B. A paragraph",
+          "C. A stanza",
+          "D. An index"
+        ],
+        "correct": "C",
+        "explanation": "A stanza is a grouped set of lines within a poem, functioning similarly to a paragraph in prose.",
+        "textbook_page_reference": "Spelling and Poetry 3, Page 71; Lesson Plans Homeschool Language Arts 3, Lesson 1"
+      },
+      {
+        "id": "q6",
+        "question": "What is the central theme of Beatrice Schenk de Regniers' poem 'Keep a Poem in Your Pocket' (p. 71)?",
+        "options": [
+          "A. Why students should always carry loose coins for lunch",
+          "B. Having a song and poem in your heart brings inner joy wherever you go",
+          "C. How to sew deep pockets onto a winter coat",
+          "D. The biological reasons birds sing during morning migration"
         ],
         "correct": "B",
-        "explanation": "Page 2 highlights the encouraging quotation: 'A little praise goes a long way.'",
-        "textbook_page_reference": ""
+        "explanation": "The poem figuratively encourages carrying a poem in your pocket and a picture in your head so you will never feel lonely or sad.",
+        "textbook_page_reference": "Spelling and Poetry 3, Page 71"
       }
     ]
   },

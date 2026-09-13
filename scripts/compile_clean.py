@@ -171,12 +171,12 @@ def safe_load_json(file_path):
     if not os.path.exists(file_path):
         return {}
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
+        with open(file_path, 'r', encoding='utf-8', errors='replace') as f:
             return json.load(f)
     except Exception as e:
         print(f"[WARN] Initial json.load failed for {file_path}: {e}. Attempting auto-repair...")
         try:
-            with open(file_path, 'r', encoding='utf-8') as f:
+            with open(file_path, 'r', encoding='utf-8', errors='replace') as f:
                 text = f.read()
             pos_esc = text.find('\\"')
             if pos_esc != -1:
