@@ -116,7 +116,7 @@ export default function App() {
     }
   };
 
-  console.log("App render -> selectedSubjectKey:", selectedSubjectKey, "currentLesson:", currentLesson ? currentLesson.id : 'null', "ubdKeys:", currentLesson && currentLesson.ubdReport ? Object.keys(currentLesson.ubdReport) : 'NO_UBD');
+
 
   return (
     <div className="app-container">
