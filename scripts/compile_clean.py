@@ -256,6 +256,10 @@ def extract_day_num(name):
     return int(m.group(1)) if m else 999
 
 def main():
+    if not os.path.exists(g5_dir) and not os.path.exists(g3_dir):
+        print(f"[NOTICE] Drive directories not found on this machine. Preserving existing {output_js_path}.")
+        return
+
     all_lessons = {}
     g5_subjects = ["Arithmetic 5", "History 5", "Bible 5", "Language 5", "Reading 5", "Science-Health 5", "Spelling 5", "Writing 5"]
     g3_subjects = ["Arithmetic 3", "History 3", "Bible 3", "Language 3", "Reading 3", "Science-Health 3", "Spelling 3", "Writing 3", "Seatwork 3"]
